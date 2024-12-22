@@ -1,48 +1,69 @@
 <header>
+	{{ $currentPage := . }}
+	{{ $currentYear := index (split .RelPermalink "/") 1 }}
+	
 	<div class="top-content">
-
-		<div class="logo">
+	  <div class="logo">
+			{{ $logoPath := "" }}
+			{{ if $currentYear }}
+				{{ $logoPath = (index .Site.Params.logos $currentYear).header }}
+			{{ else }}
+				{{ $logoPath = (index .Site.Params.logos "2024").header }}
+			{{ end }}		
 			<a href="{{"/" | relLangURL}}">
-			<img src="{{ .Site.Params.logos.header }}" alt="logo {{ .Site.Title }}">
-			</a>
-		</div>
+     	   <img src="{{ $logoPath }}" alt="logo {{ .Site.Title }}">
+		</a>
+	  </div>
+  
+	  <input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
+	  <label for="menu-burger">
+		{{ partial "icon.html" "menu" }}
+		{{ partial "icon.html" "close" }}
+	  </label>
 
-		<input type="checkbox" id="menu-burger" class="visually-hidden" aria-label="Menu"/>
-
-		<label for="menu-burger">
-			{{ partial "icon.html" "menu" }}
-			{{ partial "icon.html" "close" }}
-		</label>
-
-		<nav>
-			<ul class="menu">
-				{{- $currentPage := . -}}
-				{{ range .Site.Menus.main }}
-				<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >
+	  <nav>
+		<ul class="menu">
+		  {{ range .Site.Menus.main }}
+			{{ $menuYear := index (split .URL "/") 1 }}
+			{{ if eq $menuYear $currentYear }}
+			  <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
 				{{ if (hasPrefix .URL "http") }}
-				<a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
+				  <a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
 				{{ else }}
-				<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+				  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
 				{{ end }}
-				</li>
-				{{ end }}
-			</ul>
+			  </li>
+			{{ end }}
+		  {{ end }}
+		</ul>
+	  </nav>
 
-			<ul class="languages">
-				{{ range .Translations }}
-				<li>
-					<a class="lang lang-{{ .Language.LanguageName }} {{ if eq .Language $.Site.Home.Language }}active{{ end }}"
-					   title="{{ .Language.LanguageName }}"
-					   href="{{ .RelPermalink }}"
-					   role="radio"
-					   aria-label="{{ i18n "language_switch" }} {{ .Language.LanguageName }}"
-					aria-checked="{{ if eq .Language $.Site.Home.Language }}true{{ else }}false{{ end }}">
-					{{- i18n "language_switch" }} {{ .Language.LanguageName -}}
-					</a>
-				</li>
-				{{ end }}
-			</ul>
-		</nav>
+	  <!-- <nav>
+		{{ $currentPage := . }}
+		{{ $currentYear := index (split .RelPermalink "/") 1 }}
+		
+		<ul class="menu">
+			{{- $currentPage := . -}}
+			{{ range .Site.Menus.main }}
+			<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >
+			{{ if (hasPrefix .URL "http") }}
+			<a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
+			{{ else }}
+			<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+			{{ end }}
+			</li>
+			{{ end }}
+		</ul>
 
+		<ul class="menu">
+		  {{ range where .Site.RegularPages "Section" $currentYear }}
+			{{ if .Params.menu }}
+			  <li class="{{ if eq $currentPage.RelPermalink .RelPermalink }}active{{ end }}">
+				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+			  </li>
+			{{ end }}
+		  {{ end }}
+		</ul>
+	  </nav> -->
 	</div>
-</header>
+  </header>

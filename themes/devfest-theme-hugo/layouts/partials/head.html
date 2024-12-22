@@ -44,7 +44,10 @@
 	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="/theme.css" media="all">
+	{{ $currentYear := index (split .RelPermalink "/") 1 }}
+	{{ if $currentYear }}
+	  <link rel="stylesheet" href="/{{ $currentYear }}/theme.css">
+	{{ end }}
 
 	{{ block "headextra" . }}
 	<!-- No extra headextra -->
