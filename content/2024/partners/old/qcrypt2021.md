@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: QCrypt 2021
 type: partner
 draft: false

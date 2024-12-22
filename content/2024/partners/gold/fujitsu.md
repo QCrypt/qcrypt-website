@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Fujitsu
 type: partner
 draft: false

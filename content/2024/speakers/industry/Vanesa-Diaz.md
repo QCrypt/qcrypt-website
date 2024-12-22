@@ -5,5 +5,5 @@ surname: Díaz
 company: LuxQuanta
 photoURL: /images/speakers/diaz.jpg
 type: industry
-website: '/sessions/industry_diaz'
+website: '/2023/sessions/industry_diaz'
 ---

@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Institute of Quantum Computing
 type: partner
 draft: false

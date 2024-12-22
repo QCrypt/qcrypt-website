@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Axencia Galaga de Innovacion
 type: partner
 draft: false

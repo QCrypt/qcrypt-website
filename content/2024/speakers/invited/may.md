@@ -5,7 +5,7 @@ surname: May
 company: Perimeter Institute for Theoretical Physics
 photoURL: /images/speakers/may.jpg
 type: invited
-website: '/sessions/invited_may'
+website: '/2023/sessions/invited_may'
 # socials:
 #   - link: 
 #     name: Site

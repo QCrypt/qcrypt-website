@@ -1,5 +1,6 @@
 ---
 title: 'Group Photo'
+type: sessions
 format: 
 tags:
   - photo

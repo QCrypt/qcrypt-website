@@ -1,6 +1,7 @@
 ---
 title: Schedule
 year: 2024
+type: schedule
 draft: false
 horizontal: false
 menu:

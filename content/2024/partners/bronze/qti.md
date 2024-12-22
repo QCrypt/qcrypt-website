@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: QTI
 type: partner
 draft: false

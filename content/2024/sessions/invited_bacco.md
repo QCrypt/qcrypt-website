@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Photonic Integrated Circuits for qubits and qudits''"
+type: sessions
 speakers:
   - bacco
 presentation: null

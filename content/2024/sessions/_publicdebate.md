@@ -1,5 +1,6 @@
 ---
 title: 'Public Debate (details TBD) '
+type: sessions
 format: 
 tags:
   - stamp

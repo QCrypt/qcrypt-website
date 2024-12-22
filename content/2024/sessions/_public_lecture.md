@@ -1,6 +1,7 @@
 ---
 title: 'Public Lecture: ''Ordenadores y criptografía cuántica: ¿qué pasa cuando los bits se vuelven cuánticos?'' 
 ''Quantum computers and cryptography: what happens when bits become quantum?'''
+type: sessions
 key: discussion
 id: discussion
 speakers:

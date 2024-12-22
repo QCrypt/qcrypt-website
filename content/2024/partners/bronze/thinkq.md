@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Think Quantum
 type: partner
 draft: false

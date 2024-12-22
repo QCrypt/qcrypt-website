@@ -1,5 +1,6 @@
 ---
 title: "Tutorial Talk: ''The long and winding road to the quantum internet''"
+type: sessions
 speakers:
   - lukens
 presentation: null

@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Centrum Wiskunde & Informatica
 type: partner
 draft: false

@@ -1,4 +1,5 @@
 ---
+year: 2023
 title: Wooriro Co., Ltd
 type: partner
 draft: false

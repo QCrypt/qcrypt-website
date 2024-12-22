@@ -1,6 +1,7 @@
 ---
 key: industry
 title: "Industry Panel"
+type: sessions
 id: industry
 speakers:
   - diaz

@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: University of Vigo
 type: partner
 draft: false

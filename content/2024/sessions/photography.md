@@ -1,5 +1,6 @@
 ---
 title: Group Photography
+type: sessions
 format: other
 videoId: null
 videoTime: null

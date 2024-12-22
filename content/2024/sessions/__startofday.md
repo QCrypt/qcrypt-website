@@ -1,5 +1,6 @@
 ---
 title: 'Start of Day + networking'
+type: sessions
 format: 
 tags:
   - break

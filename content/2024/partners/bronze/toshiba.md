@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Toshiba
 type: partner
 draft: false

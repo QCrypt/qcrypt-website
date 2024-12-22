@@ -1,5 +1,6 @@
 ---
 title: 'Rump Session'
+type: sessions
 format: 
 tags:
 videoId: null

@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''A bound on the quantum value of all compiled nonlocal games''"
+type: sessions
 speakers:
   - malavolta
 presentation: null

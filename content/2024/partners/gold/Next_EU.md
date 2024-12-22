@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: NextGenerationEU
 type: partner
 draft: false

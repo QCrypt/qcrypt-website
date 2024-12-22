@@ -1,5 +1,6 @@
 ---
 title: "Tutorial Talk: ''Computing key-rates''"
+type: sessions
 speakers:
   - brown
 presentation: null

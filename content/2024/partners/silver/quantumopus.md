@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Quantum Opus
 type: partner
 draft: false

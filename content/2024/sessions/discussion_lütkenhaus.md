@@ -1,5 +1,6 @@
 ---
 title: "Panel Discussion (Chairs: Gorjan Alagic)"
+type: sessions
 speakers:
   - norbert
 videoId: null

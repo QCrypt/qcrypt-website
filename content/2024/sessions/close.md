@@ -1,5 +1,6 @@
 ---
 title: Closing Remarks
+type: sessions
 format: 
 tags: 
 - other

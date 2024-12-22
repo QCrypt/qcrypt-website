@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Long-distance free-space MDI- & TF-QKD''"
+type: sessions
 speakers:
   - cao
 presentation: null

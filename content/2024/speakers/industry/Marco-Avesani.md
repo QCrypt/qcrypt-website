@@ -5,5 +5,5 @@ surname: Avesani
 company: ThinkQuantum
 photoURL: /images/speakers/avesani.jpg
 type: industry
-website: '/sessions/industry_avesani'
+website: '/2023/sessions/industry_avesani'
 ---

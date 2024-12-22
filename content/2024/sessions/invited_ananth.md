@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Revocable Cryptography''"
+type: sessions
 speakers:
   - ananth
 presentation: null

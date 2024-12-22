@@ -5,5 +5,5 @@ surname: Prawits
 company: AIT
 photoURL: /images/speakers/prawits.jpg
 type: industry
-website: '/sessions/industry_prawits'
+website: '/2023/sessions/industry_prawits'
 ---

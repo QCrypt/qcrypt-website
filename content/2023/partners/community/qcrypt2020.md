@@ -1,4 +1,5 @@
 ---
+year: 2023
 title: QCrypt 2020
 type: partner
 draft: false

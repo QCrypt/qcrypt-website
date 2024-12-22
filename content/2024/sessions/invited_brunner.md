@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''CV-QKD Design for Network Integration''"
+type: sessions
 speakers:
   - brunner
 videoId: null

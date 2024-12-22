@@ -1,4 +1,5 @@
 ---
+year: 2023
 title: CQT
 type: partner
 draft: false

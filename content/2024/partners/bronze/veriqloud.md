@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: VeriQloud
 type: partner
 draft: false

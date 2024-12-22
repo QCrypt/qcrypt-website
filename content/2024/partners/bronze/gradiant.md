@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Gradiant
 type: partner
 draft: false

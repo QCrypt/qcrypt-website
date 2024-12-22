@@ -1,12 +1,12 @@
 ---
-title: Home
+year: 2023
+title: Sponsors
 menu:
   main:
     weight: 10
     identifier: sponsors-2023
 
-year: 2024
-type: text_page
+type: partners
 draft: false
 ---
 
@@ -27,7 +27,7 @@ We are grateful to our generous sponsors. With their contributions, they not onl
 
 ## Our Sponsors
 
-{{% partners categories="gold,silver,community" %}}
+{{% partners categories="gold,silver,community" year=2023 %}}
 
 {{% /partners %}}
 <!--

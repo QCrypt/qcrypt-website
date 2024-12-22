@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: IDQuantique
 type: partner
 draft: false

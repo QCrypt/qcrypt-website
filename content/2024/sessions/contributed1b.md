@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talks 1b"
+type: sessions
 papers:
 - 110
 - 42

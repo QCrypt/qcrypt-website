@@ -1,5 +1,6 @@
 ---
 title: Poster Session (Click to see the list of posters)
+type: sessions
 format:
 tags:
   - poster

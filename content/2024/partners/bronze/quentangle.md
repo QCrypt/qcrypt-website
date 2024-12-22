@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Quentangle
 type: partner
 draft: false

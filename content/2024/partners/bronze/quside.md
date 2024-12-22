@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Quside
 type: partner
 draft: false

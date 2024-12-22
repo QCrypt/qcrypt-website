@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Relating non-local quantum computation and information theoretic cryptography''"
+type: sessions
 speakers:
   - may
 videoId: null

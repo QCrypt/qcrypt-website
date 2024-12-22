@@ -5,5 +5,5 @@ surname: Pegon
 company: IDQUANTIQUE
 photoURL: /images/team/pegon.jpg
 type: industry
-website: '/sessions/industry_pegon'
+website: '/2023/sessions/industry_pegon'
 ---

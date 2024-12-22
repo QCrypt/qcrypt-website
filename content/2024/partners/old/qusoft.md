@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: QuSoft
 type: partner
 draft: false

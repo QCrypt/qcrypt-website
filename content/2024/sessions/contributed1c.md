@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talks 1c"
+type: sessions
 papers:
 - 91
 - 47

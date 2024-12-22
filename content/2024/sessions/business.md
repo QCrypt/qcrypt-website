@@ -1,5 +1,6 @@
 ---
 title: 'Awards and Business Meeting'
+type: sessions
 format: 
 tags:
   - other

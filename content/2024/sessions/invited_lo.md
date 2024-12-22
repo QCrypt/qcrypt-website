@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Passive Quantum Key Distribution: Removing Modulator Side-Channel''"
+type: sessions
 speakers:
   - lo
 presentation: null

@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talks 5a"
+type: sessions
 
 papers:
 - 141

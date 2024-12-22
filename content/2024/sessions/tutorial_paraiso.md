@@ -1,5 +1,6 @@
 ---
 title: "Tutorial Talk: ''Monolithic and Hybrid Integration Technologies for Quantum Cryptography''"
+type: sessions
 speakers:
   - paraiso
 presentation: null

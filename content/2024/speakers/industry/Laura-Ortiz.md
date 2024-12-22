@@ -5,5 +5,5 @@ surname: Ortiz
 company: QoolNet
 photoURL: /images/speakers/ortiz.png
 type: industry
-website: '/sessions/industry_ortiz'
+website: '/2023/sessions/industry_ortiz'
 ---

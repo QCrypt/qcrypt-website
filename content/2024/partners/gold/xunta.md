@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Xunta de Galicia
 type: partner
 draft: false

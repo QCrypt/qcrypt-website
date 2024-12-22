@@ -2,9 +2,13 @@
 <html lang="{{ $.Site.LanguageCode | default " en" }}">
 {{ partial "head.html" . }}
 
-<body class="{{ .Kind }}
-	{{ .Type }}
-    {{ with .Section }}{{ . }}{{ end }}
+<body class="{{ .Kind }} 
+	{{ with .Type }}{{ . }}{{ end }}
+    {{- $urlParts := split (strings.TrimPrefix "/" .RelPermalink) "/" -}}
+    {{ if ge (len $urlParts) 2 }}
+        {{ index $urlParts 1 }}
+        {{ index $urlParts 0 }}
+    {{- end -}}
 ">
 
 <!-- Debug Info (only visible in development) -->

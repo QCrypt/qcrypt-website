@@ -5,5 +5,5 @@ surname: Pacher
 company: fragmentiX
 photoURL: /images/speakers/pacher.png
 type: industry
-website: '/sessions/industry_pacher'
+website: '/2023/sessions/industry_pacher'
 ---

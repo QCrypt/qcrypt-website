@@ -5,7 +5,7 @@ surname:
 company: Bocconi University, Max Planck Institute for Security and Privacy
 photoURL: /images/speakers/malavolta.jpeg
 type: invited
-website: '/sessions/invited_malavolta'
+website: '/2023/sessions/invited_malavolta'
 # socials:
 #   - link: 'https://quantum.paris/people'
 #     name: Site

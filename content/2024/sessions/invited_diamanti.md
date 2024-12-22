@@ -1,5 +1,6 @@
 ---
 title: "Invited Talk: ''Practical secure communication with quantum continuous variables''"
+type: sessions
 speakers:
   - diamanti
 presentation: null

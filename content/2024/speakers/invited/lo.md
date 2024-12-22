@@ -5,7 +5,7 @@ surname:
 company: University of Toronto
 photoURL: /images/speakers/lo.jpg
 type: invited
-website: '/sessions/invited_lo'
+website: '/2023/sessions/invited_lo'
 # socials:
 #   - link: 
 #     name: Site

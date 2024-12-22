@@ -1,5 +1,6 @@
 ---
 title: 'Updates & Announcements'
+type: sessions
 format: 
 tags:
   - break

@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Aliro Quantum
 type: partner
 draft: false

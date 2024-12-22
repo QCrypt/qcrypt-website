@@ -1,4 +1,5 @@
 ---
+year: 2023
 title: QuSoft
 type: partner
 draft: false

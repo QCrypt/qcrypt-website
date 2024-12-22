@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: AFOSR, Air Force Office of Scientific Research
 type: partner
 draft: false

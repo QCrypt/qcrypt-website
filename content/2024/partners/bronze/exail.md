@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Exail
 type: partner
 draft: false

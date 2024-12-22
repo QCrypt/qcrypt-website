@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talks 2a: Experimental Talks"
+type: sessions
 papers:
 - 81
 - 107

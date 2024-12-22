@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: Q*Bird
 type: partner
 draft: false

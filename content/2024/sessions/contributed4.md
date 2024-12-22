@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talk 4a"
+type: sessions
 
 papers:
 - 18

@@ -1,5 +1,6 @@
 ---
 title: Opening
+type: sessions
 format: 
 tags:
 - other

@@ -1,5 +1,6 @@
 ---
 title: Program
+type: sessions
 year: 2024
 draft: false
 type: speakers

@@ -1,5 +1,6 @@
 ---
 title: Opening Reception
+type: sessions
 format: 
 speakers: 
   - Pines

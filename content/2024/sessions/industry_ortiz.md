@@ -1,5 +1,6 @@
 ---
 title: "Industry Session (Chairs: Diego López)"
+type: sessions
 speakers:
   - ortiz
 videoId: null

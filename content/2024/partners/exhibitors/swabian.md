@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: SWABIAN INSTRUMENTS GMBH
 type: partner
 draft: false

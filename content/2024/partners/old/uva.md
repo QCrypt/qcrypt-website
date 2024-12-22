@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: University of Amsterdam
 type: partner
 draft: false

@@ -2,7 +2,6 @@
 
 {{ $lang := $.Page.Language.Lang }}
 
-
 <section class="schedule">
 	{{ range $day := $.Site.Data.schedule }}
 	{{ $time := split $day.start ":" }}
@@ -47,7 +46,7 @@
 
 		<ul class="talks">
 			{{ range $session := $day.sessions }}
-			{{ $sessionPage := $.Site.GetPage (path.Join "/sessions" $session.session) }}
+			{{ $sessionPage := $.Site.GetPage (path.Join "/2024/sessions" $session.session) }}
 			{{ $time := split $session.time ":" }}
 			{{ $hh := index $time 0 }}
 			{{ $mm := index $time 1 }}

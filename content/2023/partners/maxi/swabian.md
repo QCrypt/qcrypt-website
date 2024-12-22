@@ -1,4 +1,5 @@
 ---
+year: 2023
 title: Swabian Instruments
 type: partner
 draft: false

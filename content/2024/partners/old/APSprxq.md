@@ -1,4 +1,5 @@
 ---
+year: 2024
 title: APS PRX Quantum
 type: partner
 draft: false

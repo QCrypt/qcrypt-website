@@ -6,7 +6,6 @@ menu:
     weight: 100
     identifier: committees-2024
 
-
 type: team
 layout: list_with_header
 draft: False

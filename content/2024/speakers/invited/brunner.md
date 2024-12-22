@@ -5,7 +5,7 @@ surname: Brunner
 company: Huawei Technologies
 photoURL: /images/speakers/brunner.jpg
 type: invited
-website: '/sessions/invited_brunner'
+website: '/2023/sessions/invited_brunner'
 # socials:
 #   - link:  
 #     name: Site

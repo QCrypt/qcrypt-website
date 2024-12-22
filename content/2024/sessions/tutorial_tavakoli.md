@@ -1,5 +1,6 @@
 ---
 title: "Tutorial Talk: ''Semi-device-independent quantum correlations for cryptography''"
+type: sessions
 speakers:
   - tavakoli
 presentation: null

@@ -1,5 +1,6 @@
 ---
 title: "Contributed Talk 3"
+type: sessions
 
 papers:
 - 23

@@ -1,5 +1,6 @@
 ---
 title: Welcoming Remarks
+type: sessions
 format: 
 tags:
 - other
