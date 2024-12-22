@@ -1,0 +1,76 @@
+# publishDir = "docs"
+
+# baseURL = "https://competent-nightingale-85ae87.netlify.com/"
+languageCode = "en"
+title = "QCrypt 2024"
+
+# Theme
+theme = "devfest-theme-hugo"
+
+# Params
+enableEmoji = true
+enableRobotsTXT = true
+enableMissingTranslationPlaceholders = true
+
+GoogleAnalytics = "G-221GMGECQ6"
+
+[params]
+    title = "QCrypt 2024"
+    date = "2024-09-02"
+    description = "14th International Conference on Quantum Cryptography, organized by University of Vigo, 2-6 September 2024"
+    images = ["/images/social-share.jpg"]
+    email = "2024@qcrypt.net"
+    keywords = "event, quantum cryptography, QCrypt, University of Vigo, Vigo"
+    copyright = "We :heart: sheep"
+    copyright_link = "https://github.com/QCrypt/website-2024"
+    # cfpUrl = ""
+    # subscriptionUrl = ""
+    appleTouchIcon = "/apple-touch-icon.png"
+    favicon32 = "/favicon-32x32.png"
+    favicon16 = "/favicon-16x16.png"
+    manifest = "/manifest.json"
+    safariPinnedTab = "/safari-pinned-tab.svg"
+    themeColor = "#086788"
+
+[params.logos]
+    jumbo = "/images/logos/QCrypt_2024_logo_final.png"
+    header = "/images/logos/QC_24_2.png"
+    footer = "/images/logos/netlify-color-accent.svg"
+    footer_link = "https://www.netlify.com"
+
+[menu]
+
+[languages]
+[languages.en]
+    weight = 1
+    languageName = "us"
+
+[taxonomies]
+    tag = "tags"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[privacy]
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        anonymizeIP = false
+        disable = false
+        respectDoNotTrack = false
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = true
+        simple = false
+    [privacy.twitter]
+        disable = false
+        enableDNT = false
+        simple = false
+    [privacy.vimeo]
+        disable = true
+        simple = false
+    [privacy.youtube]
+        disable = true
+        privacyEnhanced = true
