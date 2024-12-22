@@ -1,8 +1,8 @@
 # publishDir = "docs"
 
-# baseURL = "https://competent-nightingale-85ae87.netlify.com/"
+# baseURL = "https://qcrypt-website.netlify.app/"
 languageCode = "en"
-title = "QCrypt 2024"
+title = "QCrypt Conference Website"
 
 # Theme
 theme = "devfest-theme-hugo"
@@ -15,14 +15,14 @@ enableMissingTranslationPlaceholders = true
 GoogleAnalytics = "G-221GMGECQ6"
 
 [params]
-    title = "QCrypt 2024"
+    title = "QCrypt Conference Website"
     date = "2024-09-02"
-    description = "14th International Conference on Quantum Cryptography, organized by University of Vigo, 2-6 September 2024"
+    description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
-    email = "2024@qcrypt.net"
-    keywords = "event, quantum cryptography, QCrypt, University of Vigo, Vigo"
+    email = "webmaster@qcrypt.net"
+    keywords = "event, quantum cryptography, QCrypt"
     copyright = "We :heart: sheep"
-    copyright_link = "https://github.com/QCrypt/website-2024"
+    copyright_link = "https://github.com/QCrypt/qcrypt-website"
     # cfpUrl = ""
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
