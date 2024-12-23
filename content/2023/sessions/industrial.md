@@ -10,4 +10,5 @@ speakers:
 videoId: AXT9VarI0_0
 presentation: null
 draft: false
+type: sessions
 ---

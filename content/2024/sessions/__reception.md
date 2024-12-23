@@ -6,6 +6,7 @@ tags:
 videoId: null
 presentation: null
 draft: false
+type: sessions
 ---
 QCrypt welcomes you to Vigo with this special event included in your registration! Join us at the Palacio de La Oliva for an aperitif with fellow participants. 
 

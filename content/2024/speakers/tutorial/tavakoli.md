@@ -1,7 +1,8 @@
 ---
 key: tavakoli
 name: Armin Tavakoli
-surname: 
+year: 2024
+surname: Tavakoli
 company: Lund University
 photoURL: /images/speakers/tavakoli.jpg
 type: tutorial

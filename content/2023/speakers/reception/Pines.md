@@ -2,6 +2,7 @@
 key: Pines
 name: Darryll J. Pines
 surname: Pines
+year: 2023
 company: President of the University of Maryland
 photoURL: /images/speakers/Pines.jpg
 type: reception

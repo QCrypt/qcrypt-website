@@ -2,6 +2,7 @@
 key: may
 name: Alex May 
 surname: May
+year: 2024
 company: Perimeter Institute for Theoretical Physics
 photoURL: /images/speakers/may.jpg
 type: invited

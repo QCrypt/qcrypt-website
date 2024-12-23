@@ -2,6 +2,7 @@
 key: yuen
 name: Henry Yuen
 surname: Yuen
+year: 2023
 company: Columbia University
 photoURL: /images/speakers/HenryYuen.png
 type: tutorial

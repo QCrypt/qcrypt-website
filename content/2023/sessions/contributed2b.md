@@ -10,4 +10,5 @@ papers:
 videoId: null
 presentation: null
 draft: false
+type: sessions
 ---

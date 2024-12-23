@@ -2,6 +2,7 @@
 key: Shabani
 name: Alireza Shabani
 surname: Shabani 
+year: 2023
 company: CISCO
 photoURL: /images/speakers/Shabani.jpg
 type: canceled

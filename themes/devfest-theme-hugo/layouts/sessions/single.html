@@ -1,6 +1,8 @@
 {{ define "main" }}
-{{ $papers := $.Site.Data.accepted_final }}
 
+{{ $currentYear := index (split .RelPermalink "/") 1 }}
+{{ $dataKey := printf "accepted-papers-%s" $currentYear }}
+{{ $papers := index site.Data $dataKey | default slice }}
 
 <section class="talk">
 

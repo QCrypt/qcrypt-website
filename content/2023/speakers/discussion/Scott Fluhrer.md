@@ -2,6 +2,7 @@
 key: fluhrer
 name: Scott Fluhrer
 surname: Fluhrer 
+year: 2023
 company: CISCO
 photoURL: /images/speakers/scott-fluhrer.jpg
 type: discussion

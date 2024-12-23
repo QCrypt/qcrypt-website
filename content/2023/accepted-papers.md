@@ -16,7 +16,7 @@ menu:
 
 (in order of submission)
 
-{{< papers-accepted >}}
+{{< papers-accepted year=2023 >}}
 {{< /papers-accepted >}}
 
 
@@ -24,7 +24,7 @@ menu:
 
 (in order of submission)
 
-{{< posters-accepted >}}
+{{< posters-accepted year=2023 >}}
 {{< /posters-accepted >}}
 
 <!--

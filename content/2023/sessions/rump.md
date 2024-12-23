@@ -5,6 +5,7 @@ tags:
 videoId: NwNSqW4todE
 presentation: null
 draft: false
+type: sessions
 ---
 
 

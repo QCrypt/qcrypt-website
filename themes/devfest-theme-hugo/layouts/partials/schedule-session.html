@@ -1,6 +1,8 @@
 {{/* following https://discourse.gohugo.io/t/access-site-data-from-partial/31481 and https://gohugo.io/variables/site/ and */}}
 
-{{ $papers := site.Data.accepted_final }}
+{{ $currentYear := index (split .RelPermalink "/") 1 }}
+{{ $dataKey := printf "accepted-papers-%s" $currentYear }}
+{{ $papers := index site.Data $dataKey | default slice }}
 
 <a href="{{ .RelPermalink }}">
 	<h4>

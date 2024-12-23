@@ -1,7 +1,8 @@
 ---
 key: lo
 name: Hoi-Kwong Lo
-surname: 
+surname: Lo
+year: 2024
 company: University of Toronto
 photoURL: /images/speakers/lo.jpg
 type: invited

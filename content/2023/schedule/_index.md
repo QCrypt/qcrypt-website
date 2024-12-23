@@ -1,7 +1,7 @@
 ---
 title: Schedule
 year: 2023
-
+type: schedule
 draft: false
 horizontal: false
 menu:

@@ -6,4 +6,5 @@ papers:
 
 presentation: null
 draft: false
+type: sessions
 ---

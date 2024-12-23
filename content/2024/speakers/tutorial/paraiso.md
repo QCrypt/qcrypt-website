@@ -1,6 +1,7 @@
 ---
 key: paraiso
 name: Taofiq Paraiso
+year: 2024
 surname: Paraiso
 company: Toshiba Research Europe Ltd.
 photoURL: /images/speakers/paraiso.jpg

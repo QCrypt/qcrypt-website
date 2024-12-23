@@ -17,15 +17,14 @@ menu:
 
 (in order of submission)
 
-{{< papers-accepted >}}
-{{< /papers-accepted >}}
+{{< papers-accepted year=2024 >}}{{< /papers-accepted >}}
 
 
 ## List of Accepted Posters
 
 (in order of submission)
 
-{{< posters-accepted >}}
+{{< posters-accepted year=2024 >}}
 {{< /posters-accepted >}}
 
 <!--
