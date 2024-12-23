@@ -1,5 +1,3 @@
-{{ $youtube := site.Data.youtube }}
-
 <div class="paper-single">
 	<div class="paper-title">{{ .title }}</div>
 
@@ -23,25 +21,6 @@
 		<a href="https://arxiv.org/abs/{{index .options "arxiv-id" }}" target="_blank">[arXiv: {{index .options "arxiv-id" }}]</a>
 	</div>
   {{ end }}
-
-<!--	<div class="paper-youtubeid">
-	{{ range first 1 (where site.Data.youtube "pid" .pid) }}
-	  {{ if .id }}
-			<a href="https://youtu.be/{{ .id }}" target="_blank">[YouTube,
-				{{/* first check if presenter name is present in youtube.json , otherwise try to take it from accepted_final.json */}}
-				{{ if .presenter}}
-				  presented by {{ .presenter -}}
-				{{ else if isset $options "presenter-prerecorded-talk" }}
-					presented by {{ index $options "presenter-prerecorded-talk" -}}
-			  {{ end }}]</a>
-		{{ else }}
-		{{ if isset $options "presenter-prerecorded-talk" }}
-			[YouTube, still waiting for {{ index $options "presenter-prerecorded-talk" }}]
-		{{ end }}
-	  {{ end }}
-	{{ end }}
-  </div>
--->
 
 
 	{{/* first make sure we are dealing with a poster here */}}

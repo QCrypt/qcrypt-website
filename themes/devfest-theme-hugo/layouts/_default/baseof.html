@@ -13,6 +13,8 @@
 
 <!-- Debug Info (only visible in development) -->
 {{ if hugo.IsProduction | not }}
+{{ $currentYear := index (split .RelPermalink "/") 1 }}
+
 <div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
 	<details>
 		<summary>Debug Info</summary>
@@ -25,6 +27,7 @@ Type: {{ .Type }}
 Layout: {{ .Layout }}
 Current Section: {{ .CurrentSection }}
 Parent Section: {{ .CurrentSection.Parent }}
+Current Year: {{ $currentYear }}
 		</pre>
 	</details>
 </div>

@@ -1,8 +1,9 @@
 ---
-title: Schedule
+title: Home
 menu:
   main:
-    weight: 20
+    weight: -1
+    identifier: home-2024
 year: 2024
 ---
 <!-- JUMBO -->

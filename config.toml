@@ -17,6 +17,7 @@ GoogleAnalytics = "G-221GMGECQ6"
 [params]
     title = "QCrypt Conference Website"
     date = "2024-09-02"
+    year = 2024
     description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
     email = "webmaster@qcrypt.net"
@@ -41,6 +42,12 @@ GoogleAnalytics = "G-221GMGECQ6"
         header = "/images/logos/QuCrC23_Logo.png"
     footer = "/images/logos/netlify-color-accent.svg"
     footer_link = "https://www.netlify.com"
+
+[[redirects]]
+    from = "/"
+    to = "/2024/"
+    status = 301
+    force = true 
 
 [menu]
 

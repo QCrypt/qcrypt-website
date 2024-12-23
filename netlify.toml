@@ -12,3 +12,9 @@
 
 [context.deploy-preview.environment]
   HUGO_VERSION = "0.140.0"
+
+[[redirects]]
+    from = "/"
+    to = "/2024/"
+    status = 302
+    force = true 

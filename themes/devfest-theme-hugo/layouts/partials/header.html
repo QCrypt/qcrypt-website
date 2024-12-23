@@ -10,7 +10,7 @@
 			{{ else }}
 				{{ $logoPath = (index .Site.Params.logos "2024").header }}
 			{{ end }}		
-			<a href="{{"/" | relLangURL}}">
+			<a href="{{ printf "/%s/" $currentYear | relLangURL }}">
      	   <img src="{{ $logoPath }}" alt="logo {{ .Site.Title }}">
 		</a>
 	  </div>
