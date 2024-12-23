@@ -43,10 +43,11 @@ GoogleAnalytics = "G-221GMGECQ6"
     footer = "/images/logos/netlify-color-accent.svg"
     footer_link = "https://www.netlify.com"
 
-[[redirects]]
+[server]
+[[server.redirects]]
     from = "/"
     to = "/2024/"
-    status = 301
+    status = 302
     force = true 
 
 [menu]
