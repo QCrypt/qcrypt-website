@@ -17,7 +17,7 @@ content:
         url: /code-of-conduct-online/
         newTab: false
       - nameKey: footer_charter
-        url: /charter/
+        url: /2024/charter/
         newTab: false
   - title: footer_extra
     links:

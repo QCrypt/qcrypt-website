@@ -8,6 +8,8 @@ menu:
     main:
         weight: 2
         identifier: schedule-2024
+        parent: technical-program-2024
+
 
 ---
 

@@ -7,6 +7,8 @@ menu:
     main:
         weight: 10
         identifier: accepted-papers-2024
+        parent: technical-program-2024
+
 
 ---
 

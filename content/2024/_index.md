@@ -2,9 +2,10 @@
 title: Home
 menu:
   main:
-    weight: -1
+    weight: 1
     identifier: home-2024
 year: 2024
+type: home
 ---
 <!-- JUMBO -->
 {{% jumbo img="/images/backgrounds/QCrypt24_background.jpg" imgLabel="QCrypt 2022 background" %}}
@@ -24,8 +25,6 @@ year: 2024
 <!--<a class="btn primary btn-lg" href="https://easychair.org/conferences/?conf=qcrypt2024">
     POSTER-ONLY SUBMISSION IS NOW OPEN!
 </a>-->
-
-
 
 
 
@@ -90,15 +89,15 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 {{% /home-location %}}
 
 
-{{% partners categories="gold,bronze,exhibitors" %}}
-
-
-
 ## Sponsors
+<!-- 
+{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
+{{% /partners %}}
 
-{{% partners categories="gold,bronze,exhibitors" %}}
+ -->
 
-<!--{{% /partners %}}-->
+
+{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
 
 QCrypt 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@qcrypt.net" url="mailto:2024@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} 
 

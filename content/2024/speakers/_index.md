@@ -8,6 +8,8 @@ menu:
     main:
         weight: 40
         identifier: speakers-2024
+        parent: technical-program-2024
+
 ---
 <!--
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

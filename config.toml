@@ -51,6 +51,55 @@ GoogleAnalytics = "G-221GMGECQ6"
     force = true 
 
 [menu]
+  [[menu.2024]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2024'
+  [[menu.2024]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2024]]
+    name = "Call"
+    weight = 10
+    pageRef = "/2024/call"
+    identifier = "call"
+    parent = "technical-program"
+  [[menu.2024]]
+    name = "Schedule"
+    weight = 20
+    pageRef = "/2024/schedule"
+    identifier = "schedule"
+    parent = "technical-program"
+  [[menu.2024]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2024]]
+    name = "Venue"
+    weight = 10
+    pageRef = "/2024/venue"
+    identifier = "venue"
+    parent = "attend"
+  [[menu.2024]]
+    name = "Pictures"
+    weight = 20
+    pageRef = "/2024/pictures"
+    identifier = "pictures"
+    parent = "attend"
+  [[menu.2024]]
+    name = "Sponsor"
+    weight = 40
+    identifier = "sponsor"
+    pageReg = "/2024/partners"
+  [[menu.2024]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageReg = "/2024/team"
+
+
 
 [languages]
 [languages.en]

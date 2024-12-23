@@ -7,8 +7,7 @@ menu:
     main:
         weight: 15
         identifier: call-2024
-
-
+        parent: technical-program
 ---
 
 <!--

@@ -71,6 +71,7 @@ body > header {
     }
 
     li {
+      position: relative;
       opacity: .6;
       transition: all var(--animation);
       border-bottom: thin solid transparent;
@@ -79,6 +80,16 @@ body > header {
       &.active {
         opacity: 1;
         border-bottom-color: currentColor;
+      }
+
+      &.has-children > a::after {
+        content: "▼";
+        margin-left: 5px;
+        font-size: 0.8em;
+      }
+
+      &:hover .submenu {
+        display: block;
       }
     }
 
@@ -96,6 +107,27 @@ body > header {
       &:focus, &:hover {
         text-shadow: var(--extruded-dark);
         opacity: .75;
+      }
+    }
+
+    .submenu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        padding: 8px 16px;
+
+        a {
+          color: #000;
+          padding: 8px 16px;
+        }
       }
     }
 

@@ -26,11 +26,16 @@
 		  {{ range .Site.Menus.main }}
 			{{ $menuYear := index (split .URL "/") 1 }}
 			{{ if eq $menuYear $currentYear }}
-			  <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
-				{{ if (hasPrefix .URL "http") }}
-				  <a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
-				{{ else }}
-				  <a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+			  <li class="{{ if .HasChildren }}has-children{{ end }} {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+				<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+				{{ if .HasChildren }}
+				  <ul class="submenu">
+					{{ range .Children }}
+					  <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
+						<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+					  </li>
+					{{ end }}
+				  </ul>
 				{{ end }}
 			  </li>
 			{{ end }}
