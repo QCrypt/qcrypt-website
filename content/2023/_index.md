@@ -1,10 +1,6 @@
 ---
 title: Home
 year: 2023
-menu:
-  main:
-    weight: -1
-    identifier: home-2023
 type: home
 
 ---
@@ -13,17 +9,20 @@ type: home
 
 ## August 14–18, 2023
 
-<a class="btn primary btn-lg" href="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx">
-    Conference Program
-</a>
+{{< button-link label="Conference Program"
+                url="/pdf/QCrypt23-Program.pdf"
+                target="_blank"
+                icon="pdf" >}}
 
-<a class="btn primary btn-lg" href="/sessions/business/">
-    Awards and Business Meeting
-</a>
+{{< button-link label="Awards and Business Meeting"
+                url="/2024/sessions/business"
+                icon="cfp" >}}
 
-<a class="btn primary btn-lg" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">
-    Exit Survey
-</a>
+{{< button-link label="Exit Survey"
+                url="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform"
+                target="_blank"
+                icon="subscribe" >}}
+
 
 {{% /jumbo %}}
 
@@ -36,9 +35,8 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 
 {{% /home-info %}}
 
-{{% home-tickets %}}
+{{% home-keydates %}}
 	
-
 ### <strong>Key Dates QCrypt 2023</strong>
 |Date |Event|
 |:----|:----|
@@ -54,7 +52,17 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 |<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
 
 
-{{% /home-tickets %}}
+### <strong>Website Updates</strong>
+|Date |Event|
+|:----|:----|
+|December 12, 2023 | <strong>Talk Videos on YouTube</h3></strong><body style="text-align:left">Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
+|August 17, 2023 | <strong>QCrypt 2024 Venue Announced</h3></strong><body style="text-align:left"> Find more about QCrypt 2024 (and QCrypt 2025) <a href="/2024/"> <strong>here</strong> </a>.|
+|August 17, 2023 | <strong>Student Paper Awards Announced</h3></strong><body style="text-align:left"> Find the details <a href="/2023/sessions/business/"> <strong>here</strong> </a>.|
+|August 15, 2023 | Group Photo Available</h3></strong><body style="text-align:left">The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a> Find some more photos below.</body>|
+
+
+
+{{% /home-keydates %}}
 
 <!-- THE MAP -->
 {{% home-location

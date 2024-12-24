@@ -5,8 +5,10 @@ year: 2023
 draft: true
 type: text_page
 menu:
-    main:
-        weight: 2
+    2023:
+        weight: 10
+        parent: attend
+
 ---
 
 ## Registration for QCrypt 2023 is now open!

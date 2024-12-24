@@ -4,8 +4,9 @@ year: 2024
 draft: false
 type: text_page
 menu:
-    main:
-        weight: 200
+    2024:
+        weight: 50
+        parent: attend
 
 ---
 

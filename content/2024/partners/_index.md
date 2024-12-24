@@ -1,11 +1,6 @@
 ---
 year: 2024
 title: Sponsors
-menu:
-  main:
-    weight: 60
-    identifier: sponsors-2024
-
 type: partners
 draft: false
 ---

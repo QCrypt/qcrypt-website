@@ -12,50 +12,32 @@ type: home
 
 ## 2-6 September 2024
 
+{{< button-link label="Conference Program"
+                url="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx"
+                icon="cfp" >}}
 
 
-<a class="btn primary btn-lg" href="pictures">
-    DOWNLOAD LINK FOR THE PHOTOS AVAILABLE
-</a>
+{{< button-link label="Download Photos"
+                url="pictures"
+                icon="picture" >}}
 
-<a class="btn primary btn-lg" href="2025">
-    The submission process for QCRYPT 2026 is now open
-</a>
-
-<!--<a class="btn primary btn-lg" href="https://easychair.org/conferences/?conf=qcrypt2024">
-    POSTER-ONLY SUBMISSION IS NOW OPEN!
-</a>-->
-
+{{< button-link label="Organize QCrypt 2026"
+                url="2025"
+                icon="map-marker" >}}
 
 
 {{% /jumbo %}}
 
-<!-- CNCF LOGO
-{{% home-info what="" class="primary" %}}
 
-<h3 style="text-align:center;">Supported by</h2>
-<img src="/images/logos/cncf-white.png" alt="cncf-logo" style="width:50%;margin-left:auto;margin-right:auto;display: block;"/>
-{{% /home-info %}}
-
--->
-
-
-<!-- YOUTUBE SECTION
-{{< youtube-section link="i-MKPPKWJuE" title="Watch 2018 best moments" class="" >}}
- -->
-
-<!-- INFO -->
 {{% home-info class="primary" %}}
-
 ## What is QCrypt 2024?
 
 QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/charter/#history-of-qcrypt">here</a>.
-
 {{% /home-info %}}
 
-{{% home-tickets %}}
+{{% home-keydates %}}
 
-### <strong>Key Dates QCrypt 2024 (all times 23:59 AoE)</strong>
+## <strong>Key Dates QCrypt 2024 (all times 23:59 AoE)</strong>
 |Date |Event|
 |:----|:----|
 | <strike> April 2024 </strike>|<strong> TALK SUBMISSION NOW CLOSED </strong>|
@@ -71,9 +53,8 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 
 \* The intention of the early poster notification is to facilitate logistics related to registration and travel authorizations. Submissions accepted at this stage will continue through the talk selection process.
 
-<!-- SPEAKERS -->
-<!-- BREAKS JUMBO IMAGE -->
-{{% /home-tickets %}}
+
+{{% /home-keydates %}}
 
 
 <!-- THE MAP -->
@@ -89,15 +70,8 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 {{% /home-location %}}
 
 
+{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
 ## Sponsors
-<!-- 
-{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
-{{% /partners %}}
-
- -->
-
-
-{{% partners categories="gold,bronze,exhibitors" year=2024 %}}
 
 QCrypt 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@qcrypt.net" url="mailto:2024@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} 
 

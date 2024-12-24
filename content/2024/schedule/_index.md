@@ -5,11 +5,10 @@ type: schedule
 draft: false
 horizontal: false
 menu:
-    main:
-        weight: 2
-        identifier: schedule-2024
-        parent: technical-program-2024
-
+    2024:
+        weight: 10
+        identifier: schedule
+        parent: technical-program
 
 ---
 

@@ -1,7 +1,10 @@
 ---
 title: QCrypt - Code of Conduct
 year: 2023
-
+menu:
+    2023:
+        weight: 40
+        parent: attend
 draft: false
 type: no_toc
 ---

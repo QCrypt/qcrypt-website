@@ -4,9 +4,9 @@ year: 2024
 draft: false
 type: text_page
 menu:
-    main:
+    2024:
         weight: 15
-        identifier: call-2024
+        identifier: call
         parent: technical-program
 ---
 

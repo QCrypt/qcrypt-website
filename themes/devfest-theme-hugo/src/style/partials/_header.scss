@@ -76,6 +76,7 @@ body > header {
       transition: all var(--animation);
       border-bottom: thin solid transparent;
       border-radius: 5%;
+      list-style: none;
 
       &.active {
         opacity: 1;

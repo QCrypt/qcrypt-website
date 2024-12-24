@@ -1,11 +1,6 @@
 ---
 year: 2023
 title: Sponsors
-menu:
-  main:
-    weight: 10
-    identifier: sponsors-2023
-
 type: partners
 draft: false
 ---

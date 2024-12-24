@@ -1,12 +1,6 @@
 ---
 title: Committees
 year: 2023
-menu:
-  main:
-    weight: 100
-    identifier: committees-2023
-
-
 type: team
 layout: list_with_header
 draft: false

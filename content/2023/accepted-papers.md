@@ -4,9 +4,9 @@ year: 2023
 type: text_page
 draft: false
 menu:
-    main:
+    2023:
         weight: 10
-        identifier: accepted-papers-2023
+        parent: technical-program
 ---
 
 

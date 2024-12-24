@@ -5,10 +5,10 @@ draft: false
 type: speakers
 layout: list_with_header
 menu:
-    main:
+    2024:
         weight: 40
-        identifier: speakers-2024
-        parent: technical-program-2024
+        identifier: speakers
+        parent: technical-program
 
 ---
 <!--

@@ -5,9 +5,10 @@ type: schedule
 draft: false
 horizontal: false
 menu:
-    main:
-        weight: 2
+    2023:
+        weight: 20
         identifier: schedule-2023
+        parent: technical-program
 
 ---
 

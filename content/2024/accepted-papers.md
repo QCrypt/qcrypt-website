@@ -4,10 +4,10 @@ year: 2024
 type: text_page
 draft: false
 menu:
-    main:
-        weight: 10
-        identifier: accepted-papers-2024
-        parent: technical-program-2024
+    2024:
+        weight: 20
+        identifier: accepted-papers
+        parent: technical-program
 
 
 ---

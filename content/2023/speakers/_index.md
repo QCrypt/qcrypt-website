@@ -5,9 +5,10 @@ draft: false
 type: speakers
 layout: list_with_header
 menu:
-    main:
+    2023:
         weight: 40
-        identifier: speakers-2023
+        identifier: speakers
+        parent: technical-program
 
 ---
 
@@ -22,4 +23,3 @@ menu:
 {{< speakers types="industry=Industry Panel" year=2023 >}}
 
 {{< speakers types="discussion=Discussion Panel" year=2023 >}}
-

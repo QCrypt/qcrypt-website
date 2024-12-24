@@ -4,8 +4,9 @@ year: 2023
 draft: false
 type: text_page
 menu:
-    main:
+    2023:
         weight: 100
+        parent: attend
 
 ---
 

@@ -1,11 +1,6 @@
 ---
 title: Committees
 year: 2024
-menu:
-  main:
-    weight: 100
-    identifier: committees-2024
-
 type: team
 layout: list_with_header
 draft: False

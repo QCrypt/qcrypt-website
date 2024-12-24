@@ -5,8 +5,9 @@ year: 2023
 draft: false
 type: text_page
 menu:
-    main:
+    2023:
         weight: 99
+        parent: attend
 
 ---
 {{< button-link label="Parking" url="https://www.offcampusparking.com/collegepark" icon="" >}}{{< button-link label="Maps & Directions" url="https://cvs.umd.edu/visit/maps-directions" icon="" >}}{{< button-link label="Campus Construction" url="https://admin.umd.edu/current-projects/purple-line/campus-construction-notices" icon="" >}}{{< button-link label="Washington Metro" url="https://www.wmata.com/service/index.cfm" icon="" >}}{{< button-link label="UMD Shuttle Bus" url="https://transportation.umd.edu/shuttle-um/104/501" icon="" >}}

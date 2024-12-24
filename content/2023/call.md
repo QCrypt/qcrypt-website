@@ -4,9 +4,8 @@ year: 2023
 draft: false
 type: text_page
 menu:
-    main:
-        weight: 15
-        identifier: call-2023
+    2023:
+        weight: 10
         parent: technical-program
 
 ---
