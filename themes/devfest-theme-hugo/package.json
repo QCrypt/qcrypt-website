@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "watch:script": "rollup -c --watch",
-    "watch:style": "node-sass src/style/theme.scss -o static/2024 --watch",
+    "watch:style": "node-sass src/style/theme.scss -o static/2023 --watch",
     "start": "run-p watch:*",
     "build:icons": "node icons.js",
     "build:script": "rollup -c rollup.config.prod.js",

@@ -1082,6 +1082,15 @@ form input {
   .home main .tickets p {
     font-size: 80%; }
 
+.home main .keydates {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .home main .keydates a, .home main .keydates a:visited {
+    color: var(--primary-link); }
+  .home main .keydates a:focus, .home main .keydates a:hover {
+    text-decoration: underline; }
+
 .home main .location {
   padding: 0;
   position: relative;
@@ -1099,8 +1108,7 @@ form input {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
-    background-color: var(--primary);
-    color: var(--primary-txt); }
+    background-color: var(--primary); }
     .home main .location .description .direction {
       display: flex;
       align-items: center; }

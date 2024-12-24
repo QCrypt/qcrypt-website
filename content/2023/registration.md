@@ -2,7 +2,7 @@
 title: Registration
 year: 2023
 
-draft: true
+draft: false
 type: text_page
 menu:
     2023:
