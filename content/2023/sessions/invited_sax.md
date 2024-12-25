@@ -3,7 +3,7 @@ title: "Invited Talk: ''High-speed QKD: Removing the Roadblocks for an Integrati
 speakers:
   - sax
 videoID : n3eL-JvMIcs
-presentation: "/slides/QCrypt2023InvitedSax.pdf"
+presentation: "/2023/sessions/slides/QCrypt2023InvitedSax.pdf"
 draft: false
 type: sessions
 ---

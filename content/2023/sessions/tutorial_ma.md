@@ -3,7 +3,7 @@ title: "Tutorial Talk: ''Recent Advancement in Measurement-Device-Independent Qu
 speakers:
   - ma
 videoID : I_wjGYwtNPw
-presentation: "/slides/QCrypt2023TutorialMa.pdf"
+presentation: "/2023/sessions/slides/QCrypt2023TutorialMa.pdf"
 draft: false
 type: sessions
 ---

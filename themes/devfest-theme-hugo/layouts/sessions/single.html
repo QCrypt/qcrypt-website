@@ -7,7 +7,7 @@
 <section class="talk">
 
 
-	{{ if.Params.tags }}
+	{{ if .Params.tags }}
 	<header class="tag-{{ anchorize (delimit .Params.tags "" ) }}">
 	<div class="tags">
 		{{ range .Params.tags }}
@@ -89,11 +89,11 @@
 					{{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
 					{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
 		  			<li>
-					  {{ partial "paper.html" $paper }}
+					{{ partial "paper.html" (dict "paper" $paper "currentYear" $currentYear) }}
 						{{ if isset $paper "mergedwith" }}
 		  				{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
 			   			merged with
-				  		{{ partial "paper.html" $mergedpaper}}
+				  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" $currentYear) }}
 						{{ end }}
 	  				</li>
 			 		{{ end }}

@@ -3,7 +3,7 @@ title: "Invited Speaker: ''Long Distance Quantum Key Distribution Gets Simpler''
 speakers:
   - zhou
 videoID : SYbdXomSWVk
-presentation: "/slides/QCrypt2023InvitedZhou.pdf"
+presentation: "/2023/sessions/slides/QCrypt2023InvitedZhou.pdf"
 draft: false
 type: sessions
 ---

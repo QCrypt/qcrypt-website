@@ -1,3 +1,22 @@
+{{ $paper := .paper }}
+{{ $currentYear := (string .currentYear) }}
+
+<!-- Debug Info (only visible in development) -->
+{{ if hugo.IsProduction | not }}
+
+<div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
+	<details>
+		<summary>Debug Info</summary>
+		<pre>
+Parent: {{ $paper }}
+CurrentYear: {{ $currentYear }}
+		</pre>
+	</details>
+</div>
+{{ end }}
+
+
+{{ with $paper }}
 <div class="paper-single">
 	<div class="paper-title">{{ .title }}</div>
 
@@ -58,20 +77,23 @@
 	{{ else }}
 	{{/* we have a contributed paper here */}}
 	  {{ $formatted_pid := printf "%03.f" .pid }}
-	  {{ $prefix := delimit (slice "QCrypt2021TalkSlides" $formatted_pid) "" }}
-	  {{/* figure out if a PDF with that id exists in the poster directory */}}
+	  {{ $slidePrefix := printf "QCrypt%sTalkSlides%s" $currentYear $formatted_pid }}
+	  {{/* figure out if a PDF with that id exists in the slide directory */}}
 	  {{ $filename := "" }}
-	  {{ range (readDir "/static/slides") }}
-		  {{ if hasPrefix .Name $prefix }}
-			  {{ $filename = .Name }}
+	  {{ $slidePath := printf "/content/%s/sessions/slides" $currentYear }}
+	  {{ if fileExists $slidePath }}
+		  {{ range (readDir $slidePath) }}
+			  {{ if hasPrefix .Name $slidePrefix }}
+				  {{ $filename = .Name }}
+			  {{ end }}
 		  {{ end }}
 	  {{ end }}
-<!--	  <div class="paper-slides">
+	  <div class="paper-slides">
 	  {{ if ne $filename "" }}
-		  <a href="/slides/{{ $filename }}" target="_blank">[slides]</a>
+		  <a href="/{{ $currentYear }}/sessions/slides/{{ $filename }}" target="_blank">[slides]</a>
 	  {{ end }}
 	  </div>
--->
+
 
 
   	{{ if isset .options "presenter-live-session" }}
@@ -85,3 +107,4 @@
 	{{ end }}
 
 </div>
+{{ end}}

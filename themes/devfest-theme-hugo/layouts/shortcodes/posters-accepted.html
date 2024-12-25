@@ -1,7 +1,7 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $site := .Site }}
-{{ $year := .Get "year" }}
-{{ $dataKey := printf "posters-%s" (string $year) }}
+{{ $currentYear := .Get "year" }}
+{{ $dataKey := printf "posters-%s" (string $currentYear) }}
 {{ $papers := index $.Site.Data $dataKey | default slice }}
 
 {{ if hugo.IsProduction | not }}
@@ -9,7 +9,7 @@
     <details>
         <summary>Debug Info</summary>
         <pre>
-Year: {{ $year }}
+Year: {{ $currentYear }}
 Data key: {{ $dataKey }}
 Papers count: {{ len $papers }}
         </pre>
@@ -36,12 +36,12 @@ Papers count: {{ len $papers }}
 		  {{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
 			{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
 			  <li value="{{ $paper.pid }}">
-  			{{ partial "paper.html" $paper }}
+  			{{ partial "paper.html" (dict "paper" $paper "currentYear" (string $currentYear)) }}
 
 				{{ if isset $paper "mergedwith" }}
   				{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
 	   			merged with
-		  		{{ partial "paper.html" $mergedpaper}}
+		  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" (string $currentYear))}}
 				{{ end }}
 		  	</li>
 			{{ end }}

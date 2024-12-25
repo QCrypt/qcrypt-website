@@ -3,7 +3,7 @@ title: "Tutorial Talk: ''Pseudorandom Quantum States''"
 speakers:
   - yuen
 videoId: qT4OuGSI_uk
-presentation: "/slides/QCrypt2023TutorialYuen.pdf"
+presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf"
 draft: false
 type: sessions
 ---

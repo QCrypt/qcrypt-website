@@ -3,7 +3,7 @@ title: "Invited Talk: ''Quantum Cryptography in Algorithmica''"
 speakers:
   - kretschmer
 videoId: B08UMgwy3jc
-presentation: "/slides/QCrypt2023InvitedKretschmer.pdf"
+presentation: "/2023/sessions/slides/QCrypt2023InvitedKretschmer.pdf"
 draft: false
 type: sessions
 ---
