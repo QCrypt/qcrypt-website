@@ -10,26 +10,27 @@ follow:
   - name: youtube
     url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
 
-content:
-  - title: footer_about
-    links:
-      - nameKey: footer_coc
-        url: /code-of-conduct-online/
-        newTab: false
-      - nameKey: footer_charter
-        url: /2024/charter/
-        newTab: false
-  - title: footer_extra
-    links:
-      - nameKey: footer_papers
-        url: /accepted-papers/
-        newTab: false
-      - nameKey: footer_call
-        url: /call/
-        newTab: false
-      - nameKey: footer_poster
-        url: /poster/
-        newTab: false
+# content:
+#   - title: footer_about
+#     links:
+#       - nameKey: footer_coc
+#         url: /2024/code-of-conduct/
+#         newTab: false
+#       - nameKey: footer_charter
+#         url: /2024/charter/
+#         newTab: false
+
+  # - title: footer_extra
+  #   links:
+  #     - nameKey: footer_papers
+  #       url: /accepted-papers/
+  #       newTab: false
+  #     - nameKey: footer_call
+  #       url: /call/
+  #       newTab: false
+  #     - nameKey: footer_poster
+  #       url: /poster/
+  #       newTab: false
 
   # - title: footer_previous_edition
   #   links:

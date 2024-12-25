@@ -1,4 +1,4 @@
-<div class="photo" role="presentation" style="background-image: url('{{ relURL (path.Join "images" "team" .Params.photo) }}');"></div>
+<div class="photo" role="presentation" style="background-image: url({{ .Params.photoURL }});"></div>
 <div class="label">
 	<h3>{{ .Title }}</h3>
 	<h4>{{ .Params.subtitle }}</h4>

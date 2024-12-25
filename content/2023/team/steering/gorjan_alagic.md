@@ -5,7 +5,7 @@ type: steering
 subtitle: University of Maryland
 job: SC member
 year: 2023
-photo: gorjan_alagic.jpg
+photoURL: /2023/team/images/gorjan_alagic.jpg
 socials:
   - link: 'http://www.alagic.org/'
     name: Site

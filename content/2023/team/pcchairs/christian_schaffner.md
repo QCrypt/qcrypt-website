@@ -3,7 +3,7 @@ key: schaffner
 title: Christian Schaffner
 surname: Schaffner
 subtitle: University of Amsterdam, QuSoft
-photo: christian_schaffner.jpg
+photoURL: /2023/team/images/christian_schaffner.jpg
 job: PC primary chair (theory)
 type: pcchairs
 year: 2023

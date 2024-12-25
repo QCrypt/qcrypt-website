@@ -3,7 +3,7 @@ key: broadbent
 title: Anne Broadbent
 surname: Broadbent
 subtitle: University of Ottawa
-photo: anne_broadbent.jpg
+photoURL: /2024/team/images/anne_broadbent.jpg
 job: PC primary chair (theory)
 type: pcchairs
 year: 2024

@@ -3,7 +3,7 @@ key: vallone
 title: Giuseppe Vallone
 surname: Vallone
 subtitle: University of Padova
-photo: giuseppe_vallone.png
+photoURL: /2023/team/images/giuseppe_vallone.png
 job: PC co-chair (experiment)
 type: pcchairs
 year: 2023

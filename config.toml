@@ -36,7 +36,7 @@ GoogleAnalytics = "G-221GMGECQ6"
 [params.logos]
     [params.logos.2024]
         jumbo = "/images/logos/QCrypt_2024_logo_final.png"
-        header = "/images/logos/QC_24_2.png"
+        header = "/images/logos/QCrypt_24_logo_2.png"
     [params.logos.2023]
         jumbo = "/images/logos/QuCrC23_Logo.png"
         header = "/images/logos/QuCrC23_Logo.png"
@@ -65,9 +65,9 @@ GoogleAnalytics = "G-221GMGECQ6"
     weight = 30
     identifier = "attend"
   [[menu.2023]]
-    name = "Sponsor"
+    name = "Sponsors"
     weight = 40
-    identifier = "sponsor"
+    identifier = "sponsors"
     pageRef = "/2023/partners"
   [[menu.2023]]
     name = "Committees"
@@ -89,9 +89,9 @@ GoogleAnalytics = "G-221GMGECQ6"
     weight = 30
     identifier = "attend"
   [[menu.2024]]
-    name = "Sponsor"
+    name = "Sponsors"
     weight = 40
-    identifier = "sponsor"
+    identifier = "sponsors"
     pageRef = "/2024/partners"
   [[menu.2024]]
     name = "Committees"

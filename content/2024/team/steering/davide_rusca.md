@@ -5,7 +5,7 @@ type: steering
 subtitle: University of Vigo
 job: SC member
 year: 2024
-photo: davide_rusca.jpg
+photoURL: /2024/team/images/davide_rusca.jpg
 socials:
   - link: 'https://vqcc.uvigo.es/team/davide-rusca/'
     name: Site

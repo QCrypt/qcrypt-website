@@ -5,7 +5,7 @@ type: core
 year: 2023
 subtitle: 'NIST'
 job: General chair
-photo: ollie.jpg
+photoURL: /2023/team/images/ollie.jpg
 socials:
   - link: 'https://www.nist.gov/people/oliver-t-slattery'
     name: Site
