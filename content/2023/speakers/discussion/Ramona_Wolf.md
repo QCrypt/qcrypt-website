@@ -4,8 +4,8 @@ name: Ramona Wolf
 surname: Wolf
 year: 2023
 company: ETH Zürich
-photoURL: /images/speakers/ramona.jpg
+photoURL: /2023/speakers/images/ramona.jpg
 type: discussion
 # website: 'https://ramonawolf.com/'
-website: '/sessions/discussion_wolf'
+website: '/2023/sessions/discussion_wolf'
 ---

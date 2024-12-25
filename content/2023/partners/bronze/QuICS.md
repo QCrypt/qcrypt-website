@@ -4,6 +4,6 @@ title: QuICS
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/QuICS.png
+logo: /2023/partners/logos/QuICS.png
 website: https://quics.umd.edu/
 ---

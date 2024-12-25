@@ -4,7 +4,7 @@ name: Laura Ortiz
 surname: Ortiz
 year: 2024
 company: QoolNet
-photoURL: /images/speakers/ortiz.png
+photoURL: /2024/speakers/images/ortiz.png
 type: industry
-website: '/2023/sessions/industry_ortiz'
+website: '/2024/sessions/industry_ortiz'
 ---

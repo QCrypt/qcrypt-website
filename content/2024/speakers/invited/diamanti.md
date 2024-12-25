@@ -4,9 +4,9 @@ name: Eleni Diamanti
 surname: Diamanti
 year: 2024
 company: LIP6, CNRS/Sorbonne Université
-photoURL: /images/speakers/diamanti.jpg
+photoURL: /2024/speakers/images/diamanti.jpg
 type: invited
-website: '/2023/sessions/invited_diamanti'
+website: '/2024/sessions/invited_diamanti'
 # socials:
 #   - link: 
 #     name: Site

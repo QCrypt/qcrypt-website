@@ -4,6 +4,6 @@ title: Quentangle
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/Quentangle.png
+logo: /2024/partners/logos/Quentangle.png
 website: https://quentangle.com/home
 ---

@@ -4,6 +4,6 @@ title: QTI
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/QTI.jpg
+logo: /2024/partners/logos/QTI.jpg
 website: https://www.qticompany.com/
 ---

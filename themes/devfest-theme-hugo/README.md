@@ -341,7 +341,7 @@ title: NAME
 type: partner
 category: soutien
 website: 'https://example.com/'
-logo: /images/partners/partner.jpg
+logo: /2024/partners/logos/partner.jpg
 socials: []
 ```
 

@@ -4,9 +4,9 @@ name: Hoi-Kwong Lo
 surname: Lo
 year: 2024
 company: University of Toronto
-photoURL: /images/speakers/lo.jpg
+photoURL: /2024/speakers/images/lo.jpg
 type: invited
-website: '/2023/sessions/invited_lo'
+website: '/2024/sessions/invited_lo'
 # socials:
 #   - link: 
 #     name: Site

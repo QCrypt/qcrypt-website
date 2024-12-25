@@ -4,6 +4,6 @@ title: Single Quantum
 type: partner
 draft: false
 category: exhibitors
-logo: /images/partners/singlequantum.png
+logo: /2024/partners/logos/singlequantum.png
 website: https://www.singlequantum.com/
 ---

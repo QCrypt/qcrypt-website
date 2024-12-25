@@ -4,6 +4,6 @@ title: Quside
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/quside.png
+logo: /2024/partners/logos/quside.png
 website: https://quside.com/
 ---

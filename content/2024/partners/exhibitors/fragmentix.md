@@ -4,6 +4,6 @@ title: FragmentiX
 type: partner
 draft: false
 category: exhibitors
-logo: /images/partners/fragmentix.png
+logo: /2024/partners/logos/fragmentix.png
 website: https://fragmentix.com/
 ---

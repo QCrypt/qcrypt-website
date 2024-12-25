@@ -4,6 +4,6 @@ title: University of Vigo
 type: partner
 draft: false
 category: gold
-logo: /images/partners/uvigo.png
+logo: /2024/partners/logos/uvigo.png
 website: https://www.uvigo.gal/
 ---

@@ -4,6 +4,6 @@ title: University of Amsterdam
 type: partner
 draft: false
 category: community
-logo: /images/partners/uva.png
+logo: /2023/partners/logos/uva.png
 website: https://www.uva.nl
 ---

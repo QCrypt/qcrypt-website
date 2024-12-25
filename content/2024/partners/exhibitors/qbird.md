@@ -4,6 +4,6 @@ title: Q*Bird
 type: partner
 draft: false
 category: exhibitors
-logo: /images/partners/qbird.png
+logo: /2024/partners/logos/qbird.png
 website: https://q-bird.com/
 ---

@@ -4,6 +4,6 @@ title: SWABIAN INSTRUMENTS GMBH
 type: partner
 draft: false
 category: exhibitors
-logo: /images/partners/swabian.png
+logo: /2024/partners/logos/swabian.png
 website: https://www.swabianinstruments.com/
 ---

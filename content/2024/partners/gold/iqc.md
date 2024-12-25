@@ -4,6 +4,6 @@ title: Institute of Quantum Computing
 type: partner
 draft: false
 category: gold
-logo: /images/partners/IQC.png
+logo: /2024/partners/logos/IQC.png
 website: https://uwaterloo.ca/institute-for-quantum-computing/
 ---

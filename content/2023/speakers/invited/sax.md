@@ -4,11 +4,7 @@ name: Rebecka Sax
 surname: Sax
 year: 2023
 company: University of Geneva 
-photoURL: /images/speakers/RebeckaSax.jpg
+photoURL: /2023/speakers/images/RebeckaSax.jpg
 type: invited
-website: '/sessions/invited_sax'
-# socials:
-#   - link: 'https://quantum.paris/people'
-#     name: Site
-
+website: '/2023/sessions/invited_sax'
 ---

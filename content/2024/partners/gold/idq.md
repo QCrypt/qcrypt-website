@@ -4,6 +4,6 @@ title: IDQuantique
 type: partner
 draft: false
 category: gold
-logo: /images/partners/idq.png
+logo: /2024/partners/logos/idq.png
 website: https://www.idquantique.com/
 ---

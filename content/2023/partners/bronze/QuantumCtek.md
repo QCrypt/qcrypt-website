@@ -4,6 +4,6 @@ title: QuantumCTek
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/QuantumCTek.png
+logo: /2023/partners/logos/QuantumCTek.png
 website: http://quantum-info.com/
 ---

@@ -4,5 +4,5 @@ title: Axencia Galaga de Innovacion
 type: partner
 draft: false
 category: gold
-logo: /images/partners/Gain_logo.jpeg
+logo: /2024/partners/logos/Gain_logo.jpeg
 ---

@@ -4,10 +4,7 @@ name: James Bartusek
 surname: Bartusek
 year: 2023
 company: UC Berkeley
-photoURL: /images/speakers/JamesBartusek.jpg
+photoURL: /2023/speakers/images/JamesBartusek.jpg
 type: tutorial
-website: '/sessions/tutorial_bartusek'
-# socials:
-#   - link: 
-#     name: Site
+website: '/2023/sessions/tutorial_bartusek'
 ---

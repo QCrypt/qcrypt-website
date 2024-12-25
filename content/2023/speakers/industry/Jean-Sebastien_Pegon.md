@@ -4,7 +4,7 @@ name: Jean-Sebastien Pegon
 surname: Pegon
 year: 2023
 company: IDQUANTIQUE
-photoURL: /images/team/pegon.jpg
+photoURL: /2023/speakers/images/pegon.jpg
 type: industry
-website: '/sessions/industry_pegon'
+website: '/2023/sessions/industry_pegon'
 ---

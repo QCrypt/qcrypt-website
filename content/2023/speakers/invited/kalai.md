@@ -4,10 +4,7 @@ name: Yael Kalai
 surname: Kalai 
 year: 2023
 company: Microsoft Research, MIT
-photoURL: /images/speakers/YaelKalai.jpg
+photoURL: /2023/speakers/images/YaelKalai.jpg
 type: invited
-website: '/sessions/invited_kalai'
-# socials:
-#   - link: 
-#     name: Site
+website: '/2023/sessions/invited_kalai'
 ---

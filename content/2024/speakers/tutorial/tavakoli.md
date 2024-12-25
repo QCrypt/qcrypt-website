@@ -4,9 +4,9 @@ name: Armin Tavakoli
 year: 2024
 surname: Tavakoli
 company: Lund University
-photoURL: /images/speakers/tavakoli.jpg
+photoURL: /2024/speakers/images/tavakoli.jpg
 type: tutorial
-website: '/2023/sessions/tutorial_tavakoli'
+website: '/2024/sessions/tutorial_tavakoli'
 # socials:
 #   - link: '/sessions/tutorial_yuen'
 #     name: Site

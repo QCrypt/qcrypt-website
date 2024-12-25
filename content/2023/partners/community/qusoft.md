@@ -4,6 +4,6 @@ title: QuSoft
 type: partner
 draft: false
 category: community
-logo: /images/partners/qusoft.jpg
+logo: /2023/partners/logos/qusoft.jpg
 website: http://www.qusoft.org
 ---

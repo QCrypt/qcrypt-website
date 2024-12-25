@@ -4,7 +4,7 @@ name: Corey McClelland
 surname: McClelland
 year: 2023
 company: Qubitekk
-photoURL: /images/speakers/McClelland.jpg
+photoURL: /2023/speakers/images/McClelland.jpg
 type: industry
-website: '/sessions/industry_mcclelland'
+website: '/2023/sessions/industry_mcclelland'
 ---

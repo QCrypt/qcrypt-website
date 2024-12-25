@@ -4,6 +4,6 @@ title: QuSoft
 type: partner
 draft: false
 category: bronze
-logo: /images/partners/qusoft.png
+logo: /2024/partners/logos/qusoft.png
 website: https://qusoft.org/
 ---
