@@ -41,6 +41,25 @@ CurrentYear: {{ $currentYear }}
 	</div>
   {{ end }}
 
+  {{ $dataKey := printf "youtube-%s" (string $currentYear) }}
+  {{ $youtube := index site.Data $dataKey | default slice }}
+  <div class="paper-youtubeid">
+	{{ range first 1 (where $youtube "pid" .pid) }}
+	  {{ if .id }}
+			<a href="https://youtu.be/{{ .id }}" target="_blank">[YouTube,
+				{{/* first check if presenter name is present in youtube.json , otherwise try to take it from accepted_final.json */}}
+				{{ if .presenter}}
+				  presented by {{ .presenter -}}
+				{{ else if isset $options "presenter-prerecorded-talk" }}
+					presented by {{ index $options "presenter-prerecorded-talk" -}}
+			  {{ end }}]</a>
+		{{ else }}
+		{{ if isset $options "presenter-prerecorded-talk" }}
+			[YouTube, still waiting for {{ index $options "presenter-prerecorded-talk" }}]
+		{{ end }}
+	  {{ end }}
+	{{ end }}
+	</div>
 
 	{{/* first make sure we are dealing with a poster here */}}
   {{ if eq .decision "Poster" }}
