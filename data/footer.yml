@@ -10,15 +10,17 @@ follow:
   - name: youtube
     url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
 
-# content:
-#   - title: footer_about
-#     links:
-#       - nameKey: footer_coc
-#         url: /2024/code-of-conduct/
-#         newTab: false
-#       - nameKey: footer_charter
-#         url: /2024/charter/
-#         newTab: false
+content:
+  - title: footer_about
+    links:
+      - nameKey: footer_charter
+        name: QCrypt Charter
+        url: /2024/charter/
+        newTab: false
+      - nameKey: footer_history
+        name: QCrypt History
+        url: /2024/history/
+        newTab: false
 
   # - title: footer_extra
   #   links:

@@ -62,7 +62,10 @@ other = "Partnership Proposition"
 other = "Code of Conduct"
 
 [footer_charter]
-other = "QCrypt Charter & History"
+other = "QCrypt Charter"
+
+[footer_history]
+other = "QCrypt History"
 
 [footer_extra]
 other = "Extra Material"

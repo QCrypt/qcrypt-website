@@ -34,14 +34,14 @@ GoogleAnalytics = "G-221GMGECQ6"
     themeColor = "#086788"
 
 [params.logos]
+    footer = "/images/logos/netlify-color-accent.svg"
+    footer_link = "https://www.netlify.com"
     [params.logos.2024]
         jumbo = "/images/logos/QCrypt_2024_logo_final.png"
         header = "/images/logos/QCrypt_24_logo_2.png"
     [params.logos.2023]
         jumbo = "/images/logos/QuCrC23_Logo.png"
         header = "/images/logos/QuCrC23_Logo.png"
-    footer = "/images/logos/netlify-color-accent.svg"
-    footer_link = "https://www.netlify.com"
 
 [server]
 [[server.redirects]]
