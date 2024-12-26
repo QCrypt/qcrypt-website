@@ -283,6 +283,21 @@ body > header {
           border-bottom-color: var(--lighten-2); }
         body > header nav a:focus, body > header nav a:hover {
           background: var(--darken-1); }
+      body > header nav .submenu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: none;
+        background: transparent; }
+        body > header nav .submenu li {
+          padding-left: var(--space-4); }
+          body > header nav .submenu li a {
+            color: inherit;
+            padding: var(--space-2) 0; }
+      body > header nav .has-children > a::after {
+        float: right;
+        margin-top: var(--space-2); }
     body > header input[type=checkbox]:checked ~ nav {
       display: block; } }
 

@@ -1,5 +1,5 @@
 ---
-title: QCrypt - Code of Conduct
+title: Code of Conduct
 year: 2024
 menu:
     2024:
