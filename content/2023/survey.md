@@ -2,7 +2,7 @@
 title: Survey
 year: 2023
 draft: false
-type: text_page
+type: no_toc
 menu:
     2023:
         weight: 100

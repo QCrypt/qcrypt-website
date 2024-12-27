@@ -199,6 +199,11 @@ body > header {
         }
       }
 
+      li {
+        &:hover .submenu {
+          display: none;
+        }
+      }
 
       .submenu {
         position: relative;
@@ -207,6 +212,7 @@ body > header {
         width: 100%;
         box-shadow: none;
         background: transparent;
+        display: none; // hide by default
         
         li {
           padding-left: var(--space-4);  // indent submenus
@@ -219,9 +225,20 @@ body > header {
       }
 
       .has-children {
+        position: relative;
+
         > a::after {
           float: right;
           margin-top: var(--space-2);
+          transition: transform 0.3s ease;
+        }
+
+        &.active > a::after {
+          transform: rotate(180deg);
+        }
+        
+        &.active .submenu {
+          display: block;
         }
       }
     }

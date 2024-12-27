@@ -2,7 +2,7 @@
 title: Pictures
 year: 2024
 draft: false
-type: text_page
+type: no_toc
 menu:
     2024:
         weight: 50

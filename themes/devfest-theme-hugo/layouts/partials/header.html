@@ -45,33 +45,39 @@
 		{{ end }}
 	  </ul>
 	</nav>
-
-	  <!-- <nav>
-		{{ $currentPage := . }}
-		{{ $currentYear := index (split .RelPermalink "/") 1 }}
-		
-		<ul class="menu">
-			{{- $currentPage := . -}}
-			{{ range .Site.Menus.main }}
-			<li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" >
-			{{ if (hasPrefix .URL "http") }}
-			<a class="external" rel="noreferrer" target="_blank" href="{{ .URL }}">{{ .Name }}</a>
-			{{ else }}
-			<a href="{{ .URL | relLangURL }}">{{ .Name }}</a>
-			{{ end }}
-			</li>
-			{{ end }}
-		</ul>
-
-		<ul class="menu">
-		  {{ range where .Site.RegularPages "Section" $currentYear }}
-			{{ if .Params.menu }}
-			  <li class="{{ if eq $currentPage.RelPermalink .RelPermalink }}active{{ end }}">
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-			  </li>
-			{{ end }}
-		  {{ end }}
-		</ul>
-	  </nav> -->
 	</div>
-  </header>
+</header>
+
+{{ define "scripts" }}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+	const menuItems = document.querySelectorAll('.has-children > a');
+	
+	menuItems.forEach(item => {
+	  item.addEventListener('click', function(e) {
+		if (window.innerWidth < 1200) {  // xl breakpoint
+		  e.preventDefault();
+		  const parent = this.parentElement;
+		  parent.classList.toggle('active');
+		  
+		  // Close other open submenus
+		  menuItems.forEach(other => {
+			if (other !== this) {
+			  other.parentElement.classList.remove('active');
+			}
+		  });
+		}
+	  });
+	});
+  
+	// Close submenus when clicking outside
+	document.addEventListener('click', function(e) {
+	  if (!e.target.closest('nav')) {
+		menuItems.forEach(item => {
+		  item.parentElement.classList.remove('active');
+		});
+	  }
+	});
+  });
+</script>
+{{ end }}

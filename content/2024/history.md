@@ -5,10 +5,9 @@ draft: false
 type: text_page
 ---
 
-## History of QCRYPT
 QCRYPT was founded by Matthias Christandl and Stephanie Wehner, and the initial members of its steering committee were instrumental in its early development. The members of the steering committee continue to give their time to provide an excellent conference for the community.
 
-### PC Chairs & Local Organizers
+## PC Chairs & Local Organizers
 |Edition |PC chair| PC co-chair | Local organizer chair(s)
 |:----|:---|:---|:---|
 |2011 Zürich | Matthias Christandl | | Matthias Christandl
@@ -26,7 +25,7 @@ QCRYPT was founded by Matthias Christandl and Stephanie Wehner, and the initial 
 |2023 Maryland | Christian Schaffner | Giuseppe Vallone | Oliver Slattery, Gorjan Alagic
 
 
-### Steering Committees
+## Steering Committees
 
 | | | |
 |----:|:---|:---|
@@ -44,7 +43,7 @@ QCRYPT was founded by Matthias Christandl and Stephanie Wehner, and the initial 
 |2022 | Taiwan | Gorjan Alagic (chair), Kai-Min Chung, Serge Fehr, Stacey Jeffery, Qian Li, Marco Lucamarini, Christoph Marquardt, Feihu Xu
 |2023 | Maryland | Gorjan Alagic, Rotem Arnon-Friedman, Kai-Min Chung, Serge Fehr (chair), Qian Li, Marco Lucamarini, Christoph Marquardt, Feihu Xu
 
-### Student Paper Prizes
+## Student Paper Prizes
 In some years, there are two winning papers selected, one in theory, one in experiment.
 
 |Edition |Category| Winner |Title|
@@ -72,7 +71,7 @@ In some years, there are two winning papers selected, one in theory, one in expe
 
 
 
-### Best Poster Awards
+## Best Poster Awards
 Some editions of QCrypt features best-poster awards, sometimes awarded per poster session.
 
 |Edition | Winner |Winner|
