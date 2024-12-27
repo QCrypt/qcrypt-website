@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --primary: #ac191c;
+  --primary: #0099cc;
   --primary-txt: #ffffff;
   --primary-link: #4c9cde;
   --accent: grey;
@@ -86,7 +86,8 @@ html {
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--darken-2); }
+  background: var(--darken-2);
+  scroll-behavior: smooth; }
 
 *,
 *:before,
@@ -1381,7 +1382,7 @@ form input {
         width: 2ch; }
 
 .section.schedule nav.day-tabs {
-  font-size: 1.8em;
+  font-size: 1.6em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1402,9 +1403,10 @@ form input {
   margin: 1rem 2rem 2rem;
   padding: var(--space-3) var(--container-margin); }
   .section.schedule main > section.schedule .day {
-    display: none; }
+    display: block; }
     .section.schedule main > section.schedule .day:target {
-      display: block; }
+      display: block;
+      scroll-margin-top: var(--toolbar-height); }
 
 .section.schedule h2 {
   display: none; }
@@ -1437,6 +1439,13 @@ form input {
   position: absolute;
   top: 0;
   left: -4.5ch; }
+
+.section.schedule .fulldate {
+  font-size: 1.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: left; }
 
 .section.schedule .session {
   position: relative;

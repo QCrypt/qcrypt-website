@@ -1,9 +1,13 @@
 - day: '2023-08-14'
   sessions:
-    - session: open
+    - session: __checkin
+      time: '08:00'
+    - session: __coffee&snacks
       time: '08:30'
+    - session: __welcomingremarks
+      time: '08:45'
     - session: tutorial_yuen
-      time: '9:00'
+      time: '09:00'
     - session: invited_hhan
       time: '10:15'
     - session: __break
@@ -22,20 +26,24 @@
       time: '15:50'
     - session: poster1
       time: '16:30'
+    - session: 'group photo'
+      time: '17:45'
     - session: opening_reception
-      time: '17:30'
+      time: '18:00'
     - session: __endofday
-      time: '19:00'
+      time: '19:30'
 
 - day: '2023-08-15'
   sessions:
-    - session: open
+    - session: __coffee&snacks
       time: '08:30'
+    - session: __updates&announcements
+      time: '08:45'
     - session: tutorial_ma
       time: '9:00'
     - session: invited_arnold
       time: '10:15'
-    - session: __break
+    - session: __coffee&snacks
       time: '11:00'
     - session: invited_sax
       time: '11:30'
@@ -51,84 +59,78 @@
       time: '15:50'
     - session: poster2
       time: '16:30'
-    - session: rump
-      time: '17:30'
+    - session: _public_discussion
+      time: '18:00'
     - session: __walk_to_stamp
-      time: '18:30'
-    - session: dinner
-      time: '18:45'
+      time: '19:00'
     - session: __endofday
-      time: '20:45'
+      time: '21:00'
 
 - day: '2023-08-16'
   sessions:
-    - session: __startofday
-      time: '08:50'
-    - session: invited_jliu
-      time: '09:00'
-    - session: __break
-      time: '09:45'
-    - session: invited_zhong
-      time: '10:00'
-    - session: __break
-      time: '10:45'
-    - session: contributed3
+  sessions:
+    - session: __coffee&snacks
+      time: '08:30'
+    - session: __updates&announcements
+      time: '08:45'
+    - session: tutorial_bartusek
+      time: '9:00'
+    - session: invited_kalai
+      time: '10:15'
+    - session: __coffee&snacks
       time: '11:00'
-    - session: __lunch
+    - session: invited_zhou
       time: '11:30'
-    - session: industrial
-      time: '15:00'
-    - session: __break
-      time: '16:30'
-    - session: poster2
-      time: '16:45'
-    - session: __endofday
-      time: '18:45'
-    - session: business
-      time: '21:00'
+    - session: contributed3
+      time: '12:15'
+    - session: __lunch
+      time: '12:35'
+    - session: __excursion
+      time: '14:00'
+
 
 - day: '2023-08-17'
   sessions:
-    - session: __startofday
-      time: '08:50'
-    - session: tutorial_steinwandt
-      time: '09:00'
-    - session: __break
-      time: '10:15'
+  sessions:
+    - session: __coffee&snacks
+      time: '08:30'
+    - session: __updates&announcements
+      time: '08:45'
+    - session: industrial
+      time: '9:00'
     - session: contributed4a
+      time: '10:40'
+    - session: __coffee&snacks
       time: '11:00'
-    - session: __lunch
-      time: '12:00'
-    - session: tutorial_azuma
-      time: '15:00'
-    - session: __break
-      time: '16:15'
+    - session: invited_liao
+      time: '11:30'
     - session: contributed4b
-      time: '16:45'
-    - session: __break
-      time: '17:35'
-    - session: poster3
-      time: '18:00'
-    - session: __dinner
-      time: '19:00'
-    - session: __endofday
-      time: '20:00'
+      time: '12:15'
+    - session: __lunch
+      time: '12:35'
+    - session: contributed4c
+      time: '14:00'
+    - session: __coffee&snacks
+      time: '15:20'
+    - session: contributed4d
+      time: '15:50'
+    - session: rump
+      time: '16:30'
+    - session: business
+      time: '17:30'
+
 
 - day: '2023-08-18'
   sessions:
-    - session: __startofday
-      time: '08:50'
-    - session: contributed5
+    - session: __coffee&snacks
+      time: '08:30'
+    - session: __updates&announcements
+      time: '08:45'
+    - session: contributed5a
       time: '09:00'
-    - session: photography
-      time: '10:00'
-    - session: __break
-      time: '10:15'
-    - session: invited_shmueli
-      time: '10:45'
-    - session: close
+    - session: __coffee&snacks
+      time: '11:00'
+    - session: contributed5b
       time: '11:30'
-    - session: __lunch
-      time: '11:45'
-    - session: __endofday
-      time: '14:30'
+    - session: close
+      time: '12:30'

@@ -1,7 +1,7 @@
 .section.schedule {
 
   nav.day-tabs {
-    font-size: 1.8em;
+    font-size: 1.6em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,10 +30,11 @@
 
 
     .day {
-      display: none;
+      display: block;
 
       &:target {
         display: block;
+        scroll-margin-top: var(--toolbar-height);
       }
     }
   }
@@ -79,6 +80,14 @@
     left: -4.5ch;
   }
 
+  .fulldate {
+    font-size: 1.8em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: left;
+    // padding: var(--space-3) var(--container-margin);
+  }
 
   .session {
     position: relative;

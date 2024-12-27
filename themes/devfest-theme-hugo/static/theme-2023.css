@@ -86,7 +86,8 @@ html {
   font-family: var(--font-family);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: var(--darken-2); }
+  background: var(--darken-2);
+  scroll-behavior: smooth; }
 
 *,
 *:before,
@@ -173,7 +174,7 @@ body > header {
     max-width: 180px; }
   body > header label {
     display: none;
-    opacity: .5;
+    opacity: 0.5;
     padding: .1em;
     border: var(--space-2) solid transparent;
     outline-offset: var(--space-2); }
@@ -202,7 +203,7 @@ body > header {
       list-style: none; }
     body > header nav li {
       position: relative;
-      opacity: .6;
+      opacity: .9;
       transition: all var(--animation);
       border-bottom: thin solid transparent;
       border-radius: 5%;
@@ -218,30 +219,35 @@ body > header {
         display: block; }
     body > header nav a {
       display: block;
-      text-transform: uppercase;
       padding: 0 var(--space-3);
       text-decoration: none;
       line-height: calc(var(--toolbar-height) - (4 * var(--space-2)));
       color: inherit;
       font-weight: 200; }
-    body > header nav nav a:focus, body > header nav nav a:hover {
-      text-shadow: var(--extruded-dark);
-      opacity: .75; }
+      body > header nav a:focus, body > header nav a:hover {
+        text-shadow: var(--extruded-dark);
+        opacity: 0.6; }
     body > header nav .submenu {
       display: none;
       position: absolute;
       top: 100%;
       left: 0;
-      background-color: #fff;
+      background-color: var(--primary);
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
       list-style: none;
       padding: 0;
       margin: 0; }
       body > header nav .submenu li {
-        padding: 8px 16px; }
+        border: none;
+        width: 100%; }
+        body > header nav .submenu li:hover {
+          background: var(--lighten-2); }
+          body > header nav .submenu li:hover a {
+            color: inherit;
+            text-shadow: none;
+            opacity: 1; }
         body > header nav .submenu li a {
-          color: #000;
-          padding: 8px 16px; }
+          color: inherit; }
     body > header nav .languages a.lang {
       color: transparent;
       max-width: 2em;
@@ -256,7 +262,7 @@ body > header {
     body > header nav .languages a.active {
       display: none; }
 
-@media (max-width: 71.24em) {
+@media (max-width: 59.99em) {
   body > header {
     flex-wrap: wrap; }
     body > header label {
@@ -278,6 +284,21 @@ body > header {
           border-bottom-color: var(--lighten-2); }
         body > header nav a:focus, body > header nav a:hover {
           background: var(--darken-1); }
+      body > header nav .submenu {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: none;
+        background: transparent; }
+        body > header nav .submenu li {
+          padding-left: var(--space-4); }
+          body > header nav .submenu li a {
+            color: inherit;
+            padding: var(--space-2) 0; }
+      body > header nav .has-children > a::after {
+        float: right;
+        margin-top: var(--space-2); }
     body > header input[type=checkbox]:checked ~ nav {
       display: block; } }
 
@@ -1361,7 +1382,7 @@ form input {
         width: 2ch; }
 
 .section.schedule nav.day-tabs {
-  font-size: 1.8em;
+  font-size: 1.6em;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -1382,9 +1403,10 @@ form input {
   margin: 1rem 2rem 2rem;
   padding: var(--space-3) var(--container-margin); }
   .section.schedule main > section.schedule .day {
-    display: none; }
+    display: block; }
     .section.schedule main > section.schedule .day:target {
-      display: block; }
+      display: block;
+      scroll-margin-top: var(--toolbar-height); }
 
 .section.schedule h2 {
   display: none; }
@@ -1417,6 +1439,13 @@ form input {
   position: absolute;
   top: 0;
   left: -4.5ch; }
+
+.section.schedule .fulldate {
+  font-size: 1.8em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-self: left; }
 
 .section.schedule .session {
   position: relative;

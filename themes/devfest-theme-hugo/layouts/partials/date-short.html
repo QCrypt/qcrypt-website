@@ -7,7 +7,6 @@
 {{ if eq $lang "fr" }}
 	{{ index $monthFr (sub $time.Month 1)}}
 {{ else }}
-	{{ dateFormat "Jan." $time}}
+	{{ dateFormat "Mon, 2 Jan" $time }}
 {{ end }}
-	{{ $time.Year }}
 

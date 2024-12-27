@@ -6,9 +6,9 @@
 	  <div class="logo">
 			{{ $logoPath := "" }}
 			{{ if $currentYear }}
-				{{ $logoPath = (index .Site.Params.logos $currentYear).header }}
+				{{ $logoPath = (index .Site.Params $currentYear).logos.header }}
 			{{ else }}
-				{{ $logoPath = (index .Site.Params.logos "2024").header }}
+				{{ $logoPath = (index .Site.Params "2024").logos.header }}
 			{{ end }}		
 			<a href="{{ printf "/%s/" $currentYear | relLangURL }}">
      	   <img src="{{ $logoPath }}" alt="logo {{ .Site.Title }}">

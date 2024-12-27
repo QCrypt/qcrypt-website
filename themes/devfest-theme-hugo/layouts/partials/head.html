@@ -46,7 +46,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
 	{{ $currentYear := index (split .RelPermalink "/") 1 }}
 	{{ if $currentYear }}
-	  <link rel="stylesheet" href="/{{ $currentYear }}/theme.css">
+	  <link rel="stylesheet" href="/theme-{{ $currentYear }}.css">
 	{{ end }}
 
 	{{ block "headextra" . }}

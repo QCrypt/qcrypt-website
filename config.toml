@@ -17,14 +17,14 @@ GoogleAnalytics = "G-221GMGECQ6"
 [params]
     title = "QCrypt Conference Website"
     date = "2024-09-02"
-    year = 2024
+    currentyear = 2024
     description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
     email = "webmaster@qcrypt.net"
     keywords = "event, quantum cryptography, QCrypt"
     copyright = "We :heart: sheep"
     copyright_link = "https://github.com/QCrypt/qcrypt-website"
-    # cfpUrl = ""
+    # cfpUrl = "/2024/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
@@ -33,22 +33,30 @@ GoogleAnalytics = "G-221GMGECQ6"
     safariPinnedTab = "/safari-pinned-tab.svg"
     themeColor = "#086788"
 
-[params.logos]
-    footer = "/images/logos/netlify-color-accent.svg"
-    footer_link = "https://www.netlify.com"
-    [params.logos.2024]
-        jumbo = "/images/logos/QCrypt_2024_logo_final.png"
-        header = "/images/logos/QCrypt_24_logo_2.png"
-    [params.logos.2023]
+[params.2023]
+  city = "Washington DC, USA"
+  timeanddate_cityid = 263
+  [params.2023.logos]
         jumbo = "/images/logos/QuCrC23_Logo.png"
         header = "/images/logos/QuCrC23_Logo.png"
 
+[params.2024]
+  city = "Vigo, Spain"
+  timeanddate_cityid = 4529
+  [params.2024.logos]
+        jumbo = "/images/logos/QCrypt_2024_logo_final.png"
+        header = "/images/logos/QCrypt_24_logo_2.png"
+
+[params.logos]
+    footer = "/images/logos/netlify-color-accent.svg"
+    footer_link = "https://www.netlify.com"
+
 [server]
-[[server.redirects]]
-    from = "/"
-    to = "/2024/"
-    status = 302
-    force = true 
+  [[server.redirects]]
+      from = "/"
+      to = "/2024/"
+      status = 302
+      force = true 
 
 [menu]
   [[menu.2023]]

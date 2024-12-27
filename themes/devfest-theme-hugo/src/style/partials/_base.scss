@@ -4,6 +4,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: var(--darken-2);
+  scroll-behavior: smooth;
 }
 
 *,
