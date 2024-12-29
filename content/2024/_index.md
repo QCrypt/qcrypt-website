@@ -8,7 +8,7 @@ year: 2024
 type: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/backgrounds/QCrypt24_background.jpg" imgLabel="QCrypt 2024 background" logo="/images/logos/QCrypt_2024_logo_final.png" %}}
+{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}
 
 ## 2-6 September 2024
 
@@ -59,7 +59,7 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 
 <!-- THE MAP -->
 {{% home-location
-    image="/images/backgrounds/afundation_venue.png"
+    image="/images/2024/afundation_venue.png"
     address="Sede Afundación Vigo, Rúa Policarpo Sanz, 24, 26, Santiago de Vigo, 36202 Vigo, Pontevedra"
     latitude="42.237410"
     longitude="-8.722420"

@@ -1,14 +1,22 @@
-# QCrypt 2024 website
+# QCrypt 2023+ website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2d41c-275c-4d5a-90ed-14db4a9accb5/deploy-status)](https://app.netlify.com/sites/qcrypt-website/deploys)
+
+Live site at https://qcrypt.net
 
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d55bf01e-0ed4-4a50-848e-df4a68ef5f62/deploy-status)](https://app.netlify.com/sites/qcrypt2024/deploys)
 
-Live site at https://2024.qcrypt.net
 
-Using the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
+## History
+Originally based on the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
 adapted from the fork by the cloudnative-amsterdam people: https://github.com/cloudnative-amsterdam/public-website
 
-theme submodule now included directly in this git repository.
+Used to run https://2020.qcrypt.net, https://2021.qcrypt.net, https://2022.qcrypt.net
+
+Since 2023, the theme submodule is included directly in this git repository.
+
+In preparation of the 2025 edition, a more permanent solution is envisioned with one main page, where more years can be added, broadly modeled after the IACR flagship websites like https://eurocrypt.iacr.org/2024, https://eurocrypt.iacr.org/2025, https://crypto.iacr.org/2023/, https://asiacrypt.iacr.org/2024/, and the "odd one out" https://crypto.iacr.org/2024/.
+
 
 ## Building this conference site from scratch
 
@@ -16,59 +24,35 @@ theme submodule now included directly in this git repository.
 2. Clone this repo:
 
 ```bash
-git clone git@github.com:QCrypt/website-2024.git
+git clone git@github.com:QCrypt/qcrypt-website.git
 ```
 
 3. It's done. Just start Hugo server to see the site live!
 
 ```bash
-cd ../..
+cd qcrypt-website
 hugo server
 ```
 
-5. Edit the markdown source files with ending .md in the /content/ subdirectory to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
+5. Edit the markdown source files with ending .md in the /content/ subdirectories to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
 
-6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) or [Atom](https://atom.io/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
+6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
-7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt2024.netlify.com/ and accessible under https://2024.qcrypt.net . If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qcrypt2024/deploys).
+7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt-website.netlify.com/ and accessible under https://qcrypt.net . If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qcrypt-website/deploys).
+
 
 ## Customizing the theme
-The theme is located in the themes/devfest-theme-hugo subdirectory. 
+Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md)
 
-First, install [yarn](https://yarnpkg.com/lang/en/docs/install/).
-
-Then, use
-```
-cd themes/devfest-theme-hugo
-yarn
-```
-to install the dependencies.
-
-As you might not have the right version of npm, you might have to install the node version manager [nvm](https://github.com/nvm-sh/nvm). Then, use
-```
-nvm install 10.0
-```
-
-In the same directory, run `npm start` to watch [Sass](https://sass-lang.com/) changes.
-
-When you are happy with the result run `npm run build` to build the minified versions of `theme.js` and `theme.css`. Then commit to these.
-
-### Installing on a new ARM Mac
-node-sass is not yet ported to ARM processors, but there is a work-around described here:
-https://github.com/sass/node-sass/issues/3033#issuecomment-763180778
-TODO: newer software exists now...
 
 ## Setting up the next year 2024 based on year 2023
 
-### creating new repositories on GitHub
-1. create new empty repository QCrypt/website-2024 from the web: https://github.com/organizations/QCrypt/repositories/new
-2. clone the empty repository QCrypt/website-2024 onto local hard drive
-3. clone QCrypt/website-2023 into a temporary directory, remove bulky data like slides and posters, copy the rest over to the empty local website-2024
+### design 
+1. create a new logo (something with a sheep)
 
-13. ```git add *```
-15. ```git commit -m 'initial commit'```
 
-The old 2023 website should now be ready to be served by ```hugo server```. It is ready to be updated to the 2024 edition.
+### create new subdirectories
+
 
 ### create new team and add admins
 1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2024```

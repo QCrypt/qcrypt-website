@@ -2,7 +2,7 @@
 title: 'Updates & Announcements'
 format: 
 tags:
-  - break
+  - other
 videoId: null
 presentation: null
 draft: false

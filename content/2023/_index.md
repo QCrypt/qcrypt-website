@@ -5,8 +5,8 @@ type: home
 
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/backgrounds/umd1.jpg" imgLabel="QCrypt 2023 background" 
-logo="/images/logos/QuCrC23_Logo.png" %}}
+{{% jumbo img="/images/2023/background-2023.jpg" imgLabel="QCrypt 2023 background" 
+logo="/images/2023/QuCrC23_Logo.png" %}}
 
 ## August 14–18, 2023
 

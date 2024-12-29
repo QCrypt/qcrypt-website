@@ -1,5 +1,34 @@
 # DevFest Theme Hugo
 
+The theme is located in the themes/devfest-theme-hugo subdirectory. 
+
+First, install [yarn](https://yarnpkg.com/lang/en/docs/install/).
+
+Then, use
+```
+cd themes/devfest-theme-hugo
+yarn
+```
+to install the dependencies.
+
+As you might not have the right version of npm, you might have to install the node version manager [nvm](https://github.com/nvm-sh/nvm). Then, use
+```
+nvm install 10.0
+```
+
+In the same directory, run `npm start` to watch [Sass](https://sass-lang.com/) changes.
+
+When you are happy with the result run `npm run build` to build the minified versions of `theme.js` and `theme.css`. Then commit to these.
+
+### Installing on a new ARM Mac
+node-sass is not yet ported to ARM processors, but there is a work-around described here:
+https://github.com/sass/node-sass/issues/3033#issuecomment-763180778
+TODO: newer software exists now...
+
+
+
+
+
 DevFest Theme Hugo is a theme for conferences/events.
 
 It's developed for the 2019 version of Devfest Toulouse.

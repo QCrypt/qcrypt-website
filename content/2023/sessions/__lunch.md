@@ -2,7 +2,7 @@
 title: 'Independent Lunch (click for guide)'
 format: 
 tags:
-  - break
+  - lunch
 videoId: null
 presentation: null
 draft: false

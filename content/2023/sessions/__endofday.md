@@ -2,7 +2,7 @@
 title: 'End of Day'
 format: 
 tags:
-  - break
+  - other
 videoId: null
 presentation: null
 draft: false

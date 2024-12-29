@@ -3,7 +3,7 @@ title: 'Updates & Announcements'
 type: sessions
 format: 
 tags:
-  - break
+  - other
 videoId: null
 presentation: null
 draft: false

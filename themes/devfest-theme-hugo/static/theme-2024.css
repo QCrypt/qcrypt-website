@@ -617,15 +617,6 @@ a.social {
   object-fit: cover;
   object-position: 50% 50%; }
 
-.banner h1 {
-  padding: 2rem var(--container-margin); }
-
-.banner .description {
-  padding: 2rem var(--container-margin);
-  background: var(--color-hero);
-  border-top: thin solid var(--darken-1);
-  border-bottom: thin solid var(--darken-1); }
-
 .hero h1 {
   padding: 2rem var(--container-margin); }
 
@@ -858,7 +849,8 @@ a.social {
   background-color: var(--wtf); }
 
 .tag-break {
-  background-color: var(--breaks); }
+  background-color: var(--breaks);
+  background-image: url("/images/backgrounds/pause.jpg"); }
 
 .tag-remoco {
   background-color: var(--breaks); }
@@ -886,10 +878,10 @@ section .tags {
   background-image: url("/images/backgrounds/pause.png"); }
 
 .tag-lunch {
-  background-image: url("/images/backgrounds/lunch.png"); }
+  background-image: url("/images/backgrounds/lunch.jpg"); }
 
 .tag-party {
-  background-image: url("/images/backgrounds/party.png"); }
+  background-image: url("/images/backgrounds/party.jpg"); }
 
 .icon {
   --size: 1em;

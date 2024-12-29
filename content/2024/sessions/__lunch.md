@@ -2,7 +2,7 @@
 title: 'Lunch at sede Afundacion'
 format: 
 tags:
-  - break
+  - lunch
 videoId: null
 presentation: null
 draft: false
