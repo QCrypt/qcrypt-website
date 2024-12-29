@@ -17,7 +17,7 @@ GoogleAnalytics = "G-221GMGECQ6"
 [params]
     title = "QCrypt Conference Website"
     date = "2024-09-02"
-    currentyear = 2024
+    currentYear = 2024
     description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
     email = "webmaster@qcrypt.net"
@@ -31,11 +31,11 @@ GoogleAnalytics = "G-221GMGECQ6"
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
-    themeColor = "#086788"
 
 [params.2023]
   city = "Washington DC, USA"
   timeanddate_cityid = 263
+  themeColor = "#ffffff"
   [params.2023.logos]
         jumbo = "/images/logos/QuCrC23_Logo.png"
         header = "/images/logos/QuCrC23_Logo.png"

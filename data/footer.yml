@@ -21,6 +21,11 @@ content:
         name: QCrypt History
         url: /2024/history/
         newTab: false
+      - nameKey: footer_coc
+        name: QCrypt Code of Conduct
+        url: /2024/code-of-conduct/
+        newTab: false
+
 
   # - title: footer_extra
   #   links:

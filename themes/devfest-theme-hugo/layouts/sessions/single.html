@@ -1,6 +1,9 @@
 {{ define "main" }}
 
-{{ $currentYear := index (split .RelPermalink "/") 1 }}
+{{ $currentYear := string .Site.Params.currentYear }}
+{{ if not (eq .Section "") }}
+  {{ $currentYear = .Section }}
+{{ end }}
 {{ $dataKey := printf "accepted-papers-%s" $currentYear }}
 {{ $papers := index site.Data $dataKey | default slice }}
 

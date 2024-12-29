@@ -82,7 +82,7 @@ Some editions of QCrypt features best-poster awards, sometimes awarded per poste
 |2017 Cambridge | Lev Vaidman | Cupjin Huang and Yaoyun Shi
 |2018 Shanghai | Shiyu Wang | Yingqiu Mao
 
-
+## Websites & Logos
 ### 2023
 <a href="http://2023.qcrypt.net/" title="Website" target="_blank">
 	<img src="/images/conferences/2023.png" width="800"/>

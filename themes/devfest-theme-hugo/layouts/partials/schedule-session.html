@@ -1,6 +1,9 @@
 {{/* following https://discourse.gohugo.io/t/access-site-data-from-partial/31481 and https://gohugo.io/variables/site/ and */}}
 
-{{ $currentYear := index (split .RelPermalink "/") 1 }}
+{{ $currentYear := string .Site.Params.currentYear }}
+{{ if not (eq .Section "") }}
+  {{ $currentYear = .Section }}
+{{ end }}
 {{ $dataKey := printf "accepted-papers-%s" $currentYear }}
 {{ $papers := index site.Data $dataKey | default slice }}
 

@@ -1,7 +1,10 @@
 {{ define "main" }}
 
 {{ $lang := $.Page.Language.Lang }}
-{{ $currentYear := index (split .RelPermalink "/") 1 }}
+{{ $currentYear := string .Site.Params.currentYear }}
+{{ if not (eq .Section "") }}
+  {{ $currentYear = .Section }}
+{{ end }}
 {{ $scheduleKey := printf "schedule-%s" $currentYear }}
 {{ $schedule := index .Site.Data $scheduleKey | default .Site.Data.schedule }}
 

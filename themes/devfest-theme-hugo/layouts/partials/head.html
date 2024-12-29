@@ -6,6 +6,11 @@
 	<meta name="MobileOptimized" content="320">
 	<meta name="Description" content="{{ .Site.Params.description }}">
 
+	{{ $currentYear := string .Site.Params.currentYear }}
+	{{ if not (eq .Section "") }}
+	  {{ $currentYear = .Section }}
+	{{ end }}
+	
 	{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 	{{/* NOTE: These Hugo Internal Templates can be found starting at
 	https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
@@ -33,6 +38,7 @@
 	<link rel="manifest" href="{{ .Site.Params.manifest }}">
 	{{ end }}
 	{{ if .Site.Params.themeColor }}
+	
 	<meta name="theme-color" content="{{ .Site.Params.themeColor }}"/>
 	<meta name="msapplication-TileColor" content="#{{ .Site.Params.themeColor }}">
 	{{ if .Site.Params.safariPinnedTab }}
@@ -44,11 +50,9 @@
 	<link href="{{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
-	{{ $currentYear := index (split .RelPermalink "/") 1 }}
-	{{ if $currentYear }}
-	  <link rel="stylesheet" href="/theme-{{ $currentYear }}.css">
-	{{ end }}
-
+	
+	<link rel="stylesheet" href="/theme-{{ $currentYear }}.css">
+	
 	{{ block "headextra" . }}
 	<!-- No extra headextra -->
 	{{ end }}
