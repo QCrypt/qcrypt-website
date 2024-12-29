@@ -37,12 +37,13 @@
 	{{ if .Site.Params.manifest }}
 	<link rel="manifest" href="{{ .Site.Params.manifest }}">
 	{{ end }}
-	{{ if .Site.Params.themeColor }}
-	
-	<meta name="theme-color" content="{{ .Site.Params.themeColor }}"/>
-	<meta name="msapplication-TileColor" content="#{{ .Site.Params.themeColor }}">
+
+	{{ if (index .Site.Params $currentYear).themeColor }}
+	{{ $themeColor := (index .Site.Params $currentYear).themeColor }}
+	<meta name="theme-color" content="{{ $themeColor }}"/>
+	<meta name="msapplication-TileColor" content="#{{ $themeColor }}">
 	{{ if .Site.Params.safariPinnedTab }}
-	<link rel="mask-icon" href="{{ .Site.Params.safariPinnedTab }}" color="{{ .Site.Params.themeColor }}">
+	<link rel="mask-icon" href="{{ .Site.Params.safariPinnedTab }}" color="{{ $themeColor }}">
 	{{ end }}
 	{{ end }}
 
