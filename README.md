@@ -38,33 +38,47 @@ hugo server
 
 6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
-7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt-website.netlify.com/ and accessible under https://qcrypt.net . If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qcrypt-website/deploys).
+7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt-website.netlify.com/ and accessible under https://qcrypt.net. If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qcrypt-website/deploys).
+
 
 
 ## Customizing the theme
 Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md)
 
 
-## Setting up the next year 2024 based on year 2023
+## Setting up the next year 2025 based on previous years
 
 ### design 
 1. create a new logo (something with a sheep)
+2. choose a background image for the main site, like https://github.com/QCrypt/qcrypt-website/blob/main/static/images/2024/background-2024.jpg 
+3. and make a related banner, like https://github.com/QCrypt/qcrypt-website/blob/main/static/images/2024/banner-2024.jpg 
+4. pick a related themecolor, like 
 
+### create new subdirectories for content
+1. It's probably easiest to copy the entire content folder from a previous year like https://github.com/QCrypt/qcrypt-website/tree/main/content/2024 and start adjusting from there
+2. create 2025 subfolder in https://github.com/QCrypt/qcrypt-website/tree/main/static/images
+3. put the images (logo, background image, banner) from above to this folder
 
-### create new subdirectories
+### add info to main config file https://github.com/QCrypt/qcrypt-website/blob/main/hugo.toml 
+4. In [params], change the currentYear and date
+5. add a section [params.2025] and supply the required information
+6. the timeanddate_cityid can be inferred from https://www.timeanddate.com/worldclock/personal.html by looking at the link after clicking on "Share This Personal World Clock" 
+7. Under [menu], create a new [[menu.2025]] structure as for 2023 and 2024.
+
+### adjust content files
+1. Go through all .md files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025 and the _index.md files in the subdirectories, and adjust the front matter. 
+2. Adjust the menu: to say 2025 instead of 2024.
+3. put "draft: true" in case you want to disable the page for the time being.
+4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under /content/2025 for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
 
 
 ### create new team and add admins
-1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2024```
-2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2024/members
-3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2024/repositories
+1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2025```
+2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2025/members
+3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2025/repositories
+
 
 ### setting up netfliy & domain name
-1. create new site on https://app.netlify.com/teams/qcrypt/overview by "import from existing project"
-2. connect to Git provider: GitHub
-3. pick correct repository: QCrypt/website-2024
-3. rename project to qcrypt2024
-4. In [Gandi](https://admin.gandi.net/domain/c9de5b76-af33-11e7-8de2-00163ec31f40/qcrypt.net/records): add a new DNS entry, as suggested in netlify:  ```2024	CNAME	10800	qcrypt2024.netlify.app.```
 5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to 2024 site
 
 ### slack integration
