@@ -1,5 +1,5 @@
 ---
-key: norbert
+key: lutkenhaus
 name: Norbert Lütkenhaus
 surname: Lütkenhaus
 year: 2023

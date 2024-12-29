@@ -2,11 +2,13 @@
 title: Registration
 year: 2024
 
-draft: true
+draft: false
 type: text_page
 menu:
-    main:
+    2024:
         weight: 2
+        parent: attend
+
 ---
 
 ## Online registration for QCrypt 2024 is now closed! See you in Vigo!

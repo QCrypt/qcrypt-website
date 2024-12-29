@@ -4,8 +4,9 @@ year: 2024
 type: text_page
 draft: true
 menu:
-    main:
+    2024:
         weight: 10
+        parent: technical-program
 
 ---
  
@@ -41,7 +42,7 @@ Poster boards will be identified by <strong>lastname_day_title. </strong>
 
 Poster sessions will be 90 minutes from 4:30 p.m. to 6 p.m. on Monday and Tuesday.
 <br><br>
-{{< button-link label="Monday's Schedule" url="/sessions/poster1/" icon="" >}}
-{{< button-link label="Tuesday's Schedule" url="/sessions/poster2/" icon="" >}}
+{{< button-link label="Monday's Schedule" url="/2024/sessions/poster1/" icon="" >}}
+{{< button-link label="Tuesday's Schedule" url="/2024/sessions/poster2/" icon="" >}}
 <br>
 
