@@ -2,14 +2,12 @@
 title: News
 year: 2023
 draft: false
-type: text_page
+type: no_toc
 menu:
     2023:
         weight: 16
 
 ---
-
-> ## News
 
 > <h3> December 12 – <strong>Talk Videos on YouTube</h3></strong><body style="text-align:left">Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>
 

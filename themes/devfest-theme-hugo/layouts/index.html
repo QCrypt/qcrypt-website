@@ -1,6 +1,12 @@
+{{ printf "Using template: layouts/index.html" | safeHTML }}
+{{ warnf "Using template: layouts/index.html"}}
+
+{{ define "banner" }}
+ <!-- no banner here! -->
+{{ end }}
+
 {{ define "main" }}
-
-{{ .Content }}
-
+    {{ printf "layouts/index.html" | safeHTML }}
+    {{ .Content }}
 {{ end }}
 

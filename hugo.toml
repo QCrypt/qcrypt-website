@@ -37,16 +37,18 @@ GoogleAnalytics = "G-221GMGECQ6"
   timeanddate_cityid = 263
   themeColor = "#ac191c"
   [params.2023.logos]
-        jumbo = "/images/logos/QuCrC23_Logo.png"
-        header = "/images/logos/QuCrC23_Logo.png"
+    jumbo = "/images/logos/QuCrC23_Logo.png"
+    header = "/images/logos/QuCrC23_Logo.png"
+    banner = "/images/backgrounds/2023_banner.jpeg"
 
 [params.2024]
   city = "Vigo, Spain"
   timeanddate_cityid = 4529
-  themeColor = "##0099cc"
+  themeColor = "#0099cc"
   [params.2024.logos]
-        jumbo = "/images/logos/QCrypt_2024_logo_final.png"
-        header = "/images/logos/QCrypt_24_logo_2.png"
+    jumbo = "/images/logos/QCrypt_2024_logo_final.png"
+    header = "/images/logos/QCrypt_24_logo_2.png"
+    banner = "/images/backgrounds/2024_banner.jpg"
 
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"

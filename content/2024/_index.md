@@ -8,7 +8,7 @@ year: 2024
 type: home
 ---
 <!-- JUMBO -->
-{{% jumbo img="/images/backgrounds/QCrypt24_background.jpg" imgLabel="QCrypt 2022 background" %}}
+{{% jumbo img="/images/backgrounds/QCrypt24_background.jpg" imgLabel="QCrypt 2024 background" logo="/images/logos/QCrypt_2024_logo_final.png" %}}
 
 ## 2-6 September 2024
 

@@ -41,7 +41,7 @@
 	{{ if (index .Site.Params $currentYear).themeColor }}
 	{{ $themeColor := (index .Site.Params $currentYear).themeColor }}
 	<meta name="theme-color" content="{{ $themeColor }}"/>
-	<meta name="msapplication-TileColor" content="#{{ $themeColor }}">
+	<meta name="msapplication-TileColor" content="{{ $themeColor }}">
 	{{ if .Site.Params.safariPinnedTab }}
 	<link rel="mask-icon" href="{{ .Site.Params.safariPinnedTab }}" color="{{ $themeColor }}">
 	{{ end }}

@@ -7,7 +7,6 @@ menu:
         identifier: code-of-conduct
         parent: attend
 
-
 draft: false
 type: no_toc
 ---

@@ -1,6 +1,6 @@
 {{ $_hugo_config := `{ "version": 1 }` }}
 {{ $imgLabel := .Get "imgLabel" }}
-{{ $logo := .Site.Params.logos.jumbo }}
+{{ $logo := .Get "logo" }}
 <div class="jumbo">
 	<div class="jumbo-cover" style="background-image: url('{{ .Get "img" }}')" {{ if $imgLabel }}aria-label="{{ $imgLabel }}"{{ end }}></div>
 	<img id="jumbo-img" src="{{ .Get "img" }}" />
