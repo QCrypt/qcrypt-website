@@ -1,3 +1,8 @@
+{{ $currentYear := string .Site.Params.currentYear }}
+{{ if not (eq .Section "") }}
+  {{ $currentYear = .Section }}
+{{ end }}
+
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default " en" }}">
 {{ partial "head.html" . }}
@@ -11,14 +16,9 @@
     {{- end -}}
 ">
 
+
 <!-- Debug Info (only visible in development) -->
 {{ if hugo.IsProduction | not }}
-
-{{ $currentYear := string .Site.Params.currentYear }}
-{{ if not (eq .Section "") }}
-  {{ $currentYear = .Section }}
-{{ end }}
-
 <div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
 	<details>
 		<summary>Debug Info from baseof.html </summary>
@@ -48,6 +48,18 @@ Current Year: {{ $currentYear }}
 {{ end }}
 
 <main>
+  {{ block "banner" . }}
+    {{ $currentYear := string .Site.Params.currentYear }}
+    {{ if not (eq .Section "") }}
+      {{ $currentYear = .Section }}
+    {{ end }}
+
+    <div class="banner">
+      {{ $logoPath := (index .Site.Params $currentYear).logos.banner }}
+      <img id="banner-img" src="{{ $logoPath }}" alt="logo {{ .Site.Title }} ">
+    </div>
+  {{ end }}
+
 	{{ block "main" . }}
 	<!-- Missing main block -->
 	{{ end }}
