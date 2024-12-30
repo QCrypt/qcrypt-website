@@ -1,15 +1,8 @@
 ---
-title:  "{{ replace .TranslationBaseName "-" " " | title }}"
-date: {{ .Date }}
+title:  "{{ title }}"
+year: {{ year }}
 type: partner
-category: platinium
+category: gold
 website: 'https://www.airbus.com/'
-logo: /2024/partners/logos/logo-airbus.png
-socials:
-  - name: twitter
-    url: 'https://twitter.com/airbus'
-  - name: linkedin
-    url: 'https://www.linkedin.com/in/airbus'
+logo: /2024/content/partners/logos/logo-airbus.png
 ---
-
-TODO Description

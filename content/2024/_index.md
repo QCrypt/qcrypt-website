@@ -33,7 +33,7 @@ layout: home
 {{% home-info class="primary" %}}
 ## What is QCrypt 2024?
 
-QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/charter/#history-of-qcrypt">here</a>.
+QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
 {{% /home-info %}}
 
 {{% home-keydates %}}

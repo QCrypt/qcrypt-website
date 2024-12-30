@@ -1,17 +1,15 @@
 ---
-id: "{{ .TranslationBaseName | title }}"
-name: "{{ replace .TranslationBaseName "-" " " | title }}"
-company: XXX Corp
-featured: false
-photo: /images/speakers/alexandre_delattre.jpg
-socials:
-  - icon: twitter
-    link: 'https://twitter.com/XXX'
-    name: '@XXX'
-shortBio: lorem ipsum ...
-companyLogo: /images/speakers/company/YYY.jpg
-country: 'Toulouse, France'
-
+key: diamanti
+name: Eleni Diamanti
+surname: Diamanti
+year: 2024
+company: LIP6, CNRS/Sorbonne Université
+photoURL: /2024/speakers/images/diamanti.jpg
+type: invited
+website: '/2024/sessions/invited_diamanti'
+# socials:
+#   - link: 
+#     name: Site
 ---
 
 Full bio

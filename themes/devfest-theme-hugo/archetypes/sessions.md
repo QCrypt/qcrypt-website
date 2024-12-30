@@ -1,15 +1,12 @@
 ---
-id: XXX
-title: lorem ipsum
-language: Français
-complexity: Débutant
-talkType: Conférence
-speakers:
-  - guillaume_membre
-tags:
-  - IOT
-presentation: http://slideshare.....
-videoId: Youtube Id
+title: "Contributed Talk 1a"
+format: contributed
+type: sessions
+year: 2024
+papers:
+- 43
+- 124
+videoId: null
+presentation: null
+draft: false
 ---
-
-Full description

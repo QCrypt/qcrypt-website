@@ -32,7 +32,7 @@ logo="/images/2023/QuCrC23_Logo.png" %}}
 
 ## What is QCrypt 2023?
 
-QCrypt 2023 is the 13th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/charter/#history-of-qcrypt">here</a>.
+QCrypt 2023 is the 13th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
 
 {{% /home-info %}}
 

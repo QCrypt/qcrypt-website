@@ -2,7 +2,8 @@
 
 The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It used to be an independent theme, as a separate git submodule, but since 2023, it's permanently included in the git repository.
 
-
+> [!NOTE]
+> The original multi-lingual support has been dropped, but reminders of it are still lingering around.
 
 ## Getting ready to edit the theme
 
@@ -160,8 +161,7 @@ GoogleAnalytics = "G-XXXXXXXX-X"
 The top navigation bar is build with
 
 * Site title
-* Site parameter `logos.header` for the logo
-* Site languages if you need a multilingual site
+* Site parameter `logos.header` for the logo, specified per year in [hugo.toml](../../hugo.toml)
 * Menu `main`
 
 ### Footer
@@ -172,7 +172,6 @@ The footer is build with
 * Site params `email`, `subscriptionUrl`, `logos.footer`, `copyright`
 * data from `data/footer.yml`
 
-
 ```yml
 share:
   - name: facebook
@@ -181,58 +180,56 @@ share:
     url: https://twitter.com/intent/tweet?text=
 
 follow:
-  - name: facebook
-    url: https://www.facebook.com/GDGToulouse/
   - name: twitter
-    url: https://twitter.com/devfesttoulouse
-  - name: linkedin
-    url: https://www.linkedin.com/company/devfesttoulouse/
+    url: https://twitter.com/Qcryptc
   - name: youtube
-    url: https://www.youtube.com/channel/UCx83f-KzDd3o1QK2AdJIftg
+    url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
 
 content:
   - title: footer_about
     links:
-      - name: GDG Toulouse
-        url: http://gdgtoulouse.fr/
-        newTab: true
-      - name: Google Developers Group
-        url: https://developers.google.com/
-        newTab: true
+      - nameKey: footer_charter
+        name: QCrypt Charter
+        url: /charter/
+        newTab: false
+      - nameKey: footer_history
+        name: QCrypt History
+        url: /history/
+        newTab: false
       - nameKey: footer_coc
+        name: QCrypt Code of Conduct
         url: /code-of-conduct/
         newTab: false
-
-  - title: footer_previous_edition
-    links:
-      - name: DevFest Toulouse 2018
-        url: https://2018.devfesttoulouse.fr/
-        newTab: true
-      - name: DevFest Toulouse 2017
-        url: https://2017.devfesttoulouse.fr/
-        newTab: true
-      - name: DevFest Toulouse 2016
-        url: https://2016.devfesttoulouse.fr/
-        newTab: true
 ```
+
+There are also quite some more options in the original tempalate that we are currently not using.
+
+The `url` in the links of `footer_about` is prepended with the `.Params.currentYear`, so that the footer always point to these documents of the current year.
+
 
 ### Home
 
-The Home page is build with markdown and calling some shortcodes.
+The Home page is build with markdown and calling some shortcodes like `jumbo`, `button-link`, `home-info` etc..
 
 #### Jumbo bloc
 
 ```hugo
-{{% jumbo img="/images/backgrounds/back-0.jpg" imgLabel="DevFest Toulouse 2019" %}}
+{{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}
 
-![](/images/logos/devfest_color_text.png)
+## 2-6 September 2024
 
-## October 3rd, 2019
-### Pierre Baudis congress center
-
+{{< button-link label="Conference Program"
+                url="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx"
+                icon="cfp" >}}
+{{< button-link label="Download Photos"
+                url="pictures"
+                icon="picture" >}}
+{{< button-link label="Organize QCrypt 2026"
+                url="2025"
+                icon="map-marker" >}}
 {{% /jumbo %}}
-
 ```
+
 
 #### Info block
 
@@ -240,17 +237,46 @@ With main description and key figures.
 
 ```hugo
 {{% home-info what="Participants:900,Day:1,Sessions:36,Parallel Tracks:4" class="primary" %}}
-## What is DevFest Toulouse?
+## What is QCrypt 2024?
 
-The DevFest, or 'Developers Festival', is a technical conference for developers.
-It is aimed at students, professionals or simply curious technophiles.
+QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
 {{% /home-info %}}
 ```
 
 ![](images/block-info.png)
 
+#### key dates
+Define the two important tables with key dates and website updates.
 
-#### Feature speakers block
+```hugo
+## Key Dates QCrypt 2023
+|Date |Event|
+|:----|:----|
+|<strike> 27 March 2023 </strike> | <!-- <a href="https://hotcrp.science.uva.nl/" target="_blank"> --> <strike> Talk submission open now </strike>|
+|<strike> Wed, 12 April 2023, 16:00 CET </strike> | <strike> Talk submission deadline </strike>|
+|<strike> Wed, 3 May - Tue, 08 August 2023 </strike>| <strike> Registration open now </strike>|
+|<strike> Wed, 21 June 2023</strike>|<strike> Talk acceptance notification </strike>|
+|<strike>Thu, 22 June 2023</strike>|<strike> Poster submission opens</strike>|
+|<strike>Fri, 30 June 2023, 16:00 CET</strike>|<strike>Poster submission deadline</strike>|
+|<strike>Sat, 8 July 2023</strike>| <strike>Poster acceptance notification</strike>|
+|<strike>Sat, 15 July 2023</strike>| <strike>Early bird rate deadline</strike>|
+|<strike>Tue, 08 August 2023</strike>| <strike>Registration deadline</strike>|
+|<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
+
+
+## Website Updates
+|Date |Event|
+|:----|:----|
+|December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
+|August 17, 2023 | QCrypt 2024 Venue Announced <a href="/2023/2024"> here</a>.|
+|August 17, 2023 | <strong>Student Paper Awards Announced</strong> <a href="/2023/sessions/business/">here</a>.|
+|August 15, 2023 | The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a>|
+|August 14, 2023 | The <a href="/2023/sessions/rump/">Rump Session</a> theme is: “We love turtles” ❤️🐢❤️|
+|August 14, 2023 | Attendees are encouraged to fill out the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">exit questionnaire</a> about their conference experience.|
+```
+
+
+#### Feature speakers block (not being used)
 
 Just present your feature speakers
 

@@ -1,16 +1,12 @@
 ---
-title: XXX
+title: Marcos Curty
+surname: Curty
 type: core
-subtitle: XXX
-job: XXX
-photo: /images/people/kevin_davin.png
+year: 2024
+subtitle: University of Vigo
+job: General chair
+photoURL: /2024/team/images/marcos_curty.jpg
 socials:
-  - link: 'https://uva.nl/XXX'
-    name: link
-  - link: 'https://twitter.com/XXX'
-    name: Twitter
-  - link: 'https://github.com/XXX'
-    name: Github
-  - link: www.linkedin.com/in/XXX
-    name: LinkedIn
+  - link: 'https://vqcc.uvigo.es/team/marcos-curty/'
+    name: Site
 ---
