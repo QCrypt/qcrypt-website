@@ -15,4 +15,4 @@ Bio: Alex May is a junior faculty member at the Perimeter Institute for Theoreti
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

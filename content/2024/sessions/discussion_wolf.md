@@ -13,4 +13,4 @@ Dr Ramona Wolf is a postdoctoral researcher at ETH Zurich in the group of Renato
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

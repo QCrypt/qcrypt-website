@@ -4,6 +4,7 @@
 
 Live site at https://qcrypt.net
 
+initiated and maintained by [Christian Schaffner](https://github.com/cschaffner) since 2020
 
 
 
@@ -60,7 +61,7 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 3. put the images (logo, background image, banner) from above to this folder
 
 ### add info to main config file https://github.com/QCrypt/qcrypt-website/blob/main/hugo.toml 
-4. In [params], change the currentYear and date
+4. In [params], LEAVE the currentYear and date as it is right now. Change this only when the new 2025 site is ready.
 5. add a section [params.2025] and supply the required information
 6. the timeanddate_cityid can be inferred from https://www.timeanddate.com/worldclock/personal.html by looking at the link after clicking on "Share This Personal World Clock" 
 7. Under [menu], create a new [[menu.2025]] structure as for 2023 and 2024.
@@ -77,7 +78,6 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2025/members
 3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2025/repositories
 
-
 ### setting up netfliy & domain name
 5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to 2024 site
 
@@ -90,3 +90,50 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 ### general
 - connect new admins to admins from last year
 - update hugo version? check what needs to be updated.
+
+### bump year
+Once the new site is ready to be "promoted" to be the current year, make the following changes:
+1. In hugo.toml, in [params], change the currentYear and date
+2. In [[server.redirects]], change the forward to = "/2025/"
+3. In https://github.com/QCrypt/qcrypt-website/blob/main/netlify.toml , adjust the redirect as well
+
+
+## Later Updates
+
+### call for papers, venue updates, registration
+1. adjust the according .md file in content/2025, possibly by switching back "draft: false" and adjusting the content from previous year
+2. ** all changes to the website should be mentioned in a table with "Website Updates" like on https://qcrypt.net/2023/ **, for the convenience of the website visitors
+3. The call-to-action buttons on the main site can be adjusted depending on the news.
+
+### tutorial, invited speakers, panelists are known
+1. update the .md files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/speakers
+2. remove previous images from the images subdirectory, upload new ones, and make sure the photoURL field of the speaker is pointing there.
+3. Use sensible names for the .md files, like eleni_diamanti.md 
+4. Per speaker, create an according session in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/sessions , using the examples from previous years.
+
+### accepted papers and posters are known
+1. Get accepted papers as json export from hotcrp from PC chair
+2. run [this python script](https://github.com/QCrypt/qcrypt-website/blob/main/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
+3. put the resulting file as accepted-papers-2025.json into [data](https://github.com/QCrypt/qcrypt-website/tree/main/data)
+
+Proceed accordingly with the list of accepted posters.
+
+### creating a schedule
+1. duplicate https://github.com/QCrypt/qcrypt-website/blob/main/data/schedule-2024.yml and call it schedule-2025.yml
+2. make sure all sessions exist
+3. Adjust the id's of the contributed papers in the sessions with contributed papers
+
+
+## More detailed explanations of the different content sections
+
+### Main page
+
+### Schedule
+
+### Partners / Sponsors
+
+### speakers
+
+### sessions
+
+### team

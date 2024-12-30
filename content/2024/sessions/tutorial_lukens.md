@@ -14,4 +14,4 @@ Bio: Joseph M. Lukens received the B.S. degree in electrical engineering and phy
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

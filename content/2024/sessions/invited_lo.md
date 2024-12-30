@@ -14,4 +14,4 @@ Bio: Hoi-Kwong Lo is a Professor of Physics and ECE (Electrical and Computer Eng
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

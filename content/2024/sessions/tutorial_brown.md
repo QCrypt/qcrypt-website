@@ -13,4 +13,4 @@ Bio: Peter Brown received his PhD from the University of York (UK) in 2019 and h
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

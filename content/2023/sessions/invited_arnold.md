@@ -13,4 +13,4 @@ Bio: Nathan Arnold is a physics Ph.D. student at the University of Illinois Urba
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

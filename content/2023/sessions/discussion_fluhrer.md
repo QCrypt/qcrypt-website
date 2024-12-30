@@ -13,4 +13,4 @@ Scott Fluhrer is a cryptographer who works for the Security and Trust (STO) Orga
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

@@ -15,4 +15,4 @@ Active in philanthropy, Corey is the founder, and Chairman Emeritus of the Preve
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

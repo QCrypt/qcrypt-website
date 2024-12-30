@@ -13,4 +13,4 @@ Bio: Dr Lai Zhou received the B.S. and Ph.D. degrees from Tsinghua University in
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

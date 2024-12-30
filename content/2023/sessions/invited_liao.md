@@ -13,4 +13,4 @@ Bio: Sheng-Kai Liao is a professor at the University of Science and Technology o
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

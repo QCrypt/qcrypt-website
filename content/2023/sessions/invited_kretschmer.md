@@ -14,4 +14,4 @@ Bio: William Kretschmer is a Ph.D. candidate in Computer Science at UT Austin ad
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->

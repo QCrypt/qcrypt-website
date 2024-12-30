@@ -13,4 +13,4 @@ Bio: Armin Tavakoli (1993, Sweden) is since 2023 Assistant Professor at Lund Uni
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2024/sessions/slides/QCrypt2024InvitedDiamanti.pdf" -->

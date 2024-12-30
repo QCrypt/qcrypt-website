@@ -14,4 +14,4 @@ Bio: James Bartusek is a PhD candidate at UC Berkeley, where he is advised by Sa
 
 <!-- fields to use above: -->
 <!-- videoId: "Vfl9pPh6ipI" -->
-<!-- presentation: "/slides/invited-MargaridaPereira.pdf" -->
+<!-- presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf" -->
