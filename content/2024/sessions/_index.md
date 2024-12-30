@@ -1,5 +1,5 @@
 ---
-title: Session Overview
+title: Sessions
 year: 2024
 draft: false
 type: sessions
