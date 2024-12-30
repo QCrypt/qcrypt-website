@@ -86,9 +86,12 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 1. paste the Webhook URL into netfliy:  https://app.netlify.com/sites/qcrypt2024/settings/deploys (for deploy succeesful and deploy failed)
 1. add admins to Slack channel
 
-### general
+### create new email addresses
+We probably need new email addresses like 2025@qcrypt.net and pcchairs2025@qcrypt.net.
+
+### technical updates
 - connect new admins to admins from last year
-- update hugo version? check what needs to be updated.
+- Is it time to update the hugo version? check what needs to be updated.
 
 ### bump year
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
@@ -136,6 +139,13 @@ Every content file contains a [front matter](https://gohugo.io/content-managemen
 
 The original Hugo template had multilingual support (French / English), but we have dropped this in the meanwhile, some reminders of these times are still around, though.
 
+### file names
+> [!IMPORTANT]
+> Even though Hugo is quite forgiving, please use sensible and consistent file names for content pages, pictures etc. [This page](https://docs.hugoblox.com/reference/site-structure/) recommends to:
+> - Stick to lowercase for all file names, including content files (`about.md`), layouts, and static assets (`images/logo.png`).
+> - Use hyphens (`-`) or underscores (`_`) to separate words instead of spaces or capital letters (e.g., `my-article.md` or `my_article.md`).
+
+
 ### Menus in the header
 See [Menus](https://gohugo.io/content-management/menus/) in the Hugo documentation. We are using a mix of "In side configuration" and "in front matter" menu definitions.
 
@@ -168,8 +178,14 @@ The following elements are:
 * home-location: image, address, and coordinates of the venue
 * partners: list of sponsors, or call for sponsors
 
+### Team
+One of the first content pages to update and display. Follow the example of previous years.
+
+All committees get their own subfolder, and there is an image folder for all portrait pictures. Ensure the photoURL front matter item points to the correct picture. 
+
 
 ### Schedule
+
 
 ### Partners / Sponsors
 
@@ -177,4 +193,4 @@ The following elements are:
 
 ### sessions
 
-### team
+
