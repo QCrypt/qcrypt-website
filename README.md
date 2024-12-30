@@ -102,7 +102,7 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 
 ### call for papers, venue updates, registration
 1. adjust the according .md file in content/2025, possibly by switching back "draft: false" and adjusting the content from previous year
-2. ** all changes to the website should be mentioned in a table with "Website Updates" like on https://qcrypt.net/2023/ **, for the convenience of the website visitors
+2. **all changes to the website should be mentioned in a table with "Website Updates" like on https://qcrypt.net/2023/**, for the convenience of the website visitors
 3. The call-to-action buttons on the main site can be adjusted depending on the news.
 
 ### tutorial, invited speakers, panelists are known
