@@ -1,6 +1,6 @@
 ---
 title: Poster Session 2
-format: 
+format: poster
 tags:
   - poster
 videoId: null

@@ -1,6 +1,6 @@
 ---
 title: Group Photography
-format: other
+format: photo
 videoId: null
 videoTime: null
 presentation: null

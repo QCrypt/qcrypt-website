@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''Revocable Cryptography''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - ananth
 presentation: null

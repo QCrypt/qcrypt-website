@@ -1,6 +1,6 @@
 ---
 title: 'Lunch at sede Afundacion'
-format: 
+format: lunch
 tags:
   - lunch
 videoId: null

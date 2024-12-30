@@ -1,6 +1,6 @@
 ---
 title: Closing Remarks
-format: 
+format: closing
 speakers:
 - slattery
 - alagic

@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''Passive Quantum Key Distribution: Removing Modulator Side-Channel''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - lo
 presentation: null

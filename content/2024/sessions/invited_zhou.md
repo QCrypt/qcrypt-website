@@ -1,6 +1,8 @@
 ---
 title: "Invited Speaker: ''Long Distance Quantum Key Distribution Gets Simpler'' "
+format: invited
 type: sessions
+year: 2024
 speakers:
   - zhou
 presentation: null

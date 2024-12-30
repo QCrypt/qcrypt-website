@@ -1,6 +1,6 @@
 ---
 title: Welcoming Remarks
-format: 
+format: welcome
 speakers: null
 videoId: null
 presentation: null

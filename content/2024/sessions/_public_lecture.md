@@ -6,7 +6,7 @@ key: discussion
 id: discussion
 speakers:
 - acin
-format: 
+format: public-lecture
 tags:
   - other
 videoId: null

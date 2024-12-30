@@ -1,6 +1,9 @@
 ---
 title: "Contributed Talks 1b"
+format: contributed
 type: sessions
+year: 2024
+
 papers:
 - 110
 - 42

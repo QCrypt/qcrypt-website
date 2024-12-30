@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''Long-distance free-space MDI- & TF-QKD''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - cao
 presentation: null

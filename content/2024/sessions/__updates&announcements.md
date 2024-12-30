@@ -1,7 +1,7 @@
 ---
 title: 'Updates & Announcements'
 type: sessions
-format: 
+format: updates
 tags:
   - other
 videoId: null

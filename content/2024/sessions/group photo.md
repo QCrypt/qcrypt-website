@@ -1,7 +1,7 @@
 ---
 title: 'Group Photo'
 type: sessions
-format: 
+format: photo
 tags:
   - photo
 videoId: null

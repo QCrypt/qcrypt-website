@@ -1,6 +1,6 @@
 ---
 title: 'Lab Tour and Excursion to Cíes Islands (click for more details)'
-format: 
+format: excursion
 tags:
   - other
 videoId: null

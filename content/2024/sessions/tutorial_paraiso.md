@@ -1,6 +1,8 @@
 ---
 title: "Tutorial Talk: ''Monolithic and Hybrid Integration Technologies for Quantum Cryptography''"
+format: tutorial
 type: sessions
+year: 2024
 speakers:
   - paraiso
 presentation: null

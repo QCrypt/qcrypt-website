@@ -5,7 +5,10 @@ speakers:
 videoID : h_rXs4yTm5s
 presentation: null
 draft: false
+format: invited
 type: sessions
+year: 2023
+
 ---
 Abstract: Quantum key distribution (QKD) can share random bits between two separated parties called Alice and Bob; Alice uses the bits to encrypt a message with a one-time-pad way and deliver it to Bob in a public channel; Bob decrypts it to get the original message; quantum mechanics and Shannon information theory guarantee the security. Since the first protocol was proposed in 1984, many experiments have been demonstrated in both fiber and free space channels with key rates and distances growing up. With long distance in a vacuum, satellite-to-ground channel has much less attenuation than fiber in the same distance of several hundred kilometers; satellite-based QKD becomes the most feasible way to construct the global QKD network. In this talk, we will present the demonstration and results of the satellite-to-ground QKD experiment and QKD network experiment with Micius satellite, Tiangong II space lab and Jinan-1 satellite and give the outlook of the next generation of satellite-based QKD.
 

@@ -1,7 +1,7 @@
 ---
 title: Opening Reception
 type: sessions
-format: 
+format: reception
 speakers: 
   - Pines
   - Romine

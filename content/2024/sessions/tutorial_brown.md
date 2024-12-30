@@ -1,6 +1,8 @@
 ---
 title: "Tutorial Talk: ''Computing key-rates''"
+format: tutorial
 type: sessions
+year: 2024
 speakers:
   - brown
 presentation: null

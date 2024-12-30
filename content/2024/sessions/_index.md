@@ -3,12 +3,16 @@ title: Program
 type: sessions
 year: 2024
 draft: false
-type: speakers
 layout: list_with_header
 
 ---
 
 ## Conference Schedule
+
+{{< sessions-contributed >}}
+{{< /sessions-contributed >}} 
+
+
 TBA
 <!--
 This page gives an overview of the sessions. The {{< button-link label="schedule" url="/schedule" icon="link">}} is now available.

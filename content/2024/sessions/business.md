@@ -1,13 +1,12 @@
 ---
 title: 'Awards and Business Meeting'
 type: sessions
-format: 
+format: business
 tags:
   - other
 videoId: null
 presentation: null
 draft: false
-type: sessions
 ---
 <!--
 ## Program

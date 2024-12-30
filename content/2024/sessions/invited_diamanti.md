@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''Practical secure communication with quantum continuous variables''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - diamanti
 presentation: null

@@ -10,4 +10,6 @@ papers:
 presentation: null
 draft: false
 type: sessions
+year: 2023
+
 ---

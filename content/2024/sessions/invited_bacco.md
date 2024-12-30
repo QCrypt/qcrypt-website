@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''Photonic Integrated Circuits for qubits and qudits''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - bacco
 presentation: null

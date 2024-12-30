@@ -1,6 +1,8 @@
 ---
 title: "Industry Session (Chairs: Diego López)"
+format: industry
 type: sessions
+year: 2024
 speakers:
   - pacher
 videoId: null

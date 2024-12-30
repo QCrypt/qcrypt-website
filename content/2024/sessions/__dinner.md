@@ -1,6 +1,6 @@
 ---
 title: 'Gala Dinner and Networking at Pazo los Escudos Hotel'
-format: 
+format: dinner
 tags:
   - other
 videoId: null

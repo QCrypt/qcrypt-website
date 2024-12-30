@@ -1,6 +1,8 @@
 ---
 title: "Tutorial Talk: ''The long and winding road to the quantum internet''"
+format: tutorial
 type: sessions
+year: 2024
 speakers:
   - lukens
 presentation: null

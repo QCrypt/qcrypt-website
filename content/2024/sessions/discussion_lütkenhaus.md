@@ -1,6 +1,8 @@
 ---
 title: "Panel Discussion (Chairs: Gorjan Alagic)"
+format: discussion
 type: sessions
+year: 2024
 speakers:
   - norbert
 videoId: null

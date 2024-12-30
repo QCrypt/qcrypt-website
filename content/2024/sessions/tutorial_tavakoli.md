@@ -1,6 +1,8 @@
 ---
 title: "Tutorial Talk: ''Semi-device-independent quantum correlations for cryptography''"
+format: tutorial
 type: sessions
+year: 2024
 speakers:
   - tavakoli
 presentation: null

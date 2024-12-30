@@ -1,6 +1,6 @@
 ---
 title: 'Rump Session'
-format: 
+format: rump
 tags:
 videoId: NwNSqW4todE
 presentation: null

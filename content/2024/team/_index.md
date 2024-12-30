@@ -8,8 +8,6 @@ draft: False
 
 <!-- To make all this possible, these people are working behind the scenes. -->
 
-## Organizing Committee
-
 {{< teams types="core=Local Organizer" year=2024 >}}
 
 You can contact the Organizing Committee via email to {{< button-link label="2024@qcrypt.net" url="mailto:2024@qcrypt.net" icon="email" >}}
@@ -20,19 +18,14 @@ You can contact the Organizing Committee via email to {{< button-link label="202
 * Lorena G. Curra
 
 
-## Steering Committee
-
-{{< teams types="steering" year=2024 >}}
+{{< teams types="steering=Steering Committee" year=2024 >}}
 
 
-<!-- ## Advisory  Committee
-
-{{< teams types="advisory" year=2024 >}}
-
+<!-- 
+{{< teams types="advisory=Advisory Committee" year=2024 >}}
 -->
-## Program Committee
 
-{{< teams types="pcchairs" year=2024 >}}
+{{< teams types="pcchairs=Program Committee" year=2024 >}}
 You can contact the PC chairs via email to {{< button-link label="pcchairs2024@qcrypt.net" url="mailto:pcchairs2024@qcrypt.net" icon="email" >}}<br>
 
 ### PC members

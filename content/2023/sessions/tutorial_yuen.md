@@ -5,7 +5,10 @@ speakers:
 videoId: qT4OuGSI_uk
 presentation: "/2023/sessions/slides/QCrypt2023TutorialYuen.pdf"
 draft: false
+format: tutorial
 type: sessions
+year: 2023
+
 ---
 Abstract: I will give a tutorial on the rapidly developing topic of quantum pseudorandomness, in particular pseudorandom quantum states. These are states that are efficiently generatable, but cannot be efficiently distinguished from Haar-random states. I will discuss their motivation, constructions, and applications to cryptography and beyond.
 

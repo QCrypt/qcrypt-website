@@ -1,7 +1,7 @@
 ---
 title: 'Start of Day + networking'
 type: sessions
-format: 
+format: start-of-day
 tags:
   - break
 videoId: null

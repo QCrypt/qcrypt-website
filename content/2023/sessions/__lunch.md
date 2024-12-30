@@ -1,6 +1,6 @@
 ---
 title: 'Independent Lunch (click for guide)'
-format: 
+format: lunch
 tags:
   - lunch
 videoId: null

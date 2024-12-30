@@ -1,7 +1,7 @@
 ---
 title: Closing Remarks
 type: sessions
-format: 
+format: closing
 tags: 
 - other
 speakers:

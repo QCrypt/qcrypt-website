@@ -1,6 +1,9 @@
 ---
 title: "Contributed Talk 3"
+format: contributed
 type: sessions
+year: 2024
+
 
 papers:
 - 23

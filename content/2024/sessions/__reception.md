@@ -1,6 +1,6 @@
 ---
 title: 'Welcome Reception at Palacio de la Oliva (click for more details)'
-format: 
+format: start-of-day
 tags:
   - other
 videoId: null

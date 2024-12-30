@@ -1,6 +1,6 @@
 ---
 title: Opening
-format: 
+format: open
 speakers:
 - Pines
 - Romine

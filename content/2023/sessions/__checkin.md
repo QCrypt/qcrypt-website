@@ -1,6 +1,6 @@
 ---
 title: 'Conference Check-in'
-format: 
+format: check-in
 tags:
   - other
 videoId: null

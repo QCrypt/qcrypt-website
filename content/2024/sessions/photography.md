@@ -1,7 +1,7 @@
 ---
 title: Group Photography
 type: sessions
-format: other
+format: photo
 videoId: null
 videoTime: null
 presentation: null

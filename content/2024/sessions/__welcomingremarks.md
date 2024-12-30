@@ -1,7 +1,7 @@
 ---
 title: Welcoming Remarks
 type: sessions
-format: 
+format: welcome
 tags:
 - other
 speakers: null

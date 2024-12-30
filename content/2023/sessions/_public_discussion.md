@@ -7,7 +7,7 @@ speakers:
 - lutkenhaus
 - perlner
 - wolf
-format: 
+format: discussion
 tags:
   - other
 videoId: yXj_g3ywyh0

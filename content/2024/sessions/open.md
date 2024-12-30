@@ -1,7 +1,7 @@
 ---
 title: Opening
 type: sessions
-format: 
+format: opening
 tags:
 - other
 speakers:

@@ -1,7 +1,9 @@
 ---
 key: industry
 title: "Industry Panel"
+format: industry
 type: sessions
+year: 2024
 id: industry
 speakers:
   - diaz

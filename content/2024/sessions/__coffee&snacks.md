@@ -1,6 +1,6 @@
 ---
 title: 'Coffee & Snacks'
-format: 
+format: coffee
 tags:
   - break
 videoId: null

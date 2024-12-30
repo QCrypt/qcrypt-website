@@ -1,6 +1,8 @@
 ---
 title: "Invited Talk: ''CV-QKD Design for Network Integration''"
+format: invited
 type: sessions
+year: 2024
 speakers:
   - brunner
 videoId: null

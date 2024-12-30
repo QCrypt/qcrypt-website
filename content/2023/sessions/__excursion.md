@@ -1,6 +1,6 @@
 ---
 title: 'Tours and Excursions (click for more details)'
-format: 
+format: excursion
 tags:
   - other
 videoId: null
