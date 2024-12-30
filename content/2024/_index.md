@@ -6,6 +6,7 @@ menu:
     identifier: home-2024
 year: 2024
 type: home
+layout: home
 ---
 <!-- JUMBO -->
 {{% jumbo img="/images/2024/background-2024.jpg" imgLabel="QCrypt 2024 background" logo="/images/2024/QCrypt_2024_logo_final.png" %}}

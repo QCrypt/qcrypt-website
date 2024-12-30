@@ -2,7 +2,7 @@
 title: Home
 year: 2023
 type: home
-
+layout: home
 ---
 <!-- JUMBO -->
 {{% jumbo img="/images/2023/background-2023.jpg" imgLabel="QCrypt 2023 background" 

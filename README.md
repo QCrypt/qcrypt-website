@@ -1,11 +1,10 @@
-# QCrypt 2023+ website
+# QCrypt 2025+ website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2d41c-275c-4d5a-90ed-14db4a9accb5/deploy-status)](https://app.netlify.com/sites/qcrypt-website/deploys)
 
-Live site at https://qcrypt.net
+Hugo-powered QCrypt website for 2025 edition and later, live at at https://qcrypt.net. QCrypt is the yearly international scientific conference presenting last year’s top results in quantum cryptography. [Hugo](https://gohugo.io/) is a fast static website generator. https://qcrypt.net is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
 
-initiated and maintained by [Christian Schaffner](https://github.com/cschaffner) since 2020
-
+Project initiated and maintained by [Christian Schaffner](https://github.com/cschaffner) since 2020.
 
 
 ## History
@@ -126,7 +125,25 @@ Proceed accordingly with the list of accepted posters.
 
 ## More detailed explanations of the different content sections
 
+Have a look at the [Hugo Documentation](https://gohugo.io/documentation/), ChatGPT is also quite knowledgable.
+
+Hugo's favorite [Content format](https://gohugo.io/content-management/formats/) is markdown, and that's what we use throughout. For [data sources](https://gohugo.io/content-management/data-sources/) and config files, Hugo understands TOML, YAML, JSON, CSV, XML. We use the first three only.
+
+Every content file contains a [front matter](https://gohugo.io/content-management/front-matter/), specifying metadata for the content, usually in yaml format. Important parameters are title, year, type, draft, menu. They influence how content is displayed.
+
+In this site, we are deviating from the Hugo-recommended [Organization of content source](https://gohugo.io/content-management/organization/#organization-of-content-source), because our top levels in the `content/<DIRECTORIES>` are years, instead of topics. Therefore, the `.Section` variable is often our `$currentYear`.
+
+The original Hugo template had multilingual support (French / English), but we have dropped this in the meanwhile, some reminders of these times are still around, though.
+
+### Menus
+See [Menus](https://gohugo.io/content-management/menus/) in the Hugo documentation. We are using a mix of "In side configuration" and "in front matter" menu definitions.
+
+The basic structure of the menu is copied from the IACR flagship conference websites (like https://eurocrypt.iacr.org/2024). The basic menu structure is defined in /hugo.toml under [menu]. We have a menu hierarchy for each year, but these basic entries should basically be the same every year. The items "Technical Program" and "Attend" do not correspond to actual pages, they are used as parent menu items for other pages.
+
+The other items in the menu are defined in the front matter of content pages.
+
 ### Main page
+
 
 ### Schedule
 
