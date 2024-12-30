@@ -9,7 +9,7 @@ speakers:
   - diaz
   - ortiz
   - pacher
-  - pegon
+  - pegon_2024
   - prawits
   - avesani
 

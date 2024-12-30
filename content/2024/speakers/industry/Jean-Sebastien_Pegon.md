@@ -1,5 +1,5 @@
 ---
-key: pegon
+key: pegon_2024
 name: Jean-Sebastien Pegon
 surname: Pegon
 year: 2024

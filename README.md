@@ -86,9 +86,12 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 1. paste the Webhook URL into netfliy:  https://app.netlify.com/sites/qcrypt2024/settings/deploys (for deploy succeesful and deploy failed)
 1. add admins to Slack channel
 
-### general
+### create new email addresses
+We probably need new email addresses like 2025@qcrypt.net and pcchairs2025@qcrypt.net.
+
+### technical updates
 - connect new admins to admins from last year
-- update hugo version? check what needs to be updated.
+- Is it time to update the hugo version? check what needs to be updated.
 
 ### bump year
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
@@ -131,21 +134,58 @@ Hugo's favorite [Content format](https://gohugo.io/content-management/formats/) 
 
 Every content file contains a [front matter](https://gohugo.io/content-management/front-matter/), specifying metadata for the content, usually in yaml format. Important parameters are title, year, type, draft, menu. They influence how content is displayed.
 
-In this site, we are deviating from the Hugo-recommended [Organization of content source](https://gohugo.io/content-management/organization/#organization-of-content-source), because our top levels in the `content/<DIRECTORIES>` are years, instead of topics. Therefore, the `.Section` variable is often our `$currentYear`.
+> [!WARNING]
+> In this site, we are deviating from the Hugo-recommended [Organization of content source](https://gohugo.io/content-management/organization/#organization-of-content-source), because our top levels in the `content/<DIRECTORIES>` are years, instead of topics. Therefore, the `.Section` variable is often our `$currentYear`.
 
 The original Hugo template had multilingual support (French / English), but we have dropped this in the meanwhile, some reminders of these times are still around, though.
 
-### Menus
+### file names
+> [!IMPORTANT]
+> Even though Hugo is quite forgiving, please use sensible and consistent file names for content pages, pictures etc. [This page](https://docs.hugoblox.com/reference/site-structure/) recommends to:
+> - Stick to lowercase for all file names, including content files (`about.md`), layouts, and static assets (`images/logo.png`).
+> - Use hyphens (`-`) or underscores (`_`) to separate words instead of spaces or capital letters (e.g., `my-article.md` or `my_article.md`).
+
+
+### Menus in the header
 See [Menus](https://gohugo.io/content-management/menus/) in the Hugo documentation. We are using a mix of "In side configuration" and "in front matter" menu definitions.
 
-The basic structure of the menu is copied from the IACR flagship conference websites (like https://eurocrypt.iacr.org/2024). The basic menu structure is defined in /hugo.toml under [menu]. We have a menu hierarchy for each year, but these basic entries should basically be the same every year. The items "Technical Program" and "Attend" do not correspond to actual pages, they are used as parent menu items for other pages.
+The basic structure of the top menu is copied from the IACR flagship conference websites (like https://eurocrypt.iacr.org/2024). The basic menu structure is defined in [/hugo.toml](/hugo.toml) under [menu]. We have a menu hierarchy for each year, but these basic entries should basically be the same every year. The items "Technical Program" and "Attend" do not correspond to actual pages, they are used as parent menu items for other pages.
 
 The other items in the menu are defined in the front matter of content pages.
 
+### Footer
+The content of the footer is specified in [/data/footer.yml](/data/footer.yml). The "social share" options are currently disabled, the "social follow" options are Twitter and YouTube. 
+> [!NOTE]
+> Maybe we want to move away from Twitter soon?
+
+The footer rarely needs to be changed. It automatically links to the charter, history and code of conduct of the current year. Just make sure that the content directory of the currentYear also contains these three files:
+* `charter.md`
+* `history.md`
+* `code-of-conduct.md`
+  
+Copy them over from the previous year and make sure they are up to date!
+
+It is a requirement by the Netlify Open Source plan to link to a code of conduct, so do not remove that part!
+
 ### Main page
+The main home page per year is the `/content/YEAR/_index.html`, like [/content/2024/_index.html](/content/2024/_index.html). It has `type: home` and `layout: home` in the front matter.
+
+It is the only page without a banner on top, as it starts with a [jumbo element](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
+
+The following elements are:
+* home-info: some basic information about QCrypt
+* home-keydates: the two most important tables: one with key dates, one with website updates. Again, this is inspired by [the IACR pages](https://eurocrypt.iacr.org/2023/)).
+* home-location: image, address, and coordinates of the venue
+* partners: list of sponsors, or call for sponsors
+
+### Team
+One of the first content pages to update and display. Follow the example of previous years.
+
+All committees get their own subfolder, and there is an image folder for all portrait pictures. Ensure the photoURL front matter item points to the correct picture. 
 
 
 ### Schedule
+
 
 ### Partners / Sponsors
 
@@ -153,4 +193,4 @@ The other items in the menu are defined in the front matter of content pages.
 
 ### sessions
 
-### team
+

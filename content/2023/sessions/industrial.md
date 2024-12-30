@@ -11,4 +11,6 @@ videoId: AXT9VarI0_0
 presentation: null
 draft: false
 type: sessions
+year: 2023
+format: industry
 ---

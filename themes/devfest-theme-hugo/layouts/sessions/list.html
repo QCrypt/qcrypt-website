@@ -1,11 +1,18 @@
 {{ define "main" }}
 
+{{ $currentYear := string .Site.Params.currentYear }}
+{{ if not (eq .Section "") }}
+  {{ $currentYear = .Section }}
+{{ end }}
+
+
 {{ .Content }}
+
 
 <section>
 	<h2>Tutorials</h2>
 	<ul class="talks">
-		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+		{{ $sessions := (where .Site.AllPages ".Section" $currentYear) }}
 		{{ $types := (slice "tutorial") }}
 		{{ range sort $sessions ".Title" }}
 		{{ if intersect (slice .Params.format) $types }}
@@ -16,7 +23,7 @@
 
 	<h2>Invited Talks</h2>
 	<ul class="talks">
-		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+		{{ $sessions := (where .Site.AllPages ".Section" $currentYear) }}
 		{{ $types := (slice "invited") }}
 		{{ range sort $sessions ".Title" }}
 		{{ if intersect (slice .Params.format) $types }}
@@ -27,7 +34,7 @@
 
 	<h2>Contributed Talks</h2>
 	<ul class="talks">
-		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
+		{{ $sessions := (where .Site.AllPages ".Section" $currentYear) }}
 		{{ $types := (slice "contributed") }}
 		{{ range sort $sessions ".Title" }}
 		{{ if intersect (slice .Params.format) $types }}
@@ -36,10 +43,10 @@
 		{{ end }}
 	</ul>
 
-	<h2>Others</h2>
+	<h2>Industry</h2>
 	<ul class="talks">
-		{{ $sessions := where .Site.AllPages ".Section" "sessions" }}
-		{{ $types := (slice "other") }}
+		{{ $sessions := (where .Site.AllPages ".Section" $currentYear) }}
+		{{ $types := (slice "industry") }}
 		{{ range sort $sessions ".Title" }}
 		{{ if intersect (slice .Params.format) $types }}
 		<li class="talk tag-{{ anchorize (delimit (.Params.tags | default (slice)) "" ) }}">{{ partial "session.html" . }}</li>

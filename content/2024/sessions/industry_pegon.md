@@ -4,7 +4,7 @@ format: industry
 type: sessions
 year: 2024
 speakers:
-  - pegon
+  - pegon_2024
 videoId: null
 presentation: null
 draft: false
