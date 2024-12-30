@@ -181,16 +181,24 @@ The following elements are:
 ### Team
 One of the first content pages to update and display. Follow the example of previous years.
 
-All committees get their own subfolder, and there is an image folder for all portrait pictures. Ensure the photoURL front matter item points to the correct picture. 
-
-
-### Schedule
-
+All committees get their own subfolder, and there is an image folder for all portrait pictures. Ensure the photoURL front matter item points to the correct picture. When creating and naming new files, follow [reasonable conventions](#file-names).
 
 ### Partners / Sponsors
+The subdirectory is called `partners` but on the website, we commonly refer to them as "Sponsors". There are subfolders for the different categories. Logos should go into the `logos/` subfolders, and the `logo` front matter entry should refer to that logo file.
 
-### speakers
+### Speakers & Sessions
+Very similar to the administration of the [team](#Team).
 
-### sessions
+Make sure to create [sessions](/content/2024/sessions/) for all speakers. In front matter of the session (e.g. [this one](/content/2023/sessions/tutorial_yuen.md)), specify one or more speaker, referring to the `key` entry in the speaker front matter (e.g. `yuen` in [this one](/content/2023/speakers/tutorial/yuen.md)).
+
+The front matter of sessions should specify the `year`, `format` (like `contributed`, `invited`, `industry`, `tutorial` etc.). The `type` has to be `sessions` in order to render the session properly.
+
+For sessions with contributed talks, specify the paper ids once they are known.
+
+There is an [overview of speakers](/content/2025/speakers/_index.html) (e.g. [2024](https://qcrypt.net/2024/speakers/)), and and [overview of sessions](/content/2025/sessions/_index.html) (e.g. [2024](https://qcrypt.net/2024/sessions/), both should be added to the "Technical Program" menu when ready.
+
+### Schedule
+Once a schedule is drawn up, insert the session names and start times into [/data/schedule-2025.yml](/data/schedule-2025.yml) like in previous years. A schedule is then automatically generated and can be added to the "Technical Program" submenu by setting `draft: false` in [/content/2025/schedule/_index.html](/content/2025/schedule/_index.html)
+
 
 
