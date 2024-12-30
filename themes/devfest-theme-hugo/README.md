@@ -32,59 +32,126 @@ TODO: newer software exists now...
 
 ## Site parameters
 
+Parameters are mostly set in [hugo.toml](../../hugo.toml)
+
 ```toml
 #...
+baseURL = "https://qcrypt.net"
+languageCode = "en"
+title = "QCrypt Conference Website"
 
+# Theme
+theme = "devfest-theme-hugo"
+
+# Params
 enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-googleAnalytics = "UA-XXXXXXXX-X"
+GoogleAnalytics = "G-XXXXXXXX-X"
 
 [params]
-    title = "DevFest Toulouse 2019"
-    date = "2019-10-03"
-    description = "The DevFest, or 'Developers Festival', is a technical conference for developers. It is aimed at students, professionals or simply curious technophiles."
+    title = "QCrypt Conference Website"
+    date = "2024-09-02"
+    currentYear = 2024
+    description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
-    email = "contact@devfesttoulouse.fr"
-    keywords = "event, gdg, gde, devfest, google, programming, android, chrome, developers, web, cloud, androiddev"
-    copyright = "We :heart:️ chocolatines"
-    cfpUrl = "https://conference-hall.io/public/event/HJRThubF4uYPkb7jSUxi"
-    subscriptionUrl = "http://eepurl.com/dps1j5"
+    email = "webmaster@qcrypt.net"
+    keywords = "event, quantum cryptography, QCrypt"
+    copyright = "We :heart: sheep"
+    copyright_link = "https://github.com/QCrypt/qcrypt-website"
+    # cfpUrl = "/2024/call"
+    # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
     favicon32 = "/favicon-32x32.png"
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
-    themeColor = "#673ab7"
+
+[params.2023]
+  city = "Washington DC, USA"
+  timeanddate_cityid = 263
+  themeColor = "#ac191c"
+  [params.2023.logos]
+    jumbo = "/images/2023/QuCrC23_Logo.png"
+    header = "/images/2023/QuCrC23_Logo.png"
+    banner = "/images/2023/banner-2023.jpeg"
+
+[params.2024]
+  city = "Vigo, Spain"
+  timeanddate_cityid = 4529
+  themeColor = "#0099cc"
+  [params.2024.logos]
+    jumbo = "/images/2024/QCrypt_2024_logo_final.png"
+    header = "/images/2024/QCrypt_24_logo_2.png"
+    banner = "/images/2024/banner-2024.jpg"
 
 [params.logos]
-    jumbo = "/images/logos/devfest_color_text.png"
-    header = "/images/logos/devfest_color_text.png"
-    footer = "/images/logos/devfest_gray_text.png"
+    footer = "/images/logos/netlify-color-accent.svg"
+    footer_link = "https://www.netlify.com"
 
-#[menu]
-#[[menu.main]]
-#    identifier = "jobs"
-#    name = "Jobs"
-#    url = "https://jobs.devfesttoulouse.fr/"
-#    weight = 200
-#    external = true
+[server]
+  [[server.redirects]]
+      from = "/"
+      to = "/2024/"
+      status = 302
+      force = true 
+
+[menu]
+  [[menu.2023]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2023'
+  [[menu.2023]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2023]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2023]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2023/partners"
+  [[menu.2023]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2023/team"
+
+  [[menu.2024]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2024'
+  [[menu.2024]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2024]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2024]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2024/partners"
+  [[menu.2024]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2024/team"
+
 
 [languages]
 [languages.en]
     weight = 1
-    languageName = "gb"
+    languageName = "us"
 
-[languages.fr]
-    weight = 2
-    languageName = "fr"
-
-[languages.fr.params]
-    description = "Le DevFest, ou 'Developers Festival', est une conférence technique destinée aux développeurs. Elle s'adresse aussi bien aux étudiants, aux professionnels ou tout simplement aux curieux technophiles."
-
-[taxonomies]
-  tag = "tags"
 #...
 ```
 

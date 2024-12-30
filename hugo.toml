@@ -1,6 +1,6 @@
 # publishDir = "docs"
 
-# baseURL = "https://qcrypt-website.netlify.app/"
+baseURL = "https://qcrypt.net"
 languageCode = "en"
 title = "QCrypt Conference Website"
 
@@ -13,6 +13,10 @@ enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
 GoogleAnalytics = "G-221GMGECQ6"
+
+[services]
+  [services.googleAnalytics]
+    id = "G-221GMGECQ6"
 
 [params]
     title = "QCrypt Conference Website"
