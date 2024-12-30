@@ -1,6 +1,10 @@
 # DevFest Theme Hugo
 
-The theme is located in the themes/devfest-theme-hugo subdirectory. 
+The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It used to be an independent theme, as a separate git submodule, but since 2023, it's permanently included in the git repository.
+
+
+
+## Getting ready to edit the theme
 
 First, install [yarn](https://yarnpkg.com/lang/en/docs/install/).
 
@@ -26,60 +30,10 @@ https://github.com/sass/node-sass/issues/3033#issuecomment-763180778
 TODO: newer software exists now...
 
 
-
-
-
-DevFest Theme Hugo is a theme for conferences/events.
-
-It's developed for the 2019 version of Devfest Toulouse.
-
-See a real usage here: <https://2019.devfesttoulouse.fr/>
-
-**This version has been adapted for the QCrypt 2022 website!**
-<https://2022.qcrypt.net>
-<https://github.com/QCrypt/website-2022>
-
-## Building my conference site from scratch
-
-1. Install [Hugo](https://gohugo.io)
-2. Create a new site by running:
-
-```bash
-hugo new site my-conf
-cd my-conf
-mkdir themes
-git submodule add https://github.com/GDGToulouse/devfest-theme-hugo.git themes/devfest-theme-hugo
-```
-
-3. Then edit your `config.toml` file with
-
-```toml
-# ...
-theme = "devfest-theme-hugo"
-# ...
-```
-
-
-4. It's done. Just start Hugo server to see it live!
-
-```bash
-hugo server
-```
-
-## Customizing the site
-
-`yarn` to install the dependency
-
-Run `npm start` to watch Sass changes.
-
-When you are happy with the result run `npm run build` to build the minified version
-
-### Site params
-
+## Site parameters
 
 ```toml
 #...
-
 
 enableEmoji = true
 enableRobotsTXT = true

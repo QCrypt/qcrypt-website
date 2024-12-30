@@ -1,12 +1,17 @@
-name = "Devfest Toulouse Theme"
+name = "QCrypt conference theme"
 license = "MIT"
-licenselink = "https://github.com/GDGToulouse/devfest-theme-hugo/LICENSE"
-description = "A theme for a conference website. Created for DevFest Toulouse 2019"
-homepage = "https://github.com/GDGToulouse/devfest-theme-hugo"
-tags = ["conference", "DevFest"]
-features =  ["conference", "responsive", "l10n", "google-analytics"]
+licenselink = "https://github.com/QCrypt/qcrypt-website/blob/main/LICENSE"
+description = "A hugo theme for a conference website. Originally created for DevFest Toulouse 2019, adapted for QCrypt conference"
+homepage = "https://github.com/QCrypt/qcrypt-website/tree/main/themes/devfest-theme-hugo"
+tags = ["conference", "QCrypt"]
+features =  ["conference", "responsive"]
 min_version = "0.50"
 
+
 [author]
+  name = "Christian Schaffner"
+  homepage = "https://github.com/cschaffner"
+
+[original]
   name = "GDG Toulouse"
   homepage = "//github.com/GDGToulouse"
