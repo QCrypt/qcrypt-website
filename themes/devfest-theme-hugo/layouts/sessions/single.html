@@ -1,4 +1,6 @@
 {{ define "main" }}
+{{/* printf "Using template: layouts/sessions/single.html" | safeHTML */}}
+
 
 {{ $currentYear := string .Site.Params.currentYear }}
 {{ if not (eq .Section "") }}
@@ -8,7 +10,6 @@
 {{ $papers := index site.Data $dataKey | default slice }}
 
 <section class="talk">
-
 
 	{{ if .Params.tags }}
 	<header class="tag-{{ anchorize (delimit .Params.tags "" ) }}">
@@ -46,7 +47,8 @@
 		{{ $startday := "" }}
 		{{ $starttime := "" }}
 		{{ $endtime := "" }}
-		{{ range $day := $.Site.Data.schedule }}
+		{{ $schedule := index site.Data (printf "schedule-%s" $currentYear) }}
+		{{ range $day := $schedule }}
 		  {{ range $session := $day.sessions }}
   			{{ if and (ne $starttime "") (eq $endtime "") }}
 		  		 {{ $endtime = $session.time }}
@@ -57,24 +59,24 @@
 			{{ end }}
 		{{ end }}
 
-		{{/* 	
+		{{/* 
 		{{ warnf $startday }}
 		{{ warnf $starttime }}
-		{{ warnf $endtime }} */}}
+		{{ warnf $endtime }} 
+		 */}}
 
 		{{ if $startday }}
-			<div class="time">{{- partial "date-long.html" (dict "time" $startday "lang" "en") -}}, {{ $starttime }} - {{ $endtime }}</div>
+			<div class="time">{{- dateFormat "Mon, 2 Jan 2006" $startday -}}, {{ $starttime }} - {{ $endtime }}</div>
 		{{ else }}
-			{{ warnf "no startday found" }}
+			{{ warnf (printf "no startday found when looking for %s in year %s" $sessionname $currentYear) }}
 		{{ end }}
 
 		{{ end }}
 
 		<div class="detail">
 			<ul class="speakers">
-				{{ range where .Site.RegularPages "Params.key" "in" .Params.speakers }}
+				{{ range sort (where .Site.RegularPages "Params.key" "in" .Params.speakers) "Params.surname" }}
 				<li>
-
 					<a class="visually-hidden" aria-hidden="true" href="{{ .Params.website }}" target="_blank">{{ .Params.name }}</a>
    				<a class="speaker" href="{{ .Params.website }}" target="_blank">
 						<div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>

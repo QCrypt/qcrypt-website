@@ -21,3 +21,5 @@ menu:
 
 {{< speakers types="industry=Industry Panel" year=2024 >}}
 
+{{< speakers types="lecture=Public Lecture" year=2024 >}}
+

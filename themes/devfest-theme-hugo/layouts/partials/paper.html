@@ -50,11 +50,11 @@ CurrentYear: {{ $currentYear }}
 				{{/* first check if presenter name is present in youtube.json , otherwise try to take it from accepted_final.json */}}
 				{{ if .presenter}}
 				  presented by {{ .presenter -}}
-				{{ else if isset $options "presenter-prerecorded-talk" }}
+				{{ else if isset .options "presenter-prerecorded-talk" }}
 					presented by {{ index $options "presenter-prerecorded-talk" -}}
 			  {{ end }}]</a>
 		{{ else }}
-		{{ if isset $options "presenter-prerecorded-talk" }}
+		{{ if isset .options "presenter-prerecorded-talk" }}
 			[YouTube, still waiting for {{ index $options "presenter-prerecorded-talk" }}]
 		{{ end }}
 	  {{ end }}

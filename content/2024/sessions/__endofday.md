@@ -1,8 +1,8 @@
 ---
 title: 'End of Day'
-format: end-of-day
+format: 
 tags:
-  - break
+  - other
 videoId: null
 presentation: null
 draft: false

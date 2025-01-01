@@ -59,7 +59,7 @@
       time: '15:50'
     - session: poster2
       time: '16:30'
-    - session: _public_discussion
+    - session: discussion
       time: '18:00'
     - session: __walk_to_stamp
       time: '19:00'
@@ -96,7 +96,7 @@
       time: '08:30'
     - session: __updates&announcements
       time: '08:45'
-    - session: industrial
+    - session: industry
       time: '9:00'
     - session: contributed4a
       time: '10:40'

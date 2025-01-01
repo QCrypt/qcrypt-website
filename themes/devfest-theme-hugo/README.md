@@ -275,41 +275,19 @@ Define the two important tables with key dates and website updates.
 |August 14, 2023 | Attendees are encouraged to fill out the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">exit questionnaire</a> about their conference experience.|
 ```
 
-
-#### Feature speakers block (not being used)
-
-Just present your feature speakers
-
-```hugo
-{{% home-speakers %}}
-## Featured Speakers
-
-{{< button-link label="Submit a presentation"
-                url="http://www.conference-hall.io"
-                icon="cfp" >}}
-
-{{< button-link label="See all speakers"
-                url="./speakers"
-                icon="right" >}}
-
-{{% /home-speakers %}}
-```
-
-![](images/feature-speakers.png)
-
-
 #### Location block
 
 Show conference location.
 
 ```hugo
 {{% home-location
-    image="/images/map.jpg"
-    address="11 Espl. Compans Caffarelli, 31000 Toulouse"
-    latitude="43.6110956"
-    longitude="1.4332799" %}}
+    image="https://brandportal.umd.edu/m/201095fc65e15cf6/Hero_web-IribeCenter_JC_09182019_8325-tif.jpg"
+    address="Brendan Iribe Center for Computer Science and Engineering, University of Maryland, 8125 Paint Branch Drive, College Park, MD, USA 20742"
+    latitude="38.98928161543911"
+    longitude="-76.9361273795895"
+    %}}
 
-## The venue
+## The 2023 venue
 
 ### Centre de Congrès Pierre Baudis
 
@@ -321,6 +299,22 @@ in the immediate vicinity of the centre of Toulouse and in a green environment.
 ```
 
 ![](images/block-map.png)
+
+
+#### Feature speakers block 
+
+Just present your feature speakers
+
+```hugo
+{{% home-speakers year=2024 %}}
+## Featured Speakers
+{{< button-link label="All Speakers"
+                url="/2024/speakers"
+                icon="cfp" >}}
+{{% /home-speakers %}}
+```
+
+![](images/feature-speakers.png)
 
 ### Partners block
 
@@ -337,6 +331,7 @@ Show your partners
 
 ### Blocks currently not used
 We are currently not using these blocks, but they could be reactived when needed.
+
 
 #### Subscription block (not used)
 
@@ -418,12 +413,16 @@ Display ticket information.
 A partner should have this params :
 
 ```yaml
-title: NAME
+---
+title: QuSoft
 type: partner
-category: soutien
-website: 'https://example.com/'
-logo: /2024/partners/logos/partner.jpg
+year: 2023
+draft: false
+category: community
+logo: /2023/partners/logos/qusoft.jpg
+website: http://www.qusoft.org
 socials: []
+---
 ```
 
 ### Speakers
@@ -431,9 +430,23 @@ socials: []
 A speaker should have this params :
 
 ```yaml
+key: diamanti
+name: Eleni Diamanti
+surname: Diamanti
+year: 2024
+company: LIP6, CNRS/Sorbonne Université
+photoURL: /2024/speakers/images/diamanti.jpg
+type: invited
+website: '/2024/sessions/invited_diamanti'
+---
+```
+
+`surname` is used for sorting speakers.
+
+
+additional parameters we are not using:
+```yaml
 id: jane_doe
-name: Mme Jane Doe
-company: Super Company
 featured: false
 photo: /images/speakers/jane_doe.jpg
 socials:
@@ -447,8 +460,9 @@ shortBio: "Short bio"
 companyLogo: /images/speakers/company/company.jpg
 country: 'City, Country'
 ```
-
 The body of the file is used as long bio.
+
+
 
 ### Sessions
 

@@ -7,5 +7,5 @@ company: University of Waterloo
 photoURL: /2023/speakers/images/norbert.jpg
 type: discussion
 # website: 'https://uwaterloo.ca/institute-for-quantum-computing/profiles/norbert-lutkenhaus'
-website: '/2023/sessions/discussion_lütkenhaus'
+website: '/2023/sessions/discussion'
 ---

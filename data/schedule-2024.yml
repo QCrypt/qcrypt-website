@@ -51,6 +51,8 @@
       time: '17:10'
     - session: _public_lecture
       time: '19:00'
+    - session: __endofday
+      time: '20:00'
 
 - day: '2024-09-04'
   sessions:
@@ -88,7 +90,7 @@
       time: '12:30'
     - session: __lunch
       time: '13:10'
-    - session: industrial
+    - session: industry
       time: '14:40'
     - session: __break
       time: '16:20'

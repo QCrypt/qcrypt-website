@@ -7,5 +7,5 @@ company: NIST
 photoURL: /2023/speakers/images/RayPerlner.png
 type: discussion
 # website: 'https://www.nist.gov/people/ray-perlner'
-website: '/2023/sessions/discussion_perlner'
+website: '/2023/sessions/discussion'
 ---

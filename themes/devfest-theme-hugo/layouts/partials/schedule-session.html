@@ -1,6 +1,6 @@
 {{/* following https://discourse.gohugo.io/t/access-site-data-from-partial/31481 and https://gohugo.io/variables/site/ and */}}
 
-{{ $currentYear := string .Site.Params.currentYear }}
+{{ $currentYear := string .Params.currentYear }}
 {{ if not (eq .Section "") }}
   {{ $currentYear = .Section }}
 {{ end }}
@@ -51,10 +51,10 @@
 
 	{{ if .Params.speakers }}
 	<ul class="speakers">
-		{{ range where $.Site.RegularPages "Params.key" "in" .Params.speakers }}
+		{{ range sort (where $.Site.RegularPages "Params.key" "in" .Params.speakers) "Params.surname" }}
 		<li class="speaker">
 			<div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
-			<strong class="speaker-name">{{ .Params.name }}</strong>
+			<strong class="speaker-name">{{ .Params.surname }}</strong>
 <!--			<div class="speaker-company">{{ .Params.company }}</div>-->
 		</li>
 		{{ end }}
