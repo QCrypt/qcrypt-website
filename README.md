@@ -139,6 +139,11 @@ Every content file contains a [front matter](https://gohugo.io/content-managemen
 
 The original Hugo template had multilingual support (French / English), but we have dropped this in the meanwhile, some reminders of these times are still around, though.
 
+> [!NOTE]
+> We often use [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) in this project. There are two different types:
+> * `{{%  %}}` produces markdown content like the `jumbo` element on the main page.
+> * `{{<  >}}` produces HTML output, e.g. used to produce links with `button-link` inside the `jumbo` element on the main page.
+
 ### file names
 > [!IMPORTANT]
 > Even though Hugo is quite forgiving, please use sensible and consistent file names for content pages, pictures etc. [This page](https://docs.hugoblox.com/reference/site-structure/) recommends to:
