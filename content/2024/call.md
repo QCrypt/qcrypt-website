@@ -20,7 +20,7 @@ Our poster is now available! Please <a href="/poster">download and print it your
 -->
 <!--| <strike> April 2024 </strike>| <strong><a href="https://easychair.org/conferences/?conf=qcrypt2024" target="_blank">TALK/POSTER SUBMISSION CLOSING SOON</a></strong>|-->
 
-## <strong>Key Dates QCrypt 2024</strong> 
+## Key Dates QCrypt 2024
 <strong>(all times 23:59 AoE)</strong>
 
 |Date |Event|

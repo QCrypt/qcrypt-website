@@ -27,6 +27,7 @@ menu:
 {{< posters-accepted year=2023 >}}
 {{< /posters-accepted >}}
 
+
 <!--
 ## Best Student Paper Awards
 ### Theory
@@ -34,8 +35,6 @@ Congratulations to **Tony Metger** for *Generalised entropy accumulation for qua
 
 ### Experiment
 Congratulations to **Fadri Grünenfelder** for *Towards 100 Mbps secret key rate QKD* with co-authors Alberto Boaron ; Matthieu Perrenoud ; Giovanni Resta ; Raphael Houlmann ; Sylvain El-Khoury ; Hugo Zbinden -->
-
-
 
 
 <!-- Download a zip-archive of

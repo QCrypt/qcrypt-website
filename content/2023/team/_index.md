@@ -39,6 +39,7 @@ You can contact the Organizing Committee via email to {{< button-link label="202
 ## Program Committee
 
 {{< teams types="pcchairs" year=2023 >}}
+
 You can contact the PC chairs via email to {{< button-link label="pcchairs2023@qcrypt.net" url="mailto:pcchairs2023@qcrypt.net" icon="email" >}}<br>
 
 ### PC members

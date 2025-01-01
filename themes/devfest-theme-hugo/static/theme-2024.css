@@ -147,12 +147,12 @@ table tr:nth-child(2n) {
 body > main > section.container, body > header.container, body > footer.container {
   padding: 4rem var(--container-margin); }
 
-[id]::before {
+.fix-header-offset [id]::before {
   /* https://stackoverflow.com/a/24298427 */
   content: '';
   display: block;
   height: var(--toolbar-height);
-  margin-top: -var(--toolbar-height);
+  margin-top: calc(-1 * var(--toolbar-height));
   visibility: hidden; }
 
 body > header {
@@ -639,7 +639,7 @@ a.social {
       #TableOfContents ul li a:focus, #TableOfContents ul li a:hover {
         text-decoration: underline; }
 
-#TableOfContents > ul > li > ul > li > a {
+#TableOfContents > ul > li > a {
   font-weight: bold; }
 
 .speakers ul li .speaker {
@@ -1026,6 +1026,7 @@ form input {
   margin: 0;
   padding: 4rem; }
   .home main > section h2 {
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     padding: 0;
     font-size: 2rem;
@@ -1283,6 +1284,8 @@ form input {
 .page.sessions .talk .content {
   margin: var(--space-4) 0;
   flex: 1 1 auto; }
+  .page.sessions .talk .content h2 {
+    height: auto; }
 
 .page.sessions .talk .speakers .speaker {
   display: grid;
@@ -1869,7 +1872,7 @@ main > .kids .content {
       line-height: 1.7rem; }
 
 .section.team h2 {
-  margin: var(--space-4) 0; }
+  margin-top: 2rem; }
 
 .section.team ul.members {
   padding: 0;

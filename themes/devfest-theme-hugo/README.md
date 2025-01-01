@@ -443,6 +443,9 @@ website: '/2024/sessions/invited_diamanti'
 
 `surname` is used for sorting speakers.
 
+> [!WARNING]
+> The bio of the speaker should be put into the description of the session, like on [this example](https://qcrypt.net/2023/sessions/invited_kalai/). There are **no individual speaker pages!**
+
 
 additional parameters we are not using:
 ```yaml
@@ -466,24 +469,40 @@ The body of the file is used as long bio.
 
 ### Sessions
 
-<!> this is not yet stable
 
-A sessions should have this params :
+A session should have these parameters:
 
 ```yaml
+---
+title: "Invited Talk: Constructive Post-Quantum Reductions"
+speakers:
+  - kalai
+draft: false
+format: invited
+type: sessions
+year: 2023
+videoID : 8VNh1dyQxsg
+presentation: "/2023/sessions/slides/QCrypt2023InvitedKalai.pdf"
+---
+## Abstract
+In this talk I will discuss when we can "lift" classical reductions to post-quantum ones in a constructive manner...
+
+Bio: **Yael Tauman Kalai** is a Senior Principal Researcher at Microsoft Research and Adjunct Professor at the Massachusetts Institute of Technology (MIT). Kalai earned a B.Sc in Mathematics from the Hebrew University of Jerusalem, an MS in Computer Science and Applied Mathematics from The Weizmann Institute of Science, and a Ph.D. in Computer Science from MIT.
+```
+
+
+
+not used are
+```yaml
 id: an_id
-title: Super mega title
 language: Français
 complexity: Beginner
 tags:
   - Category
-presentation: URL of slides
-videoId: Youtub video id
 speakers:
   - speaker id
 talkType: Keynote
 ```
-
 The body of the file is used as description.
 
 ### Team

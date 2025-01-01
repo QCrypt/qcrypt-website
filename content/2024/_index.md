@@ -38,7 +38,7 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 
 {{% home-keydates %}}
 
-## <strong>Key Dates QCrypt 2024 (all times 23:59 AoE)</strong>
+## Key Dates QCrypt 2024 (all times 23:59 AoE)
 |Date |Event|
 |:----|:----|
 | <strike> April 2024 </strike>|<strong> TALK SUBMISSION NOW CLOSED </strong>|

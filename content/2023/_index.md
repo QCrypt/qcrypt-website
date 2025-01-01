@@ -53,6 +53,7 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 |<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
 
 
+
 ## Website Updates
 |Date |Event|
 |:----|:----|
@@ -82,7 +83,6 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 
 {{% /home-keydates %}}
 
-<!-- THE MAP -->
 {{% home-location
     image="https://brandportal.umd.edu/m/201095fc65e15cf6/Hero_web-IribeCenter_JC_09182019_8325-tif.jpg"
     address="Brendan Iribe Center for Computer Science and Engineering, University of Maryland, 8125 Paint Branch Drive, College Park, MD, USA 20742"
@@ -91,7 +91,6 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
     %}}
 
 ## The 2023 venue
-<!-- ### online -->
 {{% /home-location %}}
 
 {{% home-speakers year=2023 %}}

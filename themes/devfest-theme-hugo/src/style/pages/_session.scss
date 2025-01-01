@@ -92,6 +92,9 @@
     .content {
       margin: var(--space-4) 0;
       flex: 1 1 auto;
+      h2 {
+        height: auto;
+      }
     }
 
     .speakers .speaker {

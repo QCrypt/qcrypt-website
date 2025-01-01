@@ -79,10 +79,10 @@ body > main > section.container, body > header.container, body > footer.containe
   padding: 4rem var(--container-margin);
 }
 
-[id]::before { /* https://stackoverflow.com/a/24298427 */
+.fix-header-offset [id]::before { /* https://stackoverflow.com/a/24298427 */
   content: '';
   display: block;
   height:      var(--toolbar-height);
-  margin-top: -var(--toolbar-height);
+  margin-top: calc(-1 * var(--toolbar-height));
   visibility: hidden;
 }
