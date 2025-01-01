@@ -37,39 +37,37 @@
         {{ end }}
 
 		{{ $sessionname := .File.TranslationBaseName }}
-        {{ if (hasPrefix $sessionname "industry") }}
-            {{ $sessionname = "industrial" }}
-        {{ end }}
+		
 		{{ if not (hasPrefix $sessionname "__") }}
-		{{/* warnf $sessionname */}}
+			{{/* warnf $sessionname */}}
 
-		{{/* figure out when this session is running from schedule */}}
-		{{ $startday := "" }}
-		{{ $starttime := "" }}
-		{{ $endtime := "" }}
-		{{ $schedule := index site.Data (printf "schedule-%s" $currentYear) }}
-		{{ range $day := $schedule }}
-		  {{ range $session := $day.sessions }}
-  			{{ if and (ne $starttime "") (eq $endtime "") }}
-		  		 {{ $endtime = $session.time }}
-			  {{ else if eq $session.session $sessionname }}
-				  {{ $startday = $day.day }}
-					{{ $starttime = $session.time }}
-		  	{{ end }}
+			{{/* figure out when this session is running from schedule */}}
+			{{ $startday := "" }}
+			{{ $starttime := "" }}
+			{{ $endtime := "" }}
+			{{ $schedule := index site.Data (printf "schedule-%s" $currentYear) }}
+			{{ range $day := $schedule }}
+			{{ range $session := $day.sessions }}
+				{{ if and (ne $starttime "") (eq $endtime "") }}
+					{{ $endtime = $session.time }}
+				{{ else if eq $session.session $sessionname }}
+					{{ $startday = $day.day }}
+						{{ $starttime = $session.time }}
+				{{ end }}
+				{{ end }}
 			{{ end }}
-		{{ end }}
 
-		{{/* 
-		{{ warnf $startday }}
-		{{ warnf $starttime }}
-		{{ warnf $endtime }} 
-		 */}}
+			{{/* 
+			{{ warnf $startday }}
+			{{ warnf $starttime }}
+			{{ warnf $endtime }} 
+			*/}}
 
-		{{ if $startday }}
-			<div class="time">{{- dateFormat "Mon, 2 Jan 2006" $startday -}}, {{ $starttime }} - {{ $endtime }}</div>
-		{{ else }}
-			{{ warnf (printf "no startday found when looking for %s in year %s" $sessionname $currentYear) }}
-		{{ end }}
+			{{ if $startday }}
+				<div class="time">{{- dateFormat "Mon, 2 Jan 2006" $startday -}}, {{ $starttime }} - {{ $endtime }}</div>
+			{{ else }}
+				{{ warnf (printf "no startday found when looking for %s in year %s" $sessionname $currentYear) }}
+			{{ end }}
 
 		{{ end }}
 
