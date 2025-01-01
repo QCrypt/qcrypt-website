@@ -298,7 +298,47 @@ Just present your feature speakers
 ![](images/feature-speakers.png)
 
 
-#### Subscription block
+#### Location block
+
+Show conference location.
+
+```hugo
+{{% home-location
+    image="/images/map.jpg"
+    address="11 Espl. Compans Caffarelli, 31000 Toulouse"
+    latitude="43.6110956"
+    longitude="1.4332799" %}}
+
+## The venue
+
+### Centre de Congrès Pierre Baudis
+
+The Centre de Congrès Pierre Baudis is a modern place of exchange,
+located on a privileged location,
+in the immediate vicinity of the centre of Toulouse and in a green environment.
+
+{{% /home-location %}}
+```
+
+![](images/block-map.png)
+
+### Partners block
+
+Show your partners
+
+```hugo
+{{% partners categories="gold,silver,bronze,exhibitors" year=2024 %}}
+## Sponsors
+{{% /partners %}}
+```
+
+![](images/block-partners.png)
+
+
+### Blocks currently not used
+We are currently not using these blocks, but they could be reactived when needed.
+
+#### Subscription block (not used)
 
 Call to subscribe
 
@@ -315,7 +355,7 @@ Use the site param `subscriptionUrl`.
 ![](images/subscribe.png)
 
 
-### Ticket block
+#### Ticket block (not used)
 
 Display ticket information.
 
@@ -354,43 +394,8 @@ Display ticket information.
 
 ![](images/block-ticket.png)
 
-#### Location block
 
-Show conference location.
-
-```hugo
-{{% home-location
-    image="/images/map.jpg"
-    address="11 Espl. Compans Caffarelli, 31000 Toulouse"
-    latitude="43.6110956"
-    longitude="1.4332799" %}}
-
-## The venue
-
-### Centre de Congrès Pierre Baudis
-
-The Centre de Congrès Pierre Baudis is a modern place of exchange,
-located on a privileged location,
-in the immediate vicinity of the centre of Toulouse and in a green environment.
-
-{{% /home-location %}}
-```
-
-![](images/block-map.png)
-
-### Partners block
-
-Show your partners
-
-```hugo
-{{% partners categories="platinium,gold,soutien,media,communautes" %}}
-# Partners
-{{% /partners %}}
-```
-
-![](images/block-partners.png)
-
-#### Album block
+#### Album block (not used)
 
 ```hugo
 {{% album images="/images/album/2018/_25A9313.jpg,/images/album/2018/_25A9386.jpg,/images/album/2018/_25A9671.jpg,/images/album/2018/_25A9334.jpg,/images/album/2018/_25A9282.jpg,/images/album/2018/_25A9612.jpg,/images/album/2018/_25A9452.jpg,/images/album/2018/_25A9628.jpg" %}}

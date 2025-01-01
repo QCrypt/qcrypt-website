@@ -94,8 +94,14 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 <!-- ### online -->
 {{% /home-location %}}
 
-## Sponsors
+{{% home-speakers year=2023 %}}
+## Featured Speakers
+{{< button-link label="All Speakers"
+                url="/2023/speakers"
+                icon="cfp" >}}
+{{% /home-speakers %}}
 
-{{% partners categories="gold,silver,bronze,community" year=2023 %}}
+{{% partners categories="gold,silver,community" year=2023 %}}
+## Sponsors
 {{% /partners %}}
 

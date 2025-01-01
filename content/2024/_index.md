@@ -14,7 +14,7 @@ layout: home
 ## 2-6 September 2024
 
 {{< button-link label="Conference Program"
-                url="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx"
+                url="schedule"
                 icon="cfp" >}}
 
 
@@ -30,7 +30,7 @@ layout: home
 {{% /jumbo %}}
 
 
-{{% home-info class="primary" %}}
+{{% home-info what="Participants:>200,Days:5,Invited Talks:9,Tutorials:4" class="primary" %}}
 ## What is QCrypt 2024?
 
 QCrypt 2024 is the 14th edition of the yearly international scientific conference presenting last year's top results in quantum cryptography. See the list of previous conferences <a style="color: yellow" href="/2024/charter/#history-of-qcrypt">here</a>.
@@ -70,6 +70,12 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 <strong>Organized by: University of Vigo</strong>
 {{% /home-location %}}
 
+{{% home-speakers year=2024 %}}
+## Featured Speakers
+{{< button-link label="All Speakers"
+                url="/2024/speakers"
+                icon="cfp" >}}
+{{% /home-speakers %}}
 
 {{% partners categories="gold,bronze,exhibitors" year=2024 %}}
 ## Sponsors
@@ -77,3 +83,4 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 QCrypt 2024 is seeking sponsors. To know more about sponsor packages and other information, contact {{< button-link label="2024@qcrypt.net" url="mailto:2024@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} 
 
 {{% /partners %}}
+

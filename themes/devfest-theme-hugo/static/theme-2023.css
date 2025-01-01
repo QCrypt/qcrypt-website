@@ -1147,7 +1147,8 @@ form input {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
-    background-color: var(--primary); }
+    background-color: var(--primary);
+    color: var(--primary-txt); }
     .home main .location .description .direction {
       display: flex;
       align-items: center; }
