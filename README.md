@@ -139,10 +139,12 @@ Every content file contains a [front matter](https://gohugo.io/content-managemen
 
 The original Hugo template had multilingual support (French / English), but we have dropped this in the meanwhile, some reminders of these times are still around, though.
 
+### Hugo Shortcodes
 > [!NOTE]
 > We often use [Hugo shortcodes](https://gohugo.io/content-management/shortcodes/) in this project. There are two different types:
 > * `{{%  %}}` produces markdown content like the `jumbo` element on the main page.
 > * `{{<  >}}` produces HTML output, e.g. used to produce links with `button-link` inside the `jumbo` element on the main page.
+> Some shortcodes have closing brackets, using the markdown content enclosed between them (like `jumbo`), others don't (like `button-link`).
 
 ### file names
 > [!IMPORTANT]
