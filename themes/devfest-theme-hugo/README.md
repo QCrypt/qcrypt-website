@@ -249,7 +249,9 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 Define the two important tables with key dates and website updates.
 
 ```hugo
-## Key Dates QCrypt 2023
+{{% home-keydates %}}
+
+{{% home-keydate-table title="Key Dates QCrypt 2023" %}}
 |Date |Event|
 |:----|:----|
 |<strike> 27 March 2023 </strike> | <!-- <a href="https://hotcrp.science.uva.nl/" target="_blank"> --> <strike> Talk submission open now </strike>|
@@ -262,9 +264,9 @@ Define the two important tables with key dates and website updates.
 |<strike>Sat, 15 July 2023</strike>| <strike>Early bird rate deadline</strike>|
 |<strike>Tue, 08 August 2023</strike>| <strike>Registration deadline</strike>|
 |<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
+{{% /home-keydate-table %}}
 
-
-## Website Updates
+{{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
 |December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
@@ -273,7 +275,14 @@ Define the two important tables with key dates and website updates.
 |August 15, 2023 | The group photo from Monday evening is now <a href="https://umd.box.com/s/ro56fac22mf5j8xkjcb06ggw0igil4nv">available to view and download.</a>|
 |August 14, 2023 | The <a href="/2023/sessions/rump/">Rump Session</a> theme is: “We love turtles” ❤️🐢❤️|
 |August 14, 2023 | Attendees are encouraged to fill out the <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScFytHnfnz8iix5UXr8YUJgxAiBvdEAtshy3y9twJvQAY8DBA/viewform">exit questionnaire</a> about their conference experience.|
+|August 11, 2023 | The digital version of the <a href="https://umd.box.com/s/0gp344b5j4wupyrv9wbivjdpfw350rvx">conference program is now available.|
+|August 4, 2023 | Updated Rump Session Instructions: Have a breakthrough result or an amusing quantum cryptography anecdote? Share it at the QCrypt 2023 Rump Session! Submit your proposal <a href="/2023/sessions/rump/"><strong>here</strong></a> before the early submission deadline on Tuesday, August 15, at 11:30 a.m. to secure your spot.|
+{{% /home-keydate-table %}}
+
+{{% /home-keydates %}}
 ```
+
+If there is enough space, the tables are displayed next to each other.
 
 #### Location block
 
@@ -468,8 +477,6 @@ The body of the file is used as long bio.
 
 
 ### Sessions
-
-
 A session should have these parameters:
 
 ```yaml
@@ -508,21 +515,94 @@ The body of the file is used as description.
 ### Team
 
 A team member should have these params:
-
 ```yaml
-title: Name
+---
+title: Gorjan Alagic
+surname: Alagic
 type: core
-subtitle: ''
-photo: photo.jpg
+year: 2023
+subtitle: University of Maryland & NIST
+job: General chair
+photoURL: /2023/team/images/gorjan_alagic.jpg
 socials:
-  - link: 'https://twitter.com/XXX'
-    name: Twitter
-  - link: 'https://www.linkedin.com/XXX'
-    name: LinkedIn
+  - link: 'https://quics.umd.edu/people/gorjan-alagic'
+    name: Site
+---
 ```
 
-### Blog
+### Schedule
+Schedule data per year is in `/data/schedule-YEAR.yml`, for example:
 
+```yml
+- day: '2024-09-02'
+  sessions:
+    - session: __checkin
+      time: '08:30'
+    - session: __welcomingremarks
+      time: '09:00'
+    - session: tutorial_tavakoli
+      time: '09:15'
+    - session: invited_lo
+      time: '10:30'
+    - session: __break
+      time: '11:15'
+    - session: invited_malavolta
+      time: '11:45'
+    - session: contributed1a
+      time: '12:30'
+    - session: __lunch
+      time: '13:10'
+    - session: contributed1b
+      time: '14:40'
+    - session: __break
+      time: '16:00'
+    - session: contributed1c
+      time: '16:30'
+    - session: __reception
+      time: '19:00'
+
+- day: '2024-09-03'
+  sessions:
+    - session: __updates&announcements
+      time: '09:00'
+    - session: tutorial_lukens
+      time: '09:15'
+    - session: invited_cao
+      time: '10:30'
+    - session: __break
+      time: '11:15'
+    - session: invited_brunner
+      time: '11:45'
+    - session: contributed2a
+      time: '12:30'
+    - session: __lunch
+      time: '13:10'
+    - session: contributed2b
+      time: '14:40'
+    - session: __break
+      time: '16:00'
+    - session: contributed2c
+      time: '16:30'
+    - session: poster
+      time: '17:10'
+    - session: _public_lecture
+      time: '19:00'
+    - session: __endofday
+      time: '20:00'
+```
+
+The `session` field refers to the `.md` content file in `/YEAR/sessions/`.
+The `time` field is the start time of the day.
+
+> [!NOTE]
+> When displaying a single session like [this one](https://qcrypt.net/2023/sessions/tutorial_yuen/), the start and end time are inferred from the schedule. In particular, the **end time** is the start time of the next event. Therefore, it's wise to include a `__endofday` event in the schedule of every day.
+
+
+### Charter, History, Code of Conduct, other pages
+just classic markdown files. 
+
+
+### Blog (not used)
 A blog should have these params:
 
 ```yaml
@@ -535,19 +615,6 @@ draft: false
 
 And of course, the body is the blog post.
 
-### TODO Schedule
-
-Development scheduled to summer 2019.
-
-### FAQ, Code of Conduct, ...
-
-just classique markdown file, this the `menu.main.weight: 80` to be displayed into the navbar.
-
-
-### Notes
-
-* We focus on English and French in this theme, so with other language, you should add months into the `layouts/partials/date-short.html`
 
 ## License
-
 MIT, see [LICENSE](https://github.com/jweslley/hugo-conference/blob/master/LICENSE).

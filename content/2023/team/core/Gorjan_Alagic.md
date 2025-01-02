@@ -1,5 +1,4 @@
 ---
-
 title: Gorjan Alagic
 surname: Alagic
 type: core

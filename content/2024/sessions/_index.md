@@ -11,7 +11,6 @@ menu:
 
 ---
 
-## Conference Schedule
 This page gives an overview of the sessions. The {{< button-link label="schedule" url="/2024/schedule" icon="cfp">}} is now available.
 
 <!-- ##  Google Calendar

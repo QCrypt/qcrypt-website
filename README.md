@@ -181,7 +181,7 @@ It is the only page without a banner on top, as it starts with a [jumbo element]
 
 The following elements are:
 * home-info: some basic information about QCrypt
-* home-keydates: the two most important tables: one with key dates, one with website updates. Again, this is inspired by [the IACR pages](https://eurocrypt.iacr.org/2023/)).
+* home-keydates: the two most important tables: one with key dates, one with website updates, see [2023](https://qcrypt.net/2023/) for an example. Again, this is inspired by [the IACR pages](https://eurocrypt.iacr.org/2023/)). 
 * home-location: image, address, and coordinates of the venue
 * partners: list of sponsors, or call for sponsors
 

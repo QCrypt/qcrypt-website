@@ -9,7 +9,7 @@
 	{{ $type := (index $typeLabel 0) }}
 	{{ $label := (index $typeLabel 1) }}
 		
-	<h2>{{ $label }}</h2>
+	<h2 class="speaker-type-title">{{ $label }}</h2>
 
 	<ul class="speakers">
 		{{ range sort (where (where $site.AllPages "Params.type" $type) "Params.year" $year) ".Params.surname" }}

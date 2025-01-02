@@ -1185,6 +1185,9 @@ form input {
     width: auto;
     max-width: 500px; } }
 
+.section.sessions .session-type-title, .taxonomy.tags .session-type-title {
+  margin-top: 2rem; }
+
 .section.sessions ul.talks, .taxonomy.tags ul.talks {
   list-style: none;
   padding: 0;
@@ -1582,6 +1585,9 @@ form input {
 
 .section.speakers .hero h1 {
   padding: 2rem var(--container-margin); }
+
+.section.speakers .speaker-type-title {
+  margin-top: 2rem; }
 
 .section.speakers ul.speakers {
   list-style: none;
