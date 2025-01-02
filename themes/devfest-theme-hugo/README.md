@@ -484,12 +484,12 @@ year: 2023
 videoID : 8VNh1dyQxsg
 presentation: "/2023/sessions/slides/QCrypt2023InvitedKalai.pdf"
 ---
+## Bio
+**Yael Tauman Kalai** is a Senior Principal Researcher at Microsoft Research and Adjunct Professor at the Massachusetts Institute of Technology (MIT). Kalai earned a B.Sc in Mathematics from the Hebrew University of Jerusalem, an MS in Computer Science and Applied Mathematics from The Weizmann Institute of Science, and a Ph.D. in Computer Science from MIT.
+
 ## Abstract
 In this talk I will discuss when we can "lift" classical reductions to post-quantum ones in a constructive manner...
-
-Bio: **Yael Tauman Kalai** is a Senior Principal Researcher at Microsoft Research and Adjunct Professor at the Massachusetts Institute of Technology (MIT). Kalai earned a B.Sc in Mathematics from the Hebrew University of Jerusalem, an MS in Computer Science and Applied Mathematics from The Weizmann Institute of Science, and a Ph.D. in Computer Science from MIT.
 ```
-
 
 
 not used are

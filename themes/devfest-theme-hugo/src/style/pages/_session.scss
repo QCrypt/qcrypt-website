@@ -151,13 +151,28 @@
       grid-column: 1 / -1;
 
       a {
-        padding: var(--space-3) 0;
+        padding: var(--space-4);
         font-size: 1rem;
       }
 
-      .social-slides {
+      .social-slides {    
         width: auto;
-        color: inherit;
+        margin: var(--space-3) 0;
+        background: var(--primary);
+        color: var(--primary-txt);
+        font-size: 1.25em;
+        padding: .125em .75em;
+        border-radius: 1em;
+        &:focus, &:active , &:hover {
+          box-shadow: .0625em .0625em .125em var(--darken-3);
+        }
+        svg {
+          max-width: 2ch;
+        }
+      }
+
+      .video {
+        margin: var(--space-3) 0;
       }
     }
 

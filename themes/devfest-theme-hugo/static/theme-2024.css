@@ -1326,11 +1326,22 @@ form input {
 .page.sessions .talk .media {
   grid-column: 1 / -1; }
   .page.sessions .talk .media a {
-    padding: var(--space-3) 0;
+    padding: var(--space-4);
     font-size: 1rem; }
   .page.sessions .talk .media .social-slides {
     width: auto;
-    color: inherit; }
+    margin: var(--space-3) 0;
+    background: var(--primary);
+    color: var(--primary-txt);
+    font-size: 1.25em;
+    padding: .125em .75em;
+    border-radius: 1em; }
+    .page.sessions .talk .media .social-slides:focus, .page.sessions .talk .media .social-slides:active, .page.sessions .talk .media .social-slides:hover {
+      box-shadow: 0.0625em 0.0625em 0.125em var(--darken-3); }
+    .page.sessions .talk .media .social-slides svg {
+      max-width: 2ch; }
+  .page.sessions .talk .media .video {
+    margin: var(--space-3) 0; }
 
 @media (max-width: 59.99em) {
   .page.talks .talk {

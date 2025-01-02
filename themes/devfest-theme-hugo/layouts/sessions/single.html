@@ -111,9 +111,12 @@
 	<div class="media">
 		{{ if .Params.presentation }}
 		<a class="social-slides"
-		   href="{{ .Params.presentation }}"
-		   rel="noreferrer"
-		   target="_blank">See the slides</a>
+			href="{{ .Params.presentation }}"
+			rel="noreferrer"
+			target="_blank">
+			<svg class="icon icon-slides"><use xlink:href="#slides"></use></svg>
+			See the slides
+		</a>
 		{{ end }}
 
 		{{ if .Params.presentations }}
@@ -121,7 +124,9 @@
 		  <a class="social-slides"
 		   href="{{ $presentation }}"
 		   rel="noreferrer"
-		   target="_blank">See the slides {{ add $i 1 }}</a><br>
+		   target="_blank">
+		   <svg class="icon icon-slides"><use xlink:href="#slides"></use></svg>
+		   See the slides {{ add $i 1 }}</a><br>
 		  {{ end }}
 		{{ end }}
 
