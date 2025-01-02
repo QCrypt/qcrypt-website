@@ -37,8 +37,8 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 {{% /home-info %}}
 
 {{% home-keydates %}}
-	
-## Key Dates QCrypt 2023
+
+{{% home-keydate-table title="Key Dates QCrypt 2023" %}}
 |Date |Event|
 |:----|:----|
 |<strike> 27 March 2023 </strike> | <!-- <a href="https://hotcrp.science.uva.nl/" target="_blank"> --> <strike> Talk submission open now </strike>|
@@ -51,10 +51,9 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 |<strike>Sat, 15 July 2023</strike>| <strike>Early bird rate deadline</strike>|
 |<strike>Tue, 08 August 2023</strike>| <strike>Registration deadline</strike>|
 |<strong>Mon, 14 - Fri, 18 August 2023 </strong>| <strong>QCrypt 2023</strong>|
+{{% /home-keydate-table %}}
 
-
-
-## Website Updates
+{{% home-keydate-table title="Website Updates" %}}
 |Date |Event|
 |:----|:----|
 |December 12, 2023 |Talks from QCrypt 2023 are now available to <a href="https://www.youtube.com/playlist?list=PLbY0Lk6JsgBEph5CPYTQZs6cOKBPGSnnI">watch on YouTube.</a>|
@@ -78,8 +77,7 @@ QCrypt 2023 is the 13th edition of the yearly international scientific conferenc
 |June 30, 2023 | <a style="color: blue" href="/2023/speakers">An industry panel</a> discussion will take place on Thursday morning, including representatives from IDQuantique, Toshiba, Cisco, Qubitekk and NIST.|
 |June 21, 2023 | <strong>Accepted Papers Announced</strong>: Over 30 papers have been selected for contributed talks. <a style="color: blue" href="/2023/accepted-papers">Learn more.</a>|
 |June 15, 2023 | We are excited to have a great list of tutorial and invited speakers. See the <a style="color: blue" href="/2023/peakers">speaker page</a> for more details.|
-
-
+{{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
 

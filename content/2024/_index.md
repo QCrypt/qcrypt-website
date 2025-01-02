@@ -38,7 +38,9 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 
 {{% home-keydates %}}
 
-## Key Dates QCrypt 2024 (all times 23:59 AoE)
+{{% home-keydate-table title="Key Dates QCrypt 2024" %}}
+(all times 23:59 AoE)
+
 |Date |Event|
 |:----|:----|
 | <strike> April 2024 </strike>|<strong> TALK SUBMISSION NOW CLOSED </strong>|
@@ -53,7 +55,7 @@ QCrypt 2024 is the 14th edition of the yearly international scientific conferenc
 |<strong>Mon, 2 - Fri, 6 Sept 2024 </strong>| <strong>QCrypt 2024</strong>|
 
 \* The intention of the early poster notification is to facilitate logistics related to registration and travel authorizations. Submissions accepted at this stage will continue through the talk selection process.
-
+{{% /home-keydate-table %}}
 
 {{% /home-keydates %}}
 

@@ -147,8 +147,17 @@
 
   .keydates {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap; // Allows tables to wrap to the next line if there's not enough space
+    gap: 2rem;
+    justify-content: center;
+    // align-items: center;
+
+    .keydate-table table {
+      width: 500px;
+      th:nth-child(1) {
+        width: 30%;
+      }
+    }
     
     a, a:visited {
       color: var(--primary-link);
@@ -221,6 +230,13 @@
       left: 0;
       right: unset;
       width: 100%;
+    }
+
+    .keydates {
+      .keydate-table table {
+        width: auto;
+        max-width: 500px;
+      }
     }
   }
 }
