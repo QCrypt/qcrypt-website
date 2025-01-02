@@ -419,7 +419,7 @@ Display ticket information.
 
 ### Partners
 
-A partner should have this params :
+A partner should have these parameters:
 
 ```yaml
 ---
@@ -436,7 +436,7 @@ socials: []
 
 ### Speakers
 
-A speaker should have this params :
+A speaker should have these parameters:
 
 ```yaml
 key: diamanti
@@ -614,6 +614,39 @@ draft: false
 ```
 
 And of course, the body is the blog post.
+
+## Debugging and Developing
+Editing the theme can be tricky at times. 
+
+### Which template?
+Hugo's [template lookup order](https://gohugo.io/templates/lookup-order/) is not straightforward, so often it's not fully clear which template is actually used to display the current page. Therefore, when the local `hugo server` is run, some additional debug information is displayed on the page, often clarifying which template is used, and some additional information about the context.
+
+This information is not displayed in a production environment, so don't worry about it.
+
+```hugo
+{{ if hugo.IsProduction | not }}
+  <div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
+    <details>
+      <summary>Debug Info from baseof.html </summary>
+      <pre>
+  Page Kind: {{ .Kind }}
+  RelPermalink: {{ .RelPermalink }}
+  Anchorized RelPermalink: {{ anchorize .RelPermalink }}
+  Section: {{ .Section }}
+  Section Type: {{ printf "%T" .Section }}
+  Section Type: {{ len .Section }}
+  Section empty? {{ eq .Section "" }}
+  Type: {{ .Type }}
+  Layout: {{ .Layout }}
+  Current Section: {{ .CurrentSection }}
+  Parent Section: {{ .CurrentSection.Parent }}
+  Params.currentYear: {{ .Site.Params.currentYear }}
+  Current Year: {{ $currentYear }}
+      </pre>
+    </details>
+  </div>
+{{ end }}
+```
 
 
 ## License
