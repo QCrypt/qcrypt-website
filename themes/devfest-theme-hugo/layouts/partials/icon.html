@@ -1,3 +1,9 @@
-<svg class="icon icon-{{ . }}">
-	<use xlink:href="#{{ . }}"/>
-</svg>
+{{ $iconPath := printf "icons/%s.svg" . }}
+{{ $icon := resources.Get $iconPath }}
+{{ if $icon }}
+  <svg class="icon icon-{{ . }}">
+	{{ $icon.Content | safeHTML }}
+  </svg>
+{{ else }}
+  {{ warnf "icon %s not found at %s" $icon $iconPath }}
+{{ end }}

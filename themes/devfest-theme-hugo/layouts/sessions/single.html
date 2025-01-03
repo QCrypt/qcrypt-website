@@ -134,7 +134,7 @@
 			href="{{ .Params.presentation }}"
 			rel="noreferrer"
 			target="_blank">
-			<svg class="icon icon-slides"><use xlink:href="#slides"></use></svg>
+			{{ partial "icon.html" "slides" }}
 			See the slides
 		</a>
 		{{ end }}
@@ -145,7 +145,7 @@
 		   href="{{ $presentation }}"
 		   rel="noreferrer"
 		   target="_blank">
-		   <svg class="icon icon-slides"><use xlink:href="#slides"></use></svg>
+		   {{ partial "icon.html" "slides" }}
 		   See the slides {{ add $i 1 }}</a><br>
 		  {{ end }}
 		{{ end }}
