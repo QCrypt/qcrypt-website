@@ -59,9 +59,15 @@ For example, the [theme-2024.scss](/themes/devfest-theme-hugo/assets/style/theme
 
 This primary color is the main (and so far only) difference between the styles of the different years, but more variables of [_root.scss](/themes/devfest-theme-hugo/assets/style/_root.scss) could be included in the distinction in the future.
 
-When running the local hugo server, the `enableSourceMap` and `sourceMapContents` options are turned on, so that the developer console in the browser should refer to the `.scss` files that were used.
+When running the local hugo server, the `enableSourceMap` and `sourceMapContents` options are [turned on](/themes/devfest-theme-hugo/layouts/partials/css.html) (and no PostCSS and minification happen), so that the developer console in the browser should refer to the `.scss` files that were used.
 
+The [sass-mq](/themes/devfest-theme-hugo/assets/style/sass-mq/) mixin is directly included as sub-directory in the assets. It helps styling the page for smaller screens like mobile phones. It is used frequently througout the SASS code. See [its documentation](https://github.com/sass-mq/sass-mq). Including the line
+```sass
+  $show-breakpoints: $show-breakpoints
+```
+in [_variables.scss](/themes/devfest-theme-hugo/assets/style/_variables.scss) will display the currently active breakpoints in the top right corner.
 
+Check [these tips](#debugging-sass) for debugging the SASS part.
 
 ## Theme Structure 
 The Devfest Hugo theme follows a standard Hugo theme structure with the following main directories and files:
