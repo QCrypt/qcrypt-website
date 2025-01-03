@@ -48,24 +48,24 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 ## Setting up the next year 2025 based on previous years
 
 ### design 
-1. create a new logo (something with a sheep)
-2. choose a background image for the main site, like https://github.com/QCrypt/qcrypt-website/blob/main/static/images/2024/background-2024.jpg 
-3. and make a related banner, like https://github.com/QCrypt/qcrypt-website/blob/main/static/images/2024/banner-2024.jpg 
-4. pick a related themecolor, like 
+1. create a new logo, something with a sheep... see [here](https://qcrypt.net/2024/history/#websites--logos) for inspiration.
+2. choose a background image for the main site, e.g. [2024](/static/images/2024/background-2024.jpg) or [2023](/static/images/2023/background-2023.jpg) 
+3. and make a related banner, e.g. [2024](/static/images/2024/banner-2024.jpg) or [2023](/static/images/2023/banner-2023.jpg) 
+4. pick a related themecolor, like `#0099cc` or `#ac191c`.
 
 ### create new subdirectories for content
-1. It's probably easiest to copy the entire content folder from a previous year like https://github.com/QCrypt/qcrypt-website/tree/main/content/2024 and start adjusting from there
-2. create 2025 subfolder in https://github.com/QCrypt/qcrypt-website/tree/main/static/images
+1. It's probably easiest to copy the entire content folder from a previous year like /content/2024 and start adjusting from there
+2. create 2025 subfolder in /static/images
 3. put the images (logo, background image, banner) from above to this folder
 
-### add info to main config file https://github.com/QCrypt/qcrypt-website/blob/main/hugo.toml 
+### add info to main config file /hugo.toml 
 4. In [params], LEAVE the currentYear and date as it is right now. Change this only when the new 2025 site is ready.
 5. add a section [params.2025] and supply the required information
 6. the timeanddate_cityid can be inferred from https://www.timeanddate.com/worldclock/personal.html by looking at the link after clicking on "Share This Personal World Clock" 
 7. Under [menu], create a new [[menu.2025]] structure as for 2023 and 2024.
 
 ### adjust content files
-1. Go through all .md files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025 and the _index.md files in the subdirectories, and adjust the front matter. 
+1. Go through all .md files in /content/2025 and the _index.md files in the subdirectories, and adjust the front matter. 
 2. Adjust the menu: to say 2025 instead of 2024.
 3. put "draft: true" in case you want to disable the page for the time being.
 4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under /content/2025 for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.

@@ -30,7 +30,6 @@ $ nvm use --lts
 Now using node v22.12.0 (npm v10.9.0)
 ```
 
-
 ## A Guided Walk through the ingredients
 Hugo is a static website generator. This means that it takes content files encoded in `.md` files and produces *static HTML* files that can be easily served by a webserver. In our case, [netlify](https://www.netlify.com/) takes care of that. When you run the `$ hugo build` command, this building process is executed and the resulting files are stored in the `/public` directory.
 
