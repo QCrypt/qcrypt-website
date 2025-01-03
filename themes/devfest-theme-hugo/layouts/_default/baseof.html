@@ -1,12 +1,8 @@
-{{ $currentYear := string .Site.Params.currentYear }}
-{{ if not (eq .Section "") }}
-  {{ $currentYear = .Section }}
-{{ end }}
-
 <!DOCTYPE html>
 <html lang="{{ $.Site.LanguageCode | default " en" }}">
 {{ partial "head.html" . }}
 
+{{/* Getting this class correct is crucial for many CSS formatting to function properly */}}
 <body class="{{ .Kind }} 
 	{{ with .Type }}{{ . }}{{ end }}
     {{- $urlParts := split (strings.TrimPrefix "/" .RelPermalink) "/" -}}
@@ -18,6 +14,11 @@
 
 <!-- Debug Info (only visible in development) -->
 {{ if hugo.IsProduction | not }}
+  {{ $currentYear := string .Site.Params.currentYear }}
+  {{ if not (eq .Section "") }}
+    {{ $currentYear = .Section }}
+  {{ end }}
+
   <div style="background: #f0f0f0; padding: 10px; margin: 10px; font-family: monospace; font-size: 12px;">
     <details>
       <summary>Debug Info from _default/baseof.html </summary>
@@ -40,14 +41,13 @@
   </div>
 {{ end }}
 
-{{ readFile "themes/devfest-theme-hugo/static/icons.svg" | safeHTML }}
-
 {{ block "header" . }}
-{{ partial "header.html" . }}
+  {{ partial "header.html" . }}
 {{ end }}
 
 <main>
   {{ block "banner" . }}
+    {{/* The variable $currentYear is local, so we have to retrieve it in this block again, despite the code above */}}
     {{ $currentYear := string .Site.Params.currentYear }}
     {{ if not (eq .Section "") }}
       {{ $currentYear = .Section }}
@@ -60,15 +60,13 @@
   {{ end }}
 
 	{{ block "main" . }}
-	<!-- Missing main block -->
+  	<!-- Missing main block -->
 	{{ end }}
 </main>
 
 {{ block "footer.html" . }}
-{{ partial "footer.html" . }}
+  {{ partial "footer.html" . }}
 {{ end }}
-
-<!-- <script src="/theme.js" async></script> -->
 
 {{ partial "js.html" . }}
 

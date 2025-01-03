@@ -20,7 +20,7 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 
 ## Building this conference site from scratch
 
-1. Install [Hugo](https://gohugo.io)
+1. Install [Hugo](https://gohugo.io/installation/) and [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/)
 2. Clone this repo:
 
 ```bash
@@ -32,14 +32,13 @@ git clone git@github.com:QCrypt/qcrypt-website.git
 ```bash
 cd qcrypt-website
 hugo server
-```
+``` 
 
 5. Edit the markdown source files with ending .md in the /content/ subdirectories to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
 
 6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
 7. When you are happy with the result, commit the changes to the master branch. The site is then automatically deployed to https://qcrypt-website.netlify.com/ and accessible under https://qcrypt.net. If you have the proper rights, you can see the deployment logs on [netlify](https://app.netlify.com/sites/qcrypt-website/deploys).
-
 
 
 ## Customizing the theme

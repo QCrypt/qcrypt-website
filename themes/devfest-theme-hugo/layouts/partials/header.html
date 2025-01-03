@@ -11,7 +11,7 @@
 			{{ if $currentYear }}
 				{{ $logoPath = (index .Site.Params $currentYear).logos.header }}
 			{{ else }}
-				{{ $logoPath = (index .Site.Params "2024").logos.header }}
+				{{ warnf "currentYear not defined: %s" $currentYear }}
 			{{ end }}		
 			<a href="{{ printf "/%s/" $currentYear | relLangURL }}">
      	   <img src="{{ $logoPath }}" alt="logo {{ .Site.Title }}">
@@ -50,7 +50,3 @@
 	</nav>
 	</div>
 </header>
-
-{{ define "scripts" }}
-
-{{ end }}

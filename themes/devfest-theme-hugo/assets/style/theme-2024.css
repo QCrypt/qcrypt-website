@@ -1,6 +1,6 @@
 @charset "UTF-8";
 :root {
-  --primary: #0099cc;
+  /* --primary: to be defined in theme-year.scss */
   --primary-txt: #ffffff;
   --primary-link: #4c9cde;
   --accent: grey;
@@ -159,7 +159,14 @@ body > main > section.container, body > header.container, body > footer.containe
   padding: 4rem var(--container-margin);
 }
 
-.fix-header-offset [id]::before { /* https://stackoverflow.com/a/24298427 */
+/* the following is handling the correct scrolling to id elements 
+   taking into account the height of the menu bar, for instance from the Table of Contents
+   the solution without any JavaScript is from https://stackoverflow.com/a/24298427 
+
+   but taking care it does not interfere with the abstract extension in accepted papers and posters, as they also have [id] attributes
+   like on https://qcrypt.net/2023/accepted-papers/
+*/
+.fix-header-offset [id]:not(.paper-abstract [id])::before {
   content: "";
   display: block;
   height: var(--toolbar-height);
@@ -1087,6 +1094,9 @@ a .icon.icon-subscribe, a .icon.icon-email {
 a .icon.icon-right {
   margin-left: var(--space-3);
 }
+a .icon.icon-picture {
+  margin-right: var(--space-3);
+}
 
 .type-invited {
   --duration: "35";
@@ -1231,9 +1241,6 @@ form input:invalid {
 }
 .paper-list .paper-abstract {
   display: inline;
-}
-.paper-list .paper-abstract ::before {
-  height: 0;
 }
 .paper-list .paper-arxivid {
   display: inline;
@@ -1796,6 +1803,7 @@ form input:invalid {
   flex-wrap: wrap;
   justify-content: space-between;
   align-self: left;
+  padding-top: 1.5rem;
 }
 .section.schedule .session {
   position: relative;
@@ -2524,6 +2532,10 @@ main > .text_page .content img#dark_bg {
 .papers .poster-list .poster-pdf {
   display: inline;
   padding-left: var(--space-1);
+}
+
+:root {
+  --primary: #0099cc;
 }
 
 /*# sourceMappingURL=theme-2024.css.map */

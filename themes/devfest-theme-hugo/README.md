@@ -6,18 +6,10 @@ The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It origi
 > The original multi-lingual support has been dropped, but reminders of it are still lingering around.
 
 ## Getting ready to edit the theme
-
-First, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager. 
 > [!WARNING]
 > This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
-Make sure you are using the latest `npm` version by
-```bash
-$ nvm use --lts
-Now using node v22.12.0 (npm v10.9.0)
-```
-
-Then, in the main `qcrypt-website` folder, run
+Some version of `npm` might already be installed on your system, check which one with `$ npm --version`. If that works, you can run in the main `\qcrypt-website` folder
 ```bash
 $ npm clean-install
 ```
@@ -29,7 +21,72 @@ $ hugo build
 ```
 which builds the whole site to the `/public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`$ rm -rf qcrypt-website/public`) and rebuild it with the command above.
 
-## Theme structure
+### Install Node.js
+If you don't have `npm` already, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager. 
+
+Make sure you are using the latest `npm` version by
+```bash
+$ nvm use --lts
+Now using node v22.12.0 (npm v10.9.0)
+```
+
+
+## A Guided Walk through the ingredients
+Hugo is a static website generator. This means that it takes content files encoded in `.md` files and produces *static HTML* files that can be easily served by a webserver. In our case, [netlify](https://www.netlify.com/) takes care of that. When you run the `$ hugo build` command, this building process is executed and the resulting files are stored in the `/public` directory.
+
+The HTML content mainly comes from the mark-down content files in [/content](/content). These files are organized in subfolders, starting with the year, and then further subdivisions. 
+
+The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](https://github.com/QCrypt/qcrypt-website/tree/main?tab=readme-ov-file#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
+
+[Hugo templates](https://gohugo.io/templates/introduction/) make the content appear in a structured way. The templates are all in [/themes/devfest-theme-hugo/assets/layouts](/themes/devfest-theme-hugo/layouts). It takes a while to figure out which template is used to create particular content. 
+* The basis is [baseof.html](/themes/devfest-theme-hugo/layouts/_default/baseof.html). It's quite instructive to try to understand its structure. It uses various others [partial templates](/themes/devfest-theme-hugo/layouts/partials), it defines *blocks* like "header", "banner", "main" that contain some content, but which might be overwritten by other templates later on. 
+* An interesting partical template is [head.html](/themes/devfest-theme-hugo/layouts/partial/head.html) which defined the `<head>` section of the site, including various parameters, icons, RSS, CSS etc.
+* [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html) is using [Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) to create a CSS file `css/style-YEAR.css` from the SASS template `style/theme-YEAR.scss` (e.g. [theme-2024.scss](/themes/devfest-theme-hugo/assets/style/theme-2024.scss)). When using `hugo server` the file is immediately served and used, when running `hugo build`, the style file is stored in `\css\style-YEAR.css` and served from there.
+* An interesting partial template is [header.html](/themes/devfest-theme-hugo/layouts/partial/header.html), as it defines the menu structure, and retrieves the logo of the current year for the menu bar. 
+* [footer.html](/themes/devfest-theme-hugo/layouts/partials/footer.html) displays the footer.
+* [js.html](/themes/devfest-theme-hugo/layouts/partials/js.html) is the partial template inserted at the end of the [header.html](/themes/devfest-theme-hugo/layouts/partial/header.html). It uses the [Hugo JS functions](https://gohugo.io/functions/js/) to create one `main.js` file which is then included as `<script>`
+* `icon.html` is an identical [shortcode](/themes/devfest-theme-hugo/layouts/shortcodes/icon.html) and [partial template](/themes/devfest-theme-hugo/layouts/partials/icon.html) to display icons from ['assets/icons'](/themes/devfest-theme-hugo/assets/icons). If you need another icon, try adding it to this folder!
+
+Besides the HTML, the site needs CSS and JavaScript to run and be displayed properly. These assets are provided in:
+- `assets/icons/` - Icon assets
+- `assets/style/` - SCSS source files
+- `assets/script/` - JavaScript source files
+
+
+### SASS
+SASS (Syntactically Awesome Style Sheets) is a preprocessor scripting language that is compiled into CSS. It provides features like variables, nested rules, mixins, and functions, making CSS maintenance more efficient. In our theme, SASS files are processed through Hugo Pipes, which compiles them into regular CSS files during the build process. The main entry point is `theme-YEAR.scss`, which imports various partial SCSS files to create a modular and maintainable stylesheet structure.
+For example, the [theme-2024.scss](/themes/devfest-theme-hugo/assets/style/theme-2024.scss) file serves as the main stylesheet for the 2024 website, importing various partial SCSS files to build the complete CSS. This modular approach helps in organizing styles into manageable and reusable components, making the codebase easier to maintain and extend. The file also defines a root-level custom property for the primary color, ensuring consistent use of the color throughout the website.
+
+This primary color is the main (and so far only) difference between the styles of the different years, but more variables of [_root.scss](/themes/devfest-theme-hugo/assets/style/_root.scss) could be included in the distinction in the future.
+
+When running the local hugo server, the `enableSourceMap` and `sourceMapContents` options are turned on, so that the developer console in the browser should refer to the `.scss` files that were used.
+
+
+
+## Theme Structure 
+The Devfest Hugo theme follows a standard Hugo theme structure with the following main directories and files:
+
+### Root Directories
+- `archetypes/` - Contains default content templates
+- `assets/` - Contains all processed resources (CSS, JS, images)
+- `layouts/` - Contains all template files
+- `images/` - Contains image files for this README
+- `i18n/` - Contains translation files
+
+### Key Layout Components
+- `layouts/_default/` - Base templates
+- `layouts/partials/` - Reusable template parts
+- `layouts/shortcodes/` - Custom Hugo shortcodes
+- `layouts/404.html` - Custom 404 error page
+
+### Asset Organization
+- `assets/style/` - SCSS source files
+- `assets/script/` - JavaScript source files
+- `assets/icons/` - Icon assets
+
+### Configuration
+- `theme.toml` - Theme metadata
+
 
 
 ## Site parameters
@@ -648,6 +705,18 @@ This information is not displayed in a production environment, so don't worry ab
   </div>
 {{ end }}
 ```
+
+### Debugging Hugo Pipes
+[Hugo Pipes](https://gohugo.io/hugo-pipes/introduction/) is Hugo's asset processing for creating CSS from SASS, to run PostCSS, minify resources etc.
+
+For debugging, various `warnf` messages are ready to be un-commented in the crucial [css.html](/themes/devfest-theme-hugo/layouts/partials/css.html), [js.html](/themes/devfest-theme-hugo/layouts/partials/js.html) and [icon.html](/themes/devfest-theme-hugo/layouts/shortcodes/icon.html) files.
+
+### Debugging SASS
+For testing and debugging purposes, you can also build the `css` outside of Hugo. Make sure you have [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/) installed. The run the following in the `qcrypt-website` main folder 
+```bash
+$ sass themes/devfest-theme-hugo/assets/style/theme-2024.scss themes/devfest-theme-hugo/assets/style/theme-2024.css
+```
+This might show you more detailed error messages.
 
 
 ## License

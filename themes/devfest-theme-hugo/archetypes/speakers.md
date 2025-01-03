@@ -11,5 +11,3 @@ website: '/2024/sessions/invited_diamanti'
 #   - link: 
 #     name: Site
 ---
-
-Full bio
