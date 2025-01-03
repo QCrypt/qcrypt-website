@@ -1,34 +1,33 @@
 # DevFest Theme Hugo
 
-The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It used to be an independent theme, as a separate git submodule, but since 2023, it's permanently included in the git repository.
+The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It originated as an [independent theme](https://github.com/GDGToulouse/devfest-theme-hugo), as a separate git submodule, but since 2023, it's permanently included in the git repository.
 
 > [!NOTE]
 > The original multi-lingual support has been dropped, but reminders of it are still lingering around.
 
 ## Getting ready to edit the theme
 
-First, install [yarn](https://yarnpkg.com/lang/en/docs/install/).
+First, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager.
 
-Then, use
+Make sure you are using the latest `npm` version by
 ```
-cd themes/devfest-theme-hugo
-yarn
-```
-to install the dependencies.
-
-As you might not have the right version of npm, you might have to install the node version manager [nvm](https://github.com/nvm-sh/nvm). Then, use
-```
-nvm install 10.0
+nvm use --lts
+Now using node v22.12.0 (npm v10.9.0)
 ```
 
-In the same directory, run `npm start` to watch [Sass](https://sass-lang.com/) changes.
+Then, in the main `qcrypt-website` folder, run
+```
+npm clean-install
+```
+to install the dependencies as specified in [package.json](/package.json). This will create a `node_modules` subfolder which should not be included in the git repositry (that's why it's excluded in the [.gitignore](\.gitignore)).
 
-When you are happy with the result run `npm run build` to build the minified versions of `theme.js` and `theme.css`. Then commit to these.
+This has installed the PostCSS features, so now you should be able to run
+```
+hugo build
+```
+which builds the whole site to the `public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`rm -rf qcrypt-website/public`) and rebuild it with the command above.
 
-### Installing on a new ARM Mac
-node-sass is not yet ported to ARM processors, but there is a work-around described here:
-https://github.com/sass/node-sass/issues/3033#issuecomment-763180778
-TODO: newer software exists now...
+
 
 
 ## Site parameters
