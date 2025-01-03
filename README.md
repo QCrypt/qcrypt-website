@@ -66,9 +66,9 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 
 ### adjust content files
 1. Go through all .md files in [/content/2025](/content/2025) and the `_index.md` files in the subdirectories, and adjust the front matter. 
-2. Adjust the menu: to say 2025 instead of 2024.
-3. put "draft: true" in case you want to disable the page for the time being.
-4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under `/content/2025` for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
+2. Adjust the `menu:` sub-entry to say `2025` instead of `2024`.
+3. put `draft: true` in case you want to disable the page for the time being.
+4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under [/content/2025](/content/2025) for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
 
 
 ### create new team and add admins
