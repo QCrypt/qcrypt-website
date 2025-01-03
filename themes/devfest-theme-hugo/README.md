@@ -7,27 +7,29 @@ The theme is located in the `/themes/devfest-theme-hugo/` subdirectory. It origi
 
 ## Getting ready to edit the theme
 
-First, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager.
+First, install [Node.js](https://nodejs.org/en/download), in particular install `v22.12.0 (LTS)` for `macOS/linux/windows` using `nvm` with `npm`. `nvm` is a cross-platform Node.js version manager. 
+> [!WARNING]
+> This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
 Make sure you are using the latest `npm` version by
-```
-nvm use --lts
+```bash
+$ nvm use --lts
 Now using node v22.12.0 (npm v10.9.0)
 ```
 
 Then, in the main `qcrypt-website` folder, run
+```bash
+$ npm clean-install
 ```
-npm clean-install
-```
-to install the dependencies as specified in [package.json](/package.json). This will create a `node_modules` subfolder which should not be included in the git repositry (that's why it's excluded in the [.gitignore](\.gitignore)).
+to install the dependencies as specified in [package.json](/package.json). This will create a `node_modules` subfolder which should not be included in the git repositry (that's why it's excluded in the [.gitignore](/.gitignore)).
 
 This has installed the PostCSS features, so now you should be able to run
+```bash
+$ hugo build
 ```
-hugo build
-```
-which builds the whole site to the `public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`rm -rf qcrypt-website/public`) and rebuild it with the command above.
+which builds the whole site to the `/public` subfolder, which is also excluded from the git repository. You can always delete this whole folder (`$ rm -rf qcrypt-website/public`) and rebuild it with the command above.
 
-
+## Theme structure
 
 
 ## Site parameters
