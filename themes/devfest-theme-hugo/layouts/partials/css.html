@@ -3,6 +3,8 @@
 {{ $opts := dict
   "targetPath" (printf "css/style-%s.css" .Section) 
   "transpiler" "dartsass"
+  "enableSourceMap" true
+  "sourceMapContents" true
   "includePaths" (slice "node_modules/sass-mq")
 }}
 {{ with resources.Get (printf "style/theme-%s.scss" .Section) }}

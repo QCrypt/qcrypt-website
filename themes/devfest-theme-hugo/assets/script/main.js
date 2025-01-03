@@ -1,3 +1,4 @@
+import './submenus';
 import './polyfills';
 import './shuffle';
 import './sort';
