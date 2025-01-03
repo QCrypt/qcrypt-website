@@ -10,3 +10,5 @@ QCrypt_background1old.png
 letter.aux
 letter.log
 letter.synctex.gz
+node_modules
+_gen

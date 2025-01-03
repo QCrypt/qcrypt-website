@@ -1,0 +1,20 @@
+{{ warnf "current Year in css.html: %s" .Section }}
+
+{{ $opts := dict
+  "targetPath" (printf "css/style-%s.css" .Section) 
+  "transpiler" "dartsass"
+  "includePaths" (slice "node_modules/sass-mq")
+}}
+{{ with resources.Get (printf "style/theme-%s.scss" .Section) }}
+  {{ if hugo.IsProduction }}
+    {{ with . | toCSS $opts | postCSS | minify | fingerprint }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
+    {{ end }}
+  {{ else }}
+    {{/* warnf "SCSS: %s" .Content | safeHTML */}}
+    {{ with . | toCSS $opts }}
+      <link rel="stylesheet" href="{{ .RelPermalink }}">
+    {{ end }}
+  {{ end }}
+{{ end }}
+
