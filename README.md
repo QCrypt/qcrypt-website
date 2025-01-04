@@ -6,7 +6,6 @@ Hugo-powered QCrypt website for 2025 edition and later, live at at https://qcryp
 
 Project initiated in 2020 and maintained since then by [Christian Schaffner](https://github.com/cschaffner).
 
-
 ## History
 Originally based on the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
 adapted from the fork by the cloudnative-amsterdam people: https://github.com/cloudnative-amsterdam/public-website
