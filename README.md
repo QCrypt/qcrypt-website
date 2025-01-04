@@ -47,20 +47,15 @@ Is described in the [README.md ](https://github.com/QCrypt/qcrypt-website/blob/m
 ## High-level overview
 This site is built with modern web technologies:
 
-### Hugo
-[Hugo](https://gohugo.io/) is a fast website builder that turns simple text files into a complete website. It watches for changes in your content and instantly updates the site while you work.
+* **Hugo**: [Hugo](https://gohugo.io/) is a fast website builder that turns simple text files into a complete website. It watches for changes in your content and instantly updates the site while you work.
 
-### JamStack Architecture
-The website follows a modern approach where all pages are created ahead of time. This makes the site fast, secure, and reliable since there's no need to generate pages when visitors arrive. Learn more about [JamStack](https://jamstack.org/).
+* **JamStack Architecture**: The website follows a modern approach where all pages are created ahead of time. This makes the site fast, secure, and reliable since there's no need to generate pages when visitors arrive. Learn more about [JamStack](https://jamstack.org/).
 
-### Netlify Hosting
-[Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made. It ensures the site is secure, fast, and available worldwide through its global network.
+* **Content Management**: Content is written in [Markdown](https://www.markdownguide.org/) files that are easy to edit and track changes. Multiple people can work on the site together through [GitHub](https://github.com/), and all changes are safely stored and can be reviewed.
 
-### Styling with CSS/SASS
-The website's appearance is controlled through [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and [SASS](https://sass-lang.com/) style files that make it easy to maintain a consistent look. Each conference year can have its own visual theme, and the site works well on all screen sizes.
+* **Styling with CSS/SASS**: The website's appearance is controlled through [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and [SASS](https://sass-lang.com/) style files that make it easy to maintain a consistent look. Each conference year can have its own visual theme, and the site works well on all screen sizes.
 
-### Content Management
-Content is written in [Markdown](https://www.markdownguide.org/) files that are easy to edit and track changes. Multiple people can work on the site together through [GitHub](https://github.com/), and all changes are safely stored and can be reviewed.
+* **Netlify Hosting**: [Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made and committed to this repository. It ensures the site is secure, fast, and available worldwide through its global network.
 
 This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers.
 
