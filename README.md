@@ -19,19 +19,21 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 
 
 ## Building this conference site from scratch
+> [!WARNING]
+> This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
 1. Install [Hugo](https://gohugo.io/installation/) and [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/)
 2. Clone this repo:
 
 ```bash
-git clone git@github.com:QCrypt/qcrypt-website.git
+$ git clone https://github.com/QCrypt/qcrypt-website.git
 ```
 
 3. It's done. Just start Hugo server to see the site live!
 
 ```bash
-cd qcrypt-website
-hugo server
+$ cd qcrypt-website
+$ hugo server
 ``` 
 
 5. Edit the markdown source files with ending .md in the /content/ subdirectories to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
@@ -88,26 +90,18 @@ This combination of tools creates a website that's fast, secure, and easy to mai
 1. In [/themes/devfest-theme-hugo/assets/style/], duplicate [theme-2024.css](/themes/devfest-theme-hugo/assets/style/theme-2024.css) and rename it to `theme-2025.css`
 2. adjust the last line to set the `--primary:` variable in `root` to the themecolor picked above.
 
-### create new github team and add admins
+
+### Steps you will need help with
 1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2025```
 2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2025/members
 3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2025/repositories
-
-### setting up netfliy
 5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to qcrypt-website
-
-### slack integration
-1. create a new private channel on QCrypt slack, named website-2024
 1. on https://api.slack.com/apps/A01P06YNCCU/incoming-webhooks , create a new Webhook (on the bottom of the page)
 1. paste the Webhook URL into netfliy:  https://app.netlify.com/sites/qcrypt2024/settings/deploys (for deploy succeesful and deploy failed)
 1. add admins to Slack channel
-
-### create new email addresses
-We probably need new email addresses like 2025@qcrypt.net and pcchairs2025@qcrypt.net.
-
-### technical updates
-- connect new admins to admins from last year
-- Is it time to update the hugo version? check what needs to be updated.
+3. We probably need new email addresses like 2025@qcrypt.net and pcchairs2025@qcrypt.net.
+3. connect new admins to admins from last year
+4. Is it time to update the hugo version? check what needs to be updated.
 
 ### bump year
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
