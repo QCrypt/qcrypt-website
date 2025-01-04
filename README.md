@@ -4,18 +4,18 @@
 
 Hugo-powered QCrypt website for 2025 edition and later, live at at https://qcrypt.net. QCrypt is the yearly international scientific conference presenting last year’s top results in quantum cryptography. [Hugo](https://gohugo.io/) is a fast static website generator. https://qcrypt.net is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
 
-Project initiated and maintained by [Christian Schaffner](https://github.com/cschaffner) since 2020.
+Project initiated in 2020 and maintained since then by [Christian Schaffner](https://github.com/cschaffner).
 
 
 ## History
 Originally based on the Hugo template from https://github.com/GDGToulouse/devfest-theme-hugo
 adapted from the fork by the cloudnative-amsterdam people: https://github.com/cloudnative-amsterdam/public-website
 
-Used to run https://2020.qcrypt.net, https://2021.qcrypt.net, https://2022.qcrypt.net
+Used to run https://2020.qcrypt.net, https://2021.qcrypt.net, https://2022.qcrypt.net.
 
 Since 2023, the theme submodule is included directly in this git repository.
 
-In preparation of the 2025 edition, a more permanent solution is envisioned with one main page, where more years can be added, broadly modeled after the IACR flagship websites like https://eurocrypt.iacr.org/2024, https://eurocrypt.iacr.org/2025, https://crypto.iacr.org/2023/, https://asiacrypt.iacr.org/2024/, and the "odd one out" https://crypto.iacr.org/2024/.
+In preparation of the 2025 edition, a more permanent solution is envisioned with one main page, where more years can be added, broadly modeled after the IACR flagship websites like https://eurocrypt.iacr.org/2024, https://eurocrypt.iacr.org/2025, https://crypto.iacr.org/2023/, https://asiacrypt.iacr.org/2024/, and the *odd one out (in terms of design)* https://crypto.iacr.org/2024/.
 
 
 ## Building this conference site from scratch
@@ -42,8 +42,27 @@ hugo server
 
 
 ## Customizing the theme
-Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md)
+Is described in the [README.md ](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md) of the theme.
 
+## High-level overview
+This site is built with modern web technologies:
+
+### Hugo
+[Hugo](https://gohugo.io/) is a fast website builder that turns simple text files into a complete website. It watches for changes in your content and instantly updates the site while you work.
+
+### JamStack Architecture
+The website follows a modern approach where all pages are created ahead of time. This makes the site fast, secure, and reliable since there's no need to generate pages when visitors arrive. Learn more about [JamStack](https://jamstack.org/).
+
+### Netlify Hosting
+[Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made. It ensures the site is secure, fast, and available worldwide through its global network.
+
+### Styling with CSS/SASS
+The website's appearance is controlled through [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) and [SASS](https://sass-lang.com/) style files that make it easy to maintain a consistent look. Each conference year can have its own visual theme, and the site works well on all screen sizes.
+
+### Content Management
+Content is written in [Markdown](https://www.markdownguide.org/) files that are easy to edit and track changes. Multiple people can work on the site together through [GitHub](https://github.com/), and all changes are safely stored and can be reviewed.
+
+This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers.
 
 ## Setting up the next year 2025 based on previous years
 
@@ -70,14 +89,17 @@ Is described at [themes/devfest-theme-hugo/README.md ](https://github.com/QCrypt
 3. put `draft: true` in case you want to disable the page for the time being.
 4. In general, whenever the year is passed on as parameter, you might have to update it. So, searching under [/content/2025](/content/2025) for all occurrences of 2024 and replacing the correct ones with 2025 is probably a good strategy.
 
+### create new style file
+1. In [/themes/devfest-theme-hugo/assets/style/], duplicate [theme-2024.css](/themes/devfest-theme-hugo/assets/style/theme-2024.css) and rename it to `theme-2025.css`
+2. adjust the last line to set the `--primary:` variable in `root` to the themecolor picked above.
 
-### create new team and add admins
+### create new github team and add admins
 1. on https://github.com/orgs/QCrypt/teams, create a new team ```QCrypt 2025```
 2. add admins https://github.com/orgs/QCrypt/teams/qcrypt-2025/members
 3. add repositories https://github.com/orgs/QCrypt/teams/qcrypt-2025/repositories
 
-### setting up netfliy & domain name
-5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to 2024 site
+### setting up netfliy
+5. In netlify https://app.netlify.com/teams/qcrypt/members: add new admin as collaborator to qcrypt-website
 
 ### slack integration
 1. create a new private channel on QCrypt slack, named website-2024
