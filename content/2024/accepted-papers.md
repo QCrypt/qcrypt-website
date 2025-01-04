@@ -13,8 +13,6 @@ menu:
 ---
 
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 ## List of Accepted Contributed Talks
 
 (in order of submission)
@@ -29,7 +27,9 @@ menu:
 {{< posters-accepted year=2024 >}}
 {{< /posters-accepted >}}
 
-<!--
+
+{{/* 
+
 ## Best Student Paper Awards
 ### Theory
 Congratulations to **Tony Metger** for *Generalised entropy accumulation for quantum cryptography* with co-authors Omar Fawzi ; David Sutter ; Renato Renner
@@ -50,4 +50,5 @@ Congratulations to **Fadri Grünenfelder** for *Towards 100 Mbps secret key rate
 ### Thu, 13 Aug, 11:00 - 13:00 (TODO set final date)
 {{< button-link label="session" url="/sessions/poster2" icon="link" >}}
 {{< posters-accepted session="thu_morning">}}{{< /posters-accepted >}}
--->
+
+*/}}

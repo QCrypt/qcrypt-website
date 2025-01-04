@@ -103,7 +103,8 @@ body > header {
       text-decoration: none;
       line-height: calc(var(--toolbar-height) - (4 * var(--space-2)));;
       color: inherit;
-      font-weight: 200;
+      font-weight: 300;
+      font-size: 1.1rem;
       &:focus, &:hover {
         text-shadow: var(--extruded-dark);
         opacity: 0.6;

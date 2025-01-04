@@ -12,8 +12,6 @@ menu:
 
 ---
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
 {{< speakers types="reception=Reception Speakers" year=2023 >}}
 
 {{< speakers types="tutorial=Tutorial Speakers" year=2023 >}}

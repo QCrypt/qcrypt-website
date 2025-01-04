@@ -51,7 +51,7 @@ GoogleAnalytics = "G-221GMGECQ6"
   themeColor = "#0099cc"
   [params.2024.logos]
     jumbo = "/images/2024/QCrypt_2024_logo_final.png"
-    header = "/images/2024/QCrypt_24_logo_2.png"
+    header = "/images/2024/QCrypt_2024_logo_final.png"
     banner = "/images/2024/banner-2024.jpg"
 
 [params.logos]

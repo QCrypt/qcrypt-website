@@ -11,9 +11,7 @@ menu:
         parent: technical-program
 
 ---
-<!--
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
--->
+
 
 {{< speakers types="tutorial=Tutorial Speakers" year=2024 >}}
 

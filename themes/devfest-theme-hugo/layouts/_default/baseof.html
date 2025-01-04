@@ -60,7 +60,7 @@
   {{ end }}
 
 	{{ block "main" . }}
-  	<!-- Missing main block -->
+    {{ printf "<!-- Missing main block! -->" | safeHTML }}
 	{{ end }}
 </main>
 
@@ -69,6 +69,10 @@
 {{ end }}
 
 {{ partial "js.html" . }}
+
+{{ block "scripts" . }}
+  {{ printf "<!-- No extra scripts -->" | safeHTML }}
+{{ end }} 
 
 </body>
 
