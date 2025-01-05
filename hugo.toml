@@ -12,7 +12,10 @@ enableEmoji = true
 enableRobotsTXT = true
 enableMissingTranslationPlaceholders = true
 
-GoogleAnalytics = "G-221GMGECQ6"
+# Google Analytics are currently disabled, 
+# using it would officially require a cookie banner at least in the EU, and we don't have one...
+# it's probably better not to track people anyways.
+# GoogleAnalytics = "G-221GMGECQ6"
 
 [services]
   [services.googleAnalytics]

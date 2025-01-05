@@ -58,7 +58,7 @@ This site is built with modern web technologies:
 
 * **Netlify Hosting**: [Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made and committed to this repository. It ensures the site is secure, fast, and available worldwide through its global network.
 
-This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers.
+This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](https://github.com/QCrypt/qcrypt-website/tree/main/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
 
 ## Setting up the next year 2025 based on previous years
 
