@@ -12,11 +12,11 @@ a .icon {
   &.icon-subscribe, &.icon-email {
     margin-right: var(--space-3);
   }
+  &.icon-picture, &.icon-slides, &.icon-pdf, &.icon-video {
+    margin-right: var(--space-2);
+  }
   &.icon-right {
     margin-left: var(--space-3);
   }
 
-  &.icon-picture {
-    margin-right: var(--space-3);
-  }
 }
