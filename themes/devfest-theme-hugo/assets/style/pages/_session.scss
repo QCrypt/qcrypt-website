@@ -162,13 +162,18 @@
         background: var(--primary);
         color: var(--primary-txt);
         font-size: 1.25em;
-        padding: .125em .75em;
+        padding: .25em .75em;
         border-radius: 1em;
         &:focus, &:active , &:hover {
           box-shadow: .0625em .0625em .125em var(--darken-3);
+          background-image: linear-gradient(to right, var(--focus-color), var(--focus-color) 100%);
+          text-decoration: none;      
         }
         svg {
           max-width: 2ch;
+        }
+        .icon-slides{
+          padding-top: var(--space-1);
         }
       }
 
