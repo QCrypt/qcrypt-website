@@ -109,7 +109,6 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 3. In https://github.com/QCrypt/qcrypt-website/blob/main/netlify.toml , adjust the redirect as well
 
 
-
 ## Later Updates
 
 ### call for papers, venue updates, registration
