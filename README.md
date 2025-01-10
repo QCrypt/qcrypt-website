@@ -1,4 +1,5 @@
 # QCrypt 2025+ website
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/4fa2d41c-275c-4d5a-90ed-14db4a9accb5/deploy-status)](https://app.netlify.com/sites/qcrypt-website/deploys)
 
 Hugo-powered QCrypt website for 2025 edition and later, live at at https://qcrypt.net. QCrypt is the yearly international scientific conference presenting last year’s top results in quantum cryptography. [Hugo](https://gohugo.io/) is a fast static website generator. https://qcrypt.net is generously hosted by [netlify](https://www.netlify.com/) under a [Open Source Plan](https://www.netlify.com/legal/open-source-policy/) :heart:!
