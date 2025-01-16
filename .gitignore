@@ -2,6 +2,10 @@
 public
 .hugo_build.lock
 
+# sass debug files
+debug.css
+debug.css.map
+
 # Local Netlify folder
 .netlify
 .idea
