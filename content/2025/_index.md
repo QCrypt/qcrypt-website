@@ -19,13 +19,13 @@ layout: home
                 url="technical/call"
                 icon="right" >}}
 
-{{< button-link label="Regisration"
+<!-- {{< button-link label="Regisration"
                 url="attend/registration"
                 icon="direction" >}}
 
 {{< button-link label="Schedule"
                 url="schedule"
-                icon="slides" >}}
+                icon="slides" >}} -->
 
 <!-- {{< button-link label="Conference Photos"
                 url="pictures"
@@ -52,27 +52,26 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 
 <!-- | April                        | **TALK SUBMISSION NOW CLOSED**      | -->
 
-| Date                         | Event                               |
-| :--------------------------- | :---------------------------------- |
-| 1 April                      | Talk/Poster submission deadline     |
-| 14 April                     | Early poster notification\*         |
-| 15 April                     | **Registration opens**              |
-| 3 June                       | Poster-only submission deadline     |
-| 11 June                      | Talk acceptance notification        |
-| 13 June                      | Poster-only acceptance notification |
-| 23 June                      | Early bird rate deadline            |
-| 23 July                      | Registration deadline               |
-| **Mon, 25 - Fri, 29 August** | **QCrypt 2025**                     |
+| Date                         | Event                                   |
+| :--------------------------- | :-------------------------------------- |
+| Fri, 11 April 2025           | Talk submission deadline                |
+| Fri, 02 May 2025             | Early poster notification\*             |
+| Sun, 1 June 2025             | Poster submission deadline              |
+| Sun, 15 June 2025            | Talk and poster acceptance notification |
+| **Mon, 25 - Fri, 29 August** | **QCrypt 2025**                         |
 
 {{% /home-keydate-table %}}
 
 {{% home-keydate-table title="Website Updates" %}}
 | Date | Event |
 | :--------------------------- | :---------------------------------- |
+| February 14, 2025 | Update Conference Committee and Key Dates|
 | January 20, 2025 | Publish for pages of QCrypt 2025|
 {{% /home-keydate-table %}}
 
 \* The intention of the early poster notification is to facilitate logistics related to registration and travel authorizations. Submissions accepted at this stage will continue through the talk selection process.
+<br>
+(all times 23:59 AoE)
 
 <!-- **NOTE:** All dates without a specified day of the week are pending. -->
 
@@ -89,7 +88,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 
 <!-- ## The 2025 venue -->
 
-<strong>Organized by: University of Science and Technology of China</strong>
+<strong>Organized by: University of Science and Technology of China and CAS Center for Excellence in Quantum Information and Quantum Physics</strong>
 
 {{% /home-location %}}
 
@@ -106,7 +105,7 @@ Coming Soon ...
 
 {{% /home-speakers %}}-->
 
-{{% partners categories="sponsor" year=2025 %}}
+{{% partners categories="" year=2025 %}}
 
 ## Sponsors
 
