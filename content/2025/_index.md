@@ -15,9 +15,9 @@ layout: home
 
 ## 25–29 August 2025
 
-{{< button-link label="Conference Call"
+{{< button-link label="Call for Papers"
                 url="technical/call"
-                icon="right" >}}
+                icon="cfp" >}}
 
 <!-- {{< button-link label="Regisration"
                 url="attend/registration"
