@@ -1,7 +1,7 @@
 ---
 title: Sessions
 year: 2025
-draft: false
+draft: true
 type: sessions
 menu:
     2025:

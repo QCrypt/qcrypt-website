@@ -40,10 +40,13 @@
 @use "pages/papers";
 
 :root {
-    --primary: #0080cc; // #4775ff
+    --primary: #083a7c; //#44bb44 // #4775ff
 }  
 
 .partner-sponsor {
     // for testing use
     @extend .partner-gold;
+}
+.jumbo #jumbo-overlay.show{
+    opacity: calc(var(--jumbo-overlay-opacity)/2);
 }

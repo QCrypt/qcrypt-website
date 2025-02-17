@@ -23,8 +23,8 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "QCrypt Conference Website"
-    date = "2024-09-02"
-    currentYear = 2024
+    date = "2025-02-01"
+    currentYear = 2025
     description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
     email = "webmaster@qcrypt.net"
@@ -73,7 +73,7 @@ enableMissingTranslationPlaceholders = true
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2024/"
+      to = "/2025/"
       status = 302
       force = true 
 

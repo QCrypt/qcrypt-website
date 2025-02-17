@@ -17,9 +17,9 @@ layout: home
 
 {{< button-link label="Conference Call"
                 url="technical/call"
-                icon="right" >}}
+                icon="cfp" >}}
 
-<!-- {{< button-link label="Regisration"
+<!-- {{< button-link label="Registration"
                 url="attend/registration"
                 icon="direction" >}}
 
