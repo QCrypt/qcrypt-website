@@ -21,8 +21,8 @@ QCrypt 2025 is seeking sponsors. Sponsoring the conference gives companies and i
 
 QCrypt 2025 is offering sponsor packages – please email {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} for more information.
 
-## Our Sponsors
+<!-- ## Our Sponsors -->
 
-{{% partners categories="sponsor" year=2025 %}}
+<!-- {{% partners categories="sponsor" year=2025 %}}
 
-{{% /partners %}}
+{{% /partners %}} -->

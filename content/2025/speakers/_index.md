@@ -1,7 +1,7 @@
 ---
 title: Speakers
 year: 2025
-draft: false
+draft: true
 type: speakers
 layout: list_with_header
 menu:
