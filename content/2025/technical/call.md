@@ -46,7 +46,7 @@ QCrypt solicits submissions of extended abstracts describing recent research res
 
 In line with the goal of showcasing the best results each year from all subfields, the conference has no published proceedings. Yet, contributed talks are highly competitive. QCrypt welcomes the submission of any interesting and important result, while allowing researchers from a wide range of disciplines to pursue publication in any venue appropriate to their field.
 
-**By default, QCrypt 2025 will be an on-site conference, and it is requested that the authors of accepted papers give an in-person presentation at the conference. Exceptions will be made only if special circumstances prevent the authors from attending the conference.**
+**QCrypt 2025 will be an in-person conference, requiring authors of accepted papers to present their work on-site. If none of the authors can attend in person, the paper will be withdrawn from the program, with exceptions granted only for unforeseen and exceptional circumstances.**
 
 <!-- Poster Size: Posters should be no wider than 1 meter and no higher than 1.2 meters to fit comfortably on the poster support boards. -->
 
