@@ -10,6 +10,8 @@ type: text_page
 
 The Annual conference on quantum cryptography (QCrypt) is a conference for students and researchers working on all aspects of quantum cryptography. This includes theoretical and experimental research on the possibilities and limitations of secure communication and computation with quantum mechanical devices or in the presence of quantum mechanical devices. (The conference includes but is not limited to research on quantum key distribution.)
 
+QCRYPT is a conference for students and researchers who work on quantum cryptography, broadly defined. We invite research contributions on the possibilities and limitations of quantum methods for secure communication and computation. (Research on classical post-quantum cryptography is considered to be within scope if it makes innovative use of quantum information concepts.) QCRYPT features both experimental and theoretical talks.
+
 It is the goal of the conference to represent the previous year’s best results on quantum cryptography and to support the building of a research community in quantum cryptography.
 
 ## Format of the conference
