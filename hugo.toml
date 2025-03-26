@@ -63,7 +63,7 @@ enableMissingTranslationPlaceholders = true
   themeColor = "#4775ff"
   [params.2025.logos]
     jumbo = "/images/2025/QCrypt_2025_logo.png"
-    header = "/images/2025/QCrypt_2025_logo.png"
+    header = "/images/2025/QCrypt_2025_logo2.png"
     banner = "/images/2025/banner_2025.jpg"
 
 [params.logos]
