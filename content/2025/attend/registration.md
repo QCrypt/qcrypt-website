@@ -11,15 +11,12 @@ menu:
         parent: attend
 ---
 
-<!-- ## Online registration for QCrypt 2025 is now closed! See you in Vigo!
+<!-- ## Online registration for QCrypt 2025 is now closed! See you in Vigo! -->
 
-QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2025 conference will take place in Vigo at Sede Afundación.
-
-<strong>To guarantee an optimal experience to all attendees the number of registrations is limited to 350. Register soon to be sure to participate!</strong>
+<!-- <strong>To guarantee an optimal experience to all attendees the number of registrations is limited to 350. Register soon to be sure to participate!</strong>
 
 {{< button-link label="Register" url="https://qcrypt.linckia.gal/" icon="link" target="_blank">}}<br>
 <a style="color: red"></a>
-
 
 In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="qcrypt2025@vqcc.uvigo.es" url="mailto:qcrypt2025@vqcc.uvigo.es " icon="email" >}}
 
@@ -27,7 +24,17 @@ In case of questions or technical difficulties with the registration process, pl
 
 ## General Information
 
-Coming Soon ...
+QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2025 conference will take place in Mon, 25 - Fri, 29 August in Sanya, Hainan Province, China.
+
+The conference will be held at the Mangrove Tree Convention Center in Mangrove Tree Resort World Sanya Bay.
+
+## Conference Hotel
+
+Mangrove Tree Resort World Sanya Bay is a comprehensive tourism and resort destination that integrates conferences, leisure, and commerce. Please refer to the map below for its exact location.
+
+<p><iframe id="map-canvas" class="map_part" width="600"  height="450"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=en&amp;q=Mangrove Tree Resort World Sanya Bay, 155 Fenghuang Rd, Tianya District, Sanya, Hainan, China, 572000&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">Powered by <a href="https://www.googlemapsgenerator.com/">google maps embed</a> and <a href="https://howtostopgamstop.com/">how to get around gamstop</a></iframe></p>
+
+We have collaborated with the hotel to secure a batch of discounted room rates for our attendees. We offer multiple booking options to accommodate different needs. Please refer to {{< button-link label="Booking Guide" url="/2025/attend/how-to-book" icon="link" >}} and choose the method that suits you best.
 
 <!-- The registration fees are as follows:
 
@@ -35,9 +42,9 @@ Coming Soon ...
 | :------------------- | :------------ | :----------- | :----------------------- |
 |                      | Until July 5. | Until Aug 9. | From Aug 10 onwards.     |
 | Student Registration | EUR€450       | EUR€550      | EUR€600                  |
-| General Registration | EUR€650       | EUR€750      | EUR€825                  |
+| General Registration | EUR€650       | EUR€750      | EUR€825                  | -->
 
-The registration fees include:
+<!-- The registration fees include:
 
 • All sessions and program materials.
 

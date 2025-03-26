@@ -19,11 +19,11 @@ layout: home
                 url="technical/call"
                 icon="cfp" >}}
 
-<!-- {{< button-link label="Registration"
+{{< button-link label="Registration"
                 url="attend/registration"
                 icon="direction" >}}
 
-{{< button-link label="Schedule"
+<!-- {{< button-link label="Schedule"
                 url="schedule"
                 icon="slides" >}} -->
 
@@ -65,6 +65,8 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 {{% home-keydate-table title="Website Updates" %}}
 | Date | Event |
 | :--------------------------- | :---------------------------------- |
+| March 18, 2025 | Publish QCrypt 2025 logo / Update conference hotel guide|
+| March 14, 2025 | Update QCrypt 2026 & 2027 information|
 | February 14, 2025 | Update Conference Committee and Key Dates|
 | January 20, 2025 | Publish for pages of QCrypt 2025|
 {{% /home-keydate-table %}}
@@ -81,7 +83,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 
 {{% home-location
     image="/images/2025/ustc.jpg"
-    address="Sanya, Hainan, P.R.China"
+    address="Mangrove Tree Resort World Sanya Bay, Sanya, Hainan, P.R.China"
     latitude="18.2525"
     longitude="109.5121"
     %}}
