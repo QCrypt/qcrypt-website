@@ -23,6 +23,11 @@ layout: home
                 url="attend/registration"
                 icon="direction" >}}
 
+{{< button-link label="Submit Your Talk/Poster"
+                url="https://hotcrp.science.uva.nl/qcrypt2025"
+                icon="link"
+                target="_blank">}}
+
 <!-- {{< button-link label="Schedule"
                 url="schedule"
                 icon="slides" >}} -->
@@ -54,7 +59,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| Fri, 11 April 2025           | Talk submission deadline                |
+| Sat, 12 April 2025           | Talk submission deadline                |
 | Fri, 02 May 2025             | Early poster notification\*             |
 | Sun, 1 June 2025             | Poster submission deadline              |
 | Sun, 15 June 2025            | Talk and poster acceptance notification |

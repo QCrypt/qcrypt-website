@@ -28,7 +28,7 @@ Our poster is now available! Please <a href="/poster">download and print it your
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| Fri, 11 April 2025           | Talk submission deadline                |
+| Sat, 12 April 2025           | Talk submission deadline                |
 | Fri, 02 May 2025             | Early poster notification\*             |
 | Sun, 1 June 2025             | Poster submission deadline              |
 | Sun, 15 June 2025            | Talk and poster acceptance notification |
@@ -57,6 +57,8 @@ All submissions should be in PDF (Portable Document Format). An extended abstrac
 For a “poster only” submission, a one-page non-technical description is sufficient as an extended abstract.
 
 The extended abstract may refer to technical details which are presented elsewhere. In particular, authors may include citations to a full version of the paper that is either published, available on arXiv.org or provided as an attachment (links to full versions on personal webpages are not accepted). This is strongly recommended for theory submissions to help the peer-review process. The extended abstract should not be a compressed version of the full-length paper.
+
+{{< button-link label="Submit Your Talk/Poster" url="https://hotcrp.science.uva.nl/qcrypt2025" icon="link" target="_blank">}}
 
 <!-- The submission server will be open soon. -->
 <!--**The submission server will  re-open soon for POSTER ONLY submissions.**-->
