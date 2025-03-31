@@ -1,5 +1,5 @@
 ---
-title: Yu-huai Li
+title: Yu-Huai Li
 surname: 6_Li
 subtitle: University of Science and Technology of China
 photoURL: /2025/team/images/yuhuai_li.jpg

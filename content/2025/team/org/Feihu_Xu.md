@@ -1,5 +1,5 @@
 ---
-title: Fei-hu Xu
+title: Feihu Xu
 surname: 3_Xu
 subtitle: University of Science and Technology of China
 photoURL: /2025/team/images/feihu_xu.jpg

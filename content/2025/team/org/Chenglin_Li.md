@@ -1,5 +1,5 @@
 ---
-title: Cheng-lin Li
+title: Cheng-Lin Li
 surname: 7_Li
 subtitle: University of Science and Technology of China
 photoURL: /2025/team/images/chenglin_li.jpg
