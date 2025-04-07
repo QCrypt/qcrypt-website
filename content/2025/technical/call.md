@@ -28,7 +28,7 @@ Our poster is now available! Please <a href="/poster">download and print it your
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| Sat, 11 April 2025           | Talk submission deadline                |
+| Fri, 11 April 2025           | Talk submission deadline                |
 | Fri, 02 May 2025             | Early poster notification\*             |
 | Sun, 1 June 2025             | Poster submission deadline              |
 | Sun, 15 June 2025            | Talk and poster acceptance notification |
