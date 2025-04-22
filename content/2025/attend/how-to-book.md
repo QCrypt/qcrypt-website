@@ -24,22 +24,22 @@ Complete the reservation online and pay at the hotel upon arrival.
 
 ### Booking
 
-If your institution is covering your stay, please send an email to **BOTH tanligin.mts@mangrovetree.cn AND res.mts@mangrovetree.cn.**
+If your institution is covering your stay, please send an email to **BOTH tanliqin.mts@mangrovetree.cn AND res.mts@mangrovetree.cn.**
 
 You should include the following details in your email:
 
 -   Full Name
--   Institution Name
 -   Check-in & Check-out Dates
 -   Room Preference
-
-We have provided a {{< button-link label="TEMPLATE" url="/files/2025/QCrypt2025_Meeting_Room_booking.xlsx" icon="link" target="_blank">}} for your convenience. Simply fill in the required information and send it as an attachment.
+-   Company Name
+-   HQ Address
+-   Tax ID
 
 You will receive a confirmation once the booking is processed.
 
 ### Cancellation
 
-The hotel support online cancellation. If you need to modify or cancel your reservation, please send an email to **BOTH tanligin.mts@mangrovetree.cn AND res.mts@mangrovetree.cn.**
+The hotel support online cancellation. If you need to modify or cancel your reservation, please send an email to **BOTH tanliqin.mts@mangrovetree.cn AND res.mts@mangrovetree.cn.**
 
 **Please note that any applicable taxes and service fees related to cancellation will be borne by the guest.**
 
