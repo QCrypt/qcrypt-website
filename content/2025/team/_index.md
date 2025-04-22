@@ -6,6 +6,10 @@ layout: list_with_header
 draft: false
 ---
 
+## Honorary Chair
+
+{{< teams types="honorary" year=2025 >}}
+
 ## Local Organizer
 
 You can contact the Organizing Committee via email to {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net" icon="email" >}}
