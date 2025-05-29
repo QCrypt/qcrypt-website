@@ -36,25 +36,27 @@ Mangrove Tree Resort World Sanya Bay is a comprehensive tourism and resort desti
 
 We have collaborated with the hotel to secure a batch of discounted room rates for our attendees. We offer multiple booking options to accommodate different needs. Please refer to {{< button-link label="Booking Guide" url="/2025/attend/how-to-book" icon="link" >}} and choose the method that suits you best.
 
-<!-- The registration fees are as follows:
+## Registration
 
-| Fees                 | Early Bird    | Regular      | Only onsite registration |
-| :------------------- | :------------ | :----------- | :----------------------- |
-|                      | Until July 5. | Until Aug 9. | From Aug 10 onwards.     |
-| Student Registration | EUR€450       | EUR€550      | EUR€600                  |
-| General Registration | EUR€650       | EUR€750      | EUR€825                  | -->
+<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration will open soon.</p>
 
-<!-- The registration fees include:
+The registration fees are as follows:
 
-• All sessions and program materials.
+| Fees                 | Early Bird     | Regular/Onsite Registration |
+| :------------------- | :------------- | :-------------------------- |
+|                      | Until June 25. |                             |
+| Student Registration | $350/¥2200     | $400/¥2500                  |
+| Regular Registration | $450/¥2800     | $550/¥3500                  |
 
-• Evening reception on Monday.
+The registration fees include:
 
-• Banquet Dinner.
+-   All sessions and program materials.
+-   Evening reception.
+-   Banquet Dinner.
+-   Daily refreshment breaks.
+<!-- -   Option to participate in lab tours/excursions. -->
 
-• Daily refreshment breaks.
-
-• Option to participate in lab tours/excursions on Wednesday. -->
+{{< button-link label="Click here to register" icon="link" >}}
 
 ## Code of Conduct
 

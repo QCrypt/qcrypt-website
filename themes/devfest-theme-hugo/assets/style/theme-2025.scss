@@ -43,10 +43,21 @@
     --primary: #083a7c; //#44bb44 // #4775ff
 }  
 
+#registration  ~ table td,
+#registration  ~ table th {
+    padding: 6.5px;
+  }
+
 .partner-sponsor {
     // for testing use
     @extend .partner-gold;
 }
+
+.partner-partner {
+    // for testing use
+    @extend .partner-gold;
+}
+
 .jumbo #jumbo-overlay.show{
     opacity: calc(var(--jumbo-overlay-opacity)/2);
 }
