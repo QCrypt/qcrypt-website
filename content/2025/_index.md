@@ -19,6 +19,8 @@ layout: home
                 url="technical/call"
                 icon="cfp" >}}
 
+Registration Now Open!
+
 {{< button-link label="Registration"
                 url="attend/registration"
                 icon="direction" >}}
@@ -70,6 +72,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 {{% home-keydate-table title="Website Updates" %}}
 | Date | Event |
 | :--------------------------- | :---------------------------------- |
+| June 20, 2025 | Registration Now Open|
 | March 18, 2025 | Publish QCrypt 2025 logo / Update conference hotel guide|
 | March 14, 2025 | Update QCrypt 2026 & 2027 information|
 | February 14, 2025 | Update Conference Committee and Key Dates|

@@ -22,6 +22,8 @@ In case of questions or technical difficulties with the registration process, pl
 
 <strong>Missed the deadline for online registration? Before planning a trip to Vigo to attempt onsite registration, please contact {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net" icon="email" >}} to confirm that spots are still available. </strong> -->
 
+<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration Now Open!</p>
+
 ## General Information
 
 QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2025 conference will take place in Mon, 25 - Fri, 29 August in Sanya, Hainan Province, China.
@@ -38,15 +40,15 @@ We have collaborated with the hotel to secure a batch of discounted room rates f
 
 ## Registration
 
-<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration will open soon.</p>
+{{< button-link label="Click here to register" url="https://conferences.koushare.com/QCrypt2025/user/attendanceInfo" icon="link" >}}
 
 The registration fees are as follows:
 
-| Fees                 | Early Bird     | Regular/Onsite Registration |
-| :------------------- | :------------- | :-------------------------- |
-|                      | Until June 25. |                             |
-| Student Registration | $350/¥2200     | $400/¥2500                  |
-| Regular Registration | $450/¥2800     | $550/¥3500                  |
+| Fees                 | Early Bird    | Regular/Onsite Registration |
+| :------------------- | :------------ | :-------------------------- |
+|                      | Until July 5. |                             |
+| Student Registration | ¥2200         | ¥2500                       |
+| Regular Registration | ¥2800         | ¥3500                       |
 
 The registration fees include:
 
@@ -55,8 +57,6 @@ The registration fees include:
 -   Banquet Dinner.
 -   Daily refreshment breaks.
 <!-- -   Option to participate in lab tours/excursions. -->
-
-{{< button-link label="Click here to register" icon="link" >}}
 
 ## Code of Conduct
 
