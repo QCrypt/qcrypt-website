@@ -58,6 +58,8 @@ The registration fees include:
 -   Daily refreshment breaks.
 <!-- -   Option to participate in lab tours/excursions. -->
 
+**An electronic invoice will be issued after the conference based on the collected payment information.**
+
 ## Code of Conduct
 
 People who register agree to abide by the <a href={{<relref "/2025/attend/code-of-conduct">}}>conference code of conduct</a>.
