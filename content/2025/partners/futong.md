@@ -5,5 +5,5 @@ type: partner
 draft: false
 category: sponsor
 logo: /2025/partners/logos/futong.png
-website: http://www.snspd.com/
+website: https://www.cnphotec.com/
 ---
