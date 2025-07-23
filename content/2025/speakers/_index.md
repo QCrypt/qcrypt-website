@@ -1,7 +1,7 @@
 ---
 title: Speakers
 year: 2025
-draft: true
+draft: false
 type: speakers
 layout: list_with_header
 menu:
@@ -11,12 +11,13 @@ menu:
         parent: technical-program
 ---
 
-## Coming soon...
+<ul class="heado">
+    <li>{{< speakers types="dinner=After-dinner Talk" year=2025 >}}</li>
+    <li>{{< speakers types="lecture=Public Lecture" year=2025 >}}</li>
+</ul>
 
-<!-- {{< speakers types="tutorial=Tutorial Speakers" year=2025 >}}
+{{< speakers types="tutorial=Tutorial Speakers" year=2025 >}}
 
 {{< speakers types="invited=Invited Speakers" year=2025 >}}
 
 {{< speakers types="industry=Industry Panel" year=2025 >}}
-
-{{< speakers types="lecture=Public Lecture" year=2025 >}} -->

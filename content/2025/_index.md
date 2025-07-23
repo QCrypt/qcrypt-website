@@ -25,6 +25,10 @@ Registration Now Open!
                 url="attend/registration"
                 icon="direction" >}}
 
+{{< button-link label="Speakers"
+                url="speakers"
+                icon="talk" >}}
+
 {{< button-link label="Submit Your Talk/Poster"
                 url="https://hotcrp.science.uva.nl/qcrypt2025"
                 icon="link"

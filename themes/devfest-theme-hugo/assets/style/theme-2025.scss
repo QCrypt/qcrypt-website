@@ -61,3 +61,17 @@
 .jumbo #jumbo-overlay.show{
     opacity: calc(var(--jumbo-overlay-opacity)/2);
 }
+
+ul.heado {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+flex-wrap: wrap;
+
+& > li {
+    margin: 1rem;
+    flex: 1 0 300px;
+    max-width: 450px;
+}
+}
