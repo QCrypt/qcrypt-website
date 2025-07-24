@@ -28,16 +28,18 @@ CurrentYear: {{ $currentYear }}
 	{{ $options := .options }}
 	<div class="paper-authors">
 		{{ range $key, $author := .authors }}
-		  {{ $author.first }} {{ $author.last }} ({{ $author.affiliation}}){{ if ne $key (sub (len $authors) 1) }};{{ else }}{{ end }}
+		  {{ $author.first }} {{ $author.last }} {{if $author.affiliation}}({{ $author.affiliation}}){{else}}{{end}}{{ if ne $key (sub (len $authors) 1) }};{{ else }}{{ end }}
 		{{ end }}
 	</div>
-
+	
+	{{if .abstract}}
 	<div class="paper-abstract">
 		<a style="color:#4c9cde;" onclick="$('#abstract-{{ .pid }}').toggle(200); return false">[abstract]</a>
 		<div class="paper-abstract-full" id="abstract-{{.pid}}" style="display:none">
 			<b>Abstract:</b> {{ .abstract }}
 		</div>
 	</div>
+	{{end}}
 
 	{{ if isset .options "arxiv-id" }}
 	<div class="paper-arxivid">
