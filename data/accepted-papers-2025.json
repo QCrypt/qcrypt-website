@@ -1,1 +1,1038 @@
-[]
+[
+    {
+        "pid": 1,
+        "title": "All-day free-space quantum key distribution with continuous variables",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "T.",
+                "last": "Zhan",
+                "affiliation": ""
+            },
+            {
+                "first": "P.",
+                "last": "Huang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 2,
+        "title": "NISQ Security and Complexity via Simple Classical Reasoning",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Cojocaru",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Garay",
+                "affiliation": ""
+            },
+            {
+                "first": "Q.",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "F.",
+                "last": "Song",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 3,
+        "title": "High-Rate Asynchronous Measurement-Device-Independent Quantum Communication without Optical Reference Light",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "S.",
+                "last": "Shao",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Lin",
+                "affiliation": ""
+            },
+            {
+                "first": "C.",
+                "last": "Ge",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Minder",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Xie",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Shen",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Yan",
+                "affiliation": ""
+            },
+            {
+                "first": "H.",
+                "last": "Yin",
+                "affiliation": ""
+            },
+            {
+                "first": "L.",
+                "last": "Zhou",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Yuan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 4,
+        "title": "Experimental mode-pairing quantum key distribution surpassing the repeaterless bound",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "L.",
+                "last": "Zhang",
+                "affiliation": ""
+            },
+            {
+                "first": "W.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Pan",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Lu",
+                "affiliation": ""
+            },
+            {
+                "first": "W.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Huang",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Ma",
+                "affiliation": ""
+            },
+            {
+                "first": "F.",
+                "last": "Xu",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Pan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 5,
+        "title": "Orthogonality Broadcasting and Quantum Position Verification",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "I.",
+                "last": "George",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Allerstorfer",
+                "affiliation": ""
+            },
+            {
+                "first": "P.",
+                "last": "Lunel",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Chitambar",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 6,
+        "title": "Implementation security of quantum key distribution transmitters",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "F.",
+                "last": "Lu",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Yin",
+                "affiliation": ""
+            },
+            {
+                "first": "D.",
+                "last": "He",
+                "affiliation": ""
+            },
+            {
+                "first": "Wei-Chen",
+                "last": "",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Han",
+                "affiliation": ""
+            },
+            {
+                "first": "G.",
+                "last": "Guo",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 7,
+        "title": "A Framework for the Security Analysis of Practical High-Dimensional QKD Setups",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "F.",
+                "last": "Kanitschar",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Huber",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 8,
+        "title": "A Quantum Approach For Reducing Communications in Classical Secure Computations with Long Outputs",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "J.",
+                "last": "Zhang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 9,
+        "title": "Renyi security framework against coherent attacks applied to decoy-state QKD",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "L.",
+                "last": "Kamin",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Burniston",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Tan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 10,
+        "title": "Information Theoretic One-Time Programs from Geometrically Local QNC0 Adversaries",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "L.",
+                "last": "Stambler",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 11,
+        "title": "Marginal-constrained entropy accumulation theorem",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Arqand",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Tan",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 12,
+        "title": "Chip-integrated quantum signature network over 200 km",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Y.",
+                "last": "Du",
+                "affiliation": ""
+            },
+            {
+                "first": "B.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Hua",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Cao",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Zhao",
+                "affiliation": ""
+            },
+            {
+                "first": "F.",
+                "last": "Xie",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Zhang",
+                "affiliation": ""
+            },
+            {
+                "first": "H.",
+                "last": "Yin",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Xiao",
+                "affiliation": ""
+            },
+            {
+                "first": "K.",
+                "last": "Wei",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 13,
+        "title": "Succinct Perfect Zero-knowledge for MIP*",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "X.",
+                "last": "Zhang",
+                "affiliation": ""
+            },
+            {
+                "first": "H.",
+                "last": "Fu",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 14,
+        "title": "Plug-and-play attack on a quantum key distribution system as black box",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Huang",
+                "affiliation": ""
+            },
+            {
+                "first": "Q.",
+                "last": "Peng",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Yuan",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "Vadim",
+                "last": "Makarov",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 15,
+        "title": "Reference-frame-independent quantum key distribution based on machine-learning-enhanced qubit-based synchronization",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Y.",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "Zhiyu",
+                "last": "",
+                "affiliation": ""
+            },
+            {
+                "first": "Xiaodong",
+                "last": "",
+                "affiliation": ""
+            },
+            {
+                "first": "Ziran",
+                "last": "",
+                "affiliation": ""
+            },
+            {
+                "first": "Shihai",
+                "last": "",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 16,
+        "title": "Quantum Lifting for Invertible Permutations and Ideal Ciphers",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Cojocaru",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Hhan",
+                "affiliation": ""
+            },
+            {
+                "first": "Q.",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "T.",
+                "last": "Yamakawa",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Yun",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 17,
+        "title": "Formulations and Constructions of Remote State Preparation with Verifiability, with Applications",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "J.",
+                "last": "Zhang",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 18,
+        "title": "Dynamic rerouting of quantum key distribution links during live operation",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "J.",
+                "last": "Krause",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Renneke",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Hilt",
+                "affiliation": ""
+            },
+            {
+                "first": "O.",
+                "last": "Peters",
+                "affiliation": ""
+            },
+            {
+                "first": "P.",
+                "last": "Hanne",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Schreier",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Freund",
+                "affiliation": ""
+            },
+            {
+                "first": "N.",
+                "last": "Walenta",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 19,
+        "title": "Maximal device-independent randomness in every dimension",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "M.",
+                "last": "Farkas",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Volčič",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Storgaard",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "L.",
+                "last": "Mančinska",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 20,
+        "title": "Implementation of carrier-grade quantum communication networks over 10000 km: from Shanghai-Beijing Backbone to China quantum communication network",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "H.",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Wang",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Zhao",
+                "affiliation": ""
+            },
+            {
+                "first": "C.",
+                "last": "Ye",
+                "affiliation": ""
+            },
+            {
+                "first": "F.",
+                "last": "Li",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Chen",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Han",
+                "affiliation": ""
+            },
+            {
+                "first": "B.",
+                "last": "Tang",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Miao",
+                "affiliation": ""
+            },
+            {
+                "first": "W.",
+                "last": "Qi",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 21,
+        "title": "Experimental Quantum Channel Purification",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "Y.",
+                "last": "Fei",
+                "affiliation": ""
+            },
+            {
+                "first": "Z.",
+                "last": "Liu",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Zhang",
+                "affiliation": ""
+            },
+            {
+                "first": "Y.",
+                "last": "Chen",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 22,
+        "title": "Experimental Private Quantum Sensing",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "N.",
+                "last": "Laurent-Puig",
+                "affiliation": ""
+            },
+            {
+                "first": "L.",
+                "last": "Martins",
+                "affiliation": ""
+            },
+            {
+                "first": "L.",
+                "last": "Bugalho",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Scheiner",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Hassani",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Moore",
+                "affiliation": ""
+            },
+            {
+                "first": "D.",
+                "last": "Markham",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Diamanti",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 23,
+        "title": "Chip-Based 16 GBaud Continuous-Variable Quantum Key Distribution",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Hajomer",
+                "affiliation": ""
+            },
+            {
+                "first": "I.",
+                "last": "Derkach",
+                "affiliation": ""
+            },
+            {
+                "first": "U.",
+                "last": "Andersen",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Bomhals",
+                "affiliation": ""
+            },
+            {
+                "first": "C.",
+                "last": "Bruynsteen",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Sidhique",
+                "affiliation": ""
+            },
+            {
+                "first": "X.",
+                "last": "Yin",
+                "affiliation": ""
+            },
+            {
+                "first": "T.",
+                "last": "Gehring",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 24,
+        "title": "Frequency-bin entanglement-based quantum key distribution",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "G.",
+                "last": "Guarda",
+                "affiliation": ""
+            },
+            {
+                "first": "N.",
+                "last": "Tagliavacche",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Borghi",
+                "affiliation": ""
+            },
+            {
+                "first": "D.",
+                "last": "Ribezzo",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Liscidini",
+                "affiliation": ""
+            },
+            {
+                "first": "D.",
+                "last": "Bacco",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Galli",
+                "affiliation": ""
+            },
+            {
+                "first": "D.",
+                "last": "Bajoni",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 25,
+        "title": "Simpler and Tighter Device-Independent Security Proofs",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "T.",
+                "last": "Hahn",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Arqand",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Tan",
+                "affiliation": ""
+            },
+            {
+                "first": "P.",
+                "last": "Brown",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 26,
+        "title": "Impossibility of Hyperefficient Shadow Tomography: Unbounded Multiple-Copy Secure Copy-Protection",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Cakan",
+                "affiliation": ""
+            },
+            {
+                "first": "V.",
+                "last": "Goyal",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 27,
+        "title": "A robust and composable device-independent protocol for oblivious transfer using (fully) untrusted quantum devices in the bounded storage model",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "R.",
+                "last": "Batra",
+                "affiliation": ""
+            },
+            {
+                "first": "S.",
+                "last": "Chakraborty",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Jain",
+                "affiliation": ""
+            },
+            {
+                "first": "U.",
+                "last": "Kapshikar",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 28,
+        "title": "Anonymous Quantum Money, (Upgradeable) Quantum Coins, and Quantum Voting",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Cakan",
+                "affiliation": ""
+            },
+            {
+                "first": "V.",
+                "last": "Goyal",
+                "affiliation": ""
+            },
+            {
+                "first": "T.",
+                "last": "Yamakawa",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 29,
+        "title": "Public-Key Quantum Fire From Classical Oracles",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "A.",
+                "last": "Cakan",
+                "affiliation": ""
+            },
+            {
+                "first": "V.",
+                "last": "Goyal",
+                "affiliation": ""
+            },
+            {
+                "first": "O.",
+                "last": "Shmueli",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 30,
+        "title": "Self-testing tilted strategies for maximal loophole-free nonlocality",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "N.",
+                "last": "Gigena",
+                "affiliation": ""
+            },
+            {
+                "first": "E.",
+                "last": "Panwar",
+                "affiliation": ""
+            },
+            {
+                "first": "G.",
+                "last": "Scala",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Araújo",
+                "affiliation": ""
+            },
+            {
+                "first": "M.",
+                "last": "Farkas",
+                "affiliation": ""
+            },
+            {
+                "first": "A.",
+                "last": "Chaturvedi",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 31,
+        "title": "Computational quantum unpredictability entropy and quantum leakage resilience",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "N.",
+                "last": "Avidan",
+                "affiliation": ""
+            },
+            {
+                "first": "R.",
+                "last": "Arnon",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    },
+    {
+        "pid": 32,
+        "title": "NQSN Singapore: A fully interoperable quantum-safe network testbed with versatile reference applications",
+        "abstract": "",
+        "authors": [
+            {
+                "first": "H.",
+                "last": "Qin",
+                "affiliation": ""
+            },
+            {
+                "first": "J.",
+                "last": "Haw",
+                "affiliation": ""
+            }
+        ],
+        "topics": []
+    }
+]

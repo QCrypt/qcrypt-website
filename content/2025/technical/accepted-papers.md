@@ -10,11 +10,9 @@ menu:
         parent: technical-program
 ---
 
-## List of Accepted Contributed Talks
+## List of Accepted Papers
 
 <!-- (in order of submission) -->
-
-Coming soon ... ...
 
 {{< papers-accepted year=2025 >}}{{< /papers-accepted >}}
 
