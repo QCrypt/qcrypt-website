@@ -1,7 +1,7 @@
 ---
 key: Murta
 name: Gláucia Murta
-surname: 03Murta
+surname: 02Murta
 year: 2025
 company: Technische Universität Wien
 photoURL: /2025/speakers/invited/Murta.jpg

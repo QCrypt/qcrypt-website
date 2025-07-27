@@ -17,7 +17,9 @@ menu:
 </ul>
 
 {{< speakers types="tutorial=Tutorial Speakers" year=2025 >}}
+\*Sort alphabetically by last name
 
 {{< speakers types="invited=Invited Speakers" year=2025 >}}
+\*Sort alphabetically by last name
 
 {{< speakers types="industry=Industry Panel" year=2025 >}}

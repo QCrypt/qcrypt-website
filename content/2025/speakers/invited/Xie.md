@@ -1,7 +1,7 @@
 ---
 key: Xie
 name: Zhenda Xie
-surname: 06Xie
+surname: 07Xie
 year: 2025
 company: Nanjing University
 photoURL: /2025/speakers/invited/Xie.jpg

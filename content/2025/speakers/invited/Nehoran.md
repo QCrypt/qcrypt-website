@@ -1,7 +1,7 @@
 ---
 key: Nehoran
 name: Barak Nehoran
-surname: 04Nehoran
+surname: 03Nehoran
 year: 2025
 company: Princeton University
 photoURL: /2025/speakers/invited/Nehoran.jpg

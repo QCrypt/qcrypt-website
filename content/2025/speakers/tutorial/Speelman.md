@@ -1,7 +1,7 @@
 ---
 key: Speelman
 name: Florian Speelman
-surname: 03Speelman
+surname: 02Speelman
 year: 2025
 company: University of Amsterdam
 photoURL: /2025/speakers/tutorial/Speelman.jpg

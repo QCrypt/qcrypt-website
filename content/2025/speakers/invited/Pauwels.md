@@ -1,7 +1,7 @@
 ---
 key: Pauwels
 name: Jef Pauwels
-surname: 07Pauwels
+surname: 04Pauwels
 year: 2025
 company: University of Geneva
 photoURL: /2025/speakers/invited/Pauwels.jpg

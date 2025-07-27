@@ -1,7 +1,7 @@
 ---
 key: Liu
 name: Yang Liu
-surname: 02Liu
+surname: 01Liu
 year: 2025
 company: Jinan Institute of Quantum Technology
 photoURL: /2025/speakers/tutorial/Liu.jpg
