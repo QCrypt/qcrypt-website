@@ -34,7 +34,7 @@ $ cd qcrypt-website
 $ hugo server
 ``` 
 
-5. Edit the markdown source files with ending .md in the /content/ subdirectories to make changes to the site. You might also have to edit .json and .yml files in the /data/ subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
+5. Edit the markdown source files with ending `.md` in the [/content/](/content/) subdirectories to make changes to the site. You might also have to edit `.json` and `.yml` files in the [/data/](/data/) subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
 
 6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
@@ -111,14 +111,14 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 ## Later Updates
 
 ### call for papers, venue updates, registration
-1. adjust the according .md file in content/2025, possibly by switching back "draft: false" and adjusting the content from previous year
+1. adjust the according `.md` file in [/content/2025/](/content/2025/), possibly by switching back "draft: false" and adjusting the content from previous year
 2. **all changes to the website should be mentioned in a table with "Website Updates" like on https://qcrypt.net/2023/**, for the convenience of the website visitors
 3. The call-to-action buttons on the main site can be adjusted depending on the news.
 
 ### tutorial, invited speakers, panelists are known
-1. update the .md files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/speakers
-2. remove previous images from the images subdirectory, upload new ones, and make sure the photoURL field of the speaker is pointing there.
-3. Use sensible names for the .md files, like eleni_diamanti.md 
+1. update the `.md` files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/speakers
+2. remove previous images from the images subdirectory, upload new ones, and make sure the `photoURL` field of the speaker is pointing there.
+3. Use sensible names for the `.md` files, like `eleni_diamanti.md` 
 4. Per speaker, create an according session in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/sessions , using the examples from previous years.
 
 ### accepted papers and posters are known
