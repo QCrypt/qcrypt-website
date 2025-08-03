@@ -20,7 +20,7 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 > [!WARNING]
 > This has only been tested on macOS so far, so sharing your experience with other platforms here is very appreciated!
 
-1. Install [Hugo](https://gohugo.io/installation/) and [Dart Sass](https://gohugo.io/hugo-pipes/transpile-sass-to-css/)
+1. Install [Hugo](https://gohugo.io/installation/) and [Dart Sass](https://gohugo.io/functions/css/sass/#dart-sass)
 2. Clone this repo:
 
 ```bash
