@@ -19,24 +19,24 @@ layout: home
                 url="technical/call"
                 icon="cfp" >}}
 
-Registration Now Open!
-
 {{< button-link label="Registration"
                 url="attend/registration"
                 icon="direction" >}}
+
+Schedule Now Released!
+
+{{< button-link label="Schedule"
+                url="schedule"
+                icon="slides" >}}
 
 {{< button-link label="Speakers"
                 url="speakers"
                 icon="talk" >}}
 
-{{< button-link label="Submit Your Talk/Poster"
+<!-- {{< button-link label="Submit Your Talk/Poster"
                 url="https://hotcrp.science.uva.nl/qcrypt2025"
                 icon="link"
-                target="_blank">}}
-
-<!-- {{< button-link label="Schedule"
-                url="schedule"
-                icon="slides" >}} -->
+                target="_blank">}} -->
 
 <!-- {{< button-link label="Conference Photos"
                 url="pictures"
@@ -76,6 +76,8 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 {{% home-keydate-table title="Website Updates" %}}
 | Date | Event |
 | :--------------------------- | :---------------------------------- |
+| August 04, 2025 | Schedule released|
+| July 25, 2025 | Speakers Unveiled|
 | June 20, 2025 | Registration Now Open|
 | March 18, 2025 | Publish QCrypt 2025 logo / Update conference hotel guide|
 | March 14, 2025 | Update QCrypt 2026 & 2027 information|

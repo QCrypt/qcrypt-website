@@ -2,7 +2,7 @@
 title: Schedule
 year: 2025
 type: schedule
-draft: true
+draft: false
 horizontal: false
 menu:
     2025:

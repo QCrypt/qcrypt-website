@@ -1,10 +1,10 @@
 ---
 key: Seabrook
 name: Hannah Seabrook
-surname: 06Seabrook
+surname: Seabrook
 year: 2025
 company: University of Bristol
 photoURL: /2025/speakers/invited/Seabrook.jpg
 type: invited
-# website: "/2025/sessions/invited/Seabrook"
+website: "/2025/sessions/invited/Seabrook"
 ---

@@ -1,15 +1,110 @@
 - day: '2025-08-25'
-  sessions:
-
+  sessions:    
+    - session: stuff/welcome
+      time: '08:45'
+    - session: tutorial/Tupkary
+      time: '09:30'
+    - session: invited/Peng
+      time: '10:15'
+    - session: stuff/break
+      time: '11:00'
+    - session: invited/Seabrook
+      time: '11:30'
+    - session: contributed/1a
+      time: '12:15'
+    - session: stuff/lunch
+      time: '12:35'
+    - session: contributed/1b
+      time: '14:00'
+    - session: stuff/break
+      time: '15:20'
+    - session: contributed/1c
+      time: '15:50'
+    - session: stuff/group
+      time: '17:10'
+    - session: stuff/reception
+      time: '18:00'
 
 - day: '2025-08-26'
   sessions:
+    - session: tutorial/Vallone
+      time: '09:30'
+    - session: invited/Fedorov
+      time: '10:15'
+    - session: stuff/break
+      time: '11:00'
+    - session: invited/Xie
+      time: '11:30'
+    - session: contributed/2a
+      time: '12:15'
+    - session: stuff/lunch
+      time: '12:35'
+    - session: contributed/2b
+      time: '14:00'
+    - session: stuff/break
+      time: '15:20'
+    - session: contributed/2c
+      time: '15:50'
+    - session: stuff/poster
+      time: '17:10'
+    - session: stuff/banquet
+      time: '18:00'
 
 - day: '2025-08-27'
   sessions:
+    - session: tutorial/Liu
+      time: '09:30'
+    - session: invited/Zhou
+      time: '10:15'
+    - session: stuff/break
+      time: '11:00'
+    - session: invited/Pauwels
+      time: '11:30'
+    - session: contributed/3a
+      time: '12:15'
+    - session: stuff/lunch
+      time: '12:35'
+    - session: stuff/tour
+      time: '14:00'
+    - session: stuff/poster
+      time: '17:10'
+    - session: stuff/dinner
+      time: '18:00'
 
 - day: '2025-08-28'
   sessions:
+    - session: tutorial/Speelman
+      time: '09:30'
+    - session: invited/Murta
+      time: '10:15'
+    - session: stuff/break
+      time: '11:00'
+    - session: invited/Nehoran
+      time: '11:30'
+    - session: contributed/4a
+      time: '12:15'
+    - session: stuff/lunch
+      time: '12:35'
+    - session: stuff/industry
+      time: '14:00'
+    - session: stuff/break
+      time: '15:20'
+    - session: contributed/4b
+      time: '15:50'
+    - session: stuff/award
+      time: '17:10'
+    - session: stuff/dinner
+      time: '18:00'
 
 - day: '2025-08-29'
   sessions:
+    - session: contributed/5a
+      time: '09:00'
+    - session: stuff/break
+      time: '10:20'
+    - session: contributed/5b
+      time: '10:50'
+    - session: stuff/closing
+      time: '12:10'
+    - session: stuff/lunch
+      time: '12:40'
