@@ -1182,12 +1182,10 @@
             {
                 "first": "Hao",
                 "last": "Qin",
-                "affiliation": "CQT, NUS"
                 "affiliation": "CQT, NUS",
                 "contact": true
             },
             {
-                "first": "J.Y.",
                 "first": "Jing Yan",
                 "last": "Haw",
                 "affiliation": "CQT, NUS"
@@ -1260,8 +1258,7 @@
             {
                 "first": "A.",
                 "last": "Ling",
-                "affiliation": "CQT, Dept. of Physics, NUS"
-                "affiliation": "CQT, NUS",
+                "affiliation": "CQT, Dept. of Physics, NUS",
                 "contact": true
             }
         ],
