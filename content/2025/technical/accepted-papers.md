@@ -18,8 +18,6 @@ menu:
 
 ## List of Accepted Posters
 
-Coming soon ... ...
-
 <!-- (in order of submission) -->
 
 {{< posters-accepted year=2025 >}}
