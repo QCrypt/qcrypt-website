@@ -70,7 +70,7 @@
 			{{ range $session := $day.sessions }}
 				{{ if and (ne $starttime "") (eq $endtime "") }}
 					{{ $endtime = $session.time }}
-				{{ else if eq $session.session $sessionname }}
+				{{ else if hasSuffix $session.session $sessionname }}
 					{{ $startday = $day.day }}
 						{{ $starttime = $session.time }}
 				{{ end }}
