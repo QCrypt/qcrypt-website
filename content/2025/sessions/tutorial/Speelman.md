@@ -2,7 +2,7 @@
 title: "Tutorial Talk: Quantum position verification: where are we now?"
 format: tutorial
 type: sessions
-year: 2024
+year: 2025
 speakers:
     - Speelman
 presentation: null
