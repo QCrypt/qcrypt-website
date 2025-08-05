@@ -43,6 +43,7 @@ City id: {{ $timeanddate_cityid }}
 		</a>
 	</div>
 
+	<i>{{ .Params.suggestion }}</i>
 
 	{{ range $day := $schedule }}
 	{{ $time := split $day.start ":" }}
