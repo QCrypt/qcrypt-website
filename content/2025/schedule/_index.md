@@ -4,12 +4,15 @@ year: 2025
 type: schedule
 draft: false
 horizontal: false
+suggestion: "Please note that minor adjustments may occur as we approach the event date"
 menu:
     2025:
         weight: 2
         identifier: schedule
         parent: attend
 ---
+
+_Please note that minor adjustments may occur as we approach the event date_
 
 <!-- <center>
 

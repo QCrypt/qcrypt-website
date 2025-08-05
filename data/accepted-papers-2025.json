@@ -1182,12 +1182,85 @@
             {
                 "first": "Hao",
                 "last": "Qin",
+                "affiliation": "CQT, NUS"
                 "affiliation": "CQT, NUS",
                 "contact": true
             },
             {
+                "first": "J.Y.",
                 "first": "Jing Yan",
                 "last": "Haw",
+                "affiliation": "CQT, NUS"
+            },
+            {
+                "first": "M.",
+                "last": "Wee",
+                "affiliation": "CQT, NUS"
+            },
+            {
+                "first": "R.",
+                "last": "Frappier",
+                "affiliation": "ECE, NUS"
+            },
+            {
+                "first": "C.",
+                "last": "Liang",
+                "affiliation": "CQT, NUS"
+            },
+            {
+                "first": "X.",
+                "last": "Duan",
+                "affiliation": "Fraunhofer SG @ NTU"
+            },
+            {
+                "first": "Y.",
+                "last": "Cai",
+                "affiliation": "SPMS, NTU"
+            },
+            {
+                "first": "S.",
+                "last": "Sarda",
+                "affiliation": "Fraunhofer SG @ NTU"
+            },
+            {
+                "first": "K.W.",
+                "last": "Qiu",
+                "affiliation": "SPMS, NTU"
+            },
+            {
+                "first": "R.",
+                "last": "Murthy",
+                "affiliation": "CQT, NUS"
+            },
+            {
+                "first": "T.",
+                "last": "Rimprongern",
+                "affiliation": "CQT, NUS"
+            },
+            {
+                "first": "B.",
+                "last": "Sikdar",
+                "affiliation": "ECE, NUS"
+            },
+            {
+                "first": "N.",
+                "last": "Ng",
+                "affiliation": "SPMS, NTU"
+            },
+            {
+                "first": "C.",
+                "last": "Kurtsiefer",
+                "affiliation": "CQT, Dept. of Physics, NUS"
+            },
+            {
+                "first": "M.",
+                "last": "Kasper",
+                "affiliation": "Fraunhofer SG @ NTU"
+            },
+            {
+                "first": "A.",
+                "last": "Ling",
+                "affiliation": "CQT, Dept. of Physics, NUS"
                 "affiliation": "CQT, NUS",
                 "contact": true
             }
