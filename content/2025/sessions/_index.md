@@ -1,7 +1,7 @@
 ---
 title: Sessions
 year: 2025
-draft: true
+draft: false
 type: sessions
 menu:
     2025:
@@ -9,8 +9,6 @@ menu:
         identifier: sessions
         parent: technical-program
 ---
-
-## Coming soon...
 
 <!-- The {{< button-link label="schedule" url="/2025/schedule" icon="cfp">}} is now available. -->
 

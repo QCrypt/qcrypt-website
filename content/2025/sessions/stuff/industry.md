@@ -1,6 +1,7 @@
 ---
 key: industry
 title: Industry Panel
+format: industry
 type: sessions
 tags:
     - industry
