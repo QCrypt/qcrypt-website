@@ -21,9 +21,9 @@
     - session: contributed/1c
       time: '15:50'
     - session: stuff/group
-      time: '17:10'
+      time: '17:30'
     - session: stuff/reception
-      time: '18:00'
+      time: '18:30'
 
 - day: '2025-08-26'
   sessions:
