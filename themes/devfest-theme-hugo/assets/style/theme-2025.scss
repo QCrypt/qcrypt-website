@@ -78,6 +78,7 @@ flex-wrap: wrap;
 
 .tag-lunch,
 .tag-dinner,
+.tag-lecture,
 .tag-poster,
 .tag-break,
 .tag-award,
@@ -92,6 +93,7 @@ flex-wrap: wrap;
 
 .tag-lunch > a,
 .tag-dinner > a,
+.tag-lecture > a,
 .tag-break > a,
 .tag-poster > a,
 .tag-award > a,
@@ -102,6 +104,7 @@ flex-wrap: wrap;
 .tag-group > a{
     box-shadow: none !important;
 }
+
 .tag-banquet h4,
 .tag-dinner h4,
 .tag-lunch h4,
@@ -111,6 +114,7 @@ flex-wrap: wrap;
 }
 
 .tag-reception,
+.tag-lecture,
 .tag-closing,
 .tag-welcome{
     background-color: #DDEBF7;

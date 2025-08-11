@@ -66,8 +66,6 @@
       time: '12:35'
     - session: stuff/tour
       time: '14:00'
-    - session: stuff/poster
-      time: '17:10'
     - session: stuff/dinner
       time: '18:00'
 
@@ -95,6 +93,8 @@
       time: '17:10'
     - session: stuff/dinner
       time: '18:00'
+    - session: stuff/lecture
+      time: '19:00'
 
 - day: '2025-08-29'
   sessions:
