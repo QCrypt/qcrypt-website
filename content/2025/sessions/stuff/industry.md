@@ -18,4 +18,4 @@ presentation: null
 draft: false
 ---
 
-The session is intended to provide a comprehensive view of the standardization of quantum information and quantum key distribution. It is organized and chaired by Charles Lim (the Department of Electrical & Computer Engineering (ECE) and Centre for Quantum Technologies (CQT)).
+The session is intended to provide a comprehensive view of the standardization of quantum information and quantum key distribution. It is organized and chaired by Charles Lim (National University of Singapore).
