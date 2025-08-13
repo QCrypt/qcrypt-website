@@ -108,25 +108,25 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 
 {{% /home-location %}}
 
-<!--
+
+{{% partners categories="partner" year=2025 %}}
+{{% /partners %}}
+
 {{% home-speakers year=2025 %}}
-
 ## Featured Speakers
-
-Coming Soon ...
-
 {{< button-link label="All Speakers"
                 url="/2025/speakers"
                 icon="cfp" >}}
+{{% /home-speakers %}}
 
-{{% /home-speakers %}}-->
+{{% partners categories="gold,silver,bronze" year=2025 %}}
+## Sponsors
+{{% /partners %}}
 
 {{% partners categories="" year=2025 %}}
-
-## Sponsors
-
 QCrypt 2025 is seeking sponsors.
 
 To know more about sponsor packages and other information, contact {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}}
+
 
 {{% /partners %}}

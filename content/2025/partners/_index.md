@@ -35,5 +35,5 @@ QCrypt 2025 is offering sponsor packages – please email {{< button-link label=
 {{% partners categories="bronze" year=2025 %}}
 {{% /partners %}}
 
-{{% partners categories="sponsor" year=2025 %}}
-{{% /partners %}}
+<!-- {{% partners categories="sponsor" year=2025 %}}
+{{% /partners %}} -->

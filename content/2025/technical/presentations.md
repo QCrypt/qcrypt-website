@@ -18,8 +18,7 @@ QCrypt 2025 is primarily an in-person meeting with presenters expected on-site. 
 <strong><ul>Tutorial Talk:</strong> 70 minutes (plus 5 minutes for Q&A)</ul>
 <strong><ul>Invited Talks:</strong> 40 minutes (plus 5 minutes for Q&A)</ul>
 <strong><ul>Contributed Talks:</strong> 15 minutes\* (plus 5 minutes for Q&A)</ul>
-<strong><ul>Industry Session:</strong> 100 minutes (participation details to be provided separately)</ul>
-<strong><ul>Public Debate:</strong> 60 minutes (participation details to be provided separately)</ul>
+<strong><ul>Industry Session:</strong> 80 minutes (participation details to be provided separately)</ul>
 <strong><ul>Rump Talks:</strong> TBD</ul>
 
 <ul>*Combined contributed talks are still 15 minutes</ul>
@@ -41,7 +40,7 @@ Posters should be <strong>no wider than 1 meter and no higher than 1.2 meters</s
 
 Poster boards will be identified by <strong>lastname_day_title. </strong>
 
-Poster sessions will be 90 minutes from 4:30 p.m. to 6 p.m. on Monday and Tuesday.
+Poster sessions will be about 60 miniutes on Monday afternoon and Tuesday afternoon.
 <br><br>
 
 <!-- {{< button-link label="Monday's Schedule" url="/2025/sessions/poster1/" icon="" >}}

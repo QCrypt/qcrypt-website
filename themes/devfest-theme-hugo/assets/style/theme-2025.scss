@@ -113,6 +113,12 @@ flex-wrap: wrap;
     text-shadow: none !important;
 }
 
+
+.tag-group,
+.tag-poster{
+    background-color: #fff2ae;
+}
+
 .tag-reception,
 .tag-lecture,
 .tag-closing,
@@ -125,4 +131,16 @@ flex-wrap: wrap;
 .tag-lunch,
 .tag-break{
     background-color: #9BC2E6;
+}
+
+.type-contributed {
+  --duration: '20' !important;
+}
+
+.type-invited {
+  --duration: '45' !important;
+}
+
+.type-industry {
+  --duration: '80' !important;
 }

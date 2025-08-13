@@ -4,7 +4,7 @@
       time: '08:45'
     - session: tutorial/Tupkary
       time: '09:30'
-    - session: invited/Peng
+    - session: invited/Li
       time: '10:15'
     - session: stuff/break
       time: '11:00'
@@ -48,7 +48,7 @@
     - session: stuff/poster
       time: '17:10'
     - session: stuff/banquet
-      time: '18:00'
+      time: '18:30'
 
 - day: '2025-08-27'
   sessions:
