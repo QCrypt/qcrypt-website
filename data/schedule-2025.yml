@@ -3,7 +3,7 @@
     - session: stuff/welcome
       time: '08:45'
     - session: tutorial/Tupkary
-      time: '09:30'
+      time: '09:00'
     - session: invited/Li
       time: '10:15'
     - session: stuff/break
@@ -28,7 +28,7 @@
 - day: '2025-08-26'
   sessions:
     - session: tutorial/Vallone
-      time: '09:30'
+      time: '09:00'
     - session: invited/Fedorov
       time: '10:15'
     - session: stuff/break
@@ -53,7 +53,7 @@
 - day: '2025-08-27'
   sessions:
     - session: tutorial/Liu
-      time: '09:30'
+      time: '09:00'
     - session: invited/Zhou
       time: '10:15'
     - session: stuff/break
@@ -72,7 +72,7 @@
 - day: '2025-08-28'
   sessions:
     - session: tutorial/Speelman
-      time: '09:30'
+      time: '09:00'
     - session: invited/Murta
       time: '10:15'
     - session: stuff/break
