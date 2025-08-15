@@ -1,6 +1,6 @@
 ---
 year: 2025
-title: 10jcoptix
+title: 05jcoptix
 type: partner
 draft: false
 category: bronze

@@ -1,6 +1,6 @@
 ---
 year: 2025
-title: 06SingleQuantum
+title: 04SingleQuantum
 type: partner
 draft: false
 category: bronze

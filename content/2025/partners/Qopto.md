@@ -1,6 +1,6 @@
 ---
 year: 2025
-title: 12Qopto
+title: 06Qopto
 type: partner
 draft: false
 category: bronze

@@ -1,6 +1,6 @@
 ---
 year: 2025
-title: 04OPENTI
+title: 02OPENTI
 type: partner
 draft: false
 category: bronze
