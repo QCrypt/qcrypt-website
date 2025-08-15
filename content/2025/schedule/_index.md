@@ -12,7 +12,7 @@ menu:
         parent: attend
 ---
 
-_Please note that minor adjustments may occur as we approach the event date_
+<!-- _Please note that minor adjustments may occur as we approach the event date_ -->
 
 <!-- <center>
 
