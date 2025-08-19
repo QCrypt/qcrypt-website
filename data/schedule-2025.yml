@@ -93,7 +93,7 @@
       time: '17:10'
     - session: stuff/dinner
       time: '18:00'
-    - session: stuff/lecture
+    - session: lecture/Pan
       time: '19:00'
 
 - day: '2025-08-29'
