@@ -1363,29 +1363,6 @@
     },
     {
         "object": "paper",
-        "pid": 155,
-        "title": "Composable Finite-Length Quantum Keyless Security based on Rényi Information and Practical Application to Space Channels",
-        "abstract": "Quantum communication is emerging as a foundational element of future secure information systems, with applications ranging from key distribution to direct message transmission. Widely used communication standards such as the Digital Video Broadcasting – Satellite – Second Generation Extension (DVB-S2X) can be considered for satellite-based quantum communication scenarios, where resource constraints and channel impairments must be carefully addressed. While much of the early work in quantum security focused on asymptotic analyses or relied on models rooted in classical wiretap theory, there is a growing need for frameworks that provide operational security guarantees in finite-length and non-asymptotic regimes. In this work, we address that gap by introducing a composable security metric based on the trace distance, derived from alpha-order Rényi information. We also provide an illustrative numerical application of our bound for DVB-S2 that provide two-fold insights. First, we demonstrate the usefulness of our bound for practical design of reliable and secret space links. Second, we quantify the reliability-secrecy trade-off by numerically showing that the finite length physical-layer secrecy can be guaranteed only if coding rates are appropriately adjusted.",
-        "authors": [
-            {
-                "first": "Angeles",
-                "last": "Vazquez-Castro",
-                "affiliation": "Autonomous University of Barcelona",
-                "contact": true
-            },
-            {
-                "first": "Masahito",
-                "last": "Hayashi",
-                "affiliation": "The Chinese University of Hong Kong, China",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "beyond QKD"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 156,
         "title": "Refrence-Frame-Independent Quantum Key Distribution over 250 km of Optical Fiber",
         "abstract": "The reference-frame-independent quantum key distribution (RFI QKD) protocol enables QKD systems to function effectively despite slowly varying reference frames, offering a distinct advantage in practical scenarios, particularly in mobile platforms. In this study, we successfully distribute secure key bits over a 250-km optical fiber distance by developing an RFI QKD system with a repetition rate of 150 MHz. Benefiting from high repetition rate, we achieve a finite-key secret key rate of 49.65 bit/s at a distance of 200 km, which is more than 3 times higher than state-of-the-art systems. Our work dramatically extends the transmission distance and enhances the secret key rate of RFI QKD, significantly promoting its practical application.",
@@ -6382,31 +6359,6 @@
             }
         ],
         "topics": [
-            "theory"
-        ]
-    },
-    {
-        "object": "paper",
-        "pid": 317,
-        "submission_class": "Poster",
-        "title": "Generalising XOR quantum oblivious transfer",
-        "abstract": "Oblivious transfer (OT) is a fundamental cryptographic primitive for multi-party computation. One variant, XOR oblivious transfer (XOT), is extended in this work to 1-out-of-n XOT (1-n XOT), where Alice holds n bits and Bob learns either one of these bits or one of the pairwise XORs. Ideally, Bob learns no more than this one value, and Alice remains unaware of what Bob has learnt. It is impossible though to achieve perfect quantum oblivious transfer with information-theoretic security. We present a quantum protocol for 1-n XOT and derive bounds on cheating probabilities for dishonest parties. Our direct implementation of 1-n XOT offers considerable efficiency gains – reducing the number of required quantum state transmissions – compared to an indirect construction using standard 1-out-of-2 OT. Finally, we identify similarities and differences between 1-n XOT and hidden matching quantum retrieval games.",
-        "authors": [
-            {
-                "first": "Lara",
-                "last": "Stroh",
-                "affiliation": "Heriot-Watt University",
-                "contact": true
-            },
-            {
-                "first": "Erika",
-                "last": "Andersson",
-                "affiliation": "Heriot-Watt University",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "beyond QKD",
             "theory"
         ]
     },
