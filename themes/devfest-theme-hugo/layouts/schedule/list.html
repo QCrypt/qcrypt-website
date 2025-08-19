@@ -76,7 +76,8 @@ City id: {{ $timeanddate_cityid }}
 			{{ $time := split $session.time ":" }}
 			{{ $hh := index $time 0 }}
 			{{ $mm := index $time 1 }}
-
+			
+			{{if $sessionPage.Params}} <!-- skip sessions without a page -->
 				<div class="session tag-{{ anchorize (delimit ($sessionPage.Params.tags | default (slice)) " " ) }}">
 					<span class="startt">
 						<span class="hh">{{ $hh }}</span>
@@ -84,8 +85,9 @@ City id: {{ $timeanddate_cityid }}
 					</span>
 					{{ partial "schedule-session" $sessionPage }}
 				</div>
-
-
+			{{ else }}
+				{{ warnf (printf "skipped session page %s in year %s" $session.session $currentYear) }}
+			{{ end }}
 			{{ end }}
 		</ul>
 

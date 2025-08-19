@@ -22,7 +22,7 @@
       time: '15:50'
     - session: stuff/group
       time: '17:30'
-    - session: stuff/reception
+    - session: stuff/dinner
       time: '18:30'
 
 - day: '2025-08-26'
@@ -49,6 +49,10 @@
       time: '17:10'
     - session: stuff/banquet
       time: '18:30'
+    - session: lecture/Brassard
+      time: '19:00'
+    - session: __blank__
+      time: '19:30'
 
 - day: '2025-08-27'
   sessions:
@@ -95,6 +99,8 @@
       time: '18:00'
     - session: lecture/Pan
       time: '19:00'
+    - session: __blank__
+      time: '19:40'
 
 - day: '2025-08-29'
   sessions:

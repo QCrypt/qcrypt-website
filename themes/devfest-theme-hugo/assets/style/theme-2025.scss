@@ -78,7 +78,6 @@ flex-wrap: wrap;
 
 .tag-lunch,
 .tag-dinner,
-.tag-lecture,
 .tag-poster,
 .tag-break,
 .tag-award,
@@ -93,13 +92,11 @@ flex-wrap: wrap;
 
 .tag-lunch > a,
 .tag-dinner > a,
-.tag-lecture > a,
 .tag-break > a,
 .tag-poster > a,
 .tag-award > a,
 .tag-welcome > a,
 .tag-closing > a,
-.tag-reception > a,
 .tag-banquet > a,
 .tag-group > a{
     box-shadow: none !important;
@@ -119,8 +116,6 @@ flex-wrap: wrap;
     background-color: #fff2ae;
 }
 
-.tag-reception,
-.tag-lecture,
 .tag-closing,
 .tag-welcome{
     background-color: #DDEBF7;
@@ -143,4 +138,9 @@ flex-wrap: wrap;
 
 .type-industry {
   --duration: '80' !important;
+}
+
+
+[class*="2025"] .poster-list>li::marker{
+    content: "#" attr(value) ".";
 }

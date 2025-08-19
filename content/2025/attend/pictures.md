@@ -1,7 +1,7 @@
 ---
 title: Pictures
 year: 2025
-draft: true
+draft: false
 type: no_toc
 menu:
     2025:
@@ -9,7 +9,14 @@ menu:
         parent: attend
 ---
 
-## Coming soon ...
+<div style="font-size: xx-large;">
+
+[Photo Live](https://www.yipai360.com/photolivepc/?orderId=202508151647264266&channel=h5)
+
+</div>
+
+
+![qrcode](../img/photo.png)
 
 <!-- All the photos are now available for download at the following website:
 <a href="https://linckia.filemail.com/d/hhpilveqjhavccf">download here</a>
