@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Zhenda Xie has long been engaged in research on optoelectronic integrated chip devices and UAV optical quantum networks. He has published over 100 papers in international academic journals such as National Science Review, Nature Photonics, Physical Review Letters, and Nature Communications. He received the First Prize of Natural Science from the Ministry of Education in 2020 (3/5) and was honored as one of the "Top Ten Youth Science and Technology Stars of Jiangsu Province" at the 18th Jiangsu Youth Science and Technology Award. His achievement in drone-based entangled photon distribution was selected as one of the Top 10 Social Impact Events in China's Optics Field in 2021 (Light10). As a key contributor, he has won the Gold Medal at the International Exhibition of Inventions of Geneva four times.
 

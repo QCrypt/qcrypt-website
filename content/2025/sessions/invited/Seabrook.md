@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Hannah Seabrook is a PhD student at the University of Bristol. Her research lies at the interface of quantum foundations and quantum technologies, with particular interest in applying concepts such as indefinite causality and device independence to practical contexts. One of her current research directions focuses on how foundational insights can inform the design of noise-resilient QKD schemes by connecting theoretical developments with practical implementation challenges. She previously completed a research internship at the Max Planck Institute for Quantum Optics and received her BA and MSci in Natural Sciences from the University of Cambridge in 2022.
 

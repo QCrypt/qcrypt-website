@@ -9,7 +9,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Yang Liu works on experimental quantum communication in Jinan Institute of Quantum Technology (JIQT). He demonstrate measurement-device-independent quantum key distribution (MDI-QKD), eliminating the most critical security vulnerability in practical QKD systems. The work was selected asHighlights of the Year by the American Physical Society in 2013. He develops the key technologies of wavelength calibration and phase compensation for independent light sources, demonstrate the feasibility of twin-field (TF) QKD. He develops the method to control the critical noise in TF-QKD systems, achieving a quantum key distribution demonstration over 1,002 kilometers. Furthermore, the work demonstrated that the phase-sensitive TF-QKD can be used to detect vibrations in fiber optic links. He experimentally developed high-efficiency entanglement sources to achieve loophole-free Bell inequality violation, demonstrate device-independent (DI) quantum random number generation (QRNG) in experiment. The randomness beacon (https://randomnessbeacon.com/) based on this work may provide truly physics-based, high-security random number services.
 

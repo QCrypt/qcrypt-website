@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Kirill Fedorov received his PhD from the Karlsruhe Institute of Technology (Germany) in 2013 and he is currently a principal investigator at Walther-Meissner-Institut and a lecturer (Privatdozent) at Technical University of Munich. His general research interests lie within experiments with superconducting quantum circuits and propagating quantum microwaves. In particular, he focuses on realization of quantum networks in the microwave regime with a particular emphasis on quantum sensing and quantum key distribution protocols.
 

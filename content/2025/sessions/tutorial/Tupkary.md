@@ -9,7 +9,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Devashish Tupkary received his undergraduate degree in Physics from the Indian Institute of Science, Bengaluru, in 2020. He completed his Master’s in Physics at the Institute for Quantum Computing, University of Waterloo, in 2022, where he is currently pursuing a PhD. His research focuses on the security analysis of practical quantum key distribution (QKD) protocols. He has a broad interest in all areas of cryptography.
 

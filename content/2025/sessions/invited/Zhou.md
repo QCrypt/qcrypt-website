@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Dr Lai Zhou is an Associate Researcher at the Beijing Academy of Quantum Information Sciences. He received his B.S. and Ph.D. degrees from Tsinghua University and completed his postdoctoral research at the University of Oxford. His research focuses on long-distance quantum key distribution and quantum networks. He has published in several journals, including Physical Review X, Physical Review Letters, and Nature Communications. Dr. Zhou has also served on the Program Committee of QCrypt in both 2024 and 2025.
 

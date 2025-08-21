@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Yang Li received his PhD from the University of Science and Technology of China (USTC) in 2016, where he currently serves as an associate researcher. His general research interests lie within quantum key distribution and quantum cryptography, with particular emphasis on experimental implementations of free-space and satellite-based QKD systems.
 

@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Barak Nehoran is a Ph.D. candidate in theoretical computer science at Princeton University, co-advised by Professors Ran Raz and Mark Zhandry. His research focuses on quantum information, cryptography, and complexity theory, studying how quantum phenomena can enable cryptographic tasks that have no classical counterpart.
 

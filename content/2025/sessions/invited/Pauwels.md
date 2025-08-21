@@ -10,7 +10,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Jef Pauwels is a postdoctoral researcher at the University of Geneva and Constructor University. He obtained his PhD in 2023 at the Université libre de Bruxelles. His research focuses on quantum correlations, entangled measurements, and (semi-)device-independent protocols.
 

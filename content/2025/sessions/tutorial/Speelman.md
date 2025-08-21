@@ -9,7 +9,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Florian Speelman is assistant professor at the Theoretical Computer Science group of the University of Amsterdam and affiliated with the QuSoft research center for quantum computing. His research interests include cryptographic protocols for quantum networks, quantum complexity theory, and theoretical questions in quantum communication.
 

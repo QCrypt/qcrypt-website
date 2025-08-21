@@ -9,7 +9,7 @@ presentation: null
 draft: false
 ---
 
-## Bio
+## Biography
 
 Prof. Giuseppe Vallone is Full Professor at the Department of Information Engineering, University of Padova, Italy. He obtained his M.S. degree in physics and Ph.D. in theoretical physics from the University of Torino, Italy, in 2002 and 2006, respectively. He has been a permanent faculty member at the University of Padova since 2011 and was promoted to Full Professor in February 2024. His research focuses on quantum information, experimental quantum optics, and quantum communication. He co-authored more than 130 peer-reviewed publications and has been involved in more than 30 scientific research projects. He is also the co-founder and Chief Technology Officer of ThinkQuantum, a spin-off company of the University of Padova.
 
