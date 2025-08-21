@@ -19,10 +19,6 @@ layout: home
                 url="technical/call"
                 icon="cfp" >}}
 
-{{< button-link label="Registration"
-                url="attend/registration"
-                icon="direction" >}}
-
 Schedule Now Released!
 
 {{< button-link label="Schedule"
@@ -32,25 +28,25 @@ Schedule Now Released!
 {{< button-link label="Speakers"
                 url="speakers"
                 icon="talk" >}}
-
-<!-- {{< button-link label="Submit Your Talk/Poster"
-                url="https://hotcrp.science.uva.nl/qcrypt2025"
-                icon="link"
-                target="_blank">}} -->
-
-<!-- {{< button-link label="Conference Photos"
+                
+{{< button-link label="Conference Photos"
                 url="pictures"
-                icon="picture" >}} -->
+                icon="picture" >}}
 
-<!-- {{< button-link label="Organize QCrypt 2026"
-                url="2025"
-                icon="map-marker" >}} -->
+
+{{< button-link label="Registration"
+                url="attend/registration"
+                icon="direction" >}}
+
+{{< button-link label="Organize QCrypt 2027"
+                url="2026"
+                icon="map-marker" >}}
 
 {{% /jumbo %}}
 
-{{% home-info what="" class="primary" %}}
+{{% home-info what="Participants:>300,Tutorials:4,Invited Talks:8,Contributed Talks:32," class="primary" %}}
 
-<!-- Participants:>200,Days:5,Invited Talks:9,Tutorials:4 -->
+
 
 ## What is QCrypt 2025?
 
@@ -60,8 +56,6 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 {{% home-keydates %}}
 
 {{% home-keydate-table title="Key Dates QCrypt 2025" %}}
-
-<!-- | April                        | **TALK SUBMISSION NOW CLOSED**      | -->
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
@@ -102,7 +96,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
     longitude="109.5121"
     %}}
 
-<!-- ## The 2025 venue -->
+## The 2025 venue
 
 <strong>Organized by: University of Science and Technology of China and CAS Center for Excellence in Quantum Information and Quantum Physics</strong>
 
