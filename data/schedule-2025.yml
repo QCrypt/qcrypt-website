@@ -50,9 +50,9 @@
     - session: stuff/banquet
       time: '18:30'
     - session: lecture/Brassard
-      time: '19:00'
-    - session: __blank__
       time: '19:30'
+    - session: __blank__
+      time: '20:30'
 
 - day: '2025-08-27'
   sessions:
