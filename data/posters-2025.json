@@ -1653,34 +1653,34 @@
             {
                 "first": "Tao",
                 "last": "Shang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             },
             {
                 "first": "Yao",
                 "last": "Tang",
-                "affiliation": "None"
+                "affiliation": "Beihang University"
             },
             {
                 "first": "Yuanjing",
                 "last": "Zhang",
-                "affiliation": "None"
+                "affiliation": "Beihang University"
             },
             {
                 "first": "Kun",
                 "last": "Zhang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             },
             {
                 "first": "Yazhuo",
                 "last": "Jiang",
-                "affiliation": "None"
+                "affiliation": "Beihang University"
             },
             {
                 "first": "Chenyi",
                 "last": "Zhang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             }
         ],
@@ -3783,7 +3783,7 @@
             {
                 "first": "minyan",
                 "last": "wang",
-                "affiliation": "None",
+                "affiliation": "University of Science and Technology of China",
                 "contact": true
             }
         ],
@@ -5060,9 +5060,9 @@
         "abstract": "High-speed, stable, and precisely modulated optical sources are essential components in quantum key distribution (QKD) systems. Picosecond-scale narrow pulses, in particular, are critical for supporting high-rate QKD protocols by enabling tight temporal filtering, reducing background noise, and enhancing secure key generation rates. To meet these demands, gain-switched distributed feedback (DFB) lasers are widely adopted in practical systems. Their direct modulation capability simplifies the transmitter design and eliminates the need for external pulse carving circuits. In addition, the gain-switching process inherently introduces phase randomization between pulses—an important security feature required in protocols such as decoy-state scheme. However, conventional driving circuits for gain-switched lasers often depend on complex, high-power digital electronics, which are bulky and inefficient. These characteristics significantly limit their deployment in mobile, airborne, or satellite-based QKD platforms, where stringent constraints on size, weight, and power consumption must be met.\nIn this work, we present a compact, energy-efficient laser driver module designed for mobile QKD applications. The module integrates a DFB laser, sinusoidal driving unit, and analog temperature control (ATC) circuit in a footprint of only 6.1 × 3.9 × 1.1 cm³. A wideband low-noise amplifier (LNA) with over 20 dB gain amplifies an external sinusoidal clock signal, directly driving the DFB laser into the gain-switching regime. This approach produces high-quality picosecond optical pulses through rapid carrier accumulation and recombination, without the need for digital pulse generation logic. The design supports a tunable repetition rate from 200 MHz to 2.5 GHz, with total power consumption reduced by over 90% compared to conventional pulse-based drivers.\nTo ensure wavelength stability—critical for interference-based QKD protocols—we implement a fully analog feedback-based temperature control scheme. A thermistor-based sensor monitors the laser’s thermal environment and drives a TEC through an integrated error amplifier and integrator circuit. This analog loop achieves <0.01 K temperature fluctuation over a 0–50 °C range. In parallel, we suppress bias current noise via RF filtering, stabilizing the center wavelength within 1 pm.\nThis integrated solution enables field-deployable QKD systems to operate stably under strict size, weight, and power (SWaP) constraints. The proposed module is compatible with various QKD protocols and encoding methods and can significantly extend operational lifetime on battery-powered platforms. By enhancing both temporal and spectral stability while minimizing power draw, our work paves the way for practical and scalable mobile quantum communication.",
         "authors": [
             {
-                "first": "宇轩",
-                "last": "范",
-                "affiliation": "none",
+                "first": "Yuxuan",
+                "last": "Fan",
+                "affiliation": "",
                 "contact": true
             }
         ],
