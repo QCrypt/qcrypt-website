@@ -285,30 +285,6 @@
     },
     {
         "object": "paper",
-        "pid": 8,
-        "title": "Unclonable Encryption with Continuous Variables",
-        "abstract": "We propose the first continuous-variable (CV) unclonable encryption scheme, \nextending the paradigm of quantum encryption of classical messages (QECM) to CV systems. \nIn our construction, a classical message is first encrypted classically and then encoded \nusing an error-correcting code. \nEach bit of the codeword is mapped to a CV mode by \ncreating a coherent state which is squeezed in the $q$ or $p$ quadrature direction,\nwith a small displacement that encodes the bit.\nThe squeezing directions are part of the encryption key.\nWe prove unclonability in the framework introduced by Broadbent and Lord,\nvia a reduction of the cloning game to a CV monogamy-of-entanglement game.",
-        "authors": [
-            {
-                "first": "Arpan",
-                "last": "Ray",
-                "affiliation": "TU Eindhoven",
-                "contact": true
-            },
-            {
-                "first": "Boris",
-                "last": "Skoric",
-                "affiliation": "TU Eindhoven",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "beyond QKD",
-            "theory"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 9,
         "title": "Overview of recent results on the optical-pumping attack on quantum key distribution sources",
         "abstract": "In this work, we demonstrate a new kind of attack on laser sources in quantum key distribution systems - the optical-pumping attack. We investigated its influence on a single distributed feedback laser diode and an optically injection-locked source configuration. The spectral dependency of this attack was also examined. We managed to increase the energy of emitted pulses using attackers light at several wavelengths. The developed optical-pumping attack should be considered as a possible threat to the security of QKD systems because the increase of pulse energy leads to overestimation of secret key rate between Alice and Bob, giving more information about secret key to Eve.",
@@ -817,44 +793,6 @@
                 "first": "Mohsen",
                 "last": "Razavi",
                 "affiliation": "School of Electronic and Electrical Engineering, University of Leeds, Leeds LS2 9JT, United Kingdom",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "QKD theory"
-        ]
-    },
-    {
-        "object": "paper",
-        "pid": 32,
-        "title": "Enhancing Quantum Key Distribution with Entanglement Distillation and Classical Advantage Distillation",
-        "abstract": "Realizing secure communication between distant parties is one of quantum technology’s main goals. Although quantum key distribution promises information-theoretic security for sharing a secret key, the key rate heavily depends on the level of noise in the quantum channel.\nTo overcome the noise, both quantum and classical techniques exist, i.e., entanglement distillation and classical advantage distillation.\nSo far, these techniques have only been used separately from each other.\nHerein, we present a two-stage distillation scheme concatenating entanglement distillation with classical advantage distillation. For advantage distillation, we utilize a fixed protocol, specifically, the repetition code; in the case of entanglement distillation, we employ an enumeration algorithm to find the optimal protocol. We test our scheme for different noisy entangled states and demonstrate its quantitative advantage: our two-stage distillation scheme achieves finite key rates even in the high-noise regime where entanglement distillation or advantage distillation alone cannot afford key sharing. We also calculate the security bounds for relevant QKD protocols with our key distillation scheme and show that they exceed the previous security bounds with only advantage distillation. Since the advantage distillation part does not introduce further requirements on quantum resources, the proposed scheme is well-suited for near-term quantum key distribution tasks.",
-        "authors": [
-            {
-                "first": "Shin",
-                "last": "Sun",
-                "affiliation": "Networked Quantum Devices Unit, Okinawa Institute of Science and Technology Graduate University, Okinawa, Japan",
-                "contact": true
-            },
-            {
-                "first": "Kenneth",
-                "last": "Goodenough",
-                "affiliation": "College of Information and Computer Science, University of Massachusetts Amherst, Amherst, Massachusetts, USA"
-            },
-            {
-                "first": "Daniel",
-                "last": "Bhatti",
-                "affiliation": "Networked Quantum Devices Unit, Okinawa Institute of Science and Technology Graduate University, Okinawa, Japan"
-            },
-            {
-                "first": "Koji",
-                "last": "Azuma",
-                "affiliation": "NTT Basic Research Laboratories & NTT Research Center for Theoretical Quantum Information, NTT Corporation, Atsugi, Kanagawa, Japan"
-            },
-            {
-                "first": "David",
-                "last": "Elkouss",
-                "affiliation": "Networked Quantum Devices Unit, Okinawa Institute of Science and Technology Graduate University, Okinawa, Japan",
                 "contact": true
             }
         ],
@@ -1573,24 +1511,24 @@
             {
                 "first": "Kun",
                 "last": "Zhang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             },
             {
                 "first": "Tao",
                 "last": "Shang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             },
             {
                 "first": "Yao",
                 "last": "Tang",
-                "affiliation": "None"
+                "affiliation": "Beihang University"
             },
             {
                 "first": "Chenyi",
                 "last": "Zhang",
-                "affiliation": "None",
+                "affiliation": "Beihang University",
                 "contact": true
             }
         ],
@@ -2935,36 +2873,6 @@
     },
     {
         "object": "paper",
-        "pid": 106,
-        "title": "Deploying an MDI-QKD system for Smart Grid data protection",
-        "abstract": "We present our current collaboration between Stony Brook University (SBU), Brookhaven National Laboratory (BNL), the Calpine Power Company (CPC) and the Long Island Solar Farm (LISF), all located on Long Island, New York. The goal of our project is to demonstrate and validate a deployed hybrid quantum/classical cybersecurity optical network securing a network of power distribution nodes. We have constructed a deployed testbed of an MDI-QKD system connecting the BNL and SBU campuses and the Long Island Interconnects data center in Westbury (WBY), New York, using a total of 140 km of deployed fiber. With this deployed quantum network system, we have demonstrated robust Hong-Ou-Mandel interference for the four different orthogonal polarizations (HH (ν=47%), VV (ν =49%), RR (ν =46%) and LL (ν =30%), and used these results to obtain a quantum key rate of 10^-2 bits/s. Currently, we are developing mechanisms to increase the rate, including the use of telecom compatible quantum memories.",
-        "authors": [
-            {
-                "first": "Eden",
-                "last": "Figueroa",
-                "affiliation": "Stony Brook University",
-                "contact": true
-            },
-            {
-                "first": "Dimitrios",
-                "last": "Katramatos",
-                "affiliation": "Brookhaven National Laboratory"
-            },
-            {
-                "first": "Leonardo Castillo",
-                "last": "Veneros",
-                "affiliation": "Stony Brook University"
-            }
-        ],
-        "topics": [
-            "device independence",
-            "experiment",
-            "photonic integration",
-            "QKD implementation"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 107,
         "title": "Selectively Blind Quantum Computation",
         "abstract": "Known protocols for the secure delegation of quantum computations from a client to a server in an information-theoretic setting require quantum communication. In this work, we investigate methods to reduce the communication overhead. First, we establish an impossibility result by proving that local processes on the server side cannot increase the number of qubits required for the computation. We develop a series of no-go results that prohibit such a process within an information-theoretic framework. \n\nSecond, we present a possibility result by introducing the notion of selectively blind quantum computing (SBQC), a protocol that minimizes the number of encrypted qubits in the computation when delegating one computation from a pre-known set of computations. This approach, which we term can reduce communication costs drastically depending on the type of the possible computations and the differences between them.",
@@ -3153,56 +3061,6 @@
     },
     {
         "object": "paper",
-        "pid": 112,
-        "title": "Secure Multi-Party Computation from Entanglement-Based Quantum Oblivious Transfer in the Noisy Quantum Storage Model",
-        "abstract": "We introduce a novel protocol for chosen-input 1-out-of-2 Quantum Oblivious Transfer (QOT) based on entanglement, and present an efficient experimental implementation. Under the assumptions of the Noisy Quantum Storage Model, the protocol can provide $\\epsilon$-secure OT to directly feed two-party computation schemes such as Yao's garbled circuits. For standard security parameters, our system can currently sustain rates supporting up to 1,000 operations per minute for 10-bit inputs.",
-        "authors": [
-            {
-                "first": "Paula",
-                "last": "Alonso Blanco",
-                "affiliation": "ICFO",
-                "contact": true
-            },
-            {
-                "first": "Luis",
-                "last": "Trigo Vidarte",
-                "affiliation": "ICFO",
-                "contact": true
-            },
-            {
-                "first": "Robin",
-                "last": "Camphausen",
-                "affiliation": "ICFO"
-            },
-            {
-                "first": "Ricardo",
-                "last": "Faleiro",
-                "affiliation": "Instituto de Telecomunicaões"
-            },
-            {
-                "first": "Manuel",
-                "last": "Goulão",
-                "affiliation": "Instituto Superior Técnico",
-                "contact": true
-            },
-            {
-                "first": "Emmanuel",
-                "last": "Zambrini Cruzeiro",
-                "affiliation": "Instituto de Telecomunicaões"
-            },
-            {
-                "first": "Valerio",
-                "last": "Pruneri",
-                "affiliation": "ICFO"
-            }
-        ],
-        "topics": [
-            "beyond QKD",
-            "experiment"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 113,
         "title": "Security of loss-tolerant QKD with source and receiver imperfections",
         "abstract": "Current implementations of quantum key distribution (QKD) typically rely on prepare-and-measure (P&M) schemes. Unfortunately, these implementations are not completely secure, unless security proofs fully incorporate all imperfections of real devices. So far, existing proofs have primarily focused on imperfections of either the light source or the measurement device. In this work, we establish a security proof for the loss-tolerant P&M QKD protocol that incorporates imperfections in both the source and the detectors. Specifically, we demonstrate the security of this scheme when the emitted states deviate from the ideal ones and Bob’s measurement device does not meet the basis-independent detection efficiency condition. Furthermore, we conduct an experiment to characterise the detection efficiency mismatch of commercial single-photon detectors as a function of the polarisation state of the input light, and determine the expected secret key rate in the presence of state preparation flaws when using such detectors. Our work provides a way towards guaranteeing the security of actual implementations of widely deployed P&M QKD.",
@@ -3264,35 +3122,6 @@
             }
         ],
         "topics": [
-            "theory"
-        ]
-    },
-    {
-        "object": "paper",
-        "pid": 116,
-        "title": "How much secure randomness is in a quantum state?",
-        "abstract": "How much cryptographically-secure randomness can be extracted from a quantum state? This fundamental question probes the absolute limits of quantum random number generation (QRNG) and yet, despite the technological maturity of QRNGs, it remains unsolved. In this work we consider a general adversarial model that allows for an adversary who has quantum side-information about both the source and the measurement device. Using links between randomness extraction rates and sandwiched Rényi entropies, we provide compact, easy to compute, achievable rates of secure randomness extraction from quantum states. In turn, this provides a simple to evaluate benchmarking tool for the randomness generation rates of QRNG protocols.",
-        "authors": [
-            {
-                "first": "Kriss Gutierrez",
-                "last": "Anco",
-                "affiliation": "Telecom Paris"
-            },
-            {
-                "first": "Tristan",
-                "last": "Nemoz",
-                "affiliation": "Telecom Paris",
-                "contact": true
-            },
-            {
-                "first": "Peter",
-                "last": "Brown",
-                "affiliation": "Telecom Paris",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "random-number generation",
             "theory"
         ]
     },
@@ -3548,35 +3377,6 @@
         "topics": [
             "beyond QKD",
             "QKD implementation",
-            "theory"
-        ]
-    },
-    {
-        "object": "paper",
-        "pid": 131,
-        "title": "On the scalability of real-valued Asymptotically Random States",
-        "abstract": "Asymptotically Random States are a particular instance of state approximate t-designs. Namely, they are ensembles of quantum states such that sampling within this ensemble approximates well the Haar distribution, even when being given t copies. They recently gained a lot of traction due to their use in security proofs of Pseudorandom Quantum States. Notably, the security of an ARS, which is how hard it is to be distinguished from the Haar distribution, carries on to the PRS instantiated from it.\n\nIn this work, we show that real-valued ARS are always distinguishable from the Haar distribution using $O(\\sqrt{d})$ copies. In particular, it is not possible to have a linear scaling in the number of copies for the security of a real-valued ARS. We do so by showing that $\\Theta(\\sqrt{d})$ copies are required to distinguish real-valued $d$-dimensional Haar random states from complex ones. To this end, we analytically compute the spectral decomposition of the t-copy real-valued Haar average state. We then show that this measurement can be used to distinguish sampling within any set of real-valued states from sampling from the Haar distribution with the same probability of success.",
-        "authors": [
-            {
-                "first": "Tristan",
-                "last": "Nemoz",
-                "affiliation": "Télécom Paris",
-                "contact": true
-            },
-            {
-                "first": "Romain",
-                "last": "Alléaume",
-                "affiliation": "Télécom Paris",
-                "contact": true
-            },
-            {
-                "first": "Peter",
-                "last": "Brown",
-                "affiliation": "Télécom Paris",
-                "contact": true
-            }
-        ],
-        "topics": [
             "theory"
         ]
     },
@@ -4708,31 +4508,6 @@
     },
     {
         "object": "paper",
-        "pid": 173,
-        "submission_class": "Poster",
-        "title": "Composable security of networks of sensors",
-        "abstract": "Distributed sensing is a protocol in quantum metrology that uses large entangled states to estimate some function of the local parameters held by the end users. Each local parameter encoded by an agent should remain private – that is, unknown to all other agents – whereas the desired global function (in this work we will consider the sum) is revealed to every agent. Quantum advantage arises due to the quadratic improvement in precision gained by using entangled states, and the guarantee of privacy is relevant to\napplications such as time synchronisation or civil engineering.\nIn this work, we consider the privacy of the local parameters within the framework of abstract cryptography. This paradigm enables us to show composable security, meaning that the protocol can be composed with other secure protocols, used multiple times, or used as part of a larger scheme.",
-        "authors": [
-            {
-                "first": "Naomi",
-                "last": "Solomons",
-                "affiliation": "Sorbonne University",
-                "contact": true
-            },
-            {
-                "first": "Damian",
-                "last": "Markham",
-                "affiliation": "Sorbonne University",
-                "contact": true
-            }
-        ],
-        "topics": [
-            "beyond QKD",
-            "theory"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 174,
         "submission_class": "Poster",
         "title": "All-day and high-loss quantum key distribution: towards geosynchronous-Earth-orbit satellite application",
@@ -5475,41 +5250,6 @@
     },
     {
         "object": "paper",
-        "pid": 196,
-        "submission_class": "Poster",
-        "title": "An efficient construction of Raz’s two-source randomness extractor with improved parameters",
-        "abstract": "Randomness extractors are algorithms that distill weak random sources into near-perfect random numbers. Two-source extractors enable this distillation process by combining two independent weak random sources. Raz’s extractor (STOC '05) was the first to achieve this in a setting where one source has linear min-entropy (i.e., proportional to its length), while the other has only logarithmic min-entropy in its length. However, Raz's original construction is impractical due to a polynomial computation time of at least degree 4. Our work solves this problem by presenting an improved version of Raz's extractor with quasi-linear computation time, as well as a new analytic theorem with reduced entropy requirements. We derive strong and quantum-proof versions of our efficient Raz extractor. Additionally, we offer an easy-to-use, open-source code implementation of the extractor and a numerical parameter calculation module.",
-        "authors": [
-            {
-                "first": "Cameron",
-                "last": "Foreman",
-                "affiliation": "Quantinuum",
-                "contact": true
-            },
-            {
-                "first": "Lewis",
-                "last": "Wooltorton",
-                "affiliation": "University of Lyon",
-                "contact": true
-            },
-            {
-                "first": "Kevin",
-                "last": "Milner",
-                "affiliation": "Quantinuum"
-            },
-            {
-                "first": "Florian",
-                "last": "Curchod",
-                "affiliation": "Quantinuum"
-            }
-        ],
-        "topics": [
-            "device independence",
-            "random-number generation"
-        ]
-    },
-    {
-        "object": "paper",
         "pid": 197,
         "submission_class": "Poster",
         "title": "Polarization-Dependent-Loss Compensation with Simple Optical Devices for Polarization-Based Quantum Key Distribution",
@@ -6156,59 +5896,6 @@
         ],
         "topics": [
             "QKD implementation"
-        ]
-    },
-    {
-        "object": "paper",
-        "pid": 211,
-        "submission_class": "Poster",
-        "title": "Overcoming the Phase Diffusion Limit in a DFB-based QRNG",
-        "abstract": "We report a novel technique of extracting randomness from the phase of optical\npulses coming from a gain-switched Distributed Feedback (DFB) laser cavity beyond the\nphase diffusion limit.",
-        "authors": [
-            {
-                "first": "Adam",
-                "last": "Brzosko",
-                "affiliation": "University of Cambridge",
-                "contact": true
-            },
-            {
-                "first": "Y. S.",
-                "last": "Lo",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "P. R.",
-                "last": "Smith",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "R. I.",
-                "last": "Woodward",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "D. G.",
-                "last": "Marangon",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "J. F.",
-                "last": "Dynes",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "R. M.",
-                "last": "Stevenson",
-                "affiliation": "Toshiba Europe Limited"
-            },
-            {
-                "first": "A. J.",
-                "last": "Shields",
-                "affiliation": "Toshiba Europe Limited"
-            }
-        ],
-        "topics": [
-            "random-number generation"
         ]
     },
     {
