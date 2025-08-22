@@ -277,7 +277,7 @@
     },
     {
         "pid": 45,
-        "title": "A Framework for the Security Analysis of Practical High-Dimensional QKD Setups",
+        "title": "A Framework for the Security Analysis of Practical High-Dimensional QKD Setups (Remote)",
         "abstract": "High-dimensional (HD) entanglement promises both enhanced key rates and overcoming obstacles faced by modern-day quantum communication. However, modern convex optimization-based security arguments are limited by computational constraints; thus, accessible dimensions are far exceeded by progress in HD photonics, bringing forth a need for efficient methods to compute key rates for large encoding dimensions. In response to this problem, we present a flexible analytic framework facilitated by the dual of a semi-definite program and diagonalizing operators inspired by entanglement-witness theory, enabling the efficient computation of key rates in high-dimensional systems. To facilitate the latter, we show how matrix completion techniques can be incorporated to effectively yield improved, computable bounds on the key rate in paradigmatic high-dimensional systems of time- or frequency-bin entangled photons and beyond, revealing the potential for very high dimensions to surpass low dimensional protocols already with existing technology. In our accompanying work, we show how our findings can be used to establish finite-size security against coherent attacks for general HD-QKD protocols both in the fixed- and variable-length scenario and we examine the performance under realistic conditions. Detailed manuscripts for Refs. [1] and [2] can be found attached.",
         "authors": [
             {
@@ -363,7 +363,7 @@
     },
     {
         "pid": 62,
-        "title": "Marginal-constrained entropy accumulation theorem",
+        "title": "Marginal-constrained entropy accumulation theorem (Remote)",
         "abstract": "We derive a novel chain rule for a family of channel conditional entropies, covering von Neumann and sandwiched R\\'{e}nyi entropies. In the process, we show that these channel conditional entropies are equal to their regularized version, and more generally, additive across tensor products of channels. For the purposes of cryptography, applying our chain rule to sequences of channels yields a new variant of R\\'{e}nyi entropy accumulation, in which we can impose some specific forms of marginal-state constraint on the input states to each individual channel. This generalizes a recently introduced security proof technique that was developed to analyze prepare-and-measure QKD with no limitations on the repetition rate. In particular, our generalization yields ``fully adaptive'' protocols that can in principle update the entropy estimation procedure during the protocol itself, similar to the quantum probability estimation framework.",
         "authors": [
             {
