@@ -29,6 +29,10 @@
 		{{ if .Params.level }}
 		<div class="complexity">{{ .Params.level }}</div>
 		{{ end }}
+
+		{{ if eq .Params.showContent true }}
+		{{ .Content }} 
+		{{end}}
 	</div>
 
 	<ul class="paper-list">
