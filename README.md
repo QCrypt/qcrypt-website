@@ -34,7 +34,11 @@ $ cd qcrypt-website
 $ hugo server
 ``` 
 
+You can use `--ignoreCache` to ignore local cache files, and `--disableFastRender` to disable fast render mode (this mode will not rebuild all files on every change), which is useful for debugging.
+
 5. Edit the markdown source files with ending `.md` in the [/content/](/content/) subdirectories to make changes to the site. You might also have to edit `.json` and `.yml` files in the [/data/](/data/) subdirectory. As long as the hugo server is running, your changes should be visible immediately at http://localhost:1313/.
+
+You can change this default behavior by adding `--bing ip.addr.1.1` and `--port 1234` to the command line.
 
 6. Using a suitable editor like [Visual Studio Code](https://code.visualstudio.com/) allows to easily search across all source files, and will help finding the correct file to edit if you want to make specific changes.
 
@@ -215,5 +219,15 @@ There is an [overview of speakers](/content/2025/speakers/_index.html) (e.g. [20
 ### Schedule
 Once a schedule is drawn up, insert the session names and start times into [/data/schedule-2025.yml](/data/schedule-2025.yml) like in previous years. A schedule is then automatically generated and can be added to the "Technical Program" submenu by setting `draft: false` in [/content/2025/schedule/_index.html](/content/2025/schedule/_index.html)
 
+The schedule page consists of several sessions. Each session has following elements:
 
-
+|element|Required|description|
+|---|---|---|
+|title|yes|The title of the session|
+|format|no|The format of the session, like `contributed`, `invited`, `industry`, `tutorial` etc.|
+|type|yes|Should be `sessions`|
+|year|yes|The year of the session|
+|papers|no|The paper id/ids of the accepted papers or posters. Stuff sessions can leave this blank|
+|chair|no|The chair for this session|
+|draft|yes|Should be `false` for a unpublished session and `true` for a published session|
+|tags|no|The tags of the session, which will affect the class for the session element in website|
