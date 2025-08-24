@@ -12,7 +12,7 @@ speakers:
     - Makamara
     - Zhang
     - Qin
-
+chair: Charles Lim
 videoId: null
 presentation: null
 draft: false

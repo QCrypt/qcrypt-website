@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Seabrook
+chair: Davide Rusca
 videoId: null
 presentation: null
 draft: false

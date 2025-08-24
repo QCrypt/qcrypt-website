@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Murta
+chair: Ian George
 videoId: null
 presentation: null
 draft: false

@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Li
+chair: Feihu Xu
 videoId: null
 presentation: null
 draft: false

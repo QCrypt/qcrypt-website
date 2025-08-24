@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Fedorov
+chair: Thomas Hahn
 videoId: null
 presentation: null
 draft: false

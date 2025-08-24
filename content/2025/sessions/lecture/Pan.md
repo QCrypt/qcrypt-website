@@ -4,6 +4,7 @@ type: sessions
 year: 2025
 speakers:
     - Pan
+chair: Marco Lucamarini
 videoId: null
 presentation: null
 draft: false

@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Tupkary
+chair: Feihu Xu
 presentation: null
 draft: false
 ---

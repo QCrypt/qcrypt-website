@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Zhou
+chair: Giuseppe Vallone
 videoId: null
 presentation: null
 draft: false

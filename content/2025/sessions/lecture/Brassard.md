@@ -4,6 +4,7 @@ type: sessions
 year: 2025
 speakers:
     - Brassard
+chair: Qiang Zhang
 videoId: null
 presentation: null
 draft: false

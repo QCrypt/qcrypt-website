@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Nehoran
+chair: Kirill Fedorov
 videoId: null
 presentation: null
 draft: false

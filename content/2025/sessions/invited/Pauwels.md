@@ -5,6 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Pauwels
+chair: Gláucia Murta
 videoId: null
 presentation: null
 draft: false
