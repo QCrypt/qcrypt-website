@@ -19,7 +19,8 @@ layout: home
                 url="technical/call"
                 icon="cfp" >}}
 
-Schedule Now Released!
+<!-- Schedule Now Released! -->
+⚠️Schedule modified due to Typhoon KAJIKI
 
 {{< button-link label="Schedule"
                 url="schedule"
