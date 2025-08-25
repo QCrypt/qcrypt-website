@@ -5,7 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Vallone
-chair: Thomas Hahn
+chair: Davide Rusca
 presentation: null
 draft: false
 ---

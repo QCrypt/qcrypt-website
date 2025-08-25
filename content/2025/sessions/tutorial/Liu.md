@@ -5,7 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Liu
-chair: Giuseppe Vallone
+chair: Christian Majenz
 presentation: null
 draft: false
 ---

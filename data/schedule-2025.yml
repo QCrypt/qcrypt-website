@@ -1,45 +1,29 @@
-- day: '2025-08-25'
-  sessions:    
-    - session: stuff/welcome
-      time: '14:50'
-    - session: tutorial/Tupkary
-      time: '15:00'
-    - session: invited/Li
-      time: '16:15'
-    - session: stuff/break
-      time: '17:00'
-    - session: invited/Seabrook
-      time: '17:30'
-    - session: contributed/1a
-      time: '12:15'
-      time: '18:15'
-    - session: stuff/dinner
-      time: '18:35'
-
 - day: '2025-08-26'
   sessions:
-    - session: tutorial/Vallone
-      time: '09:00'
+    - session: stuff/welcome
+      time: '08:30'
+    - session: tutorial/Tupkary
+      time: '08:40'
     - session: invited/Fedorov
-      time: '10:15'
+      time: '09:55'
     - session: stuff/break
-      time: '11:00'
+      time: '10:40'
     - session: invited/Xie
-      time: '11:30'
+      time: '11:10'
     - session: contributed/2a
-      time: '12:15'
+      time: '11:55'
     - session: stuff/lunch
       time: '12:35'
     - session: contributed/2b
       time: '14:00'
     - session: stuff/break
       time: '15:20'
-    - session: contributed/2c
+    - session: tutorial/Liu
       time: '15:50'
     - session: stuff/group
-      time: '17:10'
+      time: '17:05'
     - session: stuff/banquet
-      time: '18:30'
+      time: '18:25'
     - session: lecture/Brassard
       time: '19:30'
     - session: __blank__
@@ -47,67 +31,73 @@
 
 - day: '2025-08-27'
   sessions:
-    - session: tutorial/Liu
-      time: '09:00'
     - session: invited/Zhou
-      time: '10:15'
+      time: '08:40'
+    - session: contributed/2c
+      time: '09:25'
     - session: stuff/break
-      time: '11:00'
+      time: '10:45'
     - session: invited/Pauwels
-      time: '11:30'
+      time: '11:10'
     - session: contributed/3a
-      time: '12:15'
+      time: '11:55'
     - session: stuff/lunch
       time: '12:35'
-    - session: contributed/1b
+    - session: tutorial/Vallone
       time: '14:00'
     - session: stuff/break
-      time: '15:20'
-    - session: contributed/1c
-      time: '15:50'
+      time: '15:15'
+    - session: invited/Li
+      time: '15:45'
+    - session: invited/Seabrook
+      time: '16:30'
+    - session: contributed/1a
+      time: '17:15'
     - session: stuff/poster
-      time: '17:10'
+      time: '17:55'
     - session: stuff/dinner
-      time: '18:30'
+      time: '19:00'
 
 - day: '2025-08-28'
   sessions:
     - session: tutorial/Speelman
-      time: '09:00'
+      time: '08:40'
     - session: invited/Murta
-      time: '10:15'
+      time: '09:55'
     - session: stuff/break
-      time: '11:00'
+      time: '10:40'
     - session: invited/Nehoran
-      time: '11:30'
+      time: '11:10'
     - session: contributed/4a
-      time: '12:15'
+      time: '11:55'
     - session: stuff/lunch
       time: '12:35'
     - session: stuff/industry
       time: '14:00'
+    - session: contributed/4c
+      time: '14:45'
     - session: stuff/break
-      time: '15:20'
+      time: '15:25'
     - session: contributed/4b
       time: '15:50'
     - session: stuff/award
-      time: '17:10'
+      time: '16:50'
     - session: stuff/dinner
-      time: '18:00'
+      time: '18:20'
     - session: lecture/Pan
-      time: '19:00'
+      time: '19:30'
     - session: __blank__
-      time: '19:40'
+      time: '20:10'
 
 - day: '2025-08-29'
   sessions:
     - session: contributed/5a
-      time: '09:00'
+      time: '08:40'
     - session: stuff/break
-      time: '10:20'
+      time: '10:40'
     - session: contributed/5b
-      time: '10:50'
+      time: '11:00'
     - session: stuff/closing
-      time: '12:30'
+      time: '12:40'
     - session: stuff/lunch
-      time: '13:00'
+      time: '12:50'

@@ -5,7 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Seabrook
-chair: Davide Rusca
+chair: Feihu Xu
 videoId: null
 presentation: null
 draft: false

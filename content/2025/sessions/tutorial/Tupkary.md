@@ -5,7 +5,7 @@ type: sessions
 year: 2025
 speakers:
     - Tupkary
-chair: Feihu Xu
+chair: Thomas Hahn
 presentation: null
 draft: false
 ---

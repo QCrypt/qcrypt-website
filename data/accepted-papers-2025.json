@@ -56,7 +56,7 @@
     },
     {
         "pid": 26,
-        "title": "High-Rate Asynchronous Measurement-Device-Independent Quantum Communication without Optical Reference Light",
+        "title": "High-Rate Asynchronous Measurement-Device-Independent Quantum Communication without Optical Reference Light (original 1b/1)",
         "abstract": "Asynchronous measurement-device-independent quantum key distribution (AMDI-QKD) stands out for its experimental simplicity and high key rate generation. To simplify the system further, we devise a post-measurement compensation scheme to accurately estimate the mutual frequency offset between two compact lasers using just the announced quantum-signal detection results, thereby obviating the need for optical reference light. As a result, we demonstrate an AMDI-QKD system operating at 2.5 GHz and achieving secure key rates (SKRs) of 537 and 101 kbit/s at distances of 100 and 201 km, respectively. By leveraging ultra-stable lasers, we achieve the highest SKRs with measurement-device-independent security within the 100 to 400 km range.",
         "authors": [
             {
@@ -317,7 +317,7 @@
     },
     {
         "pid": 57,
-        "title": "Renyi security framework against coherent attacks applied to decoy-state QKD",
+        "title": "Renyi security framework against coherent attacks applied to decoy-state QKD (original 1c/4)",
         "abstract": "We develop a flexible and robust framework for finite-size security proofs of quantum key distribution (QKD) protocols under coherent attacks, applicable to both fixed- and variable-length protocols. Our methods achieve high finite-size key rates across a broad class of protocols while imposing minimal requirements. In particular, it eliminates the need for restrictive assumptions such as limited repetition rates or the implementation of virtual tomography procedures. To achieve this goal, we introduce new numerical techniques for the evaluation of conditional sandwiched Renyi entropies, enabling tight key rate bounds without compromising generality. In doing so, we find an alternative formulation of the ``QKD cone'' studied in previous work, which may be of independent interest. Moreover, we illustrate the versatility of our framework by applying it to several practically relevant protocols, including decoy-state protocols. Furthermore, we extend the analysis to accommodate realistic device imperfections, such as independent intensity and phase imperfections. Overall, our framework provides both greater scope of applicability and better key rates than existing techniques, especially for small block sizes, offering a scalable path toward secure quantum communication under realistic conditions.",
         "authors": [
             {
@@ -386,7 +386,7 @@
     },
     {
         "pid": 68,
-        "title": "Chip-integrated quantum signature network over 200 km",
+        "title": "Chip-integrated quantum signature network over 200 km (original 1b/3)",
         "abstract": "The development of quantum networks is paramount towards practical and secure communications. Quantum digital signatures (QDS) offer an information-theoretically secure solution for ensuring data integrity, authenticity, and nonrepudiation, rapidly growing from proof-of-concept to robust demonstrations. However, previous QDS systems relied on expensive and bulky optical equipment, limiting large-scale deployment and reconfigurable networking construction. Here, we introduce and verify a chip-based QDS network, placing the complicated and expensive measurement devices in the central relay while each user needs only a low-cost transmitter. We demonstrate the network with a three-node setup using an integrated encoder chip and decoder chip. By developing a 1-decoy-state one-time universal hashing-QDS protocol, we achieve a maximum signature rate of 0.0414 times per second for a 1 Mbit messages over fiber distances up to 200 km, surpassing all current state-of-the-art QDS experiments. This study validates the feasibility of chip-based QDS, paving the way for large-scale deployment and integration with existing fiber infrastructure.",
         "authors": [
             {
@@ -521,7 +521,7 @@
     },
     {
         "pid": 71,
-        "title": "Reference-frame-independent quantum key distribution based on machine-learning-enhanced qubit-based synchronization",
+        "title": "Reference-frame-independent quantum key distribution based on machine-learning-enhanced qubit-based synchronization (original 1b/4)",
         "abstract": "Quantum key distribution (QKD) enables information-theoretically secure communication, even in the era of quantum information. In all QKD systems, clock synchronization between two remote users---commonly referred to as Alice and Bob---is a fundamental requirement. This is typically achieved by transmitting an additional reference clock signal from Alice to Bob. In such a scheme, additional synchronization devices are required, increasing system complexity and introducing external noise. To address these issues, a novel synchronization technology, called the qubit-based synchronization method, was proposed. This method directly synchronizes two users using quantum signals, thereby dramatically reducing system complexity. However, previous qubit-based synchronization methods are not applicable to time-bin phase-encoding QKD systems, as multiple time slides introduce disturbances to time recovery. In this paper, we propose a machine-learning-enhanced qubit-based synchronization method. By introducing a K-nearest neighbor model, this method can efficiently classify each time slide in time-bin phase-encoding QKD, thereby enabling successful time recovery. We demonstrate our method using a time-bin phase-encoding reference-frame-independent (RFI)-QKD and successfully distribute secure key bits over up to 200 km of fiber spools. Our work simplifies the complexity of QKD system and significantly advances the practical application of QKD.",
         "authors": [
             {
@@ -664,7 +664,7 @@
     },
     {
         "pid": 90,
-        "title": "Maximal device-independent randomness in every dimension",
+        "title": "Maximal device-independent randomness in every dimension (original 1c/1)",
         "abstract": "Random numbers are used in a wide range of sciences. In many applications, generating unpredictable private random numbers is indispensable. Device-independent quantum random number generation is a framework that makes use of the intrinsic randomness of quantum processes to generate numbers that are fundamentally unpredictable according to our current understanding of physics. While device-independent quantum random number generation is an exceptional theoretical feat, the difficulty of controlling quantum systems makes it challenging to carry out in practice. It is therefore desirable to harness the full power of the quantum degrees of freedom (the dimension) that one can control. It is known that no more than 2log(d) bits of private device-independent randomness can be extracted from a quantum system of local dimension d. In this paper we demonstrate that this bound can be achieved for all dimensions d by providing a family of explicit protocols. In order to obtain our result, we develop new certification techniques that can be of wider interest in device-independent applications for scenarios in which complete certification ('self-testing') is impossible or impractical. With our C*-algebra representation tools, we are able to device-independently certify non-projective measurements for the purpose of randomness generation. Our protocols use a class of measurements we call \"balanced informationally complete\" (BIC) POVMs, which we anticipate to be useful in scenarios where normally symmetric informationally complete (SIC) POVMs are useful. Moreover, we explicitly construct BIC-POVMs in every dimension, circumventing the problem with SIC-POVMs which are only conjectured to exist in every dimension.",
         "authors": [
             {
@@ -859,7 +859,7 @@
     },
     {
         "pid": 101,
-        "title": "Chip-Based 16 GBaud Continuous-Variable Quantum Key Distribution",
+        "title": "Chip-Based 16 GBaud Continuous-Variable Quantum Key Distribution (original 1b/2)",
         "abstract": "Quantum key distribution (QKD) stands as the most successful application of quantum information\nscience, providing information-theoretic security for key exchange. While it has evolved from\nproof-of-concept experiments to commercial products, widespread adoption requires chip-based integration to reduce costs, enable mass production, facilitate miniaturization, and enhance system\nperformance. Here, we demonstrate the first fully photonic-integrated continuous-variable QKD\n(CVQKD) system operating at a classical telecom symbol rate of 16 GBaud. Our system integrates\na silicon photonic transmitter circuit (excluding the laser source) and a 20 GHz photonic-electronic\nreceiver, which features a phase-diverse silicon photonic integrated circuit and custom-designed\nGaAs pHEMT transimpedance amplifiers. Advanced digital signal processing allows our system to\nachieve the highest reported secure key rate to date, reaching 0.289 Gb/s and 0.246 Gb/s over a\n20 km fiber link in the asymptotic and finite-size regimes, respectively. These results establish a\nrecord key rate and represent a critical step toward scalable, cost-effective, and mass-deployable\nquantum-secure communication using photonic-integrated CVQKD systems.",
         "authors": [
             {
@@ -1109,7 +1109,7 @@
     },
     {
         "pid": 135,
-        "title": "Self-testing tilted strategies for maximal loophole-free nonlocality",
+        "title": "Self-testing tilted strategies for maximal loophole-free nonlocality (original 1c/2)",
         "abstract": "The degree of experimentally attainable nonlocality, as gauged by the loophole-free or effective violation of Bell inequalities, remains severely limited due to inefficient detectors. We address an experimentally motivated question: Which quantum strategies attain the maximal loophole-free nonlocality in the presence of inefficient detectors? For any Bell inequality and any specification of detection efficiencies, the optimal strategies are those that maximally violate a tilted version of the Bell inequality in ideal conditions. In the simplest scenario, we demonstrate that the quantum strategies that maximally violate the doubly-tilted versions of Clauser-Horne-Shimony-Holt inequality are unique up to local isometries. We utilize Jordan's lemma and Grobner basis-based proof technique to analytically derive self-testing statements for the entire family of doubly-tilted CHSH inequalities and numerically demonstrate their robustness. These results enable us to reveal the insufficiency of even high levels of the Navascues-Pironio-Acin hierarchy to saturate the maximum quantum violation of these inequalities.",
         "authors": [
             {
@@ -1152,7 +1152,7 @@
     },
     {
         "pid": 136,
-        "title": "Computational quantum unpredictability entropy and quantum leakage resilience",
+        "title": "Computational quantum unpredictability entropy and quantum leakage resilience (original 1c/3)",
         "abstract": "Computational entropy notions play a central role in classical cryptography, with well-developed frameworks for analyzing unpredictability, leakage resilience, and pseudo-randomness. In the quantum setting, however, computational analogues of entropy remain largely unexplored. While quantum information theory provides powerful tools based on information-theoretic entropy, these do not capture the limitations of computationally bounded quantum adversaries.\n    In this work, we initiate the study of quantum computational entropy by defining \\emph{quantum computational unpredictability entropy}, a natural generalization of classical unpredictability entropy to the quantum setting. Our definition is based on the operational meaning of quantum min-entropy, but restricts the adversary to efficient quantum guessing strategies.\n    We prove that this entropy satisfies several important properties, including a leakage chain rule that holds even in the presence of prior quantum side-information. We also show that unpredictability entropy supports pseudo-randomness extraction against quantum adversaries with bounded computational power.  Together, these results lay a foundation for developing cryptographic tools that rely on min-entropy in the quantum computational setting.",
         "authors": [
             {
