@@ -11,12 +11,20 @@ menu:
 
 <div style="font-size: xx-large;">
 
-[Photo Live](https://www.yipai360.com/photolivepc/?orderId=202508151647264266&channel=h5)
+[Live](https://www.koushare.com/live/details/45728)
 
 </div>
 
+<div style="font-size: xx-large;">
+
+[Photo Live](https://www.yipai360.com/photolivepc/?orderId=202508151647264266&channel=h5)
+
+Scan the QR code to view the photos ↓
 
 ![qrcode](../img/photo.png)
+
+</div>
+
 
 <!-- All the photos are now available for download at the following website:
 <a href="https://linckia.filemail.com/d/hhpilveqjhavccf">download here</a>
