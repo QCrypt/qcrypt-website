@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
-Murta is an Assistant Professor at the Atominstitut of TU Wien, where I lead the research group on Quantum Foundations and Cryptography. Our work explores fundamental aspects of quantum correlations and their applications to quantum cryptography. In particular, we investigate how steering and Bell nonlocality can be harnessed to develop protocols that are inherently resilient to hacking and device imperfections. We also study how multipartite entanglement and high-dimensional systems can overcome the limitations of bipartite qubit-based protocols, enabling more efficient cryptographic schemes and new quantum functionalities.
+Gláucia Murta is an Assistant Professor at the Atominstitut of TU Wien, where I lead the research group on Quantum Foundations and Cryptography. Our work explores fundamental aspects of quantum correlations and their applications to quantum cryptography. In particular, we investigate how steering and Bell nonlocality can be harnessed to develop protocols that are inherently resilient to hacking and device imperfections. We also study how multipartite entanglement and high-dimensional systems can overcome the limitations of bipartite qubit-based protocols, enabling more efficient cryptographic schemes and new quantum functionalities.
 
 ## Abstract
 
