@@ -1,6 +1,6 @@
 ---
 key: Murta
-name: Murta Guimaraes, Gláucia
+name: Gláucia Murta
 surname: Murta
 year: 2025
 company: Technische Universität Wien
