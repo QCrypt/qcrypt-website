@@ -22,3 +22,12 @@ menu:
 
 {{< posters-accepted year=2025 >}}
 {{< /posters-accepted >}}
+
+## Best Student Paper Awards
+
+### Theory
+Congratulations to **Amir Arqand (Institute for Quantum Computing, University of Waterloo), Ernest Y.-Z. Tan (Institute for Quantum Computing, University of Waterloo)** for *Marginal-constrained entropy accumulation theorem*
+
+### Experiment
+Congratulations to **Giulia Guarda (University of Florence); Noemi Tagliavacche (University of Pavia); Massimo Borghi (University of Pavia); Domenico Ribezzo (University of Florence); Marco Liscidini (University of Pavia); Davide Bacco (University of Florence); Matteo Galli (University of Pavia); Daniele Bajoni (University of Pavia)** for *Frequency-bin entanglement-based quantum key distribution*
+

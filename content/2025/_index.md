@@ -15,12 +15,14 @@ layout: home
 
 ## 25–29 August 2025
 
+The conference invoice will be sent by email between Sep 8 and 12
+
 {{< button-link label="Conference Call"
                 url="technical/call"
                 icon="cfp" >}}
 
 <!-- Schedule Now Released! -->
-⚠️Schedule modified due to Typhoon KAJIKI
+<!-- ⚠️Schedule modified due to Typhoon KAJIKI -->
 
 {{< button-link label="Schedule"
                 url="schedule"
