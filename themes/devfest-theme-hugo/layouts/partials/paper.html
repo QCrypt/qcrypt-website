@@ -41,7 +41,7 @@ CurrentYear: {{ $currentYear }}
 	</div>
 	{{end}}
 
-	{{ if isset .options "arxiv-id" }}
+	{{ if and .options (isset .options "arxiv-id") }}
 	<div class="paper-arxivid">
 		<a href="https://arxiv.org/abs/{{index .options "arxiv-id" }}" target="_blank">[arXiv: {{index .options "arxiv-id" }}]</a>
 	</div>
@@ -56,12 +56,12 @@ CurrentYear: {{ $currentYear }}
 				{{/* first check if presenter name is present in youtube.json , otherwise try to take it from accepted_final.json */}}
 				{{ if .presenter}}
 				  presented by {{ .presenter -}}
-				{{ else if isset .options "presenter-prerecorded-talk" }}
-					presented by {{ index $options "presenter-prerecorded-talk" -}}
+				{{ else if and .options (isset .options "presenter-prerecorded-talk") }}
+					presented by {{ index .options "presenter-prerecorded-talk" -}}
 			  {{ end }}]</a>
 		{{ else }}
-		{{ if isset .options "presenter-prerecorded-talk" }}
-			[YouTube, still waiting for {{ index $options "presenter-prerecorded-talk" }}]
+		{{ if and .options (isset .options "presenter-prerecorded-talk") }}
+			[YouTube, still waiting for {{ index .options "presenter-prerecorded-talk" }}]
 		{{ end }}
 	  {{ end }}
 	{{ end }}
@@ -86,7 +86,7 @@ CurrentYear: {{ $currentYear }}
 		{{ end }}
   	</div>
 
-		{{ if isset .options "name-main-presenter" }}
+		{{ if and .options (isset .options "name-main-presenter") }}
 		<div class="poster-presenter">
 			Poster presented by: {{ index .options "name-main-presenter" }}
 			{{ range first 1 (where site.Data.poster_floors "pid" .pid) }}
@@ -121,7 +121,7 @@ CurrentYear: {{ $currentYear }}
 
 
 
-  	{{ if isset .options "presenter-live-session" }}
+  	{{ if and .options (isset .options "presenter-live-session") }}
 	  <div class="paper-presenter-live-session">
 		  Presenter live session: {{ index .options "presenter-live-session" }}
 	  </div>

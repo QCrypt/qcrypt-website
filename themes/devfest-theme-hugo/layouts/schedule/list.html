@@ -20,7 +20,7 @@
 Year: {{ $currentYear }}
 Year alternative: {{ .Section }}
 Schedule Key: {{ $scheduleKey }}
-Has Schedule: {{ isset .Site.Data $scheduleKey }}
+Has Schedule: {{ if index .Site.Data $scheduleKey }}true{{ else }}false{{ end }}
 City: {{ $city }}
 City id: {{ $timeanddate_cityid }}
         </pre>

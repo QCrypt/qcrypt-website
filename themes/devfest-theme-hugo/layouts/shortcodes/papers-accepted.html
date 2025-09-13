@@ -26,11 +26,11 @@ Papers count: {{ len $papers }}
 	<ul class="paper-list">
 		{{ range $paper := $papers }}
 		  {{/* display if no merge, or if the id of the paper merged with is higher than own id */}}
-			{{ if or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid) }}
+			{{ if and $paper (or (not (isset $paper "mergedwith")) (gt $paper.mergedwith $paper.pid)) }}
   			<li value ="{{ $paper.pid }}">
   			{{ partial "paper.html" (dict "paper" $paper "currentYear" (string $currentYear)) }}
 
-				{{ if isset $paper "mergedwith" }}
+				{{ if and $paper (isset $paper "mergedwith") }}
   				{{ $mergedpaper := index (where $papers "pid" $paper.mergedwith) 0 }}
 	   			merged with #{{ $mergedpaper.pid }}:
 		  		{{ partial "paper.html" (dict "paper" $mergedpaper "currentYear" (string $currentYear))}}
