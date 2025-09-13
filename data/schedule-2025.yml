@@ -26,8 +26,6 @@
       time: '18:25'
     - session: lecture/Brassard
       time: '19:30'
-    - session: __blank__
-      time: '20:30'
 
 - day: '2025-08-27'
   sessions:
@@ -86,8 +84,6 @@
       time: '18:20'
     - session: lecture/Pan
       time: '19:30'
-    - session: __blank__
-      time: '20:10'
 
 - day: '2025-08-29'
   sessions:
