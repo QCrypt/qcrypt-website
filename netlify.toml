@@ -26,13 +26,18 @@ TZ = "Europe/Amsterdam"
 
 [[redirects]]
     from = "/2022"
-    to = "https://qcrypt2022.netlify.app"
+    to = "https://2022.qcrypt.net"
     status = 302
     force = true
 
 [[redirects]]
     from = "/2021"
-    to = "https://qcrypt2021.netlify.app"
-    status = 200
+    to = "https://2021.qcrypt.net"
+    status = 302
     force = true
 
+[[redirects]]
+    from = "/2014"
+    to = "https://qcrypt.github.io/2014.qcrypt.net"
+    status = 302
+    force = true
