@@ -11,6 +11,12 @@
 	  {{ $currentYear = .Section }}
 	{{ end }}
 	
+	{{/* Ensure we have a valid year for parameter lookups, even on 404 pages */}}
+	{{ $yearForParams := $currentYear }}
+	{{ if not (index .Site.Params $yearForParams) }}
+	  {{ $yearForParams = string .Site.Params.currentYear }}
+	{{ end }}
+	
 	{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production") }}
 		{{/* NOTE: These Hugo Internal Templates can be found starting at
 		https://github.com/gohugoio/hugo/tree/master/tpl/tplimpl/embedded/templates */}}
@@ -41,8 +47,8 @@
 	<link rel="manifest" href="{{ .Site.Params.manifest }}">
 	{{ end }}
 
-	{{ if (index .Site.Params $currentYear).themeColor }}
-	{{ $themeColor := (index .Site.Params $currentYear).themeColor }}
+	{{ if (index .Site.Params $yearForParams).themeColor }}
+	{{ $themeColor := (index .Site.Params $yearForParams).themeColor }}
 	<meta name="theme-color" content="{{ $themeColor }}"/>
 	<meta name="msapplication-TileColor" content="{{ $themeColor }}">
 	{{ if .Site.Params.safariPinnedTab }}
