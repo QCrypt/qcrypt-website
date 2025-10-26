@@ -25,20 +25,14 @@ TZ = "Europe/Amsterdam"
   HUGO_VERSION = "0.140.0"
 
 [[redirects]]
-    from = "/"
-    to = "/2025/"
-    status = 302
-    force = true 
-
-[[redirects]]
     from = "/2022"
     to = "qcrypt2022.netlify.app"
-    status = 200
+    status = 302
+    force = true
 
 [[redirects]]
     from = "/2023"
     to = "qcrypt2023.netlify.app"
     status = 200
     force = true
-
 
