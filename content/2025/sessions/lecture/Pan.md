@@ -5,7 +5,7 @@ year: 2025
 speakers:
     - Pan
 chair: Marco Lucamarini
-videoId: null
+videoId: r_ieFaI8BRw
 presentation: null
 draft: false
 ---

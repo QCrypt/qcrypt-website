@@ -6,7 +6,7 @@ year: 2025
 speakers:
     - Pauwels
 chair: Gláucia Murta
-videoId: null
+videoId: biOJmCaeucA
 presentation: null
 draft: false
 ---

@@ -15,7 +15,9 @@ layout: home
 
 ## 25–29 August 2025
 
-The conference invoice will be sent by email between Sep 8 and 12
+Videos now can be found in conference sessions.
+
+<!-- The conference invoice will be sent by email between Sep 8 and 12 -->
 
 {{< button-link label="Conference Call"
                 url="technical/call"
@@ -73,6 +75,7 @@ QCrypt 2025 is the 15th edition of the yearly international scientific conferenc
 {{% home-keydate-table title="Website Updates" %}}
 | Date | Event |
 | :--------------------------- | :---------------------------------- |
+| October 20, 2025 | Videos updated|
 | August 04, 2025 | Schedule released|
 | July 25, 2025 | Speakers Unveiled|
 | June 20, 2025 | Registration Now Open|

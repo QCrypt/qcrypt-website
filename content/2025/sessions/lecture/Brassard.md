@@ -5,7 +5,7 @@ year: 2025
 speakers:
     - Brassard
 chair: Qiang Zhang
-videoId: null
+videoId: 2SHz6PhthVc
 presentation: null
 draft: false
 ---
