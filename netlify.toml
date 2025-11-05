@@ -41,3 +41,9 @@ TZ = "Europe/Amsterdam"
     to = "https://qcrypt.github.io/2014.qcrypt.net"
     status = 302
     force = true
+
+[[redirects]]
+    from = "/"
+    to = "/2025/"
+    status = 302
+    force = true
