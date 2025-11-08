@@ -15,15 +15,15 @@ content:
     links:
       - nameKey: footer_charter
         name: QCrypt Charter
-        url: /charter/
+        url: charter/
         newTab: false
       - nameKey: footer_history
         name: QCrypt History
-        url: /history/
+        url: history/
         newTab: false
       - nameKey: footer_coc
         name: QCrypt Code of Conduct
-        url: /code-of-conduct/
+        url: code-of-conduct/
         newTab: false
 
 
