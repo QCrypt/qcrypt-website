@@ -16,3 +16,6 @@ letter.log
 letter.synctex.gz
 node_modules
 _gen
+
+# snapshots Directory
+snapshots/

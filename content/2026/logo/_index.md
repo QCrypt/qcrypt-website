@@ -13,4 +13,4 @@ Examples of his art can be found on his website [Ciaranhs Designs](https://www.c
 
 ## Logo Design Rationale
 
-Ciaran Head-Smith developed the design by exploring how best to express the beauty of Indigenous culture, using bright colours and florals to symbolize growth, and harmony with nature.  
+Ciaran Head-Smith developed the design by exploring how best to express both the beauty of Indigenous culture and the QCrypt sheep mascot, using bright colours and florals to symbolize growth, and harmony with nature.  
