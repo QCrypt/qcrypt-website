@@ -23,8 +23,8 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "QCrypt Conference Website"
-    date = "2025-02-01"
-    currentYear = 2025
+    date = "2026-01-01"
+    currentYear = 2026
     description = "International Conference on Quantum Cryptography"
     images = ["/images/social-share.jpg"]
     email = "webmaster@qcrypt.net"
@@ -38,6 +38,9 @@ enableMissingTranslationPlaceholders = true
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
+ 	[params.style]
+            [params.style.sass]
+              path = "C:\\dart-sass\\bin\\src\\dart.bat"
 
 [params.2023]
   city = "Washington DC, USA"
@@ -66,6 +69,15 @@ enableMissingTranslationPlaceholders = true
     header = "/images/2025/QCrypt_2025_logo2.png"
     banner = "/images/2025/banner_2025.jpg"
 
+[params.2026]
+  city = "Ottawa, Canada"
+  timeanddate_cityid = 188
+  themeColor = "#ac191c"
+  [params.2026.logos]
+    jumbo = "/images/2026/QCrypt2026-Logo.png"
+    header = "/images/2026/QCrypt2026-Logo2.png"
+    banner = "/images/2026/Ottawa-Banner.jpeg"
+
 [params.logos]
     footer = "/images/logos/netlify-color-accent.svg"
     footer_link = "https://www.netlify.com"
@@ -73,7 +85,7 @@ enableMissingTranslationPlaceholders = true
 [server]
   [[server.redirects]]
       from = "/"
-      to = "/2025/"
+      to = "/2026/"
       status = 302
       force = true 
 
@@ -150,6 +162,35 @@ enableMissingTranslationPlaceholders = true
     identifier = "committees"
     pageRef = "/2025/team"
 
+    [[menu.2026]]
+    name = "Home"
+    weight = 10
+    identifier = "home"
+    pageRef = '/2026'
+  [[menu.2026]]
+    name = "Technical Program"
+    weight = 20
+    identifier = "technical-program"
+  [[menu.2026]]
+    name = "Attend"
+    weight = 30
+    identifier = "attend"
+  [[menu.2026]]
+    name = "Sponsors"
+    weight = 40
+    identifier = "sponsors"
+    pageRef = "/2026/partners"
+  [[menu.2026]]
+    name = "Committees"
+    weight = 50
+    identifier = "committees"
+    pageRef = "/2026/team"
+  [[menu.2026]]
+    name = "About QCrypt 2026 Logo"
+    weight = 60
+    identifier = "logo"
+    pageRef = "/2026/logo"
+
 
 
 [languages]
@@ -186,3 +227,5 @@ unsafe = true
     [privacy.youtube]
         disable = true
         privacyEnhanced = true
+
+         
