@@ -2,7 +2,7 @@
 title: "Invited Talk: Anonymous communication in quantum networks"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Murta
 chair: Ian George

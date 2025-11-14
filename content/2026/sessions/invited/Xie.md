@@ -2,7 +2,7 @@
 title: "Invited Talk: Optical Quantum Network using Drones"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Xie
 chair: Yu-Huai Li

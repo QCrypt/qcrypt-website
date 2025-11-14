@@ -2,7 +2,7 @@
 title: "Tutorial Talk: Quantum position verification: where are we now?"
 format: tutorial
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Speelman
 chair: Ian George

@@ -2,7 +2,7 @@
 key: Qin
 name: Hao Qin
 surname: Qin
-year: 2025
+year: 2026
 # company:
 photoURL: /2025/speakers/industry/Qin.jpg
 type: industry

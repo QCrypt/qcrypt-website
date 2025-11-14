@@ -2,7 +2,7 @@
 title: "Invited Talk: Quantum secure microwave communication"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Fedorov
 chair: Thomas Hahn

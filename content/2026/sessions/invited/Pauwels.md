@@ -2,7 +2,7 @@
 title: "Invited Talk: Long-range quantum correlations and DIQKD in routed Bell scenarios"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Pauwels
 chair: Gláucia Murta

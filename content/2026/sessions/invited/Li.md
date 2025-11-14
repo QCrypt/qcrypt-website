@@ -2,7 +2,7 @@
 title: "Invited Talk: Microsatellite-based quantum key distribution and beyond"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Li
 chair: Feihu Xu

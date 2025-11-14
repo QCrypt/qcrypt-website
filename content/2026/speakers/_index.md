@@ -1,6 +1,6 @@
 ---
 title: Speakers
-year: 2025
+year: 2026
 draft: false
 type: speakers
 layout: list_with_header

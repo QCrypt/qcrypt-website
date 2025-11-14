@@ -2,7 +2,7 @@
 key: Vallone
 name: Giuseppe Vallone
 surname: Vallone
-year: 2025
+year: 2026
 company: University of Padova
 photoURL: /2025/speakers/tutorial/Vallone.jpg
 type: tutorial

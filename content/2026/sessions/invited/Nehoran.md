@@ -2,7 +2,7 @@
 title: "Invited Talk: A General Quantum Duality for Representations of Groups with Applications to Quantum Money, Lightning, and Fire"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Nehoran
 chair: Kirill Fedorov

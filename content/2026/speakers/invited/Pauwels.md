@@ -2,7 +2,7 @@
 key: Pauwels
 name: Jef Pauwels
 surname: Pauwels
-year: 2025
+year: 2026
 company: University of Geneva
 photoURL: /2025/speakers/invited/Pauwels.jpg
 type: invited

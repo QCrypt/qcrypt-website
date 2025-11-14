@@ -2,7 +2,7 @@
 title: "Invited Talk: Field trial of TF-QKD using independent optical frequency combs "
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Zhou
 chair: Giuseppe Vallone

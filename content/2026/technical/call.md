@@ -1,6 +1,6 @@
 ---
 title: Call
-year: 2025
+year: 2026
 draft: false
 type: text_page
 menu:

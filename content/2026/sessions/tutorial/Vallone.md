@@ -2,7 +2,7 @@
 title: "Tutorial Talk: Advances in Quantum Random Number Generation"
 format: tutorial
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Vallone
 chair: Davide Rusca

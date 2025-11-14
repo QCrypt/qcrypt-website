@@ -1,7 +1,7 @@
 ---
 title: "Public Lecture: Dream or Reality? Quantum Information Processing the Past, Present and Beyond"
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Pan
 chair: Marco Lucamarini

@@ -2,7 +2,7 @@
 title: "Invited Talk: Surpassing the loss-noise robustness trade-off in QKD"
 format: invited
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Seabrook
 chair: Feihu Xu

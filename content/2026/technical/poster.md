@@ -1,6 +1,6 @@
 ---
 title: Poster, Logos and Templates
-year: 2025
+year: 2026
 
 draft: true
 type: text_page

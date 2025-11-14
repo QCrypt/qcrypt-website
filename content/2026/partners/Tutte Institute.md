@@ -1,5 +1,5 @@
 ---
-year: 2025
+year: 2026
 title: Tutte Institute for Mathematics and Computing
 type: partner
 draft: false

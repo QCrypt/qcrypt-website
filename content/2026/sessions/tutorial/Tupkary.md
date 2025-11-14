@@ -2,7 +2,7 @@
 title: "Tutorial Talk: Security proofs for decoy-state BB84 and their performance"
 format: tutorial
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Tupkary
 chair: Thomas Hahn
