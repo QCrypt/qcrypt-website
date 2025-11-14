@@ -93,7 +93,8 @@
 
 		<div class="detail">
 			<ul class="speakers">
-				{{ range sort (where .Site.RegularPages "Params.key" "in" .Params.speakers) "Params.surname" }}
+				{{ $speakerPages := where .Site.RegularPages "Section" $currentYear }}
+				{{ range sort (where $speakerPages "Params.key" "in" .Params.speakers) "Params.surname" }}
 				<li>
 					<a class="visually-hidden" aria-hidden="true" href="{{ .Params.website }}" target="_blank">{{ .Params.name }}</a>
    				<a class="speaker" href="{{ .Params.website }}" target="_blank">
