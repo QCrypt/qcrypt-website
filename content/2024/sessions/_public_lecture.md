@@ -12,7 +12,6 @@ tags:
 videoId: null
 presentation: null
 draft: false
-type: sessions
 ---
 
 On Monday evening at 7:00 PM, Professor Antonio Acín will give a public lecture titled ''Ordenadores y criptografía cuántica: ¿qué pasa cuando los bits se vuelven cuánticos?'' (''Quantum Computers and Cryptography: What Happens When Bits Become Quantum?''). The lecture is open to everyone, including conference participants and the general public!
