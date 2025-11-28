@@ -1,6 +1,6 @@
 ---
-title: Rotem Arnon-Friedman
-surname: 1_Arnon-Friedman
+title: Rotem Arnon
+surname: 1_Arnon
 subtitle: Weizmann Institute of Science
 photoURL: /2026/team/images/rotem_arnon.png
 job: SC Chair
