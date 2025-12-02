@@ -38,7 +38,7 @@ enableMissingTranslationPlaceholders = true
     favicon16 = "/favicon-16x16.png"
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
- 	[params.style]
+ [params.style]
             [params.style.sass]
               path = "C:\\dart-sass\\bin\\src\\dart.bat"
 
