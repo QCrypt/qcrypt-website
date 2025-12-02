@@ -40,7 +40,7 @@ You can contact the PC chairs via email to {{< button-link label="pcchairs2026@q
 -   Fang Song (Portland State University, USA)
 -   Félix Bussières (ID Quantique, Switzerland)
 -   Frédéric Dupuis (University of Montreal, Canada)
--   George Kanellos (National and Kapodistrian University of Athens, Greece) -->
+-   George Kanellos (National and Kapodistrian University of Athens, Greece) 
 -   Giulio Malavolta (Bocconi University, Italy)
 -   Ian George (National University of Singapore)
 -   Lai Zhou (Beijing Academy of Quantum Information Sciences, China)
