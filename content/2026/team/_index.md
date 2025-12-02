@@ -25,9 +25,9 @@ You can contact the Local Organizing Committee via email to {{< button-link labe
 
 {{< teams types="pcchairs=PC Chairs" year=2026 >}}
 
-<!--You can contact the PC chairs via email to {{< button-link label="pcchairs2026@qcrypt.net" url="mailto:pcchairs2026@qcrypt.net" icon="email" >}}<br>
+You can contact the PC chairs via email to {{< button-link label="pcchairs2026@qcrypt.net" url="mailto:pcchairs2026@qcrypt.net" icon="email" >}}<br>
 
-### PC members (in alphabetical order by last name)
+<!--### PC members (in alphabetical order by last name)
 
 -   Alessandro Fedrizzi (Heriot-Watt University, UK)
 -   Alexander Ling (National University of Singapore)
@@ -40,7 +40,7 @@ You can contact the Local Organizing Committee via email to {{< button-link labe
 -   Fang Song (Portland State University, USA)
 -   Félix Bussières (ID Quantique, Switzerland)
 -   Frédéric Dupuis (University of Montreal, Canada)
--   George Kanellos (National and Kapodistrian University of Athens, Greece)
+-   George Kanellos (National and Kapodistrian University of Athens, Greece) -->
 -   Giulio Malavolta (Bocconi University, Italy)
 -   Ian George (National University of Singapore)
 -   Lai Zhou (Beijing Academy of Quantum Information Sciences, China)
