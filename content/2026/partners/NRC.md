@@ -1,9 +1,9 @@
 ---
 year: 2026
-title: Tutte Institute For Mathematics and Computing
+title: National Research Council Canada
 type: partner
 draft: false
 category: partners
 logo: /2026/partners/logos/NRC.png
-website: https://www.cse-cst.gc.ca/en/mission/research-cse/tutte-institute-mathematics-computing
+website: https://nrc.canada.ca/en
 ---
