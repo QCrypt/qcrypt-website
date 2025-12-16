@@ -68,7 +68,6 @@
 
 - day: '2023-08-16'
   sessions:
-  sessions:
     - session: __coffee&snacks
       time: '08:30'
     - session: __updates&announcements
@@ -90,7 +89,6 @@
 
 
 - day: '2023-08-17'
-  sessions:
   sessions:
     - session: __coffee&snacks
       time: '08:30'

@@ -1,6 +1,6 @@
 ---
 title: Pictures
-year: 2025
+year: 2026
 draft: false
 type: no_toc
 menu:

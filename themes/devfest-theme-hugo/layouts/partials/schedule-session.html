@@ -59,7 +59,8 @@
 
 	{{ if .Params.speakers }}
 	<ul class="speakers">
-		{{ range sort (where $.Site.RegularPages "Params.key" "in" .Params.speakers) "Params.surname" }}
+		{{ $speakerPages := where .Site.RegularPages "Section" $currentYear }}
+		{{ range sort (where $speakerPages "Params.key" "in" .Params.speakers) "Params.surname" }}
 		<li class="speaker">
 			<div class="speaker-img" style="background-image: url({{ .Params.photoURL }});"></div>
 			<strong class="speaker-name">{{ .Params.name }}</strong>

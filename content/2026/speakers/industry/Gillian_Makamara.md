@@ -2,7 +2,7 @@
 key: Makamara
 name: Gillian Makamara
 surname: Makamara
-year: 2025
+year: 2026
 # company:
 photoURL: /2025/speakers/industry/Makamara.jpg
 type: industry

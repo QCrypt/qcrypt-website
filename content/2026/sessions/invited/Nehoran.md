@@ -1,0 +1,24 @@
+---
+title: "Invited Talk: A General Quantum Duality for Representations of Groups with Applications to Quantum Money, Lightning, and Fire"
+format: invited
+type: sessions
+year: 2026
+speakers:
+    - Nehoran
+chair: Kirill Fedorov
+videoId: null
+presentation: null
+draft: false
+---
+
+## Biography
+
+Barak Nehoran is a Ph.D. candidate in theoretical computer science at Princeton University, co-advised by Professors Ran Raz and Mark Zhandry. His research focuses on quantum information, cryptography, and complexity theory, studying how quantum phenomena can enable cryptographic tasks that have no classical counterpart.
+
+## Abstract
+
+Aaronson, Atia, and Susskind (2020) established that efficiently mapping between quantum states |ψ⟩ and |φ⟩ is computationally equivalent to distinguishing their superpositions 1/√2(|ψ⟩ + |φ⟩) and 1/√2(|ψ⟩ − |φ⟩). We generalize this insight into a broader duality principle in quantum computation, wherein manipulating quantum states in one basis is equivalent to extracting their value in a complementary basis. In its most general form, this duality principle states that for a given group, the ability to implement a unitary representation of the group is computationally equivalent to the ability to perform a Fourier extraction from the invariant subspaces corresponding to its irreducible representations.
+
+Building on our duality principle, we present the following applications: (1) Quantum money, which captures quantum states that are verifiable but unclonable, and its stronger variant, quantum lightning, have long resisted constructions based on concrete cryptographic assumptions. While (public-key) quantum money has been constructed from indistinguishability obfuscation (iO)—an assumption widely considered too strong—quantum lightning has not been constructed from any such assumptions, with previous attempts based on assumptions that were later broken. We present the first construction of quantum lightning with a rigorous security proof, grounded in a plausible and well-founded cryptographic assumption. We extend the construction of Zhandry (2024) from Abelian group actions to non-Abelian group actions, and eliminate Zhandry’s reliance on a black-box model for justifying security. Instead, we prove a direct reduction to a computational assumption – the pre-action security of cryptographic group actions. We show how these group actions can be realized with various instantiations, including with the group actions of the symmetric group implicit in the McEliece cryptosystem. (2) We provide an alternative quantum money and lightning construction from one-way homomorphisms, showing that security holds under specific conditions on the homomorphism. Notably, our scheme exhibits the remarkable property that four distinct security notions—quantum lightning security, security against both worst-case cloning and average-case cloning, and security against preparing a specific canonical state – are all equivalent. (3) Quantum fire captures the notion of a samplable distribution on quantum states that are efficiently clonable, but not efficiently telegraphable, meaning they cannot be efficiently encoded as classical information. These states can be spread like fire, provided they are kept alive quantumly and do not decohere. The only previously known construction relied on a unitary quantum oracle, whereas we present the first candidate construction of quantum fire using a classical oracle.
+
+Based on joint work with John Bostanci and Mark Zhandry.

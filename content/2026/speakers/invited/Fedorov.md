@@ -2,7 +2,7 @@
 key: Fedorov
 name: Kirill Fedorov
 surname: Fedorov
-year: 2025
+year: 2026
 company: The Walther-Meißner-Institute for Low Temperature Research
 photoURL: /2025/speakers/invited/Fedorov.jpg
 type: invited

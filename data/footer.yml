@@ -5,8 +5,8 @@ share:
     url: https://twitter.com/intent/tweet?text=
 
 follow:
-  - name: twitter
-    url: https://twitter.com/Qcryptc
+  - name: bluesky
+    url: https://bsky.app/profile/qcrypt.bsky.social
   - name: youtube
     url: https://www.youtube.com/channel/UClpn9CxuZPHw3nzhdv0m3Hw
 
@@ -15,15 +15,15 @@ content:
     links:
       - nameKey: footer_charter
         name: QCrypt Charter
-        url: /charter/
+        url: charter/
         newTab: false
       - nameKey: footer_history
         name: QCrypt History
-        url: /history/
+        url: history/
         newTab: false
       - nameKey: footer_coc
         name: QCrypt Code of Conduct
-        url: /code-of-conduct/
+        url: code-of-conduct/
         newTab: false
 
 
