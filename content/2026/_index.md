@@ -128,7 +128,7 @@ QCrypt 2026 is the 16th edition of the yearly international scientific conferenc
                 icon="cfp" >}}
 {{% /home-speakers %}} -->
 
-{{% partners categories="gold,silver,bronze" year=2026 %}}
+{{% partners categories="gold,silver,bronze,community" year=2026 %}}
 ## Sponsors{{% /partners %}}
 
 {{% partners categories="" year=2026 %}}
