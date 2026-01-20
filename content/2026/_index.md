@@ -71,13 +71,14 @@ QCrypt 2026 is the 16th edition of the yearly international scientific conferenc
 
 {{% home-keydate-table title="Key Dates QCrypt 2026" %}}
 
+
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| To be defined           | Talk submission deadline                |
-| To be defined             | Early poster notification\*             |
-| To be defined            | Poster submission deadline              |
-| To be defined            | Talk and poster acceptance notification |
-| **Mon, 24 - Fri, 28 August** | **QCrypt 2026**                         |
+| Fri, March 13, 2026           | Talk submission deadline                |
+| Fri, April 03, 2026           | Early poster notification\*             |
+| Fri, May 1, 2026              | Poster submission deadline              |
+| Fri, May 15, 2026             | Talk and poster acceptance notification |
+| **Mon, 24 - Fri, 28 August**  | **QCrypt 2026**                         |
 
 {{% /home-keydate-table %}}
 
