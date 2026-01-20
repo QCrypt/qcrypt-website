@@ -53,3 +53,7 @@ The advisory committee (AC) advises the SC on the long-term direction of the con
 Since 2011, QCrypt features a prize for the best student submission. A submission is eligible for the student prize if and only if the main author(s) is/are a student(s) at the time of the submission and will present the work at QCrypt, and further a significant portion of the work must have been done by said student(s), including contributions to the key ideas. Eligibility can only be indicated at the time of submission. In very exceptional cases, including but not limited to parental leave or visa denial, a submission may still be considered eligible even if it is not presented by the/a student. Such exceptions must be approved by the PC chairs before the start of the conference. The student(s) are responsible for notifying all authors that the paper was nominated for the student prize, and all authors have 14 days following submission to voice any disagreements about the paper’s nomination to the PC chair. The PC chair is free to ask for any clarifications regarding the students’ contributions at any time.
 
 The PC may select a number of eligible submissions for a shortlist. The final decision will be made in discussion with the SC, and the prize will be announced and awarded during the conference.
+
+## Contributed Talks and Posters
+
+
