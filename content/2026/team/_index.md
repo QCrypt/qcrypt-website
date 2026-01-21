@@ -41,7 +41,7 @@ You can contact the PC chairs via email to {{< button-link label="pcchairs2026@q
 -   George Kanellos (University of Athens, GR)
 -   Eneet Kaur (Cisco Research, US)
 -   Boris Korzh (University of Geneva, CH)
--   Srijita	Kundu (Foxconn Research, Quantum Computing Research Centre, TW)
+-   Srijita	Kundu (Foxconn Research, Quantum Computing Research Centre)
 -   Cosmo Lupo (University of Bari, IT)
 -   Tomoyuki Morimae (Yukawa Institute for Theoretical Physic, JP)
 -   Glaucia	Murta (Technische Universität Wien, AT)
