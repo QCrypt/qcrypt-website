@@ -66,7 +66,7 @@ People who register agree to abide by the <a href={{<relref "/2026/attend/code-o
 
 ## VISA
 
-Travelers from certain countries may require a visa or an Electronic Travel Authorization (eTA) to enter Canada. To determine whether you need one of these documents and to learn how to apply, please visit the official Government of Canada website: [Visit Canada - Immigration, Refugees and Citizenship](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html). Please note that a Letter of Invitation will be required as part of your application. Requests for this letter can be submitted directly via email to {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net" icon="email" >}}
+Travelers from certain countries may require a visa or an Electronic Travel Authorization (eTA) to enter Canada. To determine whether you need one of these documents and to learn how to apply, please visit the official Government of Canada website: [Visit Canada - Immigration, Refugees and Citizenship](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html). Please note that a Letter of Invitation will be required as part of your application. Requests for this letter can be submitted directly via email to {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net" icon="email" >}}, once you have completed your conference registration and payment.  
 
 <!--visa-free policy for inbound tourists from 59 countries. It is estimated that most participants will meet the policy. Please read carefully and check if you meet the visa-free policy following the link:
 
