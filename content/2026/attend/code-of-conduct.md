@@ -7,9 +7,19 @@ draft: false
 type: no_toc
 
 ---
+The open exchange of ideas and the freedom of thought and expression are central to the aims and goals of QCrypt; these require an environment that fosters dignity, understanding, and mutual respect, and that embraces diversity. 
 
-The open exchange of ideas and the freedom of thought and expression are central to the aims and goals of the QCrypt conference; these require an environment that recognizes the inherent worth of every person and group, that fosters dignity, understanding, and mutual respect, and that embraces diversity. For these reasons, the QCrypt organizers are committed to providing a harassment-free conference experience.
+The organizers and the Steering Committee of QCrypt 2026 are committed to an inclusive conference experience, respectful of all participants and free of discrimination, harassment, bullying, or retaliation. 
 
-Conference participants violating these standards may be sanctioned or expelled from the conference, at the discretion of the QCrypt Local Chair and/or the QCrypt Steering Committee. If you experience or witness harassment, discriminatory behavior, we encourage you to report this promptly to the members of QCrypt Local committee and/or members of the QCrypt Steering Committee.
+All committee members, authors, attendees, speakers, sponsors, and volunteers at QCrypt 2026 are expected to read and agree with the following code of conduct. It applies to all event-related engagements, including committee work, event venues, online interactions and event-related social activities. 
 
-Based on the [CRYPTO code of conduct](https://crypto.iacr.org/2018/codeofconduct.html).
+We expect all participants in QCrypt 2026 activities to:
+- Exercise respect in your communications and actions.
+- Refrain from demeaning, discriminatory, or harassing behavior and communications.
+- Abstain from making use of sexual & sexualized imagery in talks and posters.
+- Be mindful of your surroundings and your fellow participants: for example, other people may hear or read inappropriate comments even if they are not your intended audience.
+- Alert community leaders and get involved (if safe and possible) when you notice a dangerous situation, someone in distress, or violations of this policy, even if they seem inconsequential. 
+
+Participants asked to stop any harassing behavior are expected to comply immediately. If a participant engages in unacceptable behavior, the event organizers and the Steering Committee retain the right to take any actions to keep the conference a welcoming environment for all participants. This includes warning the offender or expulsion from the conference.
+
+
