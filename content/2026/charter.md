@@ -54,6 +54,6 @@ Since 2011, QCrypt features a prize for the best student submission. A submissio
 
 The PC may select a number of eligible submissions for a shortlist. The final decision will be made in discussion with the SC, and the prize will be announced and awarded during the conference.
 
-## Contributed Talks and Posters
+<!--## Contributed Talks and Posters
 
 
