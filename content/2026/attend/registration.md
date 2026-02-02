@@ -62,7 +62,7 @@ The registration fees include:
 
 ## Code of Conduct
 
-People who register agree to abide by the <a href={{<relref "/2026/attend/code-of-conduct">}}>conference code of conduct</a>.
+People who register agree to abide by the <a href={{<relref "/2026/code-of-conduct">}}>conference code of conduct</a>.
 
 ## VISA
 
