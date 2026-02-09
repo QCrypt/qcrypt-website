@@ -70,7 +70,10 @@ In some years, there are two winning papers selected, one in theory, one in expe
 | 2022 Taiwan     | theory     | Tony Metger          | Generalized entropy accumulation for quantum cryptography                                                             | [video](https://www.youtube.com/watch?v=eCciWKyZZkw)                                                        |
 | 2022 Taiwan     | experiment | Fadri Grünenfelder   | Towards 100 Mbps secret key rate QKD                                                                                  | [video](https://www.youtube.com/watch?v=OMqxyHWbchs)                                                        |
 | 2023 Maryland   | theory     | James Bartusek       | Obfuscation of Pseudo-Deterministic Quantum Circuits                                                                  |
-| 2024 Vigo       | experiment | Joseph Dolphin       | The Application of Hybrid Photonic Integration to Quantum Key Distribution                                            |
+| 2023 Maryland   | experiment | Joseph Dolphin       | The Application of Hybrid Photonic Integration to Quantum Key Distribution                                            |
+| 2024 Vigo   | theory     | Tony Metger, Tina Zhang       | Succinct arguments for QMA from standard assumptions via compiled nonlocal games |
+| 2024 Vigo   | experiment | Peng Qingquan     | Hacking twin-field quantum key distribution via wavelength-switching attack  |
+
 
 ## Best Poster Awards
 
