@@ -34,6 +34,12 @@ draft: false
 ### Theory
 Congratulations to **Tony Metger** and **Tina Zhang** for *Succinct arguments for QMA from standard assumptions via compiled nonlocal games* with co-author Anand Natarajan.
 
+{{< button-link label="paper" url="https://arxiv.org/abs/2404.19754" icon="link">}}
+
+
 ### Experiment
 Congratulations to **Peng Qingquan** for *Hacking twin-field quantum key distribution via wavelength-switching attack* with co-authors Chen Jiupeng; Xing Tianyi; Wang Dongyang; Wang Yizhi; Ying Guo; Liu Yang; Huang Anqi
+
+{{< button-link label="award" url="/images/awards/QCrypt2024_BestPaper_Experiment.pdf" icon="link">}}
+{{< button-link label="paper" url="https://arxiv.org/abs/2408.09318" icon="link">}}
 

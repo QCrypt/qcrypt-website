@@ -75,6 +75,9 @@ In some years, there are two winning papers selected, one in theory, one in expe
 | 2023 Maryland   | experiment | Joseph Dolphin       | The Application of Hybrid Photonic Integration to Quantum Key Distribution                                            |
 | 2024 Vigo   | theory     | Tony Metger, Tina Zhang       | Succinct arguments for QMA from standard assumptions via compiled nonlocal games |
 | 2024 Vigo   | experiment | Peng Qingquan     | Hacking twin-field quantum key distribution via wavelength-switching attack  |
+| 2025 Sanya   | theory     | Amir Arqand       | Marginal-constrained entropy accumulation theorem |
+| 2025 Sanya   | experiment | Giulia Guarda, Noemi Tagliavacche     | Frequency-bin entanglement-based quantum key distribution
+  |
 
 ## Best Poster Awards
 
