@@ -11,18 +11,16 @@ menu:
         parent: attend
 ---
 
-<!-- ## Online registration for QCrypt 2025 is now closed! See you in Vigo! -->
+<!-- ## Online registration for QCrypt 2026 will be open very soon! 
 
 <!-- <strong>To guarantee an optimal experience to all attendees the number of registrations is limited to 350. Register soon to be sure to participate!</strong>
 
 {{< button-link label="Register" url="https://qcrypt.linckia.gal/" icon="link" target="_blank">}}<br>
-<a style="color: red"></a>
+<a style="color: red"></a> -->
 
-In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="qcrypt2025@vqcc.uvigo.es" url="mailto:qcrypt2025@vqcc.uvigo.es " icon="email" >}}
+<!-- <strong>Missed the deadline for online registration? Before planning a trip to Vigo to attempt onsite registration, please contact {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net" icon="email" >}} to confirm that spots are still available. </strong> 
 
-<strong>Missed the deadline for online registration? Before planning a trip to Vigo to attempt onsite registration, please contact {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net" icon="email" >}} to confirm that spots are still available. </strong> -->
-
-<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration To Be Announced.</p>
+<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration To Be Announced.</p>-->
 
 ## General Information
 
@@ -38,27 +36,32 @@ The Learning Crossroads (CRX) serves as an additional space for the uOttawa Libr
 
 <!--We have collaborated with the hotel to secure a batch of discounted room rates for our attendees. We offer multiple booking options to accommodate different needs. Please refer to {{< button-link label="Booking Guide" url="/2025/attend/how-to-book" icon="link" >}} and choose the method that suits you best.-->
 
-<!--## Registration
+## Online registration for QCrypt 2026 will be open very soon! 
 
-{{< button-link label="Click here to register" url="https://conferences.koushare.com/QCrypt2025/user/attendanceInfo" icon="link" >}}
+<!--{{< button-link label="Click here to register" url="https://portal.cms.math.ca/mrm/events/EventDetailBridge.aspx?eid=^^70" icon="link" >}}-->
 
 The registration fees are as follows:
 
-| Fees                 | Early Bird    | Regular/Onsite Registration |
+| Fees                 | Early Bird    | Regular Registration |
 | :------------------- | :------------ | :-------------------------- |
-|                      | Until July 5. |                             |
-| Student Registration | ¥2200         | ¥2500                       |
-| Regular Registration | ¥2800         | ¥3500                       |
+|                      | Until June 28, 2026 | Until August 9, 2026             |
+| Student Registration | CAD 755        | CAD 910                      |
+| Regular Registration | CAD 995         | CAD 1145                       |
 
 The registration fees include:
 
 -   All sessions and program materials.
--   Evening reception.
+-   Poster session reception.
 -   Banquet Dinner.
--   Daily refreshment breaks.-->
-<!-- -   Option to participate in lab tours/excursions. -->
+-   Daily refreshment breaks.
+-   Lunches
+-   Option to participate in lab tours/excursions. 
 
-<!--**An electronic invoice will be issued after the conference based on the collected payment information.** -->
+An electronic confirmation is issued once the on-line registration and payment are completed. 
+
+Cancellation requests must be submitted in writing to {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net " icon="email" >}} no later than August 9, 2026. Refunds may be issued, minus a non-refundable administrative fee of 30% of the total registration amount.
+
+In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net " icon="email" >}}
 
 ## Code of Conduct
 
@@ -67,6 +70,77 @@ People who register agree to abide by the <a href={{<relref "/2026/code-of-condu
 ## VISA
 
 Travelers from certain countries may require a visa or an Electronic Travel Authorization (eTA) to enter Canada. To determine whether you need one of these documents and to learn how to apply, please visit the official Government of Canada website: [Visit Canada - Immigration, Refugees and Citizenship](https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html). Please note that a Letter of Invitation will be required as part of your application. Requests for this letter can be submitted directly via email to {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net" icon="email" >}}, once you have completed your conference registration and payment.  
+
+## Lab Tours & Excursions
+
+### Option A – Electric Boat Cruise 
+
+{{< figure src="/images/2026/Electrical_Boat_Cruise_Ottawa.jpg" >}}
+
+Start your afternoon with a scenic cruise on the historic Rideau Canal, then enjoy free time exploring Ottawa’s vibrant downtown. 
+
+Your experience includes: 
+
+Electric boat cruise – Glide along the Rideau Canal aboard a 100% electric boat for a sustainable and peaceful experience. 
+
+Important details: 
+The departure point for the cruise is within walking distance of the University of Ottawa. No transportation is provided; delegates are responsible for getting to the departure site on time. 
+
+<!--2 boat departures as of 2:15PM. Participants should plan to arrive at the designated pickup area 30 minutes prior to tour departure. -->
+
+Capacity: 190 participants (split across two boats) 
+Ideal for: Delegates looking for a cultural and relaxing experience in the heart of Canada’s capital. 
+
+### Option B – Outdoor Adventure at Camp Fortune (Ziplining) - rain or shine
+
+{{< figure src="/images/2026/Camp_Fortune_Ziplining.jpg" >}}
+
+Soar above the Gatineau Hills on an unforgettable summit-to-summit zipline experience! 
+
+Participants will take part in the Tyroliennes Sommet-à-Sommet, a panoramic guided zipline tour offering breathtaking views of Gatineau Park. 
+
+This exhilarating activity includes: 
+
+Three longdistance ziplines spanning a total of 1,372 meters 
+
+A spectacular route traveling from summit to summit 
+
+Participant requirements: 
+Weight range: 90–250 lbs (40–113 kg) 
+Comfort with heights and good physical condition are essential 
+
+Roundtrip transportation from the University of Ottawa is provided. 
+
+<!--Meals: A small onsite canteen will be available (hours of operation to be confirmed). It is recommended that participants pack their own snacks and water. 
+Weather policy: The zipline does not operate in case of thunderstorms. Camp Fortune will communicate any weather-related concerns or potential cancellations a few days before the activity date. -->
+
+Capacity: 46 participants 
+Ideal for: Delegates seeking an exciting, physically active experience with stunning natural scenery. 
+
+### Option C – Nexus for Quantum Technoloies (NexQT) - Laboratory Tour 
+
+Experience cutting-edge quantum research at the University of Ottawa! 
+Join a guided tour of four world-class laboratories: 
+
+Nano-fabrication lab – Explore advanced techniques for building quantum devices. 
+
+Canada Excellence Research Chair (CERC) lab – Learn about pioneering quantum cryptography research. 
+
+Photonics team lab – See innovations in optical technologies. 
+
+Ultrafast physics lab – Discover experiments pushing the limits of speed and precision. 
+
+Organized in collaboration with the Optica-SPIE student chapter, this tour offers a unique opportunity to meet researchers and see equipment shaping the future of quantum technologies. 
+
+Capacity: 40 participants 
+Location: On campus (no transportation required) 
+Ideal for: Delegates interested in hands-on science and networking with experts. 
+
+
+
+
+
+
 
 <!--visa-free policy for inbound tourists from 59 countries. It is estimated that most participants will meet the policy. Please read carefully and check if you meet the visa-free policy following the link:
 

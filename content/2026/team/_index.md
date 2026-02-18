@@ -42,6 +42,7 @@ You can contact the PC chairs via email to {{< button-link label="pcchairs2026@q
 -   Eneet Kaur (Cisco Research, US)
 -   Boris Korzh (University of Geneva, CH)
 -   Srijita	Kundu (Foxconn Research, Quantum Computing Research Centre)
+-   Katanya Kuntz (University of Waterloo, CA)
 -   Cosmo Lupo (University of Bari, IT)
 -   Tomoyuki Morimae (Yukawa Institute for Theoretical Physic, JP)
 -   Glaucia	Murta (Technische Universität Wien, AT)
@@ -51,6 +52,7 @@ You can contact the PC chairs via email to {{< button-link label="pcchairs2026@q
 -   Mohsen Razavi (University of Leeds, UK)
 -   Jamie Sikora (Virginia Tech, US)
 -   Florian	Speelman (University of Amsterdam, NL)
+-   Fabian Steinlechner (University Jena, DE)
 -   Shihai Sun (Sun Yat-sen University, CN)
 -   Vladyslav Usenko (Palacky University Olomouc, CZ)
 -   Angeles	Vazquez-Castro (Universitat Autonoma de Barcelona, ES)
@@ -58,4 +60,6 @@ You can contact the PC chairs via email to {{< button-link label="pcchairs2026@q
 -   Ouyang Yingkai (University of Sheffield, UK)
 -   Zhiliang Yuan (Beijing Academy of Quantum Information Sciences, CN)
 -   Yanbao Zhang (Oak Ridge National Lab, US)
+
+
 

@@ -38,18 +38,40 @@ The map below shows the facility distribution of the venue.
 To ensure a pleasant and convenient stay for our attendees, we’ve partnered with a selection of hotels offering a limited number of discounted, competitive rates for QCrypt 2026. We kindly encourage you to book through these partner hotels, as each reservation helps financially support QCrypt 2026 through Ottawa Tourism's sponsorship. Please note, we recommend booking early as August is a busy tourist season in Ottawa. 
 
 
-| Hotel           | Distance to Conference Venue | Nightly Rate | Available Dates       | Cutoff Booking Date | Booking Link            |
-|-----------------|------------------------------|-------------:|-----------------------|---------------------|-------------------------|
-| Doubletree by Hilton | 1.0 km (15 minutes by foot)                     | $199 CAD     | Aug 21 - Aug 30, 2026 | Jul 17, 2026       | [Book Here](https://www.hilton.com/en/attend-my-event/yowoddt-uot-6c893f17-c605-456c-b565-620f06d34672/)          |
-| Les Suites | 1.0 km (15 minutes by foot)                       | From $229 CAD     | Aug 21 - Aug 30, 2026 | Jul 13, 2026         | [Book Here](https://www.reseze.net/servlet/SendPage?hotelid=1743&skipfirstpage=true&page=131778)          |
-| Courtyard by Marriott | 1.2 km (18 minutes by foot)                      | From $179 CAD     | Aug 23 - Aug 28, 2026\* | Jul 24, 2026          | [Book Here](https://www.marriott.com/event-reservations/reservation-link.mi?id=1758724521926&key=GRP&app=resvlink&inventoryMissing=true)          |
-| Lord Elgin | 1.5 km (20 minutes by foot)                       | $169 CAD     | Aug 21 - Aug 30, 2026 | Jul 24, 2026      | [Book Here](https://reservations.travelclick.com/12200?groupID=4872150)          |
+| Hotel           | Distance to Conference Venue | Nightly Rate | Available Dates       | Cutoff Booking Date | Booking Link            | Notes |
+|-----------------|------------------------------|-------------:|-----------------------|---------------------|-------------------------|---------------------|
+| Doubletree by Hilton | 1.0 km (15 minutes by foot)                     | $199 CAD     | Aug 21 - Aug 30, 2026 | Jul 17, 2026       | [Book Here](https://www.hilton.com/en/attend-my-event/yowoddt-uot-6c893f17-c605-456c-b565-620f06d34672/)          |\* |
+| Les Suites | 1.0 km (15 minutes by foot)                       | From $229 CAD     | Aug 18 - Aug 31, 2026 | Jul 13, 2026         | [Book Here](https://www.reseze.net/servlet/SendPage?hotelid=1743&skipfirstpage=true&page=131778)          |\** |
+| Courtyard by Marriott | 1.2 km (18 minutes by foot)                      | From $179 CAD     | Aug 23 - Aug 28, 2026 | Jul 24, 2026          | [Book Here](https://www.marriott.com/event-reservations/reservation-link.mi?id=1758724521926&key=GRP&app=resvlink&inventoryMissing=true)          |\*** |
+| Lord Elgin | 1.5 km (20 minutes by foot)                       | $169 CAD     | Aug 21 - Aug 30, 2026 | Jul 24, 2026      | [Book Here](https://reservations.travelclick.com/12200?groupID=4872150)          |\**** |
 
-\* Should you want to extend your stay at the Courtyard Marriott outside of the dates identified through this booking link, please contact the hotel coordinator by email {{< button-link label="mkennelly@courtyardmarriottottawa.ca" url="mailto:mkennelly@courtyardmarriottottawa.ca" icon="email" >}} or by phone (+1.613-244-9817) to request that rates be manually adjusted.
+\* Booking ID# 2569097.
 
-## Tourism and Cashless
+Each individual guest must make their own reservation using the booking link, or by calling the hotel directly at 1-613-230-3033 (Toll-Free 1-855-677-3033). 
 
-To fully enjoy your stay in Ottawa, it is highly recommended that you consult the [Ottawa Tourism](https://ottawatourism.ca/en/microsite-international) website for tourism information and discounts available only to QCrypt attendees. 
+\** No booking code - ensure to see the QCrypt 2026 Logo on the booking link page.
+
+For any issues, call the hotel directly at 613-232-2000 (Toll Free: 1-800-267-1989)
+
+\*** No booking code - ensure to see the QCrypt 2026 Logo on the booking link page.
+
+Reduced rates can be extended 3 days pre/post conference dates by calling the hotel directly at 613-241-1000 (Toll Free: 1-800-341-2210).
+
+\**** Group block number: 5235668.
+
+For any issues with the booking link or to book outside of the block dates, please email the Lord Elgin's in-house reservations team at {{< button-link label="groups@lordelgin.ca" url="mailto:groups@lordelgin.ca" icon="email" >}} or by calling directly to the hotel at 613-235-3333 extension 0 (Toll-Free 1-800-267-4298).
+
+## Explore Ottawa with Exclusive Discounts! 
+
+Make the most of your time in Canada’s capital with [Ottawa Tourism’s Flash Your Badge program](https://ottawatourism.ca/en/microsite-international) 
+
+Simply show your QCrypt 2026 badge at participating attractions, restaurants, and shops to enjoy special offers and discounts across the city. Scan the QR code below to register for your mobile-exclusive badge! 
+
+{{< figure src="/images/2026/OttawaTourism_BarCode.jpg" width="50%" height="50%" >}}
+
+<!--![Barcode](/static/images/2026/TourismOttawaBarCode.png) -->
+
+## Cashless
 
 You have a number of payment options at your fingertips while in Canada, ranging from mobile payments to credit cards, bank cards and cash. Please note, some vendors may accept cashless payments only. 
 
@@ -70,3 +92,10 @@ You have a number of payment options at your fingertips while in Canada, ranging
     (Approximately 600 meters from the conference venue)
 
     Opening Hours: 9:00 AM – 5:30 PM
+
+
+## Other events happening in Ottawa
+
+[Selected Areas in Cryptography 2026](https://sacworkshop.org/SAC26/)
+
+[23rd Annual International Conference on Privacy, Security, and Trust](https://pstnet.ca/pst2026/index.html)

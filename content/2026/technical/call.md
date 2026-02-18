@@ -28,9 +28,9 @@ Our poster is now available! Please <a href="/poster">download and print it your
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| Fri, March 13, 2026           | Talk submission deadline                |
+| Sat, March 14, 2026, 2 PM CET           | Talk submission deadline                |
 | Fri, April 03, 2026           | Early poster notification\*             |
-| Fri, May 1, 2026              | Poster submission deadline              |
+| Sat, May 2, 2026, 2 PM CEST            | Poster submission deadline              |
 | Fri, May 15, 2026             | Talk and poster acceptance notification |
 | **Mon, 24 - Fri, 28 August**  | **QCrypt 2026**                         |
 
@@ -58,9 +58,7 @@ For a “poster only” submission, a one-page non-technical description is suff
 
 The extended abstract may refer to technical details which are presented elsewhere. In particular, authors may include citations to a full version of the paper that is either published, available on arXiv.org or provided as an attachment (links to full versions on personal webpages are not accepted). This is strongly recommended for theory submissions to help the peer-review process. The extended abstract should not be a compressed version of the full-length paper.
 
-Please check the conference’s website for the submission link from **February 1. 2026**.
-
-<!--{{< button-link label="Submit Your Talk/Poster" url="https://hotcrp.science.uva.nl/qcrypt2025" icon="link" target="_blank">}}
+{{< button-link label="Submit Your Talk/Poster" url="https://hotcrp.science.uva.nl/qcrypt2026/" icon="link" target="_blank">}}
 
 <!-- The submission server will be open soon. -->
 <!--**The submission server will  re-open soon for POSTER ONLY submissions.**-->
