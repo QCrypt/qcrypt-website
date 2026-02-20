@@ -11,34 +11,9 @@ menu:
         parent: attend
 ---
 
-<!-- ## Online registration for QCrypt 2026 will be open very soon! 
+## Online registration for QCrypt 2026 is now OPEN! 
 
-<!-- <strong>To guarantee an optimal experience to all attendees the number of registrations is limited to 350. Register soon to be sure to participate!</strong>
-
-{{< button-link label="Register" url="https://qcrypt.linckia.gal/" icon="link" target="_blank">}}<br>
-<a style="color: red"></a> -->
-
-<!-- <strong>Missed the deadline for online registration? Before planning a trip to Vigo to attempt onsite registration, please contact {{< button-link label="2025@qcrypt.net" url="mailto:2025@qcrypt.net" icon="email" >}} to confirm that spots are still available. </strong> 
-
-<p style="font-size:x-large; font-weight:bold;color:rgb(250,66,66);">Registration To Be Announced.</p>-->
-
-## General Information
-
-QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2026 conference will take place in Mon, 24 - Fri, 28 August in Ottawa, Ontario, Canada.
-
-The conference will be held at the Learning Crossroads (CRX) building, University of Ottawa.
-
-## Conference Venue
-
-The Learning Crossroads (CRX) serves as an additional space for the uOttawa Library. Auditoriums, food service, training centres, computer labs, study rooms, reading rooms, and classrooms are located throughout the building. To learn more about it, please visit: [Learning Crossroads (CRX)](https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/learning-crossroads-crx)
-
-{{< figure src="/images/2026/UniOttawa_LearningCrossroadsCRX.jpg" title="Learning Crossroads (CRX)" alt="CRX" >}}
-
-<!--We have collaborated with the hotel to secure a batch of discounted room rates for our attendees. We offer multiple booking options to accommodate different needs. Please refer to {{< button-link label="Booking Guide" url="/2025/attend/how-to-book" icon="link" >}} and choose the method that suits you best.-->
-
-## Online registration for QCrypt 2026 will be open very soon! 
-
-<!--{{< button-link label="Click here to register" url="https://portal.cms.math.ca/mrm/events/EventDetailBridge.aspx?eid=^^70" icon="link" >}}-->
+{{< button-link label="Click here to register" url="https://portal.cms.math.ca/mrm/events/EventDetailBridge.aspx?eid=^^70" icon="link" >}}
 
 The registration fees are as follows:
 
@@ -62,6 +37,20 @@ An electronic confirmation is issued once the on-line registration and payment a
 Cancellation requests must be submitted in writing to {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net " icon="email" >}} no later than August 9, 2026. Refunds may be issued, minus a non-refundable administrative fee of 30% of the total registration amount.
 
 In case of questions or technical difficulties with the registration process, please contact: {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net " icon="email" >}}
+
+## General Information
+
+QCrypt is the annual international scientific conference presenting the latest results in quantum cryptography. The 2026 conference will take place in Mon, 24 - Fri, 28 August in Ottawa, Ontario, Canada.
+
+The conference will be held at the Learning Crossroads (CRX) building, University of Ottawa.
+
+## Conference Venue
+
+The Learning Crossroads (CRX) serves as an additional space for the uOttawa Library. Auditoriums, food service, training centres, computer labs, study rooms, reading rooms, and classrooms are located throughout the building. To learn more about it, please visit: [Learning Crossroads (CRX)](https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/learning-crossroads-crx)
+
+{{< figure src="/images/2026/UniOttawa_LearningCrossroadsCRX.jpg" title="Learning Crossroads (CRX)" alt="CRX" >}}
+
+<!--We have collaborated with the hotel to secure a batch of discounted room rates for our attendees. We offer multiple booking options to accommodate different needs. Please refer to {{< button-link label="Booking Guide" url="/2025/attend/how-to-book" icon="link" >}} and choose the method that suits you best.-->
 
 ## Code of Conduct
 
