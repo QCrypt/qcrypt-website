@@ -22,16 +22,16 @@ Our poster is now available! Please <a href="/poster">download and print it your
 
 ## Key Dates QCrypt 2026
 
-(all times 23:59 AoE)
+Important dates, all 23:59 AoE (Anywhere on Earth)
 
 <!-- | April                        | **TALK SUBMISSION NOW CLOSED**      | -->
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
-| Sat, March 14, 2026, 2 PM CET           | Talk submission deadline                |
+| Fri, March 13, 2026               | Talk submission deadline                |
 | Fri, April 03, 2026           | Early poster notification\*             |
-| Sat, May 2, 2026, 2 PM CEST            | Poster submission deadline              |
-| Fri, May 15, 2026             | Talk and poster acceptance notification |
+| Fri, May 1, 2026                | Poster submission deadline              |
+| Fri, May 15, 2026             | Acceptance notification |
 | **Mon, 24 - Fri, 28 August**  | **QCrypt 2026**                         |
 
 \* The intention of the early poster notification is to facilitate logistics related to registration and travel authorizations. Submissions accepted at this stage will continue through the talk selection process.
