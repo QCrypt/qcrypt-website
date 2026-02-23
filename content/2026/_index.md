@@ -85,6 +85,7 @@ Important dates, all 23:59 AoE (Anywhere on Earth)
 
 {{% home-keydate-table title="Key Dates Registration" %}}
 
+Important dates, all 23:59 EST (Eastern Standard Time)
 
 | Date                         | Event                                   |
 | :--------------------------- | :-------------------------------------- |
