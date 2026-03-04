@@ -1,10 +1,10 @@
 ---
 title: Sessions
-year: 2027
+year: 2026
 draft: false
 type: sessions
 menu:
-    2027:
+    2026:
         weight: 50
         identifier: sessions
         parent: technical-program
