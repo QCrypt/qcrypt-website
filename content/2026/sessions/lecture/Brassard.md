@@ -1,7 +1,7 @@
 ---
 title: "After dinner talk: Two quantum tales"
 type: sessions
-year: 2026
+year: 2025
 speakers:
     - Brassard
 chair: Qiang Zhang
