@@ -1,7 +1,7 @@
 ---
 title: Joseph Lukens
 surname: 4_Joseph_Lukens
-subtitle: University of York
+subtitle: Purdue University
 photoURL: /2026/team/images/Joseph_Lukens.png
 job: SC Member
 type: steering
