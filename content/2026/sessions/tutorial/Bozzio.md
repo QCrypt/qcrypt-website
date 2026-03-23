@@ -1,5 +1,5 @@
 ---
-title: "Tutorial Talk: Quantum cryptography beyond key distribution: advances and practical challenges"
+title: "Tutorial Talk: Quantum cryptography beyond QKD: advances and practical challenges"
 format: tutorial
 type: sessions
 year: 2026
@@ -10,10 +10,10 @@ presentation: null
 draft: false
 ---
 
-<!--## Biography
+## Biography
 
-TBD.-->
+After completing a physics degree at Imperial College London, Mathieu pursued a PhD in quantum cryptography at Université Paris-Saclay. Currently working as a senior postdoc for the University of Vienna’s “Quantum Information Science and Quantum Computation” group, his research interests include the design of quantum-cryptographic primitives beyond QKD, the study of practical quantum advantage and the search for new physical security assumptions.
 
 ## Abstract
 
-To come soon.
+Owing to its fundamental principles, quantum theory holds the promise to enhance the security of modern cryptography, from key exchange to digital signatures, anonymous communication, leader election, online banking and delegated computation. While quantum key distribution (QKD) has already enabled secure key exchange over hundreds of kilometers, a myriad of other quantum-cryptographic primitives are being developed to secure future applications against quantum adversaries. This tutorial will provide an introduction to the main quantum primitives and their classification (according to security levels), summarize their possibilities and limits, and discuss practical challenges related to their photonic security and experimental realizations.
