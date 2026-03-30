@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
-To come soon.
+Jean-Daniel Bancal is a CEA researcher at the Institute for Theoretical Physics (IPhT). His work ranges from fundamental questions to practical applications of quantum information theory, quantum communications, quantum optics and many-body physics. He obtained his PhD in Physics at the University of Geneva (UniGE) in 2012.
 
 ## Abstract
 
