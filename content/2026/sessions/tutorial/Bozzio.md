@@ -12,7 +12,13 @@ draft: false
 
 ## Biography
 
-After completing a physics degree at Imperial College London, Mathieu pursued a PhD in quantum cryptography at Université Paris-Saclay. Currently working as a senior postdoc for the University of Vienna’s “Quantum Information Science and Quantum Computation” group, his research interests include the design of quantum-cryptographic primitives beyond QKD, the study of practical quantum advantage and the search for new physical security assumptions.
+Mathieu Bozzio is a senior postdoctoral researcher at the University of
+Vienna’s “Quantum Information Science and Quantum Computation” group.
+His research interests include the design of quantum-cryptographic
+primitives beyond QKD, the study of practical quantum advantage and the
+search for new physical security assumptions. Before that, he completed
+a physics degree at Imperial College London and a PhD in quantum
+cryptography at Université Paris-Saclay.
 
 ## Abstract
 
