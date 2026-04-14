@@ -44,6 +44,10 @@ layout: home
                 url="attend/practical-information"
                 icon="direction" >}}
 
+{{< button-link label="Barrier Alleviating Fund"
+                url="attend/barrier-alleviating-fund"
+                icon="direction" >}}
+
 {{< button-link label="About QCrypt 2026 Logo"
                 url="logo"
                 icon="picture" >}}               
