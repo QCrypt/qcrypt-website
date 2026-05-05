@@ -52,9 +52,9 @@ layout: home
                 url="logo"
                 icon="picture" >}}               
 
-<!--{{< button-link label="Organize QCrypt 2027"
-                url="2026"
-                icon="map-marker" >}}-->
+{{< button-link label="Organize QCrypt 2028"
+                url="2027"
+                icon="map-marker" >}}
 
 ##
 ##
