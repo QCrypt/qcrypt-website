@@ -147,7 +147,7 @@ Important dates, all 23:59 EST (Eastern Standard Time)
                 icon="cfp" >}}
 {{% /home-speakers %}} -->
 
-{{% partners categories="gold,silver,bronze,community" year=2026 %}}
+{{% partners categories="gold,silver,bronze,friends,community" year=2026 %}}
 ## Sponsors{{% /partners %}}
 
 {{% partners categories="" year=2026 %}}

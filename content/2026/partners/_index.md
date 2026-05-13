@@ -35,8 +35,8 @@ QCrypt 2026 is offering sponsor packages – please email {{< button-link label=
 {{% partners categories="bronze" year=2026 %}}
 {{% /partners %}}
 
+{{% partners categories="friends" year=2026 %}}
+{{% /partners %}} 
+
 {{% partners categories="community" year=2026 %}}
 {{% /partners %}}
-
-<!-- {{% partners categories="sponsor" year=2026 %}}
-{{% /partners %}} -->
