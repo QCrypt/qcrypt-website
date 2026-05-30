@@ -44,7 +44,7 @@ menu:
 | Fri, August 28, 2026 | 13:15   | Closing Remarks |
 
 
-Please note that the dates and times for the Poster Session(s) will be announced soon.
+Please note that the dates and times for the Poster Session(s) will be announced soon. For your information, we expect them to take place on Monday evening, August 24, and Tuesday evening, August 25, and they will include a reception.
 
 <!-- _Please note that minor adjustments may occur as we approach the event date_ -->
 

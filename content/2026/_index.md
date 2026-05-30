@@ -28,9 +28,9 @@ layout: home
                 url="schedule"
                 icon="slides" >}}
 
-<!--{{< button-link label="Speakers"
+{{< button-link label="Speakers"
                 url="speakers"
-                icon="talk" >}} -->
+                icon="talk" >}} 
                 
 <!--{{< button-link label="Conference Photos"
                 url="pictures"

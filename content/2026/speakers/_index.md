@@ -10,7 +10,7 @@ menu:
         identifier: speakers
         parent: technical-program
 ---
-## Stay tuned — more details on confirmed speakers will be announced soon. Additional speakers to be confirmed.
+## Stay tuned — more details on confirmed speakers will be announced soon. 
 <!--<ul class="heado">
     <li>{{< speakers types="dinner=After-dinner Talk" year=2026 >}}</li>
     <li>{{< speakers types="lecture=Public Lecture" year=2026 >}}</li>
@@ -22,4 +22,5 @@ menu:
 {{< speakers types="invited=Invited Speakers" year=2026 >}}
 \*Sort alphabetically by last name
 
-<!--{{< speakers types="industry=Industry Panel" year=2026 >}} -->
+{{< speakers types="industry=Industry Panel" year=2026 >}} 
+\*Sort alphabetically by last name
