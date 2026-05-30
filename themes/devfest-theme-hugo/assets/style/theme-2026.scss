@@ -137,10 +137,10 @@ flex-wrap: wrap;
 }
 
 .type-industry {
-  --duration: '45' !important;
+  --duration: '120' !important;
 }
 
 
-[class*="2025"] .poster-list>li::marker{
+[class*="2026"] .poster-list>li::marker{
     content: "#" attr(value) ".";
 }

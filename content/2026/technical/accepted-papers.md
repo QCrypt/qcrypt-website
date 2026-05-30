@@ -4,7 +4,7 @@ year: 2026
 type: text_page
 draft: false
 menu:
-    2025:
+    2026:
         weight: 20
         identifier: accepted-papers
         parent: technical-program
@@ -14,11 +14,11 @@ menu:
 
 <!-- (in order of submission) -->
 
-{{< papers-accepted year=2025 >}}{{< /papers-accepted >}}
+{{< papers-accepted year=2026 >}}{{< /papers-accepted >}}
 
 ## List of Accepted Posters
 
-<!-- (in order of submission) -->
+<!-- (in order of submission) 
 
 {{< posters-accepted year=2025 >}}
 {{< /posters-accepted >}}
@@ -29,5 +29,5 @@ menu:
 Congratulations to **Amir Arqand (Institute for Quantum Computing, University of Waterloo), Ernest Y.-Z. Tan (Institute for Quantum Computing, University of Waterloo)** for *Marginal-constrained entropy accumulation theorem*
 
 ### Experiment
-Congratulations to **Giulia Guarda (University of Florence); Noemi Tagliavacche (University of Pavia); Massimo Borghi (University of Pavia); Domenico Ribezzo (University of Florence); Marco Liscidini (University of Pavia); Davide Bacco (University of Florence); Matteo Galli (University of Pavia); Daniele Bajoni (University of Pavia)** for *Frequency-bin entanglement-based quantum key distribution*
+Congratulations to **Giulia Guarda (University of Florence); Noemi Tagliavacche (University of Pavia); Massimo Borghi (University of Pavia); Domenico Ribezzo (University of Florence); Marco Liscidini (University of Pavia); Davide Bacco (University of Florence); Matteo Galli (University of Pavia); Daniele Bajoni (University of Pavia)** for *Frequency-bin entanglement-based quantum key distribution* -->
 

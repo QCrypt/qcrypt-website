@@ -1,0 +1,871 @@
+[
+  {
+    "pid": 3,
+    "title": "Comparing classical and quantum conditional disclosure of secrets",
+    "abstract": "The conditional disclosure of secrets (CDS) setting is among the most basic primitives studied in information-theoretic cryptography.  \nMotivated by a connection to non-local quantum computation and position-based cryptography, CDS with quantum resources has recently been considered. \nHere, we study the differences between quantum and classical CDS, with the aims of clarifying the power of quantum resources in information-theoretic cryptography.\nWe establish the following results:\n\\begin{itemize}\n    \\item We prove a $\\Omega(\\log \\R_{0,A\\rightarrow B}(f)+\\log \\R_{0,B\\rightarrow A}(f))$ lower bound on quantum CDS where $\\R_{0,A\\rightarrow B}(f)$ is the classical one-way communication complexity with perfect correctness. \n    \\item We prove a lower bound on quantum CDS in terms of two round, public coin, two-prover interactive proofs.\n    \\item For perfectly correct CDS, we give a separation for a promise version of the not-equals function, showing a quantum upper bound of $O(\\log n)$ and classical lower bound of $\\Omega(n)$. \n    \\item We give a logarithmic upper bound for quantum CDS on forrelation, while the best known classical algorithm is linear. We interpret this as preliminary evidence that classical and quantum CDS are separated even with correctness and security error allowed. \n\\end{itemize}\nWe also give a separation for classical and quantum private simultaneous message passing for a partial function, improving on an earlier relational separation.  \nOur results use novel combinations of techniques from non-local quantum computation and communication complexity.",
+    "authors": [
+      {
+        "first": "U.",
+        "last": "Girish"
+      },
+      {
+        "first": "A.",
+        "last": "May"
+      },
+      {
+        "first": "L.",
+        "last": "Orshansky"
+      },
+      {
+        "first": "C.",
+        "last": "Waddell"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 7,
+    "title": "A rigorous and complete security proof of decoy-state BB84 quantum key distribution",
+    "abstract": "We present a rigorous and complete security proof of the decoy-state BB84 quantum key distribution (QKD) protocol. Our analysis aims to achieve a high standard of mathematical rigour and completeness, thereby providing the necessary foundation for certification and standardization efforts. Beyond establishing the security of a specific protocol, this work develops a general and modular framework that can be readily adapted to a broad class of QKD protocols, including both prepare-and-measure and entanglement-based variants. Our framework unifies all major ingredients required for the analysis of realistic QKD protocols, including the analysis of classical authentication and classical processing, source-replacement schemes, finite-size analysis, source maps, squashing maps, and decoy-state techniques. In doing so, this work consolidates a diverse range of techniques scattered across the QKD literature into a unified formalism, representing a general and rigorous treatment of QKD security. Finally, it outlines a clear path towards incorporating practical imperfections within the same framework, thereby laying the groundwork for addressing implementation security in future analysis.",
+    "authors": [
+      {
+        "first": "D.",
+        "last": "Tupkary"
+      },
+      {
+        "first": "S.",
+        "last": "Nahar"
+      },
+      {
+        "first": "A.",
+        "last": "Arqand"
+      },
+      {
+        "first": "E.",
+        "last": "Tan"
+      },
+      {
+        "first": "N.",
+        "last": "L\u00fctkenhaus"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 8,
+    "title": "Uncloneable encryption from decoupling",
+    "abstract": "We show for the first time that uncloneable encryption exists with no computational assumptions, with security inverse-polynomial in the security parameter. We use properties of a monogamy-of-entanglement game associated with the Haar measure encryption to guarantee that any state that succeeds with high probability cannot be close to maximally-entangled between the referee and either of the players, whence we can apply the decoupling principle to show that either player becomes completely uncorrelated, and therefore cannot win significantly better than random guessing.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Bhattacharyya"
+      },
+      {
+        "first": "E.",
+        "last": "Culf"
+      }
+    ],
+    "topics": [],
+    "mergedwith": 100
+  },
+  {
+    "pid": 14,
+    "title": "Hierarchical generation and design of tree-codes for resource-efficient loss-tolerant quantum communications",
+    "abstract": "We develop protocols for generating loss-tolerant quantum tree-codes; these are designed to safeguard information against qubit losses, with wide applications in quantum communications. Contrary to previous proposals, our method enables top-to-bottom fast encoding and decoding, thereby reducing losses due to the lagging and photon-reordering at the repeater stations. At the hardware level, we show how to achieve this with a single quantum emitter equipped with a static feedback mechanism, which we leverage to engineer entangling gates between a fed-back qubit and multiple emitted qubits in parallel. In addition, analyzing typical patterns within the error-correction decoding graphs, we find optimizations of the structure of tree-codes, which enable improved performance by also reducing the code size; these are based on the introduction of asymmetries in the code, which mimic the intrinsic adaptiveness of the recovery procedure. We show numerically that these improvements together significantly enhance the loss-correction performance. Specifically, focusing on quantum repeater protocols, we show that our fast recovery scheme (decoding-encoding) allows for improved repeater rates with smaller photon numbers per code.",
+    "authors": [
+      {
+        "first": "T.",
+        "last": "Feri"
+      },
+      {
+        "first": "F.",
+        "last": "Cesa"
+      },
+      {
+        "first": "A.",
+        "last": "Bassi"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 15,
+    "title": "On Removing Interaction from Quantum Proofs",
+    "abstract": "An important challenge in quantum cryptography is the construction of publicly-verifiable NIZKs for QMA. Classically, one can construct NIZKs for NP in the random oracle model (and sometimes in the standard model) by compiling an honest-verifier ZK (HVZK) \u03a3-protocol for NP using the Fiat-Shamir transformation. Broadbent and Grilo introduced a quantum analog of a \u03a3-protocol (which they call a \u039e-protocol) in which the prover's first message is quantum, and show that HVZK \u039e-protocols exist for QMA. However, it is not clear how to compile such protocols into NIZKs in the (Q)ROM, because the Fiat-Shamir transformation seems to be incompatible with quantum messages. In this work we give formal evidence that this is indeed the case: we show that if generic \"Fiat--Shamir-like\" transformations for quantum protocols exist in the QROM (with small constant completeness error) then NP \u2286 BQP.",
+    "authors": [
+      {
+        "first": "N.",
+        "last": "Spooner"
+      },
+      {
+        "first": "M.",
+        "last": "Tromanhauser"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 18,
+    "title": "Quantum Oracle Distribution Switching and its Applications to Fully Anonymous Ring Signatures",
+    "abstract": "Ring signatures are a powerful primitive that allows a member to sign on behalf of a group, without revealing their identity. Recently, ring signatures have received additional attention as an ingredient for post-quantum deniable authenticated key exchange, e.g., for a post-quantum version of the Signal protocol, employed by virtually all end-to-end-encrypted messenger services. While several ring signature constructions from post-quantum assumptions offer suitable security and efficiency for use in deniable key exchange, they are currently proven secure in the random oracle model (ROM) only, which is insufficient for post-quantum security.\nIn this work, we provide four security reductions in the quantum-accessible random oracle model (QROM) for two generic ring signature constructions: two for the AOS framework and two for a construction paradigm based on ring trapdoors, whose generic backbone we formalize. The two security proofs for AOS ring signatures differ in their requirements on the underlying sigma protocol and their tightness. The two reductions for the ring-trapdoor-based ring signatures exhibit various differences in requirements and the security they provide. We employ the measure-and-reprogram technique, QROM straightline extraction tools based on the compressed oracle, history-free reductions and QROM reprogramming tools. To make use of R\u00e9nyi divergence properties in the QROM, we study the behavior of quantum algorithms that interact with an oracle whose distribution is based on one of two different distributions over the set of outputs. We provide tight bounds for the statistical distance, show that the R\u00e9nyi divergence can not be used to replace the entire oracle and provide a workaround.",
+    "authors": [
+      {
+        "first": "M.",
+        "last": "Beckmann"
+      },
+      {
+        "first": "C.",
+        "last": "Majenz"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 19,
+    "title": "Quantification of the energy consumption of entanglement distribution",
+    "abstract": "Inspired by environmental sciences, we develop a framework to quantify the energy needed to generate quantum entanglement via noisy quantum channels, focusing on the hardware-independent, i.e. fundamental cost. Within this framework, we define a measure of the minimal fundamental energy consumption rate per distributed entanglement (expressed in Joule per ebit). We then derive a lower bound on the energy cost of distributing a maximally entangled state via a quantum channel, which yields a quantitative estimate of energy investment per entangled bit for future quantum networks. We thereby show that irreversibility in entanglement theory implies a non-zero energy cost in standard entanglement distribution protocols. We further establish an upper bound on the fundamental energy consumption rate of entanglement distribution by determining the minimal energy required to implement quantum operations via classical control. To this end, we formulate the axioms for an energy cost measure and introduce a Hamiltonian model for classically-controlled quantum operations. The fundamental cost is then defined as the infimum energy over all such Hamiltonian protocols, with or without specific hardware constraints. The study of the energy cost of a quantum operation is general enough to be naturally applicable to quantum computing and is of independent interest. Finally, we evaluate the energy demands of three entanglement distillation protocols for photonic polarization qubits, finding that, due to entanglement irreversibility, their required energy exceeds the fundamental lower bound by many orders of magnitude. The introduced paradigm can be applied to other quantum resources, with appropriate changes depending on their nature.",
+    "authors": [
+      {
+        "first": "K.",
+        "last": "Horodecki"
+      },
+      {
+        "first": "M.",
+        "last": "Winczewski"
+      },
+      {
+        "first": "L.",
+        "last": "Sikorski"
+      },
+      {
+        "first": "P.",
+        "last": "Mazurek"
+      },
+      {
+        "first": "M.",
+        "last": "Czechlewski"
+      },
+      {
+        "first": "R.",
+        "last": "Yehia"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 21,
+    "title": "Quantitative quantum soundness for all multipartite compiled nonlocal games",
+    "abstract": "Compiled nonlocal games transfer the power of Bell-type multi-prover tests into a single-device setting by replacing spatial separation with cryptography. Concretely, the KLVY compiler (STOC'23) maps any multi-prover game to an interactive single-prover protocol, using quantum homomorphic encryption. A crucial security property of such compilers is quantum soundness, which ensures that a dishonest quantum prover cannot exceed the original game's quantum value. For practical cryptographic implementations, this soundness must be quantitative, providing concrete bounds rather than merely asymptotic. While quantitative quantum soundness has been established for the KLVY compiler in the bipartite case, it has only been shown asymptotically for multipartite games. This is a significant gap, as multipartite nonlocality exhibits phenomena with no bipartite analogue, and the difficulty of enforcing space-like separation makes single-device compilation especially compelling. This work closes this gap by demonstrating the quantitative quantum soundness of the KLVY compiler for all multipartite nonlocal games that admit finite-dimensional optimal strategies and, more generally, by providing quantitative upper bounds for all multipartite nonlocal games. On the way, we introduce an NPA-like hierarchy for quantum instruments and prove its completeness, thereby characterizing correlations from operationally-non-signaling sequential strategies. This NPA-like hierarchy can be seen to complement previous multipartite generalizations of the S-G-HJW purification theorem, which takes a central role in quantum information, nonlocality, and contextuality. We further develop novel geometric arguments for the decomposition of sequential strategies into their signaling and non-signaling parts, which might be of independent interest.",
+    "authors": [
+      {
+        "first": "X.",
+        "last": "Xu"
+      },
+      {
+        "first": "M.",
+        "last": "Baroni"
+      },
+      {
+        "first": "I.",
+        "last": "Klep"
+      },
+      {
+        "first": "D.",
+        "last": "Leichtle"
+      },
+      {
+        "first": "M.",
+        "last": "Renou"
+      },
+      {
+        "first": "I.",
+        "last": "\u0160upi\u0107"
+      },
+      {
+        "first": "L.",
+        "last": "Tendick"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 22,
+    "title": "The Sponge is Quantum Indifferentiable",
+    "abstract": "The sponge is a cryptographic construction that turns a public permutation into a hash function. When instantiated with the Keccak permutation, the sponge forms the NIST SHA-3 standard. SHA-3 is a core component of most post-quantum public-key cryptography schemes slated for worldwide adoption.\n\nWhile one can consider many security properties for the sponge, the ultimate one is indifferentiability from a random oracle, or simply indifferentiability. The sponge was proved indifferentiable against classical adversaries by Bertoni et al. in 2008. Despite significant efforts in the years since, little is known about sponge security against quantum adversaries, even for simple properties like preimage or collision resistance beyond a single round. This is primarily due to the lack of a satisfactory quantum analog of the lazy sampling technique for permutations.\n\nIn this work, we develop a specialized technique that overcomes this barrier in the case of the sponge. We prove that the sponge is in fact indifferentiable from a random oracle against quantum adversaries. Our result establishes that the domain extension technique behind SHA-3 is secure in the post-quantum setting. Our indifferentiability bound for the sponge is a loose O(poly(q)2\u2212min(r,c)/4), but we also give bounds on preimage and collision resistance that are tighter.",
+    "authors": [
+      {
+        "first": "S.",
+        "last": "Tokat"
+      },
+      {
+        "first": "G.",
+        "last": "Alagic"
+      },
+      {
+        "first": "J.",
+        "last": "Carolan"
+      },
+      {
+        "first": "C.",
+        "last": "Majenz"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 24,
+    "title": "QKD Oracles for Authenticated Key Exchange",
+    "abstract": "Authenticated Key Exchange (AKE) establishes shared (\u2018symmetric\u2019) cryptographic keys which are essential for secure online communication. Alternatively, symmetric keys could be established via Quantum Key Distribution (QKD), which uses quantum communication. Although point-to-point QKD can offer information-theoretic security (ITS), this guarantee crucially hinges on proper implementation. In practice, QKD is expected to be combined with conventional cryptography \u2013 raising the question whether such \u2018hybrid\u2019 combinations actually preserve QKD\u2019s main benefit, ITS.\n\nWe perform an extensive review of existing AKE-QKD hybrids and their analysis. Our review shows that it is currently unclear both how to design such protocols and how to quantify their security. As our review shows, many proposed solutions do not preserve the ITS property of QKD, and finding a solution that does is less straightforward then expected. Moreover, we found that known designs do not even achieve computational security. In more detail, usage of the QKD keys needs to be coordinated across endpoints. This coordination currently requires that the keys are accompanied by a key ID. Although key IDs are introduced solely to ensure correct functionality, we show that they introduce subtle vulnerabilities \u2013 specifically, we identify dependent-key attacks on several existing protocols that arise from improper key-ID handling.\n\nTo address these issues, we propose a security model for AKE-QKD hybrids that also catches dependent-key attacks. As our main conceptual contribution, we model QKD via an oracle that closely resembles the standard ETSI 014 interface. We demonstrate the usefulness of this oracle for cryptographic analyses by integrating it into a prominent security model for AKE, called CK+ model.\n\nLastly, we present a new protocol that combines QKD with a triple-KEM handshake, and prove it secure in our integrated model. This is the first hybrid protocol that provably preserves the ITS of QKD.",
+    "authors": [
+      {
+        "first": "K.",
+        "last": "H\u00f6velmanns"
+      },
+      {
+        "first": "D.",
+        "last": "Planken"
+      },
+      {
+        "first": "C.",
+        "last": "Schaffner"
+      },
+      {
+        "first": "S.",
+        "last": "Verschoor"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 33,
+    "title": "Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification",
+    "abstract": "We introduce an improved one-shot characterisation of randomness extraction against quantum side information (privacy amplification), strengthening known one-shot bounds and providing a unified derivation of the tightest known asymptotic constraints.  \nOur main tool is a new class of smooth conditional entropies defined by lifting classical smooth divergences through measurements. A key role is played by the measured smooth R\u00e9nyi relative entropy of order 2, which we show to admit an equivalent variational form: it can be understood as allowing for smoothing over not only states, but also non-positive Hermitian operators. \nBuilding on this, we establish a tightened leftover hash lemma, significantly improving over all known smooth min-entropy bounds on extractable randomness and recovering the sharpest classical achievability results. We extend these methods to decoupling, the coherent analogue of privacy amplification, obtaining a corresponding improved one-shot bound.\nRelaxing our smooth entropy bounds leads to one-shot achievability results in terms of measured R\u00e9nyi divergences, which in the asymptotic i.i.d. limit recover the state-of-the-art error exponents of [Dupuis, IEEE T-IT 69, 7784 (2023)]. \nWe show an approximate optimality of our results by giving a matching one-shot converse bound up to additive logarithmic terms. This yields an optimal second-order asymptotic expansion of privacy amplification under trace distance, establishing a significantly tighter one-shot achievability result than previously shown in [Shen et al., IEEE T-IT 70, 5077 (2024)] and proving its optimality for all hash functions.",
+    "authors": [
+      {
+        "first": "B.",
+        "last": "Regula"
+      },
+      {
+        "first": "M.",
+        "last": "Tomamichel"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 43,
+    "title": "Unconditional Authentication in Quantum Key Distribution via Hybrid Entangled Physical Unclonable Functions",
+    "abstract": "Quantum Key Distribution (QKD) enables Information-Theoretically Secure (ITS) key exchange, robust even against future quantum computing threats. However, a fundamental limitation of QKD is the requirement for an authenticated classical channel, which necessitates a pre-shared secret key. In this letter, we address this dependency by integrating a Hybrid Physical Unclonable Function (PUF) protocol. We demonstrate that this PUF-based method generates an ITS initial key under minimal explicit hardware assumptions. This approach establishes a fully ITS-authenticated QKD protocol that relies solely on hardware assumptions, effectively eliminating the need for manually pre-shared secrets. This represents a significant step toward practical realization of quantum network protocols using lightweight, readily available hardware assumptions, without weakening security guarantees.",
+    "authors": [
+      {
+        "first": "N.",
+        "last": "LAURENT-PUIG"
+      },
+      {
+        "first": "M.",
+        "last": "Doosti"
+      },
+      {
+        "first": "A.",
+        "last": "Innocenzi"
+      },
+      {
+        "first": "E.",
+        "last": "Diamanti"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 44,
+    "title": "Security of the Fischlin Transform in the Quantum Random Oracle Model",
+    "abstract": "The Fischlin transform yields non-interactive zero-knowledge proofs with straight-line extractability in the classical random oracle model. This is done by forcing a prover to generate multiple accepting transcripts through a proof-of-work mechanism. Whether the Fischlin transform is straight-line extractable against quantum adversaries has remained open due to the difficulty of reasoning about the likelihood of query transcripts in the quantum-accessible random oracle model (QROM), even when using the compressed oracle methodology. In this work, we prove that the Fischlin transform remains straight-line extractable in the QROM, via an extractor based on the compressed oracle. This establishes the post-quantum security of the Fischlin transform, providing a post-quantum straight-line extractable NIZK alternative to Pass\u2019 transform with smaller proof size. Our techniques include tail bounds for sums of independent random variables and for martingales as well as symmetrization, query amplitude and quantum union bound arguments.",
+    "authors": [
+      {
+        "first": "J.",
+        "last": "Sharma"
+      },
+      {
+        "first": "C.",
+        "last": "Majenz"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 48,
+    "title": "Composable Verification in the Circuit-Model via Magic-Blindness",
+    "abstract": "As quantum computing machines move towards the utility regime, it is essential that users are able to verify their delegated quantum computations with security guarantees that are (i) robust to noise (ii) composable with other secure protocols and (iii) exponentially stronger as the number of resources dedicated to security increases. Previous works that achieve these guarantees are expressed in the Measurement-Based Quantum Computation (MBQC) model and benefit from a modular framework of verification protocols. This leaves architectures based on the circuit model---in particular those using the Magic State Injection (MSI)---with fewer options to verify their computations or with the need to compile their circuits in MBQC which leads to overheads.\n\n    This paper introduces a family of noise robust, composable and efficient verification protocols for Clifford + MSI circuits that are secure against arbitrary malicious behavior. This family contains the verification protocol of Broadbent (2018, ToC), extends its security guarantees while also bridging the modularity gap between protocols for MBQC and those for the circuit model, and reducing quantum communication costs. As a result, it opens the prospect of rapid implementation tailored to near-term quantum devices.\n\n    Our technique is based on a refined notion of blindness, called magic-blindness, which hides only the injected magic states---the sole source of non-Clifford computational power. This enables verification by randomly interleaving computation rounds with classically simulable, magic-free test rounds, leading to a trap-based framework for circuit verification. As a result, circuit-based quantum verification attains the same level of security and robustness previously known only in MBQC. It also reduces the quantum communication cost as transmitted qubits are required only at the locations of state injection.",
+    "authors": [
+      {
+        "first": "S. Abdul",
+        "last": "Sater"
+      },
+      {
+        "first": "H.",
+        "last": "Ollivier"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 52,
+    "title": "Towards Universal Quantum Tamper Detection",
+    "abstract": "Tamper-resilient cryptography studies how to protect  data against adversaries who can physically manipulate codewords before they are decoded. The notion of tamper detection codes formalizes this goal,  requiring that any  unauthorized modification be detected with high probability.  Classical results, starting from Jafargholi and Wichs (TCC 2015), established the existence of such codes against very large families of tampering functions\u2014subject to structural restrictions ruling out identity and constant maps. Recent works of Boddu and Kapshikar (Quantum, 7) and Bergamaschi (Eurocrypt 2024)  have extended these ideas to quantum adversaries, but  only consider unitary tampering families.\n\nIn this work, we give the first general treatment of quantum tamper detection against arbitrary quantum maps. We show that Haar-random encoding schemes achieve exponentially small soundness error against any adversarial family whose size, Kraus rank, and entanglement fidelity obey natural constraints, which are direct quantum analogues of the min-entropy and fixed-point restrictions in the classical setting. Our results unify and extend previous work, subsuming both the classical and unitary-only adversarial families.\n\nBeyond this, we demonstrate a fundamental separation between classical and quantum tamper detection. Classically, relaxed tamper detection (which allows either rejection or recovery of the original message) cannot protect even against the family of constant functions. This family is of size $2^n$. In contrast, we show that quantum encodings can handle this obstruction, and we conjecture and provide evidence that they may in fact provide relaxed tamper detection and non-malleable security against any family of quantum maps of size up to $2^{2^{\\alpha n}}$ for any constant $\\alpha <\\frac{1}{2}$,  leading to our conjecture on the existence of what we call \\emph{universal} quantum tamper detection.  Taken together, our results provide evidence that quantum tamper detection is strictly more powerful than its classical counterpart.",
+    "authors": [
+      {
+        "first": "U.",
+        "last": "Kapshikar"
+      },
+      {
+        "first": "A.",
+        "last": "Broadbent"
+      },
+      {
+        "first": "D.",
+        "last": "Rochette"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 61,
+    "title": "How to Delete Without a Trace: Certified Deniability in a Quantum World",
+    "abstract": "Is it possible to comprehensively destroy a piece of quantum information, so that nothing is left behind except the memory of that one had it at some point? For example, various works, most recently Morimae, Poremba, and Yamakawa (TQC '24), show how to construct a signature scheme with certified deletion where a user who deletes a signature on m cannot later produce a signature for  m. However, in all of the existing schemes, even after deletion the user is still able keep irrefutable evidence that m was signed, and thus they do not fully capture the spirit of deletion.\n\n  In this work, we initiate the study of certified deniability in order to obtain a more comprehensive notion of deletion. Certified deniability uses a simulation-based security definition, ensuring that any information the user has kept after deletion could have been learned without being given the deleteable object to begin with; meaning that deletion leaves no trace behind! We define and construct two non-interactive primitives that satisfy certified deniability in the quantum random oracle model: signatures and non-interactive zero-knowledge arguments (NIZKs). As a consequence, for example, it is not possible to delete a signature/NIZK and later provide convincing evidence that it used to exist. Notably, our results utilize uniquely quantum phenomena to bypass Pass's (CRYPTO '03) celebrated result showing that deniable NIZKs are impossible even in the random oracle model.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Cakan"
+      },
+      {
+        "first": "V.",
+        "last": "Goyal"
+      },
+      {
+        "first": "J.",
+        "last": "Raizes"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 62,
+    "title": "Multi-Copy Security in Quantum Cryptography and More",
+    "abstract": "Unclonable cryptography leverages the quantum no-cloning principle to achieve strong security guarantees that are impossible to achieve in a classical world. Most existing works in this area only consider the basic single-copy security, and there been only a few works that achieve the more realistic notion of \\emph{collusion-resistance} (where adversary receives multiple keys), which is the gold standard in cryptography. Further, existing works that do consider collusion-resistance have convoluted non-black-box solutions, and are highly tailored to their own applications, with little hope to generalize, and they often re-invent the tools from both single-key quantum cryptography as well as collusion-resistant classical cryptography. Moreover, the question of \\emph{multi-copy security}, where the adversary receives multiple copies of the same state (rather than merely getting multiple independently sampled keys) is almost completely open.\n\nIn this work, we develop a large toolset of black-box compilers and technical lemmata for dealing with collusion-resistance and multi-copy security in quantum cryptography. Using our toolset, we obtain a large number of new feasibility results with black-box constructions, with proofs that are significantly \\emph{simpler} than the existing proofs in literature.\n\nIn particular, we introduce a generic compiler that upgrades single-key secure quantum protection (copy-protection/LOCC leakage-resilience/secure leasing) schemes for decryption keys to collusion-resistant secure schemes. Then, we also introduce a generic compiler that upgrades collusion-resistant primitives to achieve multi-copy security, assuming only one-way functions.\n\nUsing our toolset, we obtain a large number of new feasibility results. We obtain the first multi-copy secure constructions of public-key quantum money (termed quantum coins), single-decryptor encryption (SDE), unclonable encryption, and more. We obtain the first collusion-resistant secure key-leasing scheme with a fully classical lessor. Finally, we obtain the first LOCC leakage-resilient PKE scheme with multi-copy security, thus making progress towards achieving \\emph{quantum key-fire} in the plain model.\n\nFinally, as part of our toolset, we also show various technical results, such as the collusion-resistant analogue of the \\emph{one-way-to-hiding (O2H) lemma}, a quantum-state analogue of the small-range-distributions lemma, a \\emph{quantum pigeonhole lemma} for entangled adversaries and the first deterministic signature scheme with quantum-query security. We also show that independent-challenge security implies identical-challenge security in collusion-resistant copy-protection search games, and thus we obtain the first schemes with such security.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Cakan"
+      },
+      {
+        "first": "V.",
+        "last": "Goyal"
+      },
+      {
+        "first": "F.",
+        "last": "Kitagawa"
+      },
+      {
+        "first": "R.",
+        "last": "Nishimaki"
+      },
+      {
+        "first": "T.",
+        "last": "Yamakawa"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 63,
+    "title": "Compressed Permutation Oracles",
+    "abstract": "The analysis of quantum algorithms which query random, invertible permutations has been a long-standing challenge in cryptography. Many techniques which apply to random oracles fail, or are not known to generalize to this setting. As a result, foundational cryptographic constructions involving permutations often lack quantum security proofs. With the aim of closing this gap, we develop and prove soundness of a compressed permutation oracle. Our construction shares many of the attractive features of Zhandry's original compressed function oracle: the purification is a small list of input-output pairs which meaningfully reflect an algorithm's knowledge of the oracle.\nWe then apply this framework to show that the Feistel construction with seven rounds is a strong quantum PRP, resolving an open question of (Zhandry, 2012). We further re-prove essentially all known quantum query lower bounds in the random permutation model, notably the collision and preimage resistance of both Sponge and Davies-Meyer, hardness of double-sided zero search and sparse predicate search, and give new lower bounds for cycle finding and the one-more problem.",
+    "authors": [
+      {
+        "first": "J.",
+        "last": "Carolan"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 64,
+    "title": "Non Interactive MPC, (Quantumly) Revisited",
+    "abstract": "Classical non-interactive secure computation, despite being extensive studied, suffers from an inherent barrier: adversaries can learn the entire residual function via resetting attacks. We investigate whether quantum resources can circumvent this barrier and restrict adversarial leakage. Our results are as follows:\n\n1. Definitions: We introduce new security definitions for the one-message MPC and 2PC settings that restrict the amount of adversarial leakage compared to prior classical definitions.\n2. MPC: There exist information-theoretically secure one-message multi-party computation protocols in the oracle model in both the  quantum pre-processing and classical pre-processing settings.\n3. 2PC: There exist semi-honest secure one-message two-party computation for (randomized) pseudorandom functionalities in the plain model based on LWE and maliciously secure one-message two-party computation for (randomized) constrained functionalities in the CRS model based on iO. Prior work by [Gupte, Liu, Raizes, Roberts and, Vaikuntanathan STOC 2025] achieved semi-honest security based on iO.\n\nOur results demonstrate the power of quantum information to circumvent barriers in classical secure computation.",
+    "authors": [
+      {
+        "first": "P.",
+        "last": "Ananth"
+      },
+      {
+        "first": "D.",
+        "last": "Bhardwaj"
+      },
+      {
+        "first": "A.",
+        "last": "Gupte"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 65,
+    "title": "Chip-based Long-distance Twin-field Quantum Key Distribution Networks",
+    "abstract": "We demonstrate a scalable integrated photonic network for twin-field quantum key distribution (TF-QKD). The architecture employs a star topology, utilizing a server-side Si3N4 optical microcomb and 20 monolithically integrated InP transmitter chips. Coherent comb lines are used to seed client lasers, enabling wavelength-division multiplexing and ensuring stable interference. Sequential pairwise TF-QKD is performed across ten channels among 20 users, with each channel surpassing the repeaterless secret-key-capacity bound at a distance of 370 km. This yields an overall networking capability of 3,700 km. Wafer-scale chip reproducibility confirms the platform\u2019s practicability for building large-scale quantum communication networks. Furthermore, we demonstrate a design utilizing a broadly tunable on-chip laser, which is expected to cover the entire telecommunication C-band. This approach enables dozens of wavelength channels to operate in parallel, thereby scaling the network capacity up to hundred-user-level.",
+    "authors": [
+      {
+        "first": "Y.",
+        "last": "Zheng"
+      },
+      {
+        "first": "H.",
+        "last": "Wang"
+      },
+      {
+        "first": "X.",
+        "last": "Jia"
+      },
+      {
+        "first": "J.",
+        "last": "Huang"
+      },
+      {
+        "first": "H.",
+        "last": "Yuan"
+      },
+      {
+        "first": "L.",
+        "last": "Chang"
+      },
+      {
+        "first": "J.",
+        "last": "Wang"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 69,
+    "title": "Continuous-variable quantum communication over hybrid channels",
+    "abstract": "Quantum communication is advancing toward large-scale quantum networks, with quantum key\ndistribution (QKD) serving as a key driving technology. However, seamless interoperability between\nfiber-based and free-space links remains a major challenge for heterogeneous quantum networks.\nHere we report, to the best of our knowledge, the first continuous-variable QKD (CV-QKD) system\ndistributing secret keys using both coherent and squeezed states over a hybrid channel composed of a 620m free-space link followed by 2km of optical fiber, corresponding to a total loss of 20 dB. Daylight operation is enabled by intrinsic mode filtering provided by a locally generated local oscillator, eliminating the need for complex spectral or spatial filtering. In addition, we introduce an optimized binning strategy that mitigates free-space transmittance fluctuations, resulting in an average of 45% increase in the secure key rate. These results demonstrate the feasibility of CV-QKD across hybrid optical channels and highlight its potential as a plug-and-play solution for heterogeneous quantum networks integrating fiber and free-space infrastructure.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Hajomer"
+      },
+      {
+        "first": "H.",
+        "last": "Nguyen"
+      },
+      {
+        "first": "U.",
+        "last": "Andersen"
+      },
+      {
+        "first": "T.",
+        "last": "Gehring"
+      },
+      {
+        "first": "E.",
+        "last": "Rossi"
+      },
+      {
+        "first": "M.",
+        "last": "Sabatini"
+      },
+      {
+        "first": "Y.",
+        "last": "Pi\u00b4etri"
+      },
+      {
+        "first": "M.",
+        "last": "Avesani"
+      },
+      {
+        "first": "F.",
+        "last": "Vedovato"
+      },
+      {
+        "first": "G.",
+        "last": "Vallone"
+      },
+      {
+        "first": "P.",
+        "last": "Villoresi"
+      },
+      {
+        "first": "I.",
+        "last": "Derkach"
+      },
+      {
+        "first": "V.",
+        "last": "Usenko"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 74,
+    "title": "Post-quantum security of block cipher constructions",
+    "abstract": "Block ciphers are versatile cryptographic ingredients that are used in a wide range of applications ranging from secure Internet communications to disk encryption. While post-quantum security of public-key cryptography has received significant attention, the case of symmetric-key cryptography (and block ciphers in particular) remains a largely unexplored topic. In this work, we set the foundations for a theory of post-quantum security for block ciphers and associated constructions. Leveraging our new techniques, we provide the first post-quantum security proofs for the key-length extension scheme FX, the tweakable block ciphers LRW and XEX, and most block cipher encryption and authentication modes. Our techniques can be used for security proofs in both the plain model and the quantum ideal cipher model. Our work takes significant initial steps in establishing a rigorous understanding of the post-quantum security of practical symmetric-key cryptography.",
+    "authors": [
+      {
+        "first": "G.",
+        "last": "Alagic"
+      },
+      {
+        "first": "C.",
+        "last": "Bai"
+      },
+      {
+        "first": "C.",
+        "last": "Majenz"
+      },
+      {
+        "first": "K.",
+        "last": "Shi"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 78,
+    "title": "Hybrid Quantum Cryptography from Communication Complexity: From Theory to Experimental benchmarking",
+    "abstract": "We present complementary theoretical and experimental contributions bridging quantum cryptography and communication complexity. In our theory paper, we introduce a hybrid key distribution protocol achieving everlasting security while transmitting multiple photons per channel use, potentially surpassing fundamental QKD rate limits. The security proof for this protocol is based on a reduction that leverages the quantum advantage in communication cost between classical and quantum one-way communication complexity problems. Building on this theoretical foundation, our experimental work investigates the feasibility of demonstrating such quantum advantages in communication complexity using a reconfigurable and scalable optical platform based on wavefront shaping techniques.",
+    "authors": [
+      {
+        "first": "F.",
+        "last": "Mazzoncini"
+      },
+      {
+        "first": "B.",
+        "last": "Bauer"
+      },
+      {
+        "first": "H.",
+        "last": "Defienne"
+      },
+      {
+        "first": "P.",
+        "last": "Brown"
+      },
+      {
+        "first": "S.",
+        "last": "Gigan"
+      },
+      {
+        "first": "R.",
+        "last": "All\u00e9aume"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 89,
+    "title": "Reference-beam attacks against OIL-based Twin-Field QKD",
+    "abstract": "Twin-field quantum key distribution (TF-QKD) has become a leading protocol to bring quantum communications to the national scale. The protocol requires the establishment of a shared phase and frequency reference between distant parties, which is commonly achieved by using an external reference laser in an optical injection locking (OIL) architecture. In this work, we analyze the side channels in OIL-based TF-QKD that may arise from adversarial manipulation of the various degrees of freedom of this untrusted reference beam. We experimentally demonstrate two realistic attack scenarios: fast intensity modulation of the reference laser, and additional signals embedded in the reference light exploiting wavelengths undetectable by conventional monitoring techniques. These attacks can allow a potential eavesdropper to deterministically increase the mean photon number of the sources, or circumvent the decoy-state technique, respectively. To counter these vulnerabilities, we propose practical and highly effective countermeasures that reinforce the security of TF-QKD systems without significant additional complexity or performance degradation.",
+    "authors": [
+      {
+        "first": "S.",
+        "last": "Ju\u00e1rez"
+      },
+      {
+        "first": "A.",
+        "last": "Marcomini"
+      },
+      {
+        "first": "M.",
+        "last": "Petrov"
+      },
+      {
+        "first": "R.",
+        "last": "Woodward"
+      },
+      {
+        "first": "T.",
+        "last": "Dowling"
+      },
+      {
+        "first": "R.",
+        "last": "Stevenson"
+      },
+      {
+        "first": "M.",
+        "last": "Curty"
+      },
+      {
+        "first": "D.",
+        "last": "Rusca"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 95,
+    "title": "Rigorous phase-error-estimation security framework for QKD with correlated sources",
+    "abstract": "Practical QKD modulators introduce correlations between consecutively emitted pulses due to bandwidth limitations, violating key assumptions underlying many security proof techniques. Here, we address this problem by introducing a simple yet powerful mathematical framework to directly extend phase-error-estimation-based security proofs for imperfect but uncorrelated sources to also incorporate encoding correlations. Our framework overcomes important limitations of previous approaches in terms of generality and rigor, significantly narrowing the gap between theoretical security guarantees and real-world QKD implementations.",
+    "authors": [
+      {
+        "first": "G.",
+        "last": "Curr\u00e1s-Lorenzo"
+      },
+      {
+        "first": "M.",
+        "last": "Pereira"
+      },
+      {
+        "first": "K.",
+        "last": "Tamaki"
+      },
+      {
+        "first": "M.",
+        "last": "Curty"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 100,
+    "title": "The uncloneable bit exists",
+    "abstract": "We establish quantum uncloneable encryption with unconditional security, preventing two non\u2011communicating adversaries from simultaneously decrypting a single ciphertext \u2014 even when both are given the key. Our construction achieves security that approaches the ideal limit at a rate that is exponentially small in the security parameter, without employing any assumptions. Our proof invokes quantum information principles in the fully quantum realm, in a novel setting of cryptography. A decoupling step certifies the statistical independence needed for randomness extraction, and monogamy of entanglement, formalised via strong subadditivity, rules out the sender being highly correlated with two non\u2011communicating adversaries at once. Consequently, no coordinated strategy beats random guessing of the encrypted bit, establishing unconditional uncloneability. This reveals the existence of an uncloneable bit in Nature and delineates a fundamental, physically enforced cryptographic primitive unavailable in classical settings.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Bhattacharyya"
+      },
+      {
+        "first": "A.",
+        "last": "Broadbent"
+      },
+      {
+        "first": "E.",
+        "last": "Culf"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 101,
+    "title": "High-Performance Laser Written Heterodyne Receiver for Photonic Quantum Information Processing",
+    "abstract": "Continuous\u2011Variable Quantum Key Distribution (CV\u2011QKD) and Quantum Random Number Generation (CV\u2011QRNG) are crucial technologies relying on shot\u2011noise\u2011limited coherent detection to enable secure communication and high\u2011speed randomness generation.\nIntegrated photonics plays a central role in advancing these technologies, offering compact, scalable, and efficient implementations.\nIn this work, we introduce Femtosecond Laser Micromachining (FLM) on borosilicate glass as a novel platform for Photonic Integrated Circuits (PICs) tailored to coherent detection in quantum information processing.\nUsing off\u2011chip detectors, we exploit the versatility of FLM to realize a PIC designed for CV\u2011QKD and CV\u2011QRNG.\nThe device features fully tunable optical components, low insertion loss ($\\leq$ 1.28 dB), polarization\u2011insensitive operation, and a Common\u2011Mode Rejection Ratio (CMRR) exceeding 73 dB.\nThese capabilities enable the experimental demonstration of a Source\u2011device\u2011Independent CV\u2011QRNG with a secure rate of 42.74 Gbps and a QPSK\u2011based CV\u2011QKD system achieving a 3.2 Mbit/s secret key rate.\nOur results establish FLM as a promising integrated\u2011photonics platform for scalable, high\u2011performance quantum communication systems.",
+    "authors": [
+      {
+        "first": "T.",
+        "last": "Bertapelle"
+      },
+      {
+        "first": "A.",
+        "last": "Peri"
+      },
+      {
+        "first": "G.",
+        "last": "Gualandi"
+      },
+      {
+        "first": "M.",
+        "last": "Sabatini"
+      },
+      {
+        "first": "G.",
+        "last": "Corrielli"
+      },
+      {
+        "first": "Y.",
+        "last": "Pi\u00e9tri"
+      },
+      {
+        "first": "D.",
+        "last": "Marangon"
+      },
+      {
+        "first": "G.",
+        "last": "Vallone"
+      },
+      {
+        "first": "P.",
+        "last": "Villoresi"
+      },
+      {
+        "first": "R.",
+        "last": "Osellame"
+      },
+      {
+        "first": "M.",
+        "last": "Avesani"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 104,
+    "title": "Long-Distance Free-Space Twin-Field Quantum Key Distribution towards Satellite-based Quantum Network",
+    "abstract": "Twin-field quantum key distribution (TF-QKD) offers inherent immunity to all measurement-device attacks and scales the secure key rate from a linear to a square-root dependence on channel loss. It is essential to implement TF-QKD in the future global-scale quantum communication network. Toward this goal, we investigate the feasibility of implementing single-photon interference and TF-QKD with moving satellites, carefully considering the influence of orbital-induced Doppler shift. We report an experimental demonstration of TF-QKD over a 14.2 km atmospheric channel, featuring physical emulation and active compensation of the Doppler shift. The achieved secure key rate surpasses the repeaterless capacity bound, marking a pivotal advance toward deploying satellite-based quantum networks.",
+    "authors": [
+      {
+        "first": "M.",
+        "last": "Wang"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 108,
+    "title": "Reliable Entropy Estimation for device-independent QKD based on Layer-Cake Representations of Divergences",
+    "abstract": "See extended abstract.",
+    "authors": [
+      {
+        "first": "G.",
+        "last": "Ko\u00dfmann"
+      },
+      {
+        "first": "R.",
+        "last": "Schwonnek"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 109,
+    "title": "QKD with local self-testing: device-independent security and device-dependent performance",
+    "abstract": "See the extended abstract.",
+    "authors": [
+      {
+        "first": "G.",
+        "last": "Ko\u00dfmann"
+      },
+      {
+        "first": "M.",
+        "last": "Berta"
+      },
+      {
+        "first": "R.",
+        "last": "Schwonnek"
+      },
+      {
+        "first": "A.",
+        "last": "Bluhm"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 113,
+    "title": "Quantum-Secure Private Inference from Vacuum Fluctuations",
+    "abstract": "We show that the vacuum fluctuations of coherent light can serve as a cryptographic resource for private neural-network inference. A server encodes proprietary model weights into weak coherent states; a client computes the inference optically and returns a certificate state whose excess noise the server verifies. Weight-leakage bounds derived via the Holevo theorem hold against all IID attacks, including non-Gaussian ones. Data-leakage bounds derived via Cram\u00e9r\u2013Rao inequalities hold against individual attacks with arbitrary probes and collective attacks with Gaussian probes. On MNIST, the protocol achieves >95% accuracy with leakage below 0.1 bits per weight and per data element, an order of magnitude below the precision needed for functional inference. All components are standard CV-QKD hardware. Published in Physical Review X 15, 041056 (2025).",
+    "authors": [
+      {
+        "first": "K.",
+        "last": "Sulimany"
+      },
+      {
+        "first": "S.",
+        "last": "Vadlamani"
+      },
+      {
+        "first": "R.",
+        "last": "Hamerly"
+      },
+      {
+        "first": "P.",
+        "last": "Iyengar"
+      },
+      {
+        "first": "D.",
+        "last": "Englund"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 128,
+    "title": "Simplified quantum key distribution implementation secure against state preparation flaws",
+    "abstract": "We present a system implementing a three-state BB84 protocol with time-bin encoding, one decoy and a simplified measurement scheme that uses passive basis choice. Our implementation simplifies the state characterization with respect to previous iterations. We also adapt the loss-tolerant method to our protocol, thus dealing with the measured state preparation flaws. We compare the obtained phase error rate and secret key rate when including the state imperfections and when assuming perfect states. Our results highlight the importance of characterization and implementation security.",
+    "authors": [
+      {
+        "first": "A.",
+        "last": "Agulleiro"
+      },
+      {
+        "first": "F.",
+        "last": "Gr\u00fcnenfelder"
+      },
+      {
+        "first": "R.",
+        "last": "Houlmann"
+      },
+      {
+        "first": "A.",
+        "last": "Bl\u00e1zquez"
+      },
+      {
+        "first": "H.",
+        "last": "Zbinden"
+      },
+      {
+        "first": "D.",
+        "last": "Rusca"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 131,
+    "title": "Robust One-Sided Device-Independent Quantum Key Distribution via High-Dimensional Steering",
+    "abstract": "Quantum key distribution (QKD) brings the promise of communication with information-theoretic security, but is limited in practice due to its susceptibility to noise, losses, and difficulty in accounting for device imperfections. To address these challenges, we propose a robust high-dimensional (HD) one-sided device-independent QKD (1sDI-QKD) protocol whose security is certified through the violation of steering inequalities. Motivated by recent demonstrations of steering in high-dimensional systems with enhanced robustness to noise and loss [PhysRevX.12.041023], we present a systematic security analysis of HD 1sDI-QKD protocols leveraging quantum steering to certify security. We analyze the achievable secret key rates for protocols with different measurement configurations and system dimensions, combined with the reverse reconciliation scheme, which leads to significant improvements in secret key rates. Our results demonstrate two key advantages: (i) the protocols offer enhanced robustness of the key rates against noise and loss in comparison to fully device-independent QKD, and (ii) the key rate performance shows favorable scaling with increasing dimensions. Finally, we characterize the noise-loss trade-off, highlighting the feasibility of HD 1sDI-QKD in practical scenarios. We further demonstrate progress towards a proof-of-concept experimental implementation of HD 1sDI-QKD by exploring multi-outcome projective measurements across all mutually unbiased bases up to dimension 11. We observe steering violations demonstrating advantages for QKD up to dimension 7 under the fair-sampling assumption. Finally, we discuss perspectives towards a loophole-free implementation of 1sDI-QKD.",
+    "authors": [
+      {
+        "first": "M.",
+        "last": "Mothsara"
+      },
+      {
+        "first": "G.",
+        "last": "Murta"
+      },
+      {
+        "first": "M.",
+        "last": "Malik"
+      },
+      {
+        "first": "S.",
+        "last": "Goel"
+      },
+      {
+        "first": "B.",
+        "last": "Ghosh"
+      },
+      {
+        "first": "V.",
+        "last": "Srivastav"
+      },
+      {
+        "first": "W.",
+        "last": "McCutcheon"
+      }
+    ],
+    "topics": []
+  },
+  {
+    "pid": 139,
+    "title": "Proofs of Quantum Memory",
+    "abstract": "With the rapid advances in quantum computer architectures and the emerging prospect of large-scale quantum memory, it is becoming essential to classically verify that remote devices genuinely allocate the promised quantum memory with a specified number of qubits and coherence time. In this paper, we introduce a new concept, proofs of quantum memory (PoQM). A PoQM is an interactive protocol between a classical probabilistic polynomial-time (PPT) verifier and a quantum polynomial-time (QPT) prover over a classical channel where the verifier can verify that the prover has possessed a quantum memory with a certain number of qubits during a specified period of time. PoQM generalize the well-studied notion of proofs of quantumness (PoQ) [Brakerski, Christiano, Mahadev, Vazirani, and Vidick, JACM 2021] where a classical verifier can verify that the prover is not classical. Our contributions are summarized as follows: \n- We introduce a formal definition of PoQM. We also introduce a variant of PoQM, which we call inefficient-verifier PoQM (IV-PoQM), where the verifier's final computation to make the decision is not necessarily efficient. Clearly, PoQM imply IV-PoQM. \n- We construct PoQM based on the hardness of LWE. Specifically, we give two constructions of PoQM. The first one is of two-round (i.e., four-message) and has negligible soundness error under the subexponential-hardness of LWE. The second one is of polynomial-round and has inverse-polynomial soundness error under the polynomial-hardness of LWE. \n- As a lowerbound of IV-PoQM (and therefore PoQM), we show that IV-PoQM imply one-way puzzles. Moreover, we show that a certain restricted version of PoQM implies quantum computation classical communication (QCCC) key exchange, which suggests the difficulty of black-box constructing PoQM from one-way functions. \n- We show that constant-round PoQ imply PoQM or single-round PoQ (with a quantum verifier).  Single-round PoQ are ``trivial'' PoQ in the sense that the verifier asks the prover to solve a classical problem which is quantumly easy but classically hard. The result therefore demonstrates that PoQM capture ``genuinely-interactive'' PoQ. \n- We show that if constant-round IV-PoQ that are black-box constructed from quantumly-secure falsifiable assumptions exist then IV-PoQM exist. This result implies that IV-PoQM can be constructed from quantumly-secure constant-round statistically-hiding commitments (and therefore from quantumly-secure collision-resistant hash functions).",
+    "authors": [
+      {
+        "first": "M.",
+        "last": "Hhan"
+      },
+      {
+        "first": "T.",
+        "last": "Morimae"
+      },
+      {
+        "first": "Y.",
+        "last": "Okinaka"
+      },
+      {
+        "first": "T.",
+        "last": "Yamakawa"
+      }
+    ],
+    "topics": []
+  }
+]
