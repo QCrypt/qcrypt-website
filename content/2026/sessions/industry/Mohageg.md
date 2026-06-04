@@ -1,5 +1,5 @@
 ---
-#title: "Invited Talk: Quantum statistics in the minimal Bell scenario"
+title: "Panel: Quantum satellite infrastructure and applications"
 format: industry
 type: sessions
 year: 2026
