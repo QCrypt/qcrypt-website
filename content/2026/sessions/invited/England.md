@@ -17,4 +17,6 @@ Duncan England obtained a BSc. and MSc. in Physics and Astronomy from the Univer
 
 ## Abstract
 
-To come soon.
+I will discuss the development of an ultrafast all‑optical Kerr switch that allows the manipulation and gating of single photons on picosecond timescales. In the context of quantum information, this capability enables ultrafast time‑bin encoding, where the separation between bins is measured in picoseconds rather than nanoseconds. In this regime, bulky interferometers can be replaced by birefringent crystals, and interferometric stability lasts days rather than seconds.
+
+Our group has explored several applications of this approach, including quantum frequency conversion, quantum random walks, and rudimentary quantum processing. I will briefly introduce these topics before focusing on our demonstrations of laboratory‑scale ultrafast quantum communication. In its simplest form, the switch can function as a near single‑mode filter for pulsed light, and we show quantum communication in the presence of 10^9 noise photons per second. I will also show how the switch can reversibly map between time‑bin and polarization encodings, enabling quantum key distribution with qubits, and discuss how this method can be extended to higher‑dimensional qudits.

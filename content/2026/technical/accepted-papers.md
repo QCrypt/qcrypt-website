@@ -18,12 +18,12 @@ menu:
 
 ## List of Accepted Posters
 
-<!-- (in order of submission) 
+<!-- (in order of submission) -->
 
-{{< posters-accepted year=2025 >}}
+{{< posters-accepted year=2026 >}}
 {{< /posters-accepted >}}
 
-## Best Student Paper Awards
+<!-- ## Best Student Paper Awards
 
 ### Theory
 Congratulations to **Amir Arqand (Institute for Quantum Computing, University of Waterloo), Ernest Y.-Z. Tan (Institute for Quantum Computing, University of Waterloo)** for *Marginal-constrained entropy accumulation theorem*
