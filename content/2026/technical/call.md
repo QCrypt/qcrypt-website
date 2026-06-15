@@ -48,7 +48,7 @@ In line with the goal of showcasing the best results each year from all subfield
 
 **QCrypt 2026 will be an in-person conference, requiring authors of accepted papers to present their work on-site. If none of the authors can attend in person, the paper will be withdrawn from the program, with exceptions granted only for unforeseen and exceptional circumstances.**
 
-<!-- Poster Size: Posters should be no wider than 1 meter and no higher than 1.2 meters to fit comfortably on the poster support boards. -->
+**Poster Size: Posters should be no wider than 4 feet (121.92 centimetres) and no higher than 4 feet (121.92 centimetres) to fit comfortably on the poster support boards.** 
 
 ## Submission Instructions
 
