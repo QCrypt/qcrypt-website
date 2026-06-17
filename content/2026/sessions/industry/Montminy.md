@@ -2,10 +2,10 @@
 title: "Panel: Quantum satellite infrastructure and applications"
 format: industry
 type: sessions
-year: 2025
+year: 2026
 speakers:
     - Montminy
-chair: None
+chair: true
 videoId: null
 presentation: null
 draft: false
@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
- To come soon.
+ Steeve Montminy is Director of Planning in the Space Science and Technology sector at the Canadian Space Agency. He brings over 26 years of experience within the Agency. He leads a team responsible for coordinating the prioritization of key scientific and technological space themes for the CSA and Canada, focusing on identifying critical technologies and supporting the development of maturation roadmaps. His work contributes to aligning strategic objectives with current and future space missions. He also serves as Director for the QEYSSat mission, which aims to demonstrate secure quantum communication technologies from space.
 
 <!--## Abstract
 
