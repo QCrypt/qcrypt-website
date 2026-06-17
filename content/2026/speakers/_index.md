@@ -1,5 +1,5 @@
 ---
-title: Speakers - Work in progress
+title: Speakers
 year: 2026
 draft: false
 type: speakers
@@ -10,7 +10,7 @@ menu:
         identifier: speakers
         parent: technical-program
 ---
-## Stay tuned — more details on confirmed speakers will be announced soon. 
+<!--## Stay tuned — more details on confirmed speakers will be announced soon. -->
 <!--<ul class="heado">
     <li>{{< speakers types="dinner=After-dinner Talk" year=2026 >}}</li>
     <li>{{< speakers types="lecture=Public Lecture" year=2026 >}}</li>
