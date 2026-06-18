@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
- To come soon.
+ Andrew Csizmar is the lead for Global Space Strategy which include quantum networking at Honeywell. Active program within the portfolio included QEYSSat mission with CSA, and QKDSat mission with ESA. His background includes 24 years in the space industry developing and delivery program for RF and optical communication networks and managing astronomy mission such as JWST Fine Guidance Sensor among various other smallsat constellations and military missions.
 
 <!--## Abstract
 
