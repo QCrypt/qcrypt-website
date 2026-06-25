@@ -1,5 +1,5 @@
 ---
-title: "Chip-based Long-distance Twin-field Quantum Key Distribution Networks"
+title: "Relativistic Position Verification with Coherent States"
 format: invited
 type: sessions
 year: 2026
@@ -17,4 +17,4 @@ Guan-Jie Fan-Yuan is an Assistant Researcher at the University of Science and Te
 
 ## Abstract
 
-We demonstrate a scalable integrated photonic network for twin-field quantum key distribution (TF-QKD). The architecture employs a star topology, utilizing a server-side Si3N4 optical microcomb and 20 monolithically integrated InP transmitter chips. Coherent comb lines are used to seed client lasers, enabling wavelength-division multiplexing and ensuring stable interference. Sequential pairwise TF-QKD is performed across ten channels among 20 users, with each channel surpassing the repeaterless secret-key-capacity bound at a distance of 370 km. This yields an overall networking capability of 3,700 km. Wafer-scale chip reproducibility confirms the platform’s practicability for building large-scale quantum communication networks. Furthermore, we demonstrate a design utilizing a broadly tunable on-chip laser, which is expected to cover the entire telecommunication C-band. This approach enables dozens of wavelength channels to operate in parallel, thereby scaling the network capacity up to hundred-user-level.
+Determining the position of an entity can enable security-critical functionalities, such as position-based authorization for transactions and secure tracking of a high-value target. Classical means, however, have been proven incapable of providing secure position verification in the untrusted-prover case, meaning that a prover can mislead verifiers about its actual position. In this work, we propose and experimentally realize a secure position-verification protocol that leverages quantum optics and relativity within an information-theoretic framework. Using phase-randomized weak coherent states, two verifiers separated by 2 km securely verify the prover’s position with an accuracy better than 75 meters. These results establish secure position-based authentication as a practical possibility, paving the way for applications in financial transactions, disaster response, and authenticated secure communications.
