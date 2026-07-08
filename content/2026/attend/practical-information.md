@@ -100,3 +100,5 @@ You have a number of payment options at your fingertips while in Canada, ranging
 [Selected Areas in Cryptography 2026](https://sacworkshop.org/SAC26/)
 
 [23rd Annual International Conference on Privacy, Security, and Trust](https://pstnet.ca/pst2026/index.html)
+
+[2026 Capitale Pride Parade](https://capitalpride.ca/) 

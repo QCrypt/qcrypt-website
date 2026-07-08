@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
-Eli Goldin is a PhD student in computer science at the Courant Institute at the New York University, advised by Dr. Marshall Ball and Dr. Yevgeniy Dodis. His research interest lies broadly in the field of Cryptography. More specifically, he is studying randomness extraction and the process of removing backdoors from compromised cryptographic primitives. He previously received a bachelor's in computer science and mathematics from Columbia University.
+Eli Goldin's research focuses on the foundations of quantum cryptography. He cares about fundamentally quantum primitives, which require quantum computers to even execute. His work has a particular focus on the necessary assumptions for achieving quantum cryptography, and mapping out the relationships between quantum primitives. This is exemplified in the setting of "MicroCrypt", where one may hope to achieve useful cryptography using quantum computers even if one-way functions and all of classical cryptography does not exist. Eli Goldin has recently completed his PhD at NYU advised by Yevgeniy Dodis and Marshall Ball. He will begin a postdoc appointment at Princeton this Fall. 
 
 ## Abstract
 
