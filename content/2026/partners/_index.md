@@ -9,7 +9,7 @@ draft: false
 
 We thank the organizers of QCrypt 2019: Gilles Brassard, Claude Crépeau, Sébastien Gambs and Louis Salvail and their institutes: University of Montréal, McGill University and Université du Québec
 à Montréal, for transferring the surplus of QCrypt 2019 to the organization of QCrypt 2020 and 2021.
--->
+
 
 ## Call for Sponsors
 
@@ -19,7 +19,7 @@ The 16th anniversary edition of the conference, QCrypt 2026, will take place in 
 
 QCrypt 2026 is seeking sponsors. Sponsoring the conference gives companies and institutions the opportunity to call the attention of the participants of QCrypt 2026, and to present themselves during the conference by having their logo displayed, their information distributed and, depending on the level of sponsorship, by being present at the conference with a stand. For QCrypt 2026, sponsorship is a crucial means to pay for certain features of the conference like tutorial talks and keynote speakers, as well as registration waving and travel grants for students from less privileged institutes.
 
-QCrypt 2026 is offering sponsor packages – please email {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} for more information.
+QCrypt 2026 is offering sponsor packages – please email {{< button-link label="2026@qcrypt.net" url="mailto:2026@qcrypt.net?subject=Sponsorship Enquiry" icon="email" >}} for more information. -->
 
 ## Our Sponsors
 

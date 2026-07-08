@@ -10,11 +10,15 @@ menu:
         parent: technical-program
 ---
 
-## List of Accepted Papers
+## List of Accepted Talks
 
 <!-- (in order of submission) -->
 
 {{< papers-accepted year=2026 >}}{{< /papers-accepted >}}
+
+## Information for Poster Presenters
+
+Posters should be no wider than 4 feet (121.92 centimetres) and no higher than 4 feet (121.92 centimetres) to fit comfortably on the poster support boards.
 
 ## List of Accepted Posters
 
