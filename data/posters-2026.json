@@ -3341,8 +3341,59 @@
       "theory"
     ]
   },
-  {
+ {
     "object": "paper",
+    "pid": 198,
+    "submission_class": "Poster",
+    "title": "Performance Analysis of Time-Bin Encoded DV-QKD over a 116 km Fiber Link with a 107 km Aerial Fiber Segment",
+    "abstract": "A commercial time-bin encoded DV-QKD system is evaluated over a 116 km mixed fiber link including a 107 km aerial fiber segment. Despite the State of Polarization (SOP) fluctuations, the system achieved secure key generation over 15 hours.",
+    "authors": [
+      {
+        "first": "G",
+        "last": "Anastasiou",
+        "affiliation": ""
+      },
+      {
+        "first": "A",
+        "last": "Papageorgopoulos",
+        "affiliation": ""
+      },
+      {
+        "first": "N",
+        "last": "Makris",
+        "affiliation": ""
+      },
+      {
+        "first": "P",
+        "last": "Konteli",
+        "affiliation": ""
+      },
+      {
+        "first": "K",
+        "last": "Tsimvrakidis",
+        "affiliation": ""
+      },
+      {
+        "first": "P",
+        "last": "Papapetropoulos",
+        "affiliation": ""
+      },
+      {
+        "first": "I",
+        "last": "Papastamatiou",
+        "affiliation": ""
+      },
+      {
+        "first": "G.T",
+        "last": "Kanellos",
+        "affiliation": ""
+      }
+    ],
+    "topics": [
+      "theory"
+    ]
+  },
+  { "object": "paper",
     "pid": 200,
     "submission_class": "Poster",
     "title": "Discrete-phase-randomized mode-pairing quantum key distribution in finite-key settings",
