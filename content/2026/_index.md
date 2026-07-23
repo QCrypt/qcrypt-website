@@ -50,6 +50,10 @@ layout: home
 
 {{< button-link label="About QCrypt 2026 Logo"
                 url="logo"
+                icon="picture" >}}  
+
+{{< button-link label="QCrypt 2026 Poster"
+                url="poster"
                 icon="picture" >}}               
 
 {{< button-link label="Organize QCrypt 2028"
@@ -62,7 +66,7 @@ layout: home
 ##
 {{% /jumbo %}}
 
-{{% home-info what="Participants:>300,Tutorials:4,Invited Talks:8,Contributed Talks:32," class="primary" %}}
+{{% home-info what="Participants:>200,Tutorials:4,Invited Talks:8,Contributed Talks:32," class="primary" %}}
 
 
 

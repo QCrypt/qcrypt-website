@@ -190,6 +190,11 @@ enableMissingTranslationPlaceholders = true
     weight = 60
     identifier = "logo"
     pageRef = "/2026/logo"
+  [[menu.2026]]
+    name = "QCrypt 2026 Poster"
+    weight = 70
+    identifier = "poster"
+    pageRef = "/2026/poster"
 
 
 
