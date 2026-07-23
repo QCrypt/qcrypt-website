@@ -3296,6 +3296,53 @@
   },
   {
     "object": "paper",
+    "pid": 197,
+    "submission_class": "Poster",
+    "title": "All-optical turbulence mitigation for free-space quantum key distribution using stimulated parametric down-conversion",
+    "abstract": "Free-space quantum communications offers a promising route for securely transmitting information over long distances. However, a major challenge for these systems is atmospheric turbulence, which distorts the spatial structure of light and can severely limit the amount of information that can be reliably transmitted. In this work, we propose and demonstrate a turbulence-resilient scheme for free-space quantum communication. By leveraging the phase conjugation property of stimulated parametric down-conversion, our scheme enables all-optical dynamic correction of spatial-mode distortion induced by atmospheric turbulence, thereby enhancing the secure key rate in high-dimensional quantum key distribution. We develop a theoretical model that provides detailed guidelines for selecting the optimal basis and spatial properties needed to maximize the efficiency of the proposed scheme. Both numerical simulations and experimental results show that, even under strong turbulence, our scheme can reduce the quantum error rates well below the security threshold. These results highlight the potential of nonlinear optical approaches as powerful tools for robust quantum communication in realistic free-space environments.",
+    "authors": [
+      {
+        "first": "A",
+        "last": "Aguilar-Cardoso",
+        "affiliation": ""
+      },
+      {
+        "first": "C",
+        "last": "Li",
+        "affiliation": ""
+      },
+      {
+        "first": "T",
+        "last": "Luck",
+        "affiliation": ""
+      },
+      {
+        "first": "M",
+        "last": "Ferrer-Garcia",
+        "affiliation": ""
+      },
+      {
+        "first": "J",
+        "last": "Upham",
+        "affiliation": ""
+      },
+      {
+        "first": "J",
+        "last": "Lundeen",
+        "affiliation": ""
+      },
+      {
+        "first": "R",
+        "last": "Boyd",
+        "affiliation": ""
+      }
+    ],
+    "topics": [
+      "theory"
+    ]
+  },
+  {
+    "object": "paper",
     "pid": 198,
     "submission_class": "Poster",
     "title": "Performance Analysis of Time-Bin Encoded DV-QKD over a 116 km Fiber Link with a 107 km Aerial Fiber Segment",
@@ -3884,52 +3931,6 @@
     "topics": [
       "theory"
     ]
-  },
-  {
-    "object": "paper",
-    "pid": 217,
-    "submission_class": "Poster",
-    "title": "All-optical turbulence mitigation for free-space quantum key distribution using stimulated parametric down-conversion",
-    "abstract": "Free-space quantum communications offers a promising route for securely transmitting information over long distances. However, a major challenge for these systems is atmospheric turbulence, which distorts the spatial structure of light and can severely limit the amount of information that can be reliably transmitted. In this work, we propose and demonstrate a turbulence-resilient scheme for free-space quantum communication. By leveraging the phase conjugation property of stimulated parametric down-conversion, our scheme enables all-optical dynamic correction of spatial-mode distortion induced by atmospheric turbulence, thereby enhancing the secure key rate in high-dimensional quantum key distribution. We develop a theoretical model that provides detailed guidelines for selecting the optimal basis and spatial properties needed to maximize the efficiency of the proposed scheme. Both numerical simulations and experimental results show that, even under strong turbulence, our scheme can reduce the quantum error rates well below the security threshold. These results highlight the potential of nonlinear optical approaches as powerful tools for robust quantum communication in realistic free-space environments.",
-    "authors": [
-      {
-        "first": "A",
-        "last": "Aguilar-Cardoso",
-        "affiliation": ""
-      },
-      {
-        "first": "C",
-        "last": "Li",
-        "affiliation": ""
-      },
-      {
-        "first": "T",
-        "last": "Luck",
-        "affiliation": ""
-      },
-      {
-        "first": "M",
-        "last": "Ferrer-Garcia",
-        "affiliation": ""
-      },
-      {
-        "first": "J",
-        "last": "Upham",
-        "affiliation": ""
-      },
-      {
-        "first": "J",
-        "last": "Lundeen",
-        "affiliation": ""
-      },
-      {
-        "first": "R",
-        "last": "Boyd",
-        "affiliation": ""
-      }
-    ],
-    "topics": [
-      "theory"
-    ]
   }
+  
 ]
