@@ -247,7 +247,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Conference Check-in &amp; Light Breakfast</h3>
       <span class="qc-badge">Break</span>
     </div>
-    <div class="qc-location"><a href="https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/building/learning-crossroads-crx"     target="_blank"     rel="noopener noreferrer">    Learning Crossroads (CRX), Main Lobby  </a></div>
+    <div class="qc-location"><a href="https://www.uottawa.ca/about-us/administration-services/facilities/campus-maps/building/learning-crossroads-crx"     target="_blank"     rel="noopener noreferrer">    Learning Crossroads (CRX), main lobby  </a></div>
   </article>
 </div>
 
@@ -352,7 +352,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">00</span>
     <span class="range">14:00–14:20</span>
   </div>
-   <a href="/2026/sessions/contributed/63"
   <article class="qc-card contributed">
       <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #63 Compressed Permutation Oracles</h3>
@@ -360,7 +359,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -368,7 +366,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">20</span>
     <span class="range">14:20–14:40</span>
   </div>
-  <a href="/2026/sessions/contributed/22"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #22 The Sponge is Quantum Indifferentiable</h3>
@@ -376,7 +373,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -384,7 +380,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">40</span>
     <span class="range">14:40–15:00</span>
   </div>
-   <a href="/2026/sessions/contributed/74"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #74 Post-quantum security of block cipher constructions</h3>
@@ -392,7 +387,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -400,7 +394,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">15</span><span class="minute">00</span>
     <span class="range">15:00–15:20</span>
   </div>
-   <a href="/2026/sessions/contributed/18"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #18 Quantum Oracle Distribution Switching and its Applications to Fully Anonymous Ring Signatures</h3>
@@ -408,7 +401,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -430,7 +422,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">15</span><span class="minute">50</span>
     <span class="range">15:50–16:10</span>
   </div>
- <a href="/2026/sessions/contributed/33"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #33 Rethinking quantum smooth entropies: Tight one-shot analysis of quantum privacy amplification</h3>
@@ -438,7 +429,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -446,7 +436,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">10</span>
     <span class="range">16:10–16:30</span>
   </div>
-   <a href="/2026/sessions/contributed/7"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #7 A rigorous and complete security proof of decoy-state BB84 quantum key distribution</h3>
@@ -454,7 +443,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -462,7 +450,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">30</span>
     <span class="range">16:30–16:50</span>
   </div>
-   <a href="/2026/sessions/contributed/95"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #95 Rigorous phase-error-estimation security framework for QKD with correlated sources</h3>
@@ -470,7 +457,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -478,7 +464,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">50</span>
     <span class="range">16:50–17:10</span>
   </div>
-  <a href="/2026/sessions/contributed/128"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #128 Simplified quantum key distribution implementation secure against state preparation flaws</h3>
@@ -486,7 +471,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -494,7 +478,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">17</span><span class="minute">10</span>
     <span class="range">17:10–17:30</span>
   </div>
-   <a href="/2026/sessions/contributed/43"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #43 Unconditional Authentication in Quantum Key Distribution via Hybrid Entangled Physical Unclonable Functions</h3>
@@ -502,7 +485,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -510,7 +492,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">17</span><span class="minute">30</span>
     <span class="range">17:30–17:50</span>
   </div>
-  <a href="/2026/sessions/contributed/24"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #24 QKD Oracles for Authenticated Key Exchange</h3>
@@ -518,7 +499,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -531,7 +511,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Poster Session and Reception (Even Numbers)</h3>
       <span class="qc-badge">Social</span>
     </div>
-    <div class="qc-location">Learning Crossroads (CRX), Main Lobby</div>
+    <div class="qc-location">Learning Crossroads (CRX), main lobby</div>
   </article>
 </div>
 
@@ -669,7 +649,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">00</span>
     <span class="range">14:00–14:20</span>
   </div>
-  <a href="/2026/sessions/contributed/8"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #8/#100 Uncloneable encryption from decoupling / The uncloneable bit exists</h3>
@@ -677,7 +656,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -685,7 +663,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">20</span>
     <span class="range">14:20–14:40</span>
   </div>
-  <a href="/2026/sessions/contributed/62"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #62 Multi-Copy Security in Quantum Cryptography and More</h3>
@@ -693,7 +670,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -701,7 +677,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">40</span>
     <span class="range">14:40–15:00</span>
   </div>
-  <a href="/2026/sessions/contributed/52"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #52 Towards Universal Quantum Tamper Detection</h3>
@@ -709,7 +684,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -717,7 +691,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">15</span><span class="minute">00</span>
     <span class="range">15:00–15:20</span>
   </div>
-  <a href="/2026/sessions/contributed/139"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #139 Proofs of Quantum Memory</h3>
@@ -725,7 +698,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -747,7 +719,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">15</span><span class="minute">50</span>
     <span class="range">15:50–16:10</span>
   </div>
-  <a href="/2026/sessions/contributed/14"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #14 Hierarchical generation and design of tree-codes for resource-efficient loss-tolerant quantum communications</h3>
@@ -755,7 +726,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -763,7 +733,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">10</span>
     <span class="range">16:10–16:30</span>
   </div>
-  <a href="/2026/sessions/contributed/19"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #19 Quantification of the energy consumption of entanglement distribution</h3>
@@ -771,7 +740,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -779,7 +747,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">30</span>
     <span class="range">16:30–16:50</span>
   </div>
-  <a href="/2026/sessions/contributed/65"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #65 Chip-based Long-distance Twin-field Quantum Key Distribution Networks</h3>
@@ -787,7 +754,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -795,7 +761,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">50</span>
     <span class="range">16:50–17:10</span>
   </div>
-  <a href="/2026/sessions/contributed/104"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #104 Long-Distance Free-Space Twin-Field Quantum Key Distribution towards Satellite-based Quantum Network</h3>
@@ -803,7 +768,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -811,7 +775,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">17</span><span class="minute">10</span>
     <span class="range">17:10–17:30</span>
   </div>
-  <a href="/2026/sessions/contributed/89"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #89 Reference-beam attacks against OIL-based Twin-Field QKD</h3>
@@ -819,7 +782,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -827,7 +789,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">17</span><span class="minute">30</span>
     <span class="range">17:30–17:50</span>
   </div>
-  <a href="/2026/sessions/contributed/69"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #69 Continuous-variable quantum communication over hybrid channels</h3>
@@ -835,7 +796,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -843,7 +803,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">17</span><span class="minute">50</span>
     <span class="range">17:50–18:10</span>
   </div>
-  <a href="/2026/sessions/contributed/101"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #101 High-Performance Laser Written Heterodyne Receiver for Photonic Quantum Information Processing</h3>
@@ -851,7 +810,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -864,7 +822,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Poster Session and Reception (Odd Numbers)</h3>
       <span class="qc-badge">Social</span>
     </div>
-    <div class="qc-location">Learning Crossroads (CRX), Main Lobby</div>
+    <div class="qc-location">Learning Crossroads (CRX), main lobby</div>
   </article>
 </div>
 
@@ -979,7 +937,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Lunch Boxes</h3>
       <span class="qc-badge">Break</span>
     </div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 105</div>
+    <div class="qc-location">Learning Crossroads (CRX), main lobby</div>
   </article>
 </div>
 
@@ -1117,7 +1075,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">13</span><span class="minute">45</span>
     <span class="range">13:45–14:05</span>
   </div>
-  <a href="/2026/sessions/contributed/21"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #21 Quantitative quantum soundness for all multipartite compiled nonlocal games</h3>
@@ -1125,7 +1082,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1133,7 +1089,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">05</span>
     <span class="range">14:05–14:25</span>
   </div>
-  <a href="/2026/sessions/contributed/108"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #108 Reliable Entropy Estimation for device-independent QKD based on Layer-Cake Representations of Divergences</h3>
@@ -1141,7 +1096,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1149,7 +1103,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">25</span>
     <span class="range">14:25–14:45</span>
   </div>
-  <a href="/2026/sessions/contributed/109"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #109 QKD with local self-testing: device-independent security and device-dependent performance</h3>
@@ -1157,7 +1110,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1165,7 +1117,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">45</span>
     <span class="range">14:45–15:05</span>
   </div>
-  <a href="/2026/sessions/contributed/131"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #131 Robust One-Sided Device-Independent Quantum Key Distribution via High-Dimensional Steering</h3>
@@ -1173,7 +1124,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1200,8 +1150,6 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Industry Panel: Quantum Satellite Infrastructure and Applications</h3>
       <span class="qc-badge">Program</span>
     </div>
-    <div class="qc-speaker">Johanna Sepulveda, Andrew Csizmar, Makan Mohageg, Steve Montminy</div>
-    <div class="qc-affiliation">Airbus, Honeywell Aerospace, Boeing Co, Canadian Space Agency</div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
 </div>
@@ -1230,7 +1178,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Gala Dinner, Awards and Networking at National Arts Centre</h3>
       <span class="qc-badge">Social</span>
     </div>
-    <div class="qc-location"><a href="https://nac-cna.ca/en/visit/directions"     target="_blank"     rel="noopener noreferrer">    National Arts Centre  </a></div>
+    <div class="qc-location">National Arts Centre</div>
   </article>
 </div>
 
@@ -1272,7 +1220,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">00</span>
     <span class="range">09:00–09:20</span>
   </div>
-  <a href="/2026/sessions/contributed/15"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #15 On Removing Interaction from Quantum Proofs</h3>
@@ -1280,7 +1227,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1288,7 +1234,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">20</span>
     <span class="range">09:20–09:40</span>
   </div>
-   <a href="/2026/sessions/contributed/44"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #44 Security of the Fischlin Transform in the Quantum Random Oracle Model</h3>
@@ -1296,7 +1241,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1304,7 +1248,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">40</span>
     <span class="range">09:40–10:00</span>
   </div>
-   <a href="/2026/sessions/contributed/48"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #48 Composable Verification in the Circuit-Model via Magic-Blindness</h3>
@@ -1312,7 +1255,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -1320,7 +1262,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">10</span><span class="minute">00</span>
     <span class="range">10:00–10:20</span>
   </div>
-   <a href="/2026/sessions/contributed/61"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #61 How to Delete Without a Trace: Certified Deniability in a Quantum World</h3>
@@ -1328,7 +1269,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
 </div>
 
 <div class="qc-row">
@@ -1364,7 +1304,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">11</span><span class="minute">50</span>
     <span class="range">11:50–12:10</span>
   </div>
-   <a href="/2026/sessions/contributed/3"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #3 Comparing classical and quantum conditional disclosure of secrets</h3>
@@ -1372,7 +1311,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1380,7 +1318,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">12</span><span class="minute">10</span>
     <span class="range">12:10–12:30</span>
   </div>
-  <a href="/2026/sessions/contributed/78"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #78 Hybrid Quantum Cryptography from Communication Complexity: From Theory to Experimental benchmarking</h3>
@@ -1388,7 +1325,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1396,7 +1332,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">12</span><span class="minute">30</span>
     <span class="range">12:30–12:50</span>
   </div>
-  <a href="/2026/sessions/contributed/64"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #64 Non Interactive MPC, (Quantumly) Revisited</h3>
@@ -1404,7 +1339,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">
@@ -1412,7 +1346,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">12</span><span class="minute">50</span>
     <span class="range">12:50–13:10</span>
   </div>
-  <a href="/2026/sessions/contributed/113"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #113 Quantum-Secure Private Inference from Vacuum Fluctuations</h3>
@@ -1420,7 +1353,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
 </div>
 
 <div class="qc-row">

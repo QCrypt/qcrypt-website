@@ -3296,53 +3296,6 @@
   },
   {
     "object": "paper",
-    "pid": 197,
-    "submission_class": "Poster",
-    "title": "Continuous Variable Quantum Key Distribution Monolithically Integrated onto Indium Phosphide",
-    "abstract": "The security and bandwidth capabilities of the existing telecommunication infrastructure are of increasing concern. Quantum Key Distribution (QKD) is a method used to disseminate and secure information through secret keys. Continuous Variable Quantum Key Distribution (CV-QKD) is an advantageous subvariant that can be monolithically integrated into Indium Phosphide (InP) photonic chips. Rigorous testing is essential for CV-QKD chips to achieve commercial viability. The developed transmitter and receiver chips have demonstrated preliminary key generation, producing a raw key transmitted using conventional telecommunications infrastructure, with post-processing and protocol-level analysis to follow.",
-    "authors": [
-      {
-        "first": "S",
-        "last": "Nicoll",
-        "affiliation": ""
-      },
-      {
-        "first": "D",
-        "last": "Hutama",
-        "affiliation": ""
-      },
-      {
-        "first": "T",
-        "last": "Paul",
-        "affiliation": ""
-      },
-      {
-        "first": "G",
-        "last": "Flizikowski4",
-        "affiliation": ""
-      },
-      {
-        "first": "K",
-        "last": "Dolgaleva",
-        "affiliation": ""
-      },
-      {
-        "first": "J",
-        "last": "Lundeen",
-        "affiliation": ""
-      },
-      {
-        "first": "A",
-        "last": "Atieh",
-        "affiliation": ""
-      }
-    ],
-    "topics": [
-      "theory"
-    ]
-  },
- {
-    "object": "paper",
     "pid": 198,
     "submission_class": "Poster",
     "title": "Performance Analysis of Time-Bin Encoded DV-QKD over a 116 km Fiber Link with a 107 km Aerial Fiber Segment",
@@ -3868,6 +3821,110 @@
       {
         "first": "M",
         "last": "Larotonda",
+        "affiliation": ""
+      }
+    ],
+    "topics": [
+      "theory"
+    ]
+  },
+  {
+    "object": "paper",
+    "pid": 216,
+    "submission_class": "Poster",
+    "title": "Deployment of Entanglement-Based QKD in Financial Infrastructure",
+    "abstract": "We demonstrate the feasibility of entanglement-based quantum key distribution (eQKD) in high-security financial infrastructure over a 22 km fiber link with 8 dB loss between two data centers using polarization entanglement. The fully automated system continuously generated secure keys for four months at an average rate of 63.8 kb/s, which were stored into a key management system and consumed to establish a VPN tunnel. The setup achieved 93.7% total up-time, with no downtime caused by the quantum optical components. Active polarization control kept the quantum bit error rate below 2% for 97.4% of the time and timing synchronization based on the entangled photon pairs’ intrinsic temporal correlations achieved sub-300 ps precision. Our standalone system requires neither polarized guide lasers nor external high-precision time references. These results show practical integration of eQKD into operational financial infrastructure.",
+    "authors": [
+      {
+        "first": "M",
+        "last": "Selimović",
+        "affiliation": ""
+      },
+      {
+        "first": "R",
+        "last": "Solar",
+        "affiliation": ""
+      },
+      {
+        "first": "J",
+        "last": "Gruner",
+        "affiliation": ""
+      },
+      {
+        "first": "S",
+        "last": "Mair",
+        "affiliation": ""
+      },
+      {
+        "first": "M",
+        "last": "Wenzl",
+        "affiliation": ""
+      },
+      {
+        "first": "T",
+        "last": "Heine",
+        "affiliation": ""
+      },
+      {
+        "first": "M",
+        "last": "Pivoluska",
+        "affiliation": ""
+      },
+      {
+        "first": "R",
+        "last": "Ursin",
+        "affiliation": ""
+      },
+      {
+        "first": "S",
+        "last": "Neumann",
+        "affiliation": ""
+      }
+      ],
+    "topics": [
+      "theory"
+    ]
+  },
+  {
+    "object": "paper",
+    "pid": 217,
+    "submission_class": "Poster",
+    "title": "All-optical turbulence mitigation for free-space quantum key distribution using stimulated parametric down-conversion",
+    "abstract": "Free-space quantum communications offers a promising route for securely transmitting information over long distances. However, a major challenge for these systems is atmospheric turbulence, which distorts the spatial structure of light and can severely limit the amount of information that can be reliably transmitted. In this work, we propose and demonstrate a turbulence-resilient scheme for free-space quantum communication. By leveraging the phase conjugation property of stimulated parametric down-conversion, our scheme enables all-optical dynamic correction of spatial-mode distortion induced by atmospheric turbulence, thereby enhancing the secure key rate in high-dimensional quantum key distribution. We develop a theoretical model that provides detailed guidelines for selecting the optimal basis and spatial properties needed to maximize the efficiency of the proposed scheme. Both numerical simulations and experimental results show that, even under strong turbulence, our scheme can reduce the quantum error rates well below the security threshold. These results highlight the potential of nonlinear optical approaches as powerful tools for robust quantum communication in realistic free-space environments.",
+    "authors": [
+      {
+        "first": "A",
+        "last": "Aguilar-Cardoso",
+        "affiliation": ""
+      },
+      {
+        "first": "C",
+        "last": "Li",
+        "affiliation": ""
+      },
+      {
+        "first": "T",
+        "last": "Luck",
+        "affiliation": ""
+      },
+      {
+        "first": "M",
+        "last": "Ferrer-Garcia",
+        "affiliation": ""
+      },
+      {
+        "first": "J",
+        "last": "Upham",
+        "affiliation": ""
+      },
+      {
+        "first": "J",
+        "last": "Lundeen",
+        "affiliation": ""
+      },
+      {
+        "first": "R",
+        "last": "Boyd",
         "affiliation": ""
       }
     ],
