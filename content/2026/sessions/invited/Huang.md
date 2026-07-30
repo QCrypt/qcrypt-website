@@ -13,7 +13,7 @@ draft: false
 
 ## Biography
 
-Miryam Mi-Ying Huang is a Ph.D. student in Computer Science at the University of Southern California, where she is advised by Dr. Jiapeng Zhang. She worked with Dr. Kai-Min Chung during college and before her Ph.D. Her research primarily focuses on cryptography and complexity theory, with an emphasis on quantum and post-quantum cryptography as well as communication complexity.
+Miryam Mi-Ying Huang is a postdoc research fellow at Carnegie Mellon University. Previously, she graduated from University of Southern California advised by Dr. Jiapeng Zhang. She worked with Dr. Kai-Min Chung during college and before her Ph.D. Her research primarily focuses on cryptography and complexity theory, with an emphasis on quantum and post-quantum cryptography as well as communication complexity.
 
 ## Abstract
 
