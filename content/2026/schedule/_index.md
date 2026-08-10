@@ -669,6 +669,22 @@ html { scroll-behavior: smooth; }
     <span class="hour">14</span><span class="minute">00</span>
     <span class="range">14:00–14:20</span>
   </div>
+  <a href="/2026/sessions/contributed/19"
+  <article class="qc-card contributed">
+    <div class="qc-card-header">
+      <h3 class="qc-title">Contributed Talk: #19 Quantification of the energy consumption of entanglement distribution</h3>
+      <span class="qc-badge">Contributed</span>
+    </div>
+    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
+  </article>
+  </a>
+</div>
+
+<div class="qc-row">
+  <div class="qc-time">
+    <span class="hour">14</span><span class="minute">20</span>
+    <span class="range">14:20–14:40</span>
+  </div>
   <a href="/2026/sessions/contributed/8"
   <article class="qc-card contributed">
     <div class="qc-card-header">
@@ -682,8 +698,8 @@ html { scroll-behavior: smooth; }
 
 <div class="qc-row">
   <div class="qc-time">
-    <span class="hour">14</span><span class="minute">20</span>
-    <span class="range">14:20–14:40</span>
+    <span class="hour">14</span><span class="minute">40</span>
+    <span class="range">14:40–15:00</span>
   </div>
   <a href="/2026/sessions/contributed/62"
   <article class="qc-card contributed">
@@ -698,29 +714,13 @@ html { scroll-behavior: smooth; }
 
 <div class="qc-row">
   <div class="qc-time">
-    <span class="hour">14</span><span class="minute">40</span>
-    <span class="range">14:40–15:00</span>
+    <span class="hour">15</span><span class="minute">00</span>
+    <span class="range">15:00–15:20</span>
   </div>
   <a href="/2026/sessions/contributed/52"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #52 Towards Universal Quantum Tamper Detection</h3>
-      <span class="qc-badge">Contributed</span>
-    </div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
-  </article>
-  </a>
-</div>
-
-<div class="qc-row">
-  <div class="qc-time">
-    <span class="hour">15</span><span class="minute">00</span>
-    <span class="range">15:00–15:20</span>
-  </div>
-  <a href="/2026/sessions/contributed/139"
-  <article class="qc-card contributed">
-    <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #139 Proofs of Quantum Memory</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
@@ -747,10 +747,10 @@ html { scroll-behavior: smooth; }
     <span class="hour">15</span><span class="minute">50</span>
     <span class="range">15:50–16:10</span>
   </div>
-  <a href="/2026/sessions/contributed/14"
+  <a href="/2026/sessions/contributed/139"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #14 Hierarchical generation and design of tree-codes for resource-efficient loss-tolerant quantum communications</h3>
+      <h3 class="qc-title">Contributed Talk: #139 Proofs of Quantum Memory</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
@@ -763,10 +763,10 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">10</span>
     <span class="range">16:10–16:30</span>
   </div>
-  <a href="/2026/sessions/contributed/19"
+  <a href="/2026/sessions/contributed/14"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #19 Quantification of the energy consumption of entanglement distribution</h3>
+      <h3 class="qc-title">Contributed Talk: #14 Hierarchical generation and design of tree-codes for resource-efficient loss-tolerant quantum communications</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
@@ -1272,10 +1272,10 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">00</span>
     <span class="range">09:00–09:20</span>
   </div>
-  <a href="/2026/sessions/contributed/15"
+   <a href="/2026/sessions/contributed/3"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #15 On Removing Interaction from Quantum Proofs</h3>
+      <h3 class="qc-title">Contributed Talk: #3 Comparing classical and quantum conditional disclosure of secrets</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
@@ -1320,15 +1320,15 @@ html { scroll-behavior: smooth; }
     <span class="hour">10</span><span class="minute">00</span>
     <span class="range">10:00–10:20</span>
   </div>
-   <a href="/2026/sessions/contributed/61"
+  <a href="/2026/sessions/contributed/64"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #61 How to Delete Without a Trace: Certified Deniability in a Quantum World</h3>
+      <h3 class="qc-title">Contributed Talk: #64 Non Interactive MPC, (Quantumly) Revisited</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-   </a>
+  </a>
 </div>
 
 <div class="qc-row">
@@ -1364,10 +1364,10 @@ html { scroll-behavior: smooth; }
     <span class="hour">11</span><span class="minute">50</span>
     <span class="range">11:50–12:10</span>
   </div>
-   <a href="/2026/sessions/contributed/3"
+  <a href="/2026/sessions/contributed/15"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #3 Comparing classical and quantum conditional disclosure of secrets</h3>
+      <h3 class="qc-title">Contributed Talk: #15 On Removing Interaction from Quantum Proofs</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
@@ -1396,15 +1396,15 @@ html { scroll-behavior: smooth; }
     <span class="hour">12</span><span class="minute">30</span>
     <span class="range">12:30–12:50</span>
   </div>
-  <a href="/2026/sessions/contributed/64"
+   <a href="/2026/sessions/contributed/61"
   <article class="qc-card contributed">
     <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #64 Non Interactive MPC, (Quantumly) Revisited</h3>
+      <h3 class="qc-title">Contributed Talk: #61 How to Delete Without a Trace: Certified Deniability in a Quantum World</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
-  </a>
+   </a>
 </div>
 
 <div class="qc-row">
