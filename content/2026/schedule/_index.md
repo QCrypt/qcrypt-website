@@ -1213,7 +1213,7 @@ html { scroll-behavior: smooth; }
   </div>
   <article class="qc-card program">
     <div class="qc-card-header">
-      <h3 class="qc-title">Business Meeting</h3>
+      <h3 class="qc-title">Open discussion about the current and future editions of QCrypt</h3>
       <span class="qc-badge">Program</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
