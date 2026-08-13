@@ -1222,8 +1222,8 @@ html { scroll-behavior: smooth; }
 
 <div class="qc-row">
   <div class="qc-time">
-    <span class="hour">18</span><span class="minute">30</span>
-    <span class="range">18:30–21:30</span>
+    <span class="hour">18</span><span class="minute">00</span>
+    <span class="range">18:00–21:30</span>
   </div>
   <article class="qc-card social">
     <div class="qc-card-header">
