@@ -1,6 +1,6 @@
 ---
 year: 2026
-title: Squareroute8 
+title: SQUAREROOT8 
 type: partner
 draft: false
 category: friends
