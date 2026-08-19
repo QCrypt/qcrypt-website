@@ -261,7 +261,11 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Welcoming Speech</h3>
       <span class="qc-badge">Program</span>
     </div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
+      <div class="qc-affiliation">Professor Anne Broadbent, University of Ottawa, Chair of QCrypt 2026</div>
+      <div class="qc-affiliation">Alexandre Poulain, Associate Vice-President, Innovation, Partnerships & Entrepreneurship (interim), and Professor at University of Ottawa</div> 
+      <div class="qc-affiliation">Megan Dewar, Director, Tutte Institute for Mathematics and Computing</div>
+      <div class="qc-affiliation">Professor Connor Kupchak, Carleton University, Member of QCrypt 2026 LOC</div>
+      <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
 </div>
 
