@@ -23,6 +23,8 @@ There is also the option of coming by train, using [Via Rail](https://www.viarai
 You can go to the venue through the following address: (Click the link to open in the specific map app)
 
 - Learning Crossroads (CRX) building: [**Learning Crossroads (CRX)**(Google Map)](https://www.google.com/maps/place/Learning+Crossroads+(CRX)/@45.4219175,-75.6839799,691m/data=!3m2!1e3!4b1!4m6!3m5!1s0x4cce0553301ba91f:0x88fbccabd3b90bc4!8m2!3d45.4219138!4d-75.681405!16s%2Fg%2F11fflzd__n?authuser=0&entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D)
+  
+- More details are available here [**QCrypt 2026 Locations**(Google Map)](https://www.google.com/maps/d/viewer?mid=1lWv2jZ1bUFQRJ6LvxAcqTISlm1ZWWv0&ll=45.41467169046343%2C-75.7514737&z=11)
 
 <!--### Where are the Conference Center and Hotels located
 
