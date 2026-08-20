@@ -783,38 +783,6 @@ html { scroll-behavior: smooth; }
     <span class="hour">16</span><span class="minute">30</span>
     <span class="range">16:30–16:50</span>
   </div>
-  <a href="/2026/sessions/contributed/65"
-  <article class="qc-card contributed">
-    <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #65 Chip-based Long-distance Twin-field Quantum Key Distribution Networks</h3>
-      <span class="qc-badge">Contributed</span>
-    </div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
-  </article>
-  </a>
-</div>
-
-<div class="qc-row">
-  <div class="qc-time">
-    <span class="hour">16</span><span class="minute">50</span>
-    <span class="range">16:50–17:10</span>
-  </div>
-  <a href="/2026/sessions/contributed/104"
-  <article class="qc-card contributed">
-    <div class="qc-card-header">
-      <h3 class="qc-title">Contributed Talk: #104 Long-Distance Free-Space Twin-Field Quantum Key Distribution towards Satellite-based Quantum Network</h3>
-      <span class="qc-badge">Contributed</span>
-    </div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
-  </article>
-   </a>
-</div>
-
-<div class="qc-row">
-  <div class="qc-time">
-    <span class="hour">17</span><span class="minute">10</span>
-    <span class="range">17:10–17:30</span>
-  </div>
   <a href="/2026/sessions/contributed/89"
   <article class="qc-card contributed">
     <div class="qc-card-header">
@@ -828,8 +796,8 @@ html { scroll-behavior: smooth; }
 
 <div class="qc-row">
   <div class="qc-time">
-    <span class="hour">17</span><span class="minute">30</span>
-    <span class="range">17:30–17:50</span>
+    <span class="hour">16</span><span class="minute">50</span>
+    <span class="range">16:50–17:10</span>
   </div>
   <a href="/2026/sessions/contributed/69"
   <article class="qc-card contributed">
@@ -844,13 +812,29 @@ html { scroll-behavior: smooth; }
 
 <div class="qc-row">
   <div class="qc-time">
-    <span class="hour">17</span><span class="minute">50</span>
-    <span class="range">17:50–18:10</span>
+    <span class="hour">17</span><span class="minute">10</span>
+    <span class="range">17:10–17:30</span>
   </div>
   <a href="/2026/sessions/contributed/101"
   <article class="qc-card contributed">
     <div class="qc-card-header">
       <h3 class="qc-title">Contributed Talk: #101 High-Performance Laser Written Heterodyne Receiver for Photonic Quantum Information Processing</h3>
+      <span class="qc-badge">Contributed</span>
+    </div>
+    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
+  </article>
+  </a>
+</div>
+
+<div class="qc-row">
+  <div class="qc-time">
+    <span class="hour">17</span><span class="minute">30</span>
+    <span class="range">17:30–17:50</span>
+  </div>
+  <a href="/2026/sessions/contributed/65"
+  <article class="qc-card contributed">
+    <div class="qc-card-header">
+      <h3 class="qc-title">Contributed Talk: #65 Chip-based Long-distance Twin-field Quantum Key Distribution Networks</h3>
       <span class="qc-badge">Contributed</span>
     </div>
     <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
