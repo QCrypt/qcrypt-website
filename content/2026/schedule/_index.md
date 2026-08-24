@@ -1220,7 +1220,6 @@ html { scroll-behavior: smooth; }
     </div>
     <div class="qc-affiliation">18:00-18:45, Socialization and Drinks</div>
       <div class="qc-affiliation">18:45-21:30, Dinner</div> 
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
     <div class="qc-location"><a href="https://nac-cna.ca/en/visit/directions"     target="_blank"     rel="noopener noreferrer">    National Arts Centre  </a></div>
   </article>
 </div>
