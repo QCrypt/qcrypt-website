@@ -4,7 +4,7 @@ year: 2026
 type: schedule
 draft: false
 horizontal: false
-suggestion: "Please note that minor adjustments may occur as we approach the event date."
+suggestion: "Invited Speaker Mathieu Bozzio is now scheduled on Monday August 24, 9:15 am. Invited Speaker Ivan Šupić is scheduled on Wednesday August 26, 9:00 am."
 menu:
     2026:
         weight: 2
@@ -274,15 +274,15 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">15</span>
     <span class="range">09:15–10:30</span>
   </div>
-  <a href="/2026/sessions/tutorial/Supic"
+  <a href="/2026/sessions/tutorial/Bozzio"
   <article class="qc-card tutorial">
-  <div class="qc-card-header">
-    <h3 class="qc-title">Tutorial Talk: Self-testing in quantum cryptography</h3>
-    <span class="qc-badge">Tutorial</span>
-  </div>
-  <div class="qc-speaker">Ivan Šupić</div>
-  <div class="qc-affiliation">LIG - CNRS/Université Grenoble Alpes</div>
-  <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
+    <div class="qc-card-header">
+      <h3 class="qc-title">Tutorial Talk: Quantum cryptography beyond QKD: advances and practical challenges</h3>
+      <span class="qc-badge">Tutorial</span>
+    </div>
+    <div class="qc-speaker">Mathieu Bozzio</div>
+    <div class="qc-affiliation">University of Vienna</div>
+    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
   </a>
 </div>
@@ -894,15 +894,15 @@ html { scroll-behavior: smooth; }
     <span class="hour">09</span><span class="minute">00</span>
     <span class="range">09:00–10:15</span>
   </div>
-  <a href="/2026/sessions/tutorial/Bozzio"
+  <a href="/2026/sessions/tutorial/Supic"
   <article class="qc-card tutorial">
-    <div class="qc-card-header">
-      <h3 class="qc-title">Tutorial Talk: Quantum cryptography beyond QKD: advances and practical challenges</h3>
-      <span class="qc-badge">Tutorial</span>
-    </div>
-    <div class="qc-speaker">Mathieu Bozzio</div>
-    <div class="qc-affiliation">University of Vienna</div>
-    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
+  <div class="qc-card-header">
+    <h3 class="qc-title">Tutorial Talk: Self-testing in quantum cryptography</h3>
+    <span class="qc-badge">Tutorial</span>
+  </div>
+  <div class="qc-speaker">Ivan Šupić</div>
+  <div class="qc-affiliation">LIG - CNRS/Université Grenoble Alpes</div>
+  <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
   </article>
   </a>
 </div>
