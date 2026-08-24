@@ -4,7 +4,7 @@ year: 2026
 type: schedule
 draft: false
 horizontal: false
-suggestion: "Invited Speaker Mathieu Bozzio is now scheduled on Monday August 24, 9:15 am. Invited Speaker Ivan Šupić is scheduled on Wednesday August 26, 9:00 am."
+suggestion: "Tutorial Speaker Mathieu Bozzio is now scheduled on Monday August 24, 9:15 am. Tutorial Speaker Ivan Šupić is scheduled on Wednesday August 26, 9:00 am."
 menu:
     2026:
         weight: 2
