@@ -1218,6 +1218,9 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Gala Dinner, Awards and Networking at National Arts Centre</h3>
       <span class="qc-badge">Social</span>
     </div>
+    <div class="qc-affiliation">18:00-18:45, Socialization and Drinks</div>
+      <div class="qc-affiliation">18:45-21:30, Dinner</div> 
+    <div class="qc-location">Learning Crossroads (CRX), Room 140</div>
     <div class="qc-location"><a href="https://nac-cna.ca/en/visit/directions"     target="_blank"     rel="noopener noreferrer">    National Arts Centre  </a></div>
   </article>
 </div>
