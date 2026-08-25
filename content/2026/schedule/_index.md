@@ -650,7 +650,7 @@ html { scroll-behavior: smooth; }
       <h3 class="qc-title">Group Photo</h3>
       <span class="qc-badge">Program</span>
     </div>
-    <div class="qc-location">Location to be communicated soon</div>
+    <div class="qc-location">Meet the volunteers in the CRX lobby. They will escort you to the University Square.</div>
   </article>
 </div>
 
