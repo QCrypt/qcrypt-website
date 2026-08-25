@@ -11,7 +11,7 @@ menu:
         parent: attend
 ---
 
-## Online registration for QCrypt 2026 is now OPEN! 
+## Online registration for QCrypt 2026 is now CLOSED 
 
 {{< button-link label="Click here to register" url="https://portal.cms.math.ca/mrm/events/EventDetailBridge.aspx?eid=^^70" icon="link" >}}
 
