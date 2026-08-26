@@ -985,7 +985,7 @@ html { scroll-behavior: smooth; }
     <div class="qc-affiliation">Gathering Time: 13:00 in the lobby of the Advanced Research Complex (ARC)</div>
     <div class="qc-location">ARC Lobby, 25 Templeton Street, Ottawa, ON K1N 6N5.</div>
     <div class="qc-affiliation">**Electric Boat Cruise on Rideau Canal**</div>
-    <div class="qc-affiliation">Volunteers will depart at 13:00 from the CRX Building Food Court area and will guide participants to the cruise departure point. Participants who do not join the group are responsible for making their own way to the departure location, which is approximately a 20-minute walk away.</div>
+    <div class="qc-affiliation">Please arrive at the departure point by 13:45. The cruise is scheduled to depart at 14:15. Volunteers will depart at 13:00 from the CRX Building Food Court area and will guide participants to the cruise departure point. Participants who do not join the group are responsible for making their own way to the departure location, which is approximately a 20-minute walk away.</div>
     <div class="qc-location">Ottawa Boat Cruise (Ekeau Tours), 1 Elgin Street, Ottawa, ON - behind the National Arts Centre, along Rideau Canal Lane.</div>
     <div class="qc-affiliation">**Ziplining Adventure at Camp Fortune**</div>
     <div class="qc-affiliation">Bus Departure: 13:00 SHARP. Volunteers will be available in the CRX Building lobby starting at 12:45 p.m. to guide participants to the bus. Please arrive at the bus pickup location 10 minutes before the scheduled departure time, as the bus will depart promptly at 13:00.</div>
