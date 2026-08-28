@@ -186,18 +186,26 @@ enableMissingTranslationPlaceholders = true
     identifier = "committees"
     pageRef = "/2026/team"
   [[menu.2026]]
-    name = "About QCrypt 2026 Logo"
-    weight = 60
-    identifier = "logo"
-    pageRef = "/2026/logo"
-  [[menu.2026]]
-    name = "QCrypt 2026 Poster"
+    name = "Posters"
     weight = 70
     identifier = "poster"
     pageRef = "/2026/poster"
-
-
-
+  [[menu.2026]]
+    name = "2027 & 2028"
+    weight = 80
+    identifier = "2027"
+    pageRef = "/2026/2027"
+  [[menu.2026]]
+    name = "Photos & Prizes"
+    weight = 90
+    identifier = "pictures"
+    pageRef = "/2026/photos_prizes"
+  [[menu.2026]]
+    name = "About the Logo"
+    weight = 100
+    identifier = "logo"
+    pageRef = "/2026/logo"
+  
 [languages]
 [languages.en]
     weight = 1

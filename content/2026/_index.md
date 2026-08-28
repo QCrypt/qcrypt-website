@@ -24,6 +24,22 @@ layout: home
 <!-- Schedule Now Released! -->
 <!-- ⚠️Schedule modified due to Typhoon KAJIKI -->
 
+{{< button-link label="Conference Photos & Prizes"
+                url="photos_prizes"
+                icon="picture" >}} 
+
+{{< button-link label="Organize QCrypt 2028"
+                url="2027"
+                icon="map-marker" >}}
+
+{{< button-link label="QCrypt 2026 Poster"
+                url="poster"
+                icon="picture" >}} 
+
+{{< button-link label="About QCrypt 2026 Logo"
+                url="logo"
+                icon="picture" >}} 
+
 {{< button-link label="Schedule"
                 url="schedule"
                 icon="slides" >}}
@@ -32,10 +48,6 @@ layout: home
                 url="speakers"
                 icon="talk" >}} 
                 
-<!--{{< button-link label="Conference Photos"
-                url="pictures"
-                icon="picture" >}} -->
-
 {{< button-link label="Registration"
                 url="attend/registration"
                 icon="direction" >}}
@@ -46,19 +58,9 @@ layout: home
 
 {{< button-link label="Barrier Alleviating Fund"
                 url="attend/barrier-alleviating-fund"
-                icon="direction" >}}
+                icon="direction" >}}       
 
-{{< button-link label="About QCrypt 2026 Logo"
-                url="logo"
-                icon="picture" >}}  
 
-{{< button-link label="QCrypt 2026 Poster"
-                url="poster"
-                icon="picture" >}}               
-
-{{< button-link label="Organize QCrypt 2028"
-                url="2027"
-                icon="map-marker" >}}
 
 ##
 ##
@@ -66,7 +68,7 @@ layout: home
 ##
 {{% /jumbo %}}
 
-{{% home-info what="Participants:>200,Tutorials:4,Invited Talks:8,Contributed Talks:32," class="primary" %}}
+{{% home-info what="Participants:>250,Tutorials:4,Invited Talks:8,Contributed Talks:32," class="primary" %}}
 
 
 
