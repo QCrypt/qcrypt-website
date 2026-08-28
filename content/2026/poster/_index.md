@@ -1,5 +1,5 @@
 ---
-title: QCrypt 2026 Poster
+title: QCrypt 2026 Posters
 year: 2026
 type: partners
 draft: false

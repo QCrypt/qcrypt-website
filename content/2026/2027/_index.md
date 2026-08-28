@@ -1,11 +1,10 @@
 ---
 title: 2027 & 2028
 year: 2026
+type: partners
 draft: false
-type: no_toc
-menu:
-    2026:
-        weight: 100
+
+
 ---
 ## QCrypt 2027
 
