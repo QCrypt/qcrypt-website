@@ -25,6 +25,8 @@ S Ducharme
 
 ## Conference Pictures
 
+The group photo is now available for download at the following website: <a href="https://www.dropbox.com/scl/fi/00d8xchweilt31bnkj74r/GroupPhoto.JPG?rlkey=px4iru6rhn8svferdewa0s3e0&st=2qz0hhqc&dl=0"> download here</a>
+
 <img src="/images/2026/places/GroupPhoto.jpg"/>
 <img src="/images/2026/places/IndustryPanel.jpg" alt="drawing" style="width:600px;height:400px"/>
 <img src="/images/2026/places/MatthieuBozzioTalk.jpg" alt="drawing" style="width:600px;height:400px"/>
