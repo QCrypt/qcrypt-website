@@ -24,3 +24,4 @@ menu:
 
 {{< speakers types="industry=Industry Panel" year=2026 >}} 
 \*Sort alphabetically by last name
+
