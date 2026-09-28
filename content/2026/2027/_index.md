@@ -17,10 +17,10 @@ Further details on registration, venues, and accommodations will be provided in 
 This will be handled by a 2-step process:
 
 1. If you are interested, please send a letter of intent to
-   {{< button-link label="qcrypt-steer@googlegroups.com" url="mailto:qcrypt-steer@googlegroups.com" icon="email">}} by <strong> December 1, 2026 </strong> with the following information:
+   {{< button-link label="qcrypt-steer@googlegroups.com" url="mailto:qcrypt-steer@googlegroups.com" icon="email">}} by <strong> November 1, 2026 </strong> with the following information:
 
 -   Name and affiliation of main organizer
 -   Possibilities of conference dates
 -   Location and size of intended conference venue
 
-2. The steering committee will request the top contenders, by January 1, 2027, to submit a full proposal, to be submitted by January 31, 2027.
+2. The steering committee will request the top contenders, by December 1, 2026, to submit a full proposal, to be submitted by January 31, 2027.
