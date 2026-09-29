@@ -1,6 +1,6 @@
 ---
-title: Qian Li
-surname: Li
+title: Li Qian
+surname: Qian
 type: steering
 subtitle: University of Toronto
 job: SC member
