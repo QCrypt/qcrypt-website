@@ -19,3 +19,6 @@ _gen
 
 # snapshots Directory
 snapshots/
+
+# private data
+private_data/
