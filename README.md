@@ -24,7 +24,7 @@ In preparation of the 2025 edition, a more permanent solution is envisioned with
 2. Clone this repo:
 
 ```bash
-$ git clone https://github.com/QCrypt/qcrypt-website.git
+$ git clone https://github.com/IAQI/qcrypt-website.git
 ```
 
 3. It's done. Just start Hugo server to see the site live!
@@ -46,7 +46,7 @@ You can change this default behavior by adding `--bing ip.addr.1.1` and `--port 
 
 
 ## Customizing the theme
-Is described in the [README.md ](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md) of the theme.
+Is described in the [README.md ](https://github.com/IAQI/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md) of the theme.
 
 ## High-level overview
 This site is built with modern web technologies:
@@ -61,7 +61,7 @@ This site is built with modern web technologies:
 
 * **Netlify Hosting**: [Netlify](https://www.netlify.com/) automatically builds and publishes the website whenever changes are made and committed to this repository. It ensures the site is secure, fast, and available worldwide through its global network.
 
-This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](https://github.com/QCrypt/qcrypt-website/tree/main/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
+This combination of tools creates a website that's fast, secure, and easy to maintain by the conference organizers. Sounds great? Check out [this guided walk](https://github.com/IAQI/qcrypt-website/tree/main/themes/devfest-theme-hugo#a-guided-walk-through-the-ingredients) to learn how it actually works in more detail.
 
 ## Setting up the next year 2025 based on previous years
 
@@ -109,7 +109,7 @@ This combination of tools creates a website that's fast, secure, and easy to mai
 Once the new site is ready to be "promoted" to be the current year, make the following changes:
 1. In hugo.toml, in [params], change the currentYear and date
 2. In [[server.redirects]], change the forward to = "/2025/"
-3. In https://github.com/QCrypt/qcrypt-website/blob/main/netlify.toml , adjust the redirect as well
+3. In https://github.com/IAQI/qcrypt-website/blob/main/netlify.toml , adjust the redirect as well
 
 
 ## Later Updates
@@ -120,20 +120,20 @@ Once the new site is ready to be "promoted" to be the current year, make the fol
 3. The call-to-action buttons on the main site can be adjusted depending on the news.
 
 ### tutorial, invited speakers, panelists are known
-1. update the `.md` files in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/speakers
+1. update the `.md` files in https://github.com/IAQI/qcrypt-website/tree/main/content/2025/speakers
 2. remove previous images from the images subdirectory, upload new ones, and make sure the `photoURL` field of the speaker is pointing there.
 3. Use sensible names for the `.md` files, like `eleni_diamanti.md` 
-4. Per speaker, create an according session in https://github.com/QCrypt/qcrypt-website/tree/main/content/2025/sessions , using the examples from previous years.
+4. Per speaker, create an according session in https://github.com/IAQI/qcrypt-website/tree/main/content/2025/sessions , using the examples from previous years.
 
 ### accepted papers and posters are known
 1. Get accepted papers as json export from hotcrp from PC chair
-2. run [this python script](https://github.com/QCrypt/qcrypt-website/blob/main/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
-3. put the resulting file as accepted-papers-2025.json into [data](https://github.com/QCrypt/qcrypt-website/tree/main/data)
+2. run [this python script](https://github.com/IAQI/qcrypt-website/blob/main/static/python-scripts/sanitize_hotcrp_json.py) to sanitize the output, removing all emails, pc_conflicts etc.
+3. put the resulting file as accepted-papers-2025.json into [data](https://github.com/IAQI/qcrypt-website/tree/main/data)
 
 Proceed accordingly with the list of accepted posters.
 
 ### creating a schedule
-1. duplicate https://github.com/QCrypt/qcrypt-website/blob/main/data/schedule-2024.yml and call it schedule-2025.yml
+1. duplicate https://github.com/IAQI/qcrypt-website/blob/main/data/schedule-2024.yml and call it schedule-2025.yml
 2. make sure all sessions exist
 3. Adjust the id's of the contributed papers in the sessions with contributed papers
 
@@ -189,7 +189,7 @@ It is a requirement by the Netlify Open Source plan to link to a code of conduct
 ### Main page
 The main home page per year is the `/content/YEAR/_index.html`, like [/content/2024/_index.html](/content/2024/_index.html). It has `type: home` and `layout: home` in the front matter.
 
-It is the only page without a banner on top, as it starts with a [jumbo element](https://github.com/QCrypt/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
+It is the only page without a banner on top, as it starts with a [jumbo element](https://github.com/IAQI/qcrypt-website/blob/main/themes/devfest-theme-hugo/README.md#jumbo-bloc) which takes as arguments the background image, label and logo. The content of it is the date, and various call to actions using button-links, which in turn take arguments like label, url, icon.
 
 The following elements are:
 * home-info: some basic information about QCrypt
