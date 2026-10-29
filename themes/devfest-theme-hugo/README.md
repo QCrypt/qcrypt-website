@@ -43,7 +43,7 @@ Hugo is a static website generator. This means that it takes content files encod
 
 The HTML content mainly comes from the mark-down content files in [/content](/content). These files are organized in subfolders, starting with the year, and then further subdivisions.
 
-The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](https://github.com/QCrypt/qcrypt-website/tree/main?tab=readme-ov-file#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
+The more data-type content (such as the list of accepted papers and posters, as well as the schedule) is provided from YAML and JSON files in [/data](/data). The data files for the list of accepted papers and posters can be exported (by the PC chair) from the [HotCRP](https://hotcrp.com/) submission handling system. These files should then be [sanitized](https://github.com/IAQI/qcrypt-website/tree/main?tab=readme-ov-file#accepted-papers-and-posters-are-known) before adding them to the repository. The schedule needs to be created manually.
 
 [Hugo templates](https://gohugo.io/templates/introduction/) make the content appear in a structured way. The templates are all in [/themes/devfest-theme-hugo/assets/layouts](/themes/devfest-theme-hugo/layouts). It takes a while to figure out which template is used to create particular content.
 
@@ -138,7 +138,7 @@ GoogleAnalytics = "G-XXXXXXXX-X"
     email = "webmaster@qcrypt.net"
     keywords = "event, quantum cryptography, QCrypt"
     copyright = "We :heart: sheep"
-    copyright_link = "https://github.com/QCrypt/qcrypt-website"
+    copyright_link = "https://github.com/IAQI/qcrypt-website"
     # cfpUrl = "/2024/call"
     # subscriptionUrl = ""
     appleTouchIcon = "/apple-touch-icon.png"
